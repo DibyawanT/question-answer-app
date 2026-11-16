@@ -1,0 +1,326 @@
+{
+  "passages": [
+    {
+      "id": "valr-seed-p01",
+      "section": "VALR",
+      "text": "For most of the twentieth century, city planners treated traffic congestion as a plumbing problem: too many cars, too little pipe. The remedy followed naturally: widen the roads. Yet study after study has found that new lanes fill up within a few years, leaving congestion roughly where it began. Economists call this induced demand. When a road becomes faster, trips that people once avoided (a cross-town errand at rush hour, a job farther from home, a house on the city's edge) suddenly become worth making. The added capacity does not merely serve existing drivers; it summons new ones.\n\nNone of this means that roads are useless. A wider highway still carries more people in total, and some of those new trips create real economic value. The error lies in judging the project by the one measure it cannot durably change: travel time at peak hour. A city that widens roads to cure congestion is like a host who keeps enlarging the buffet in the hope that guests will eventually stop eating.\n\nThe more promising responses work on price and alternatives rather than supply. Congestion charges make drivers bear part of the delay they impose on others. Frequent buses and trains give the marginal traveller a reason not to drive at all. Both approaches accept what the road-wideners resisted: in a growing city, demand for road space at a price of zero is effectively unlimited."
+    },
+    {
+      "id": "qadi-seed-d01",
+      "section": "QADI",
+      "text": "Quarterly revenue and expenses of Arvind Foods (₹ crore):\n\nQuarter | Revenue | Expenses\nQ1 | 120 | 90\nQ2 | 150 | 105\nQ3 | 135 | 108\nQ4 | 180 | 126\n\nProfit = Revenue − Expenses. Profit margin = Profit ÷ Revenue."
+    }
+  ],
+  "questions": [
+    {
+      "id": "valr-seed-001",
+      "section": "VALR",
+      "topic": "reading-comprehension",
+      "type": "rc",
+      "setId": "valr-seed-p01",
+      "stem": "The passage primarily argues that:",
+      "options": [
+        "Road widening is economically useless and should be abandoned.",
+        "Widening roads cannot durably reduce peak congestion because new capacity attracts new trips, so pricing and alternatives work better.",
+        "Congestion charges are the only way to fix urban traffic.",
+        "Cities should limit their growth to control traffic.",
+        "Public transport is cheaper to build than highways."
+      ],
+      "answer": 1,
+      "explanation": "B captures both halves of the argument: induced demand defeats widening as a congestion cure, and the last paragraph recommends price and alternatives instead. A is too extreme; the second paragraph says plainly that roads still carry more people and create value."
+    },
+    {
+      "id": "valr-seed-002",
+      "section": "VALR",
+      "topic": "reading-comprehension",
+      "type": "rc",
+      "setId": "valr-seed-p01",
+      "stem": "The author would most likely agree with which of the following?",
+      "options": [
+        "A widened road that is congested again within three years has still added some value.",
+        "Peak-hour travel time is the best measure of a road project's success.",
+        "Induced demand applies to highways but not to city streets.",
+        "Congestion charges reduce the total number of people a road carries.",
+        "Drivers already account for the delay they cause other drivers."
+      ],
+      "answer": 0,
+      "explanation": "The second paragraph says a wider road still carries more people and some new trips create real economic value, so congestion returning does not make it worthless. B is the exact metric the author calls an error, and E contradicts the point that congestion charges make drivers bear a delay they otherwise ignore."
+    },
+    {
+      "id": "valr-seed-003",
+      "section": "VALR",
+      "topic": "reading-comprehension",
+      "type": "rc",
+      "setId": "valr-seed-p01",
+      "stem": "The comparison with a host enlarging a buffet is used to show that:",
+      "options": [
+        "Roads, like food, are wasted when supplied in excess.",
+        "Increasing the supply of something that is free does not end the appetite for it.",
+        "Planners, like hosts, try to please everyone.",
+        "Congestion, like hunger, is only temporary.",
+        "Bigger projects cost more to maintain."
+      ],
+      "answer": 1,
+      "explanation": "The guests keep eating because more food is offered at no price, just as free road space keeps attracting trips; this sets up the closing line about demand at a price of zero. A shifts the point to waste, which the passage never discusses."
+    },
+    {
+      "id": "valr-seed-004",
+      "section": "VALR",
+      "topic": "critical-reasoning",
+      "type": "critical-reasoning",
+      "stem": "A company found that employees who used its new meditation app took 30% fewer sick days than those who did not. The HR head concluded that the app improves employee health and made it mandatory. Which of the following, if true, most weakens the conclusion?",
+      "options": [
+        "The app is free for employees.",
+        "Employees who chose to use the app were, on average, younger and healthier to begin with than those who did not.",
+        "Some employees opened the app only once.",
+        "Meditation has been practised for thousands of years.",
+        "Sick days fell across the whole industry last year."
+      ],
+      "answer": 1,
+      "explanation": "If users were healthier before they started, the gap in sick days may come from who chose the app, not from the app itself (self-selection). E looks tempting, but an industry-wide fall would affect users and non-users alike and does not explain the gap between them."
+    },
+    {
+      "id": "valr-seed-005",
+      "section": "VALR",
+      "topic": "para-jumble",
+      "type": "para-jumble",
+      "stem": "Arrange the sentences into a coherent paragraph.\nA. Yet the same quality that makes plastic so useful makes it a problem once it is thrown away.\nB. Plastic became the material of the twentieth century because it is cheap, light and almost indestructible.\nC. A bottle discarded today may still be breaking into fragments five centuries from now.\nD. Those fragments, too small to collect, now turn up in fish, in salt and in human blood.",
+      "options": ["BACD", "BCAD", "ABCD", "BADC", "CBAD"],
+      "answer": 0,
+      "explanation": "B introduces plastic and its durability; A turns that durability into a problem with 'Yet the same quality'; C gives the bottle example; D's 'Those fragments' must follow C, which mentions fragments. BADC breaks the C→D link, since D's 'Those fragments' needs C first."
+    },
+    {
+      "id": "valr-seed-006",
+      "section": "VALR",
+      "topic": "odd-sentence",
+      "type": "odd-sentence",
+      "stem": "Four of these sentences form a coherent paragraph. Which one does not belong?\nA. Honeybees tell each other where food is through a 'waggle dance'.\nB. The angle of the dance relative to vertical shows the direction of the food relative to the sun.\nC. The length of the waggle run tells other bees how far away the food is.\nD. Honey has been found in Egyptian tombs, still edible after thousands of years.\nE. Bees watching the dance can then fly almost straight to the source.",
+      "options": ["A", "B", "C", "D", "E"],
+      "answer": 3,
+      "explanation": "A, B, C and E describe how the waggle dance communicates the location of food. D is about honey's shelf life: same subject area (bees), different topic, which is exactly the trap these questions set."
+    },
+    {
+      "id": "valr-seed-007",
+      "section": "VALR",
+      "topic": "fill-in-blank",
+      "type": "fill-in-blank",
+      "stem": "The committee's report was so ______ that even its supporters struggled to find a single clear recommendation in its three hundred pages.",
+      "options": ["incisive", "turgid", "laconic", "candid", "trenchant"],
+      "answer": 1,
+      "explanation": "Turgid means swollen and overcomplicated in style, which fits a 300-page report with no clear recommendation. Laconic (very brief) is the opposite, and incisive and trenchant both mean sharp and clear, contradicting the sentence."
+    },
+    {
+      "id": "valr-seed-008",
+      "section": "VALR",
+      "topic": "vocab-usage",
+      "type": "vocab-usage",
+      "stem": "In which sentence is the word 'flout' used correctly?",
+      "options": [
+        "She liked to flout her new car in front of the neighbours.",
+        "Drivers who flout the speed limit should expect a fine.",
+        "He flouted his knowledge of wine at every dinner.",
+        "The athlete flouted her medals on the podium.",
+        "The company flouted its record profits in a glossy advert."
+      ],
+      "answer": 1,
+      "explanation": "To flout is to openly disregard a rule, which is what speeding drivers do. Every other sentence means 'show off', which is flaunt: the classic flout/flaunt confusion."
+    },
+    {
+      "id": "qadi-seed-001",
+      "section": "QADI",
+      "topic": "data-interpretation",
+      "type": "di",
+      "setId": "qadi-seed-d01",
+      "stem": "In which quarter was the profit margin the lowest?",
+      "options": ["Q1", "Q2", "Q3", "Q4", "Q1 and Q3 equally"],
+      "answer": 2,
+      "explanation": "Profits are 30, 45, 27 and 54, so margins are 30/120 = 25%, 45/150 = 30%, 27/135 = 20% and 54/180 = 30%. Q3 is lowest at 20%; Q1 looks low because its revenue is smallest, but its margin is 25%."
+    },
+    {
+      "id": "qadi-seed-002",
+      "section": "QADI",
+      "topic": "data-interpretation",
+      "type": "di",
+      "setId": "qadi-seed-d01",
+      "stem": "By what percentage did profit grow from Q3 to Q4?",
+      "options": ["27%", "50%", "75%", "100%", "200%"],
+      "answer": 3,
+      "explanation": "Profit rose from 27 to 54, an increase of 27 on a base of 27, which is 100%. 200% would mean profit tripled; 27% mistakes the absolute rise for a percentage."
+    },
+    {
+      "id": "qadi-seed-003",
+      "section": "QADI",
+      "topic": "data-interpretation",
+      "type": "di",
+      "setId": "qadi-seed-d01",
+      "stem": "What was the profit margin for the whole year, to the nearest whole number?",
+      "options": ["25%", "26%", "27%", "28%", "30%"],
+      "answer": 2,
+      "explanation": "Total profit = 30 + 45 + 27 + 54 = 156; total revenue = 585. 156 ÷ 585 = 26.67%, which rounds to 27%. Averaging the four quarterly margins gives 26.25%, which tempts 26%, but quarters with more revenue must count for more."
+    },
+    {
+      "id": "qadi-seed-004",
+      "section": "QADI",
+      "topic": "arithmetic",
+      "type": "standalone",
+      "stem": "A shopkeeper marks an item 40% above cost price and then gives a 25% discount on the marked price. What is the profit or loss?",
+      "options": ["5% loss", "5% profit", "10% profit", "15% profit", "No profit, no loss"],
+      "answer": 1,
+      "explanation": "Selling price = 1.40 × 0.75 = 1.05 times cost, a 5% profit. Subtracting the percentages (40 − 25 = 15%) is the trap: the discount applies to the larger marked price."
+    },
+    {
+      "id": "qadi-seed-005",
+      "section": "QADI",
+      "topic": "arithmetic",
+      "type": "standalone",
+      "stem": "A can finish a job in 12 days and B in 18 days. They work together for 4 days, after which A leaves. How many more days does B need to finish the job?",
+      "options": ["6", "7", "8", "9", "10"],
+      "answer": 2,
+      "explanation": "Together they do 1/12 + 1/18 = 5/36 of the job a day, so 20/36 = 5/9 in 4 days. The remaining 4/9 takes B 18 × 4/9 = 8 days. 10 comes from forgetting the work done together."
+    },
+    {
+      "id": "qadi-seed-006",
+      "section": "QADI",
+      "topic": "algebra",
+      "type": "standalone",
+      "stem": "If x + 1/x = 5, what is x² + 1/x²?",
+      "options": ["21", "23", "25", "27", "10"],
+      "answer": 1,
+      "explanation": "Squaring gives x² + 2 + 1/x² = 25, so x² + 1/x² = 23. 25 forgets the middle term 2·x·(1/x) = 2, and 27 adds it instead of subtracting."
+    },
+    {
+      "id": "qadi-seed-007",
+      "section": "QADI",
+      "topic": "geometry",
+      "type": "standalone",
+      "stem": "A right-angled triangle has legs of 9 cm and 12 cm. What is the radius of its inscribed circle?",
+      "options": ["2 cm", "3 cm", "4 cm", "4.5 cm", "6 cm"],
+      "answer": 1,
+      "explanation": "The hypotenuse is 15. For a right triangle, inradius = (a + b − c) ÷ 2 = (9 + 12 − 15) ÷ 2 = 3 cm (or area 54 ÷ semi-perimeter 18). 7.5 would be the circumradius (half the hypotenuse), a common mix-up."
+    },
+    {
+      "id": "qadi-seed-008",
+      "section": "QADI",
+      "topic": "number-system",
+      "type": "standalone",
+      "stem": "What is the remainder when 2¹⁰⁰ is divided by 7?",
+      "options": ["1", "2", "4", "5", "6"],
+      "answer": 1,
+      "explanation": "2³ = 8 leaves remainder 1 when divided by 7, so powers of 2 repeat every 3. 100 = 3 × 33 + 1, so 2¹⁰⁰ leaves the same remainder as 2¹ = 2. Answering 1 assumes 100 is a multiple of 3."
+    },
+    {
+      "id": "qadi-seed-009",
+      "section": "QADI",
+      "topic": "probability",
+      "type": "standalone",
+      "stem": "Two fair dice are thrown. What is the probability that the sum is a prime number?",
+      "options": ["1/3", "5/12", "7/18", "1/2", "4/9"],
+      "answer": 1,
+      "explanation": "Prime sums: 2 (1 way), 3 (2), 5 (4), 7 (6), 11 (2) = 15 of 36 outcomes = 5/12. Missing the sum of 2 gives 14/36 = 7/18."
+    },
+    {
+      "id": "gk-seed-001",
+      "section": "GK",
+      "topic": "economy",
+      "type": "static",
+      "stem": "In which year was the Reserve Bank of India established?",
+      "options": ["1935", "1947", "1949", "1950", "1969"],
+      "answer": 0,
+      "explanation": "The RBI began operations on 1 April 1935 under the RBI Act, 1934. It was nationalised in 1949, which is the usual trap; 1969 is the year of bank nationalisation."
+    },
+    {
+      "id": "gk-seed-002",
+      "section": "GK",
+      "topic": "polity",
+      "type": "static",
+      "stem": "Which Article of the Indian Constitution abolishes untouchability?",
+      "options": ["Article 14", "Article 15", "Article 17", "Article 21", "Article 32"],
+      "answer": 2,
+      "explanation": "Article 17 abolishes untouchability and forbids its practice. Article 15 prohibits discrimination on grounds such as caste, which makes it the closest wrong answer."
+    },
+    {
+      "id": "gk-seed-003",
+      "section": "GK",
+      "topic": "international",
+      "type": "static",
+      "stem": "Where is the headquarters of the World Trade Organization?",
+      "options": ["New York", "Paris", "Geneva", "Vienna", "Brussels"],
+      "answer": 2,
+      "explanation": "The WTO is based in Geneva. Paris hosts the OECD, and Vienna hosts OPEC and the IAEA."
+    },
+    {
+      "id": "gk-seed-004",
+      "section": "GK",
+      "topic": "business",
+      "type": "static",
+      "stem": "Who is known as the father of the White Revolution in India?",
+      "options": ["M. S. Swaminathan", "Verghese Kurien", "Norman Borlaug", "C. Subramaniam", "Tribhuvandas Patel"],
+      "answer": 1,
+      "explanation": "Verghese Kurien led Operation Flood and built the Amul cooperative model. M. S. Swaminathan is linked to the Green Revolution; Tribhuvandas Patel founded the Kaira cooperative that became Amul."
+    },
+    {
+      "id": "gk-seed-005",
+      "section": "GK",
+      "topic": "economy",
+      "type": "static",
+      "stem": "From which date did the Goods and Services Tax (GST) come into force in India?",
+      "options": ["1 April 2016", "1 July 2017", "1 April 2017", "8 November 2016", "1 January 2018"],
+      "answer": 1,
+      "explanation": "GST took effect from midnight of 30 June / 1 July 2017. 8 November 2016 is the demonetisation announcement."
+    },
+    {
+      "id": "gk-seed-006",
+      "section": "GK",
+      "topic": "economy",
+      "type": "static",
+      "stem": "In which year was the 'Make in India' initiative launched?",
+      "options": ["2012", "2014", "2015", "2016", "2019"],
+      "answer": 1,
+      "explanation": "Make in India was launched in September 2014. Start-up India and Digital India's flagship launches came in 2015–16, which makes those years the likely confusion."
+    },
+    {
+      "id": "gk-seed-007",
+      "section": "GK",
+      "topic": "economy",
+      "type": "static",
+      "stem": "Which body regulates India's securities markets?",
+      "options": ["RBI", "IRDAI", "SEBI", "NABARD", "PFRDA"],
+      "answer": 2,
+      "explanation": "SEBI regulates the securities markets. IRDAI regulates insurance, PFRDA pensions, and the RBI banks and monetary policy."
+    },
+    {
+      "id": "gk-seed-008",
+      "section": "GK",
+      "topic": "awards",
+      "type": "static",
+      "stem": "The 2019 Nobel Prize in Economic Sciences was shared by Abhijit Banerjee, Esther Duflo and:",
+      "options": ["Paul Romer", "Michael Kremer", "Richard Thaler", "Angus Deaton", "William Nordhaus"],
+      "answer": 1,
+      "explanation": "Banerjee, Duflo and Kremer won for their experimental approach to fighting global poverty. Romer and Nordhaus won in 2018, Thaler in 2017 and Deaton in 2015."
+    }
+  ],
+  "notes": [
+    { "topic": "ethics", "text": "Tests what a responsible decision-maker does when rules, people and results pull in different directions.\n\nApproach: rank options by (1) does it stop ongoing harm, (2) is it honest and within your authority, (3) does it fix the cause rather than punish the symptom, (4) is it proportionate.\n\nTraps: extreme options (fire them, ignore it), options that pass the buck to someone else, and 'clever' options that are quietly dishonest." },
+    { "topic": "business-strategy", "text": "Tests judgment about long-term position, not just this year's numbers.\n\nApproach: ask what each option does to bargaining power, dependence on one party, and reversibility. Prefer options that keep future choices open.\n\nTraps: the highest immediate payoff, and options that look decisive but cannot be undone." },
+    { "topic": "hr-people", "text": "Tests how incentives, fairness and retention interact.\n\nApproach: behaviour usually follows how people are measured and paid. Look for the option that changes the system while keeping good people.\n\nTraps: blanket rules applied to everyone, and removing incentives altogether." },
+    { "topic": "stakeholder-conflict", "text": "Tests balancing the interests of groups who all have a legitimate claim.\n\nApproach: the best answer usually establishes the facts, involves the affected parties, and commits to act on what is found. A partial or phased solution often beats all-or-nothing.\n\nTraps: legal compliance as the final word, paying everyone off before the facts are known, and political shortcuts." },
+    { "topic": "operations-math", "text": "Decision Making questions that need quick arithmetic: contribution, break-even, cost and capacity.\n\nKey ideas: contribution per unit = price − variable cost; break-even volume = fixed cost ÷ contribution per unit; to keep total contribution after a price cut, new volume = old total ÷ new unit contribution.\n\nTraps: multiplying where you should divide, and forgetting the margin changes when price changes." },
+    { "topic": "reading-comprehension", "text": "Read for the argument, not the facts: what is the author's claim, what qualifies it, and what is it against?\n\nMain-idea answers must cover the whole passage. Inference answers must be supported by a specific line. Function questions (why does the author mention X) ask about purpose, not content.\n\nTraps: options that are too extreme, true but off-topic, or that reverse a qualified claim." },
+    { "topic": "critical-reasoning", "text": "Find the conclusion and the evidence, then the gap between them.\n\nCommon gaps: correlation taken as causation, a sample that chose itself, a comparison group that differs in some other way.\n\nTo weaken, attack the gap. To strengthen, close it. An option that affects both groups equally usually does neither." },
+    { "topic": "para-jumble", "text": "Find the opener: a sentence that introduces the subject without pointing back to anything.\n\nThen link pairs: pronouns and words like 'those', 'this', 'yet', 'however' must follow the sentence they refer to. Lock in one certain pair and eliminate options that break it.\n\nTraps: starting with a sentence that opens with 'Yet' or 'This'." },
+    { "topic": "odd-sentence", "text": "Four sentences share a specific topic; the odd one shares only the broad subject.\n\nApproach: state the paragraph's point in a few words, then test each sentence against it. Linking words and pronouns help chain the four that belong.\n\nTraps: the odd sentence often contains an interesting, true fact on the same broad subject." },
+    { "topic": "fill-in-blank", "text": "Predict a word for the blank from the rest of the sentence before reading the options.\n\nClues: contrast words (but, although, yet) flip the meaning; result words (so... that) carry it forward.\n\nTraps: words that sound sophisticated but carry the opposite charge, such as laconic (brief) against turgid (bloated)." },
+    { "topic": "vocab-usage", "text": "Usually tests commonly confused pairs or a word's several meanings.\n\nPairs worth knowing: flout/flaunt, affect/effect, complement/compliment, principal/principle, imply/infer, discreet/discrete, elicit/illicit.\n\nApproach: substitute a plain-English meaning into each sentence and see which one reads correctly." },
+    { "topic": "data-interpretation", "text": "Read the table title, units and footnotes before any question.\n\nApproach: compute the derived values a set keeps asking about (profits, margins, shares) once and write them down. Approximate when the options are far apart.\n\nTraps: averaging percentages that have different bases, and mixing absolute change with percentage change." },
+    { "topic": "arithmetic", "text": "Percentages, profit and loss, time and work, speed and distance, interest.\n\nKey ideas: successive changes multiply (×1.4 then ×0.75); in time and work, add rates (1/days), not days; percentage change uses the old value as the base.\n\nTraps: adding or subtracting successive percentages." },
+    { "topic": "algebra", "text": "Look for identities before solving.\n\nKey ideas: (x + 1/x)² = x² + 2 + 1/x²; (a + b)² − (a − b)² = 4ab; for ax² + bx + c = 0, sum of roots = −b/a and product = c/a.\n\nTraps: dropping the cross term when squaring." },
+    { "topic": "geometry", "text": "Right triangles: Pythagorean triples (3-4-5, 5-12-13, 8-15-17) and their multiples save time.\n\nKey ideas: inradius = area ÷ semi-perimeter, which for a right triangle equals (a + b − c) ÷ 2; circumradius of a right triangle = hypotenuse ÷ 2.\n\nTraps: confusing inradius with circumradius." },
+    { "topic": "number-system", "text": "Remainders of large powers: find the cycle. For example, 2³ leaves remainder 1 when divided by 7, so powers of 2 repeat every 3.\n\nAlso know: divisibility rules, HCF and LCM, and unit-digit cycles (2, 4, 8, 6 for powers of 2).\n\nTraps: assuming the exponent is a multiple of the cycle length." },
+    { "topic": "probability", "text": "Probability = favourable ÷ total equally likely outcomes. Two dice give 36 outcomes; the number of ways to make each sum from 2 to 12 is 1, 2, 3, 4, 5, 6, 5, 4, 3, 2, 1.\n\nFor 'at least one', use 1 − P(none).\n\nTraps: forgetting the smallest cases, such as 2 being prime." },
+    { "topic": "economy", "text": "Static economy GK: regulators (RBI, SEBI, IRDAI, PFRDA), landmark dates (RBI 1935, bank nationalisation 1969, liberalisation 1991, GST 2017) and flagship schemes.\n\nCurrent affairs from mid-2026 onwards are not in this bank; use a monthly current-affairs digest for those." },
+    { "topic": "polity", "text": "High-yield Articles: 14 (equality before law), 15 (no discrimination), 17 (untouchability abolished), 19 (freedoms), 21 (life and liberty), 32 (constitutional remedies), 356 (President's rule), 370 (now abrogated).\n\nAlso: the order of the Schedules and major amendments." },
+    { "topic": "international", "text": "Headquarters of international bodies: WTO, WHO and ILO in Geneva; IMF and World Bank in Washington DC; OECD in Paris; OPEC and the IAEA in Vienna; UN in New York; ADB in Manila; AIIB in Beijing." },
+    { "topic": "business", "text": "Founders, cooperatives and landmark business events. Amul and Operation Flood (Verghese Kurien) are a favourite, as are the founders of major Indian groups and their flagship companies." },
+    { "topic": "awards", "text": "Nobel Prizes (especially Economics), Bharat Ratna, and major business awards. Learn winners together with the reason for the award; questions often pair a name with the wrong year." }
+  ]
+}

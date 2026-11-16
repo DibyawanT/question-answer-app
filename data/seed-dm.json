@@ -1,0 +1,165 @@
+{
+  "passages": [
+    {
+      "id": "dm-seed-c01",
+      "section": "DM",
+      "text": "MedLink is a mid-sized pharmaceutical distributor in Nagpur. Ritu, its regional sales head, discovers that her top salesperson, Arjun, has been giving pharmacies 75 to 90 days of credit, well beyond the company's 30-day policy, to hit his targets. Overdue receivables in the region have doubled in a year, and two pharmacies defaulted last quarter, leaving MedLink with ₹18 lakh of unrecoverable dues.\n\nArjun brings in 22% of the region's revenue. MedLink pays annual incentives on gross sales booked, not on payments collected. Ritu has also heard that a competitor is trying to hire Arjun."
+    },
+    {
+      "id": "dm-seed-c02",
+      "section": "DM",
+      "text": "Sahyog is a village dairy cooperative in Gujarat with 400 member farmers. It collects 12,000 litres of milk a day and runs its own chilling and packaging unit, which employs 35 people from the village.\n\nA large private dairy has offered to buy all of Sahyog's milk at ₹4 per litre more than the cooperative currently pays its members, on a three-year contract. The condition: Sahyog must shut its chilling and packaging unit. The board is split between members who want the higher price and those worried about the jobs and the cooperative's future."
+    }
+  ],
+  "questions": [
+    {
+      "id": "dm-seed-001",
+      "section": "DM",
+      "topic": "ethics",
+      "type": "caselet",
+      "setId": "dm-seed-c01",
+      "stem": "What is the most appropriate immediate course of action for Ritu?",
+      "options": [
+        "Dismiss Arjun for breaching the credit policy, to send a strong signal to the team.",
+        "Take no action, since Arjun's sales keep the region on target.",
+        "Stop any further out-of-policy credit, review the at-risk accounts with Arjun, and raise the incentive design problem with senior management.",
+        "Report Arjun to the finance department and leave the decision to them.",
+        "Quietly reassign Arjun's riskiest accounts to other salespeople."
+      ],
+      "answer": 2,
+      "explanation": "C stops the damage immediately, uses Arjun's knowledge to recover the at-risk dues, and addresses the incentive scheme that caused the behaviour. A punishes a breach the company's own incentives encouraged and loses 22% of revenue to a competitor; D sounds procedural but is Ritu abdicating a decision that is hers to make."
+    },
+    {
+      "id": "dm-seed-002",
+      "section": "DM",
+      "topic": "ethics",
+      "type": "caselet",
+      "setId": "dm-seed-c01",
+      "stem": "Which of the following is the root cause of the problem at MedLink?",
+      "options": [
+        "Arjun's lack of integrity.",
+        "Weak follow-up by the collections team.",
+        "An incentive scheme that rewards sales booked regardless of whether payment is collected.",
+        "The poor financial health of local pharmacies.",
+        "Competitive pressure from rival distributors."
+      ],
+      "answer": 2,
+      "explanation": "Paying incentives on gross sales makes extended credit a rational way to earn more, so the scheme explains the behaviour and why it went unchecked. A treats a symptom as the cause; nothing in the case suggests Arjun would stretch credit if incentives tracked collections."
+    },
+    {
+      "id": "dm-seed-003",
+      "section": "DM",
+      "topic": "operations-math",
+      "type": "caselet",
+      "setId": "dm-seed-c01",
+      "stem": "MedLink earns a net margin of 6% on sales. How much additional sales must the region generate to recover the ₹18 lakh lost to defaults from profit?",
+      "options": ["₹1.08 lakh", "₹18 lakh", "₹1.2 crore", "₹3 crore", "₹30 crore"],
+      "answer": 3,
+      "explanation": "Extra sales × 6% = ₹18 lakh, so extra sales = 18 ÷ 0.06 = ₹300 lakh = ₹3 crore. A (₹1.08 lakh) is 6% of 18 lakh, the classic trap of multiplying instead of dividing."
+    },
+    {
+      "id": "dm-seed-004",
+      "section": "DM",
+      "topic": "hr-people",
+      "type": "caselet",
+      "setId": "dm-seed-c01",
+      "stem": "Which change to the incentive scheme best fixes the problem while giving MedLink the best chance of retaining Arjun?",
+      "options": [
+        "Cap incentives at the same fixed amount for every salesperson.",
+        "Pay incentives on revenue actually collected, with a deduction for dues overdue beyond 60 days.",
+        "Scrap incentives and raise base salaries by 10%.",
+        "Pay incentives once every two years instead of annually.",
+        "Let each salesperson set credit terms for their own customers."
+      ],
+      "answer": 1,
+      "explanation": "B ties pay to cash collected, so a strong performer like Arjun still earns well while reckless credit stops paying off. A and C remove the upside that keeps top performers, making a move to the competitor more likely; E makes the problem worse."
+    },
+    {
+      "id": "dm-seed-005",
+      "section": "DM",
+      "topic": "operations-math",
+      "type": "caselet",
+      "setId": "dm-seed-c02",
+      "stem": "If Sahyog accepts, how much additional income will its members earn in a year? Assume milk is collected on 360 days.",
+      "options": ["₹48,000", "₹17.28 lakh", "₹1.44 crore", "₹1.728 crore", "₹17.28 crore"],
+      "answer": 3,
+      "explanation": "12,000 litres × ₹4 × 360 days = ₹1,72,80,000 = ₹1.728 crore. C (₹1.44 crore) uses 300 days, and B slips a zero."
+    },
+    {
+      "id": "dm-seed-006",
+      "section": "DM",
+      "topic": "business-strategy",
+      "type": "caselet",
+      "setId": "dm-seed-c02",
+      "stem": "Which consideration most weakens the case for accepting the offer?",
+      "options": [
+        "Members would earn more per litre.",
+        "The private dairy is a well-known brand.",
+        "With its own unit shut, Sahyog would have little bargaining power when the three-year contract comes up for renewal.",
+        "Some board members prefer the current arrangement.",
+        "Milk prices generally rise with inflation."
+      ],
+      "answer": 2,
+      "explanation": "Once the plant is gone, the private dairy becomes Sahyog's only buyer and can cut the price at renewal, wiping out the gain and more. D is a fact about opinions, not a reason, and A strengthens the case rather than weakening it."
+    },
+    {
+      "id": "dm-seed-007",
+      "section": "DM",
+      "topic": "stakeholder-conflict",
+      "type": "caselet",
+      "setId": "dm-seed-c02",
+      "stem": "What is the best course of action for Sahyog's board?",
+      "options": [
+        "Accept immediately, since members' income matters most.",
+        "Reject outright to protect the 35 jobs.",
+        "Negotiate to supply part of the milk to the private dairy while keeping the unit running, and seek price escalation and exit clauses before any long commitment.",
+        "Let the 35 employees vote on the offer.",
+        "Ask the private dairy to double its premium to ₹8 per litre."
+      ],
+      "answer": 2,
+      "explanation": "C captures part of the higher price while keeping the jobs and the cooperative's independence, and protects against the renewal risk. A and B each sacrifice one stakeholder group entirely; D hands the decision to people who are not the cooperative's members."
+    },
+    {
+      "id": "dm-seed-008",
+      "section": "DM",
+      "topic": "ethics",
+      "type": "standalone",
+      "stem": "Neha, a team manager, finds that Kabir, an otherwise excellent junior colleague and a single parent, has been inflating his taxi expense claims by about ₹1,500 a month for six months. Company policy treats expense fraud as grounds for dismissal. What should Neha do?",
+      "options": [
+        "Ignore it, since the amount is small.",
+        "Dismiss Kabir as the policy states.",
+        "Quietly pay the difference back to the company herself.",
+        "Speak to Kabir privately, require repayment, and report the matter through the proper channel while making the case for leniency.",
+        "Announce at a team meeting that claims will now be audited, without naming anyone."
+      ],
+      "answer": 3,
+      "explanation": "D keeps Neha honest with the company, gives Kabir a chance to put it right, and leaves the final decision with the people authorised to make it. B is not Neha's call to make alone, and E avoids the issue: it deters future claims but leaves known fraud unreported."
+    },
+    {
+      "id": "dm-seed-009",
+      "section": "DM",
+      "topic": "operations-math",
+      "type": "standalone",
+      "stem": "A café sells 300 coffees a day at ₹120 each; the variable cost per cup is ₹50. The owner plans to cut the price to ₹100. What is the minimum number of coffees a day it must then sell to keep the same total contribution?",
+      "options": ["330", "360", "400", "420", "480"],
+      "answer": 3,
+      "explanation": "Current contribution = 300 × (120 − 50) = ₹21,000. At ₹100 the contribution per cup is ₹50, so it needs 21,000 ÷ 50 = 420 cups. C (400) is a guess that ignores the fall in margin per cup from ₹70 to ₹50."
+    },
+    {
+      "id": "dm-seed-010",
+      "section": "DM",
+      "topic": "stakeholder-conflict",
+      "type": "standalone",
+      "stem": "A textile plant discharges treated effluent within legal limits, but farmers downstream say their crops have been damaged since the plant expanded. What is the plant head's best response?",
+      "options": [
+        "Point out that the plant complies with the law and take no further action.",
+        "Commission an independent soil and water study, share the results with the farmers, and commit to remedial action if the plant is found responsible.",
+        "Immediately pay compensation to every farmer who complains.",
+        "Shut the plant until the dispute is resolved.",
+        "Ask a local politician to calm the farmers down."
+      ],
+      "answer": 1,
+      "explanation": "B establishes the facts credibly, treats the farmers as stakeholders, and commits to act on what is found. A relies on legal compliance, which does not settle whether harm is happening; C pays out before the cause is known and invites false claims."
+    }
+  ]
+}
