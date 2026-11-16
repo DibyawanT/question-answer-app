@@ -1,16 +1,38 @@
+import { XP } from '../shared/scoring.ts'
 import type { Prefs, Question } from '../shared/types.ts'
 
 /** Today's date in IST as YYYY-MM-DD. */
 export const today = (now = new Date()) => now.toLocaleDateString('en-CA', { timeZone: 'Asia/Kolkata' })
 export const addDays = (d: string, n: number) => new Date(Date.parse(d) + n * 86_400_000).toISOString().slice(0, 10)
 
-/** Days in a row with a finished drill. Today not done yet doesn't break it until the day is over. */
-export function streak(done: Set<string>, date: string) {
-  let d = done.has(date) ? date : addDays(date, -1)
-  let n = 0
-  for (; done.has(d); d = addDays(d, -1)) n++
-  return n
+export const FREEZE = { every: 7, max: 2 }
+
+/**
+ * Days in a row with a finished drill, with grace: every 7th day in a row earns a freeze (max 2),
+ * and a missed day spends a freeze instead of resetting. Today not done yet never counts as missed.
+ * Replayed from the first finished day, so there is no stored streak to drift out of sync.
+ */
+export function streakInfo(done: Set<string>, date: string) {
+  let streak = 0
+  let freezes = 0
+  let longest = 0
+  for (let d = [...done].sort()[0]; d && d <= date; d = addDays(d, 1)) {
+    if (done.has(d)) {
+      if (++streak % FREEZE.every === 0) freezes = Math.min(FREEZE.max, freezes + 1)
+    } else if (d === date) break
+    else if (freezes) freezes--
+    else streak = 0
+    longest = Math.max(longest, streak)
+  }
+  return { streak, freezes, longest }
 }
+
+/** About one day in seven is a surprise golden day: double XP. Fixed per date, so it can't be re-rolled. */
+export const golden = (date: string) => seeded(`gold${date}`)() < 1 / 7
+
+/** Total XP: every answer counts (right more than wrong), doubled on golden days, plus a bonus per finished drill. */
+export const xpFor = (history: Attempt[], done: Set<string>) =>
+  history.reduce((n, a) => n + (a.correct ? XP.right : XP.wrong) * (golden(a.date) ? 2 : 1), 0) + done.size * XP.drill
 
 /** Dates whose drill had every question answered. `answered` holds "date|questionId" keys. */
 export const doneDates = (drills: { date: string; ids: string[] }[], answered: Set<string>) =>
@@ -48,20 +70,26 @@ type Options = { seed: string; date: string; history?: Attempt[]; prefs?: Prefs;
 
 /**
  * Picks a set of questions (daily drill, sectional test, study set):
- * 1. up to `revision` questions last answered wrong 2+ days before `date`,
+ * 1. up to `revision` missed questions that are due again (see GAPS),
  * 2. one Decision Making caselet set,
  * 3. the rest: unseen before seen, then weighted by your preference × how weak you are in the topic.
  * Questions sharing a setId stay together in bank order. Weight 0 removes a section or topic.
  */
-// ponytail: fixed 2-day revision gap; real spaced repetition only if this proves too crude.
+// Spaced repetition: a missed question returns 2 days later, then 7 days after you get it right.
+// Two rights in a row retire it; another miss starts it over.
+const GAPS = [2, 7]
+
 export function buildDrill(questions: Question[], o: Options): Question[] {
   const { history = [], prefs = {}, size = 20, revision = 5 } = o
   const rand = seeded(o.seed)
   const byId = new Map(questions.map(q => [q.id, q]))
   const last = new Map<string, Attempt>()
+  const rights = new Map<string, number>() // right answers in a row since the last miss; only for questions ever missed
   const topics = new Map<string, { right: number; total: number }>()
   for (const a of history) {
     last.set(a.qid, a)
+    if (!a.correct) rights.set(a.qid, 0)
+    else if (rights.has(a.qid)) rights.set(a.qid, rights.get(a.qid)! + 1)
     const t = byId.get(a.qid)?.topic
     if (t === undefined) continue
     const s = topics.get(t) ?? { right: 0, total: 0 }
@@ -71,11 +99,10 @@ export function buildDrill(questions: Question[], o: Options): Question[] {
   }
 
   const pool = questions.filter(q => prefWeight(prefs, q) > 0)
-  const cutoff = addDays(o.date, -2)
   const due = pool
     .filter(q => {
-      const a = last.get(q.id)
-      return a && !a.correct && a.date <= cutoff
+      const gap = GAPS[rights.get(q.id) ?? GAPS.length]
+      return gap !== undefined && last.get(q.id)!.date <= addDays(o.date, -gap)
     })
     .sort((a, b) => last.get(a.id)!.date.localeCompare(last.get(b.id)!.date))
     .slice(0, revision)

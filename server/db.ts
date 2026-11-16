@@ -2,7 +2,7 @@ import { randomUUID } from 'node:crypto'
 import { DatabaseSync } from 'node:sqlite'
 import { minutesFor, score, XAT } from '../shared/scoring.ts'
 import { isSection, MODES, type Passage, type Prefs, type Question, type Summary, type TopicRow } from '../shared/types.ts'
-import { buildDrill, doneDates, streak, today, type Attempt } from './drill.ts'
+import { addDays, buildDrill, doneDates, golden, streakInfo, today, xpFor, type Attempt } from './drill.ts'
 import { validateImport } from './importer.ts'
 
 export const db = new DatabaseSync(process.env.DB_PATH ?? 'app.db')
@@ -153,7 +153,16 @@ export function summary(): Summary {
   )
   const done = doneDates(drills, answered)
   const answeredToday = [...answered].filter(k => k.startsWith(`${date}|`)).length
-  return { date, streak: streak(done, date), doneToday: done.has(date), answeredToday, totalToday }
+  return {
+    date,
+    ...streakInfo(done, date),
+    week: [6, 5, 4, 3, 2, 1, 0].map(n => done.has(addDays(date, -n))),
+    xp: xpFor(history(), done),
+    golden: golden(date),
+    doneToday: done.has(date),
+    answeredToday,
+    totalToday,
+  }
 }
 
 export const topics = (): TopicRow[] =>
@@ -183,7 +192,7 @@ export function studySet(topic: string) {
     { seed: randomUUID(), date: today(), history: history(), size: 5, revision: 2 },
   )
   const note = db.prepare('SELECT text FROM notes WHERE topic = ?').get(topic)
-  return { questions, passages: passagesFor(questions), answers: {}, note: note ? String(note.text) : undefined }
+  return { questions, passages: passagesFor(questions), answers: {}, note: note ? String(note.text) : undefined, golden: golden(today()) }
 }
 
 /** A fresh sectional test at the real question count, unseen questions first. */

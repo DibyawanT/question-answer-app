@@ -28,12 +28,25 @@ export type PracticeData = {
   passages: Passage[]
   answers: Record<string, number | null>
   note?: string
+  golden?: boolean // double XP today
 }
 
 export type TestData = { section: Section; minutes: number; questions: Question[]; passages: Passage[] }
 export type TestResult = { score: number; max: number; right: number; wrong: number; skipped: number }
 
-export type Summary = { date: string; streak: number; doneToday: boolean; answeredToday: number; totalToday: number }
+/** week: the last 7 days, oldest first, ending today; true = drill finished. */
+export type Summary = {
+  date: string
+  streak: number
+  freezes: number
+  longest: number
+  week: boolean[]
+  xp: number
+  golden: boolean
+  doneToday: boolean
+  answeredToday: number
+  totalToday: number
+}
 
 /** Per-topic totals. answered excludes skipped test questions; avgMs is per answered question. */
 export type TopicRow = {

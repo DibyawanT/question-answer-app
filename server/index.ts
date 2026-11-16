@@ -7,7 +7,7 @@ import {
   drillAnswers, drillFor, exportAll, getPrefs, importBank, passagesFor, recordAttempt, reportQuestion,
   setPrefs, studySet, submitTest, summary, testFor, topics,
 } from './db.ts'
-import { today } from './drill.ts'
+import { golden, today } from './drill.ts'
 import { publicKey, sendAll, startReminders, subscribe } from './push.ts'
 
 const app = new Hono()
@@ -21,7 +21,7 @@ const reply = (c: Context, r: object) => c.json(r, 'error' in r ? 400 : 200)
 app.get('/api/drill/today', c => {
   const date = today()
   const questions = drillFor(date)
-  return c.json<PracticeData>({ date, questions, passages: passagesFor(questions), answers: drillAnswers(date) })
+  return c.json<PracticeData>({ date, questions, passages: passagesFor(questions), answers: drillAnswers(date), golden: golden(date) })
 })
 app.get('/api/summary', c => c.json(summary()))
 app.post('/api/attempts', async c => reply(c, recordAttempt(await body(c))))

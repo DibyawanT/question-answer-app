@@ -10,6 +10,10 @@ export const XAT: Record<Section, { name: string; count: number }> = {
 }
 export const MARKING = { right: 1, wrong: -0.25, freeSkips: 8, skip: -0.1, part1Minutes: 170, part1Questions: 75, gkMinutes: 10 }
 
+/** XP per answer, bonus per finished daily drill, XP per level, and questions per round. */
+export const XP = { right: 10, wrong: 2, drill: 20, level: 500 }
+export const ROUND = 5
+
 /** Section time in minutes: GK has its own 10 minutes; Part 1 time is split by question count. */
 export const minutesFor = (s: Section) =>
   s === 'GK' ? MARKING.gkMinutes : Math.round((XAT[s].count * MARKING.part1Minutes) / MARKING.part1Questions)

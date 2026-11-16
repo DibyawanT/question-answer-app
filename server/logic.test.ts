@@ -1,8 +1,8 @@
 import { readFileSync } from 'node:fs'
 import { describe, expect, it } from 'vitest'
-import { minutesFor, score } from '../shared/scoring.ts'
+import { minutesFor, score, XP } from '../shared/scoring.ts'
 import type { Question } from '../shared/types.ts'
-import { type Attempt, buildDrill, doneDates, reminderDue, streak, today } from './drill.ts'
+import { addDays, type Attempt, buildDrill, doneDates, golden, reminderDue, streakInfo, today, xpFor } from './drill.ts'
 import { validateImport } from './importer.ts'
 
 const read = (f: string) => JSON.parse(readFileSync(new URL(`../data/${f}`, import.meta.url), 'utf8'))
@@ -114,18 +114,68 @@ describe('buildDrill', () => {
     expect(drill({ history, revision: 0 }).map(q => q.id)).not.toContain(a)
   })
 
+  it('brings a fixed question back once more after 7 days, then retires it', () => {
+    const c = bank.find(q => !q.setId)!.id
+    const history: Attempt[] = [
+      { qid: c, correct: false, date: '2026-11-01' },
+      { qid: c, correct: true, date: '2026-11-03' },
+    ]
+    const ids = (date: string, h = history) => buildDrill(bank, { seed: date, date, history: h }).map(q => q.id)
+    expect(ids('2026-11-09')).not.toContain(c) // 6 days: not yet
+    expect(ids('2026-11-10')).toContain(c) // 7 days: due
+    expect(ids('2026-12-10', [...history, { qid: c, correct: true, date: '2026-11-10' }])).not.toContain(c)
+  })
+
   it('uses IST for the date', () => {
     expect(today(new Date('2026-11-14T20:00:00Z'))).toBe('2026-11-15')
   })
 })
 
 describe('streak', () => {
+  const streak = (done: Set<string>, date: string) => streakInfo(done, date).streak
   const done = new Set(['2026-11-28', '2026-11-29', '2026-11-30', '2026-12-01'])
   it('counts back across a month boundary', () => expect(streak(done, '2026-12-01')).toBe(4))
   it('stays alive while today is not done yet', () => expect(streak(done, '2026-12-02')).toBe(4))
   it('resets after a missed day', () => {
     expect(streak(done, '2026-12-03')).toBe(0)
     expect(streak(new Set(), '2026-12-03')).toBe(0)
+  })
+
+  it('earns a freeze every 7 days and spends it on a missed day', () => {
+    const days = (from: number, to: number) => Array.from({ length: to - from + 1 }, (_, k) => addDays('2026-11-01', from + k))
+    const week = new Set(days(0, 6)) // Nov 1–7
+    expect(streakInfo(week, '2026-11-07')).toEqual({ streak: 7, freezes: 1, longest: 7 })
+    // Nov 8 missed: the freeze covers it. Nov 9 not done yet.
+    expect(streakInfo(week, '2026-11-09')).toEqual({ streak: 7, freezes: 0, longest: 7 })
+    // Nov 9 done: the streak carries on.
+    expect(streakInfo(new Set([...week, '2026-11-09']), '2026-11-09').streak).toBe(8)
+    // Nov 8 and 9 both missed with one freeze: reset, but the longest is remembered.
+    expect(streakInfo(week, '2026-11-10')).toEqual({ streak: 0, freezes: 0, longest: 7 })
+    // Never more than 2 freezes banked.
+    expect(streakInfo(new Set(days(0, 27)), '2026-11-28').freezes).toBe(2)
+  })
+})
+
+describe('xp', () => {
+  const dates = Array.from({ length: 700 }, (_, k) => addDays('2026-01-01', k))
+  const plain = dates.find(d => !golden(d))!
+  const gold = dates.find(golden)!
+
+  it('makes roughly one day in seven golden, the same every time', () => {
+    const n = dates.filter(golden).length
+    expect(n).toBeGreaterThan(50)
+    expect(n).toBeLessThan(150)
+    expect(golden(gold)).toBe(true)
+  })
+
+  it('counts right more than wrong, doubles on golden days, adds a bonus per finished drill', () => {
+    const answers = (date: string): Attempt[] => [
+      { qid: 'a', correct: true, date },
+      { qid: 'b', correct: false, date },
+    ]
+    expect(xpFor(answers(plain), new Set())).toBe(XP.right + XP.wrong)
+    expect(xpFor(answers(gold), new Set())).toBe(2 * (XP.right + XP.wrong))
+    expect(xpFor([], new Set([plain, gold]))).toBe(2 * XP.drill)
   })
 })
 

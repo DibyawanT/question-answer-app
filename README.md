@@ -1,6 +1,6 @@
 # XAT Prep
 
-Personal XAT practice app: a 20-question daily drill, sectional tests with real timing and marking, short study notes, stats, and push reminders at 1 pm and 9 pm IST until the day's drill is done.
+Personal XAT practice app: a 20-question daily drill in rounds of 5 (streak with freezes, XP, spaced repetition of missed questions), sectional tests with real timing and marking, short study notes, stats, and push reminders at 1 pm and 9 pm IST until the day's drill is done.
 
 React 19 front end · Hono on Node 24 · SQLite · Docker + Caddy.
 
