@@ -18,13 +18,14 @@ Never add `Co-Authored-By: Claude …`, "Generated with Claude Code" or any simi
 | Layer | Choice | Why |
 |---|---|---|
 | Front end | React 19 + Vite 8, plain CSS, no router, no state lib | Five tabs fit in one `useState` |
+| Maths | KaTeX (`web/src/Tex.tsx`): `$…$` in bank text is rendered as maths | Fast, trusted (Khan Academy), no layout jump |
 | Server | Hono on Node 24, run as `.ts` directly (Node strips types, no build step) | One small file of routes |
 | DB | SQLite via built-in `node:sqlite` (`DatabaseSync`) | No DB server, one file, easy backup |
 | Push | `web-push` + service worker `web/public/sw.js` | Reminders on Android without an app store |
 | Tests | Vitest, all logic tests in `server/logic.test.ts` | Pure functions, no fixtures |
 | Hosting | Docker Compose (app + Caddy) on AWS Lightsail Mumbai | Caddy gives free auto-HTTPS |
 
-Dependencies are deliberately few (5 runtime). Prefer stdlib / platform features before adding one.
+Dependencies are deliberately few (6 runtime). Prefer stdlib / platform features before adding one.
 
 ## Layout
 
@@ -39,6 +40,7 @@ shared/scoring.ts   exam pattern (section sizes, marking, timing), XP numbers, R
 shared/mandala.ts   the 8×8×8 topic tree (goal → 8 sections → 64 topics → 512 concepts)
 web/src/main.tsx    tab shell, full-screen "focus" mode, auto-reload after deploy
 web/src/api.ts      fetch wrapper (adds Bearer key from localStorage)
+web/src/Tex.tsx     <Tex> renders $…$ maths in question/note text with KaTeX
 web/src/screens/    Home, Practice (drill + study runner), Tests, Study, Mandala, Stats, Settings
 data/*.json         question banks (uploaded through Settings, not auto-loaded)
 ```
@@ -90,7 +92,8 @@ Local DB is `app.db` in the repo root (gitignored). Override with `DB_PATH`.
 | An API endpoint | Route in `server/index.ts` → function in `db.ts` returning data or `{ error }` → type in `shared/types.ts` if the web uses it |
 | A screen | `web/src/screens/X.tsx`, add to `TABS` in `main.tsx` (or open it with `setFocus` for full-screen) |
 | A table | `CREATE TABLE IF NOT EXISTS` in `db.ts`; add it to `exportAll()` so backups include it |
-| Questions | JSON file in `data/` (format in README), upload via Settings. `answer` is 0-based. Same id = update |
+| Questions | JSON file in `data/` (format in README), upload via Settings. `answer` is 0-based. Same id = update. Maths as `$LaTeX$` (`\\frac` in JSON) |
+| Text that may hold maths | Wrap it in `<Tex>{text}</Tex>` |
 | A setting the user tunes | Small key/value → `kv` table via `kvGet`/`kvSet` |
 | An env var | Read in server code, add to `.env.example`, `docker-compose.yml` `environment:`, and this file |
 
@@ -134,9 +137,10 @@ Change these, keep everything else:
 | 2026-11-18 | Mandala: 512-concept tree, pass a concept's study set to turn it green (uncommitted) | `shared/mandala.ts`, `Mandala.tsx`, `Study.tsx`, `db.ts`, `index.ts` |
 | 2026-11-18 | Robust stats (smoothed weakness, 7-day trend, pace) + "Fix my mistakes" quizzes from Stats | `scoring.ts`, `drill.ts`, `db.ts`, `index.ts`, `types.ts`, `Stats.tsx`, `main.tsx` |
 | 2026-11-18 | Weak-spot paper: mixed 25-Q paper from weakest topics + open mistakes, unlocks at 100 answers | `scoring.ts`, `db.ts`, `types.ts`, `Tests.tsx`, `styles.css` |
+| 2026-11-18 | KaTeX maths rendering; 177 formulas in the banks converted to `$…$` (re-upload banks to see them) | `Tex.tsx`, `Practice.tsx`, `Tests.tsx`, `data/*.json`, `README.md` |
 
 ## Skipped on purpose
 
 See `PLAN.md` → "Skipped on purpose" (adaptive difficulty, leaderboards, sound, multi-user). Add new ones there.
 
-Known limits: weak-spot paper scores aren't kept as a history (only the attempts are); add a `papers` table when a score trend is wanted. An in-progress sectional test lives only in memory (reload loses it); `summary()` scans all drills each call (fine for one user); bank questions were written by Claude, so expect a few errors ("Report a problem" stores reports in the backup).
+Known limits: weak-spot paper scores aren't kept as a history (only the attempts are); add a `papers` table when a score trend is wanted. An in-progress sectional test lives only in memory (reload loses it); `summary()` scans all drills each call (fine for one user); bank questions were written by Claude, so expect a few errors ("Report a problem" stores reports in the backup). KaTeX is in the main bundle (~75 KB gz); lazy-load it if first load gets slow. Graphs/charts (Mafs, Chart.js) skipped until a question needs one.

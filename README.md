@@ -26,6 +26,8 @@ Then open Settings → Add questions and upload `data/seed-dm.json` and `data/se
 
 `section` is `DM`, `VALR`, `QADI` or `GK`. `answer` is the 0-based index into `options`. Every `setId` must match a passage (in the same file or already uploaded). Uploading a question with an existing id updates it. Bad items are rejected with the reason; the rest still go in.
 
+Maths: put LaTeX between `$` signs in any stem, option, explanation, passage or note, e.g. `"If $x + \\frac{1}{x} = 5$, find $x^2$."` (backslashes doubled inside JSON). It is drawn with KaTeX; text outside `$…$` stays plain, so don't use a bare `$` for money (write ₹).
+
 ## Deploy to AWS (about 45 minutes, once)
 
 After this setup, every `git push` to `main` runs the tests and, if they pass, deploys to the server automatically.

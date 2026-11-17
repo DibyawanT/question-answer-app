@@ -12,21 +12,21 @@
       "stem": "The value of a certain gemstone is proportional to the CUBE of its weight. A gem breaks into two pieces whose weights are in the ratio 1 : 2. What is the change in total value, compared with the unbroken gem?",
       "options": ["44.44% loss", "33.33% loss", "50% loss", "66.67% loss", "No change"],
       "answer": 3,
-      "explanation": "Take the weight as 3 units, so the value is 27. The pieces weigh 1 and 2, worth 1 + 8 = 9. The loss is 18/27 = 66.67%. TRAP: 44.44% applies the square law ((1 + 4)/9). RULE: for value ∝ wᵏ, splitting always loses value when k > 1; compute with the ratio parts as actual weights."
+      "explanation": "Take the weight as 3 units, so the value is 27. The pieces weigh 1 and 2, worth 1 + 8 = 9. The loss is $\\frac{18}{27} = 66.67\\%$. TRAP: 44.44% applies the square law ($\\frac{1 + 4}{9}$). RULE: for value ∝ wᵏ, splitting always loses value when k > 1; compute with the ratio parts as actual weights."
     },
     {
       "id": "qadi-p25-03", "section": "QADI", "topic": "geometry", "type": "standalone", "source": "pyq-style-2025",
       "stem": "An equilateral triangle and a regular hexagon have the same perimeter. What is the ratio of the triangle's area to the hexagon's area?",
       "options": ["1 : 1", "1 : 2", "2 : 3", "3 : 4", "4 : 9"],
       "answer": 2,
-      "explanation": "Let the hexagon's side be a; then the triangle's side is 2a (both perimeters are 6a). Triangle area = (√3/4)(2a)² = √3a². A hexagon is six equilateral triangles of side a: 6 × (√3/4)a² = (3/2)√3a². Ratio = 1 : 3/2 = 2 : 3. TRAP: 4 : 9 compares the squares of something other than the sides. RULE: for the same perimeter, the shape with more sides encloses more area; a regular hexagon = 6 small equilateral triangles."
+      "explanation": "Let the hexagon's side be a; then the triangle's side is 2a (both perimeters are 6a). Triangle area = $(\\frac{\\sqrt{3}}{4})(2a)^2 = \\sqrt{3}a^2$. A hexagon is six equilateral triangles of side a: $6 \\times  (\\frac{\\sqrt{3}}{4})a^2 = (\\frac{3}{2})\\sqrt{3}a^2$. Ratio = $1 : \\frac{3}{2} = 2 : 3$. TRAP: 4 : 9 compares the squares of something other than the sides. RULE: for the same perimeter, the shape with more sides encloses more area; a regular hexagon = 6 small equilateral triangles."
     },
     {
       "id": "qadi-p25-04", "section": "QADI", "topic": "arithmetic", "type": "standalone", "source": "pyq-style-2025",
-      "stem": "Neha bought a laptop, paying 1/4 of the price by card and 2/5 of it in cash. She paid the rest a year later with 12% simple interest on that balance. The interest came to ₹4,200. What was the laptop's price?",
+      "stem": "Neha bought a laptop, paying $\\frac{1}{4}$ of the price by card and $\\frac{2}{5}$ of it in cash. She paid the rest a year later with 12% simple interest on that balance. The interest came to ₹4,200. What was the laptop's price?",
       "options": ["₹1,00,000", "₹35,000", "₹1,20,000", "₹80,000", "₹70,000"],
       "answer": 0,
-      "explanation": "Balance = 1 − 1/4 − 2/5 = 7/20 of the price. 12% of the balance is ₹4,200, so the balance is ₹35,000 and the price is 35,000 × 20/7 = ₹1,00,000. TRAP: ₹35,000 is the balance, not the price. RULE: find the fraction left first, then work back from interest → balance → whole."
+      "explanation": "Balance = $1 - \\frac{1}{4} - \\frac{2}{5} = \\frac{7}{20}$ of the price. 12% of the balance is ₹4,200, so the balance is ₹35,000 and the price is $35{,}000 \\times  \\frac{20}{7}$ = ₹1,00,000. TRAP: ₹35,000 is the balance, not the price. RULE: find the fraction left first, then work back from interest → balance → whole."
     },
     {
       "id": "qadi-p25-05", "section": "QADI", "topic": "geometry", "type": "standalone", "source": "pyq-style-2025",
@@ -47,35 +47,35 @@
       "stem": "Riya picks an integer x from 2 to 60 inclusive. She notices that x shares no common factor greater than 1 with ANY other integer from 2 to 60. How many choices of x are possible?",
       "options": ["17", "7", "4", "8", "0"],
       "answer": 1,
-      "explanation": "If x had a prime factor p, then p (or 2p) would be another number in the range sharing p, unless x = p is prime and 2p > 60. So x must be a prime above 30: 31, 37, 41, 43, 47, 53, 59, which is 7 choices. TRAP: 17 counts every prime up to 60, but 29 shares a factor with 58. RULE: a number is coprime to everything else in 2..N only if it is a prime greater than N/2."
+      "explanation": "If x had a prime factor p, then p (or 2p) would be another number in the range sharing p, unless x = p is prime and 2p > 60. So x must be a prime above 30: 31, 37, 41, 43, 47, 53, 59, which is 7 choices. TRAP: 17 counts every prime up to 60, but 29 shares a factor with 58. RULE: a number is coprime to everything else in 2..N only if it is a prime greater than $\\frac{N}{2}$."
     },
     {
       "id": "qadi-p25-08", "section": "QADI", "topic": "geometry", "type": "standalone", "source": "pyq-style-2025",
-      "stem": "A solid award is a cylinder of radius 7 cm and height 10 cm, with a solid hemisphere of radius 7 cm fixed on top so that their flat faces match exactly. The whole outer surface, including the base, is painted at ₹2 per cm². What does painting cost? (Take π = 22/7.)",
+      "stem": "A solid award is a cylinder of radius 7 cm and height 10 cm, with a solid hemisphere of radius 7 cm fixed on top so that their flat faces match exactly. The whole outer surface, including the base, is painted at ₹2 per cm². What does painting cost? (Take $\\pi  = \\frac{22}{7}$.)",
       "options": ["₹2,112", "₹1,496", "₹1,804", "₹1,188", "₹2,420"],
       "answer": 2,
-      "explanation": "Visible surfaces: the base circle πr² = 154, the cylinder's curved side 2πrh = 440, and the hemisphere's dome 2πr² = 308. Total 902 cm², cost ₹1,804. The joined flat faces are hidden, so they are not painted. TRAP: ₹2,112 adds the hidden top circle. RULE: for joined solids, add only surfaces you can touch from outside."
+      "explanation": "Visible surfaces: the base circle $\\pi r^2 = 154$, the cylinder's curved side 2πrh = 440, and the hemisphere's dome $2\\pi r^2 = 308$. Total 902 cm², cost ₹1,804. The joined flat faces are hidden, so they are not painted. TRAP: ₹2,112 adds the hidden top circle. RULE: for joined solids, add only surfaces you can touch from outside."
     },
     {
       "id": "qadi-p25-09", "section": "QADI", "topic": "geometry", "type": "standalone", "source": "pyq-style-2025",
       "stem": "A warehouse robot moves on a track 2 feet from the base of a shelf unit, parallel to it. Its arm is 4 feet long, hinged at the shoulder. The top shelf is 6 feet above the ground. What is the MINIMUM shoulder height for the arm to reach the top shelf?",
-      "options": ["2 feet", "(6 − √3) feet", "2√3 feet", "4 feet", "(6 − 2√3) feet"],
+      "options": ["2 feet", "$(6 - \\sqrt{3})$ feet", "$2\\sqrt{3}$ feet", "4 feet", "$(6 - 2\\sqrt{3})$ feet"],
       "answer": 4,
-      "explanation": "The arm is the hypotenuse of a right triangle with a 2 ft horizontal gap. Its vertical reach is √(4² − 2²) = √12 = 2√3 ft. So the shoulder must be at least 6 − 2√3 ≈ 2.54 ft high. TRAP: 2 feet is 6 − 4, which assumes the arm can point straight up from the track to the shelf with no horizontal gap. RULE: reach problems are Pythagoras: vertical reach = √(arm² − gap²)."
+      "explanation": "The arm is the hypotenuse of a right triangle with a 2 ft horizontal gap. Its vertical reach is $\\sqrt{4^2 - 2^2} = \\sqrt{12} = 2\\sqrt{3}$ ft. So the shoulder must be at least $6 - 2\\sqrt{3} \\approx  2.54$ ft high. TRAP: 2 feet is 6 − 4, which assumes the arm can point straight up from the track to the shelf with no horizontal gap. RULE: reach problems are Pythagoras: vertical reach = $\\sqrt{\\text{arm}^2 - \\text{gap}^2}$."
     },
     {
       "id": "qadi-p25-10", "section": "QADI", "topic": "algebra", "type": "standalone", "source": "pyq-style-2025",
-      "stem": "For a > 0, a ≠ 1, how many distinct real values of x satisfy (logₐ27 / logₐ9)·x² − (logₐ81 / logₐ3)·x + logₐ(a²) = 0?",
+      "stem": "For a > 0, a ≠ 1, how many distinct real values of x satisfy $\\frac{\\log_a 27}{\\log_a 9}x^2 - \\frac{\\log_a 81}{\\log_a 3}x + \\log_a(a^2) = 0$?",
       "options": ["Depends on a", "1", "0", "2", "Infinitely many"],
       "answer": 3,
-      "explanation": "Ratios of logs in the same base do not depend on the base: logₐ27/logₐ9 = 3/2, logₐ81/logₐ3 = 4, and logₐ(a²) = 2. The equation is (3/2)x² − 4x + 2 = 0, i.e. 3x² − 8x + 4 = 0, which factors as (3x − 2)(x − 2) = 0: x = 2/3 or 2. Two values. TRAP: 'depends on a', because the base cancels. RULE: logₐm / logₐn = log_n m, whatever the base."
+      "explanation": "Ratios of logs in the same base do not depend on the base: $\\frac{\\log_a 27}{\\log_a 9} = \\frac{3}{2}$, $\\frac{\\log_a 81}{\\log_a 3} = 4$, and $\\log_a(a^2) = 2$. The equation is $(\\frac{3}{2})x^2 - 4x + 2 = 0$, i.e. $3x^2 - 8x + 4 = 0$, which factors as (3x − 2)(x − 2) = 0: $x = \\frac{2}{3}$ or 2. Two values. TRAP: 'depends on a', because the base cancels. RULE: logₐm / logₐn = log_n m, whatever the base."
     },
     {
       "id": "qadi-p25-11", "section": "QADI", "topic": "probability", "type": "standalone", "source": "pyq-style-2025",
-      "stem": "A fair die is rolled twice, giving b and then c. What is the probability that x² + bx + c = 0 has two DISTINCT real roots?",
-      "options": ["19/36", "17/36", "1/2", "5/12", "7/18"],
+      "stem": "A fair die is rolled twice, giving b and then c. What is the probability that $x^2 + bx + c = 0$ has two DISTINCT real roots?",
+      "options": ["$\\frac{19}{36}$", "$\\frac{17}{36}$", "$\\frac{1}{2}$", "$\\frac{5}{12}$", "$\\frac{7}{18}$"],
       "answer": 1,
-      "explanation": "Distinct real roots need b² > 4c. b = 1 or 2: none (b² ≤ 4 and c ≥ 1, so b² > 4c fails). b = 3: c ≤ 2 (2 ways). b = 4: c ≤ 3 (3 ways). b = 5: all 6 values of c. b = 6: all 6. Total 17 of 36. TRAP: 19/36 uses b² ≥ 4c, which allows equal roots. RULE: read 'real' (≥) and 'distinct real' (>) carefully; they differ by the equal-root cases."
+      "explanation": "Distinct real roots need $b^2 > 4c$. b = 1 or 2: none ($b^2 \\le  4$ and c ≥ 1, so $b^2 > 4c$ fails). b = 3: c ≤ 2 (2 ways). b = 4: c ≤ 3 (3 ways). b = 5: all 6 values of c. b = 6: all 6. Total 17 of 36. TRAP: $\\frac{19}{36}$ uses $b^2 \\ge  4c$, which allows equal roots. RULE: read 'real' (≥) and 'distinct real' (>) carefully; they differ by the equal-root cases."
     },
     {
       "id": "qadi-p25-12", "section": "QADI", "topic": "arithmetic", "type": "standalone", "source": "pyq-style-2025",
@@ -96,14 +96,14 @@
       "stem": "Meera takes five weekly tests, each scored as a whole number out of 10. She scores the same non-zero mark in each of tests 2 to 5. Her first-test score, her total for the first two tests and her total for all five tests form a geometric progression. What is her MAXIMUM possible total across the five tests?",
       "options": ["50", "41", "45", "36", "40"],
       "answer": 2,
-      "explanation": "Let the first score be f and each later score s. The GP condition: (f + s)² = f(f + 4s), so s² = 2fs, giving s = 2f. Since s ≤ 10, f ≤ 5. The total f + 4s = 9f is largest at f = 5: 45. TRAP: 50 (all tens) is not a GP. RULE: for three terms in GP, middle² = first × third; expand and cancel."
+      "explanation": "Let the first score be f and each later score s. The GP condition: $(f + s)^2 = f(f + 4s)$, so $s^2 = 2fs$, giving s = 2f. Since s ≤ 10, f ≤ 5. The total f + 4s = 9f is largest at f = 5: 45. TRAP: 50 (all tens) is not a GP. RULE: for three terms in GP, middle² = first × third; expand and cancel."
     },
     {
       "id": "qadi-p25-15", "section": "QADI", "topic": "geometry", "type": "standalone", "source": "pyq-style-2025",
-      "stem": "A bucket is a frustum of a cone with a bottom radius of 7 cm, a top radius of 14 cm and a height of 24 cm. How many litres does it hold when full? (Take π = 22/7; 1 litre = 1000 cm³.)",
+      "stem": "A bucket is a frustum of a cone with a bottom radius of 7 cm, a top radius of 14 cm and a height of 24 cm. How many litres does it hold when full? (Take $\\pi  = \\frac{22}{7}$; 1 litre = 1000 cm³.)",
       "options": ["8.316 litres", "4.312 litres", "8.624 litres", "12.936 litres", "14.784 litres"],
       "answer": 2,
-      "explanation": "Frustum volume = (πh/3)(R² + Rr + r²) = (22/7)(24/3)(196 + 98 + 49) = (22/7)(8)(343) = 8624 cm³ = 8.624 litres. TRAP: 8.316 uses a cylinder with the average radius 10.5, which always underestimates. RULE: frustum = (πh/3)(R² + Rr + r²); never average the radii."
+      "explanation": "Frustum volume = $(\\frac{\\pi h}{3})(R^2 + Rr + r^2) = (\\frac{22}{7})(\\frac{24}{3})(196 + 98 + 49) = (\\frac{22}{7})(8)(343) = 8624$ cm³ = 8.624 litres. TRAP: 8.316 uses a cylinder with the average radius 10.5, which always underestimates. RULE: frustum = $(\\frac{\\pi h}{3})(R^2 + Rr + r^2)$; never average the radii."
     }
   ]
 }

@@ -3,6 +3,7 @@ import { minutesFor, PAPER, paperName, type PaperKind, WEAK, XAT } from '../../.
 import { SECTIONS, type Summary, type TestData, type TestResult } from '../../../shared/types.ts'
 import { api, message, post } from '../api.ts'
 import { letter, QuestionView } from './Practice.tsx'
+import { Tex } from '../Tex.tsx'
 
 export function Tests({ onStart }: { onStart: (s: PaperKind) => void }) {
   const [answered, setAnswered] = useState<number | null>(null)
@@ -179,12 +180,12 @@ function TestReview({ data, picks, result, onExit }: { data: TestData; picks: Re
           return (
             <li key={q.id}>
               <details>
-                <summary><b className={mark === '✓' ? 'ok' : mark === '✗' ? 'bad' : ''}>{mark}</b> {q.stem.split('\n')[0]}</summary>
+                <summary><b className={mark === '✓' ? 'ok' : mark === '✗' ? 'bad' : ''}>{mark}</b> <Tex>{q.stem.split('\n')[0]}</Tex></summary>
                 <p>
-                  {p !== undefined && p !== q.answer && <>You: {letter(p)}. {q.options[p]}<br /></>}
-                  Answer: {letter(q.answer)}. {q.options[q.answer]}
+                  {p !== undefined && p !== q.answer && <>You: {letter(p)}. <Tex>{q.options[p]}</Tex><br /></>}
+                  Answer: {letter(q.answer)}. <Tex>{q.options[q.answer]}</Tex>
                 </p>
-                <p className="muted">{q.explanation}</p>
+                <p className="muted"><Tex>{q.explanation}</Tex></p>
               </details>
             </li>
           )

@@ -12,21 +12,21 @@
       "stem": "A school's student numbers in Classes I to VIII, in that order, form an arithmetic progression. The total for Classes I–IV is three times the total for Classes V–VIII. If Classes I–III together have 351 students, how many students are in Class V?",
       "options": ["81", "63", "45", "72", "None of these"],
       "answer": 1,
-      "explanation": "With first term a and difference d: I–IV = 4a + 6d, V–VIII = 4a + 22d. 4a + 6d = 3(4a + 22d) gives d = −2a/15. I–III = 3a + 3d = 351, so a + d = 117, i.e. 13a/15 = 117, a = 135 and d = −18. Class V = a + 4d = 135 − 72 = 63. RULE: for an AP, express every group sum through a and d; a negative d is normal when early terms are bigger."
+      "explanation": "With first term a and difference d: I–IV = 4a + 6d, V–VIII = 4a + 22d. 4a + 6d = 3(4a + 22d) gives d = $-\\frac{2a}{15}$. I–III = 3a + 3d = 351, so a + d = 117, i.e. $\\frac{13a}{15} = 117$, a = 135 and d = −18. Class V = a + 4d = 135 − 72 = 63. RULE: for an AP, express every group sum through a and d; a negative d is normal when early terms are bigger."
     },
     {
       "id": "qadi-p24-03", "section": "QADI", "topic": "arithmetic", "type": "standalone", "source": "pyq-style-2024",
       "stem": "A train is scheduled to leave at 8:00 AM for a city 960 km away. It leaves 2½ hours late. By running 16 km/h faster than its planned average speed, it arrives only 30 minutes late. Had it instead run 40 km/h faster than planned, when would it have arrived?",
       "options": ["8:00 PM", "6:30 PM", "7:00 PM", "5:30 PM", "9:00 PM"],
       "answer": 1,
-      "explanation": "The faster speed saved 2 hours: 960/v − 960/(v + 16) = 2, so v(v + 16) = 7680 and v = 80 km/h (planned time 12 h, planned arrival 8:00 PM). At 120 km/h the trip takes 8 h. Leaving at 10:30 AM, it arrives at 6:30 PM. TRAP: 8:00 PM is the original schedule. RULE: time saved = D/v − D/(v + x); try factor pairs of the product to find v."
+      "explanation": "The faster speed saved 2 hours: $\\frac{960}{v} - \\frac{960}{v + 16} = 2$, so v(v + 16) = 7680 and v = 80 km/h (planned time 12 h, planned arrival 8:00 PM). At 120 km/h the trip takes 8 h. Leaving at 10:30 AM, it arrives at 6:30 PM. TRAP: 8:00 PM is the original schedule. RULE: time saved = $\\frac{D}{v} - \\frac{D}{v + x}$; try factor pairs of the product to find v."
     },
     {
       "id": "qadi-p24-04", "section": "QADI", "topic": "algebra", "type": "standalone", "source": "pyq-style-2024",
-      "stem": "For how many real values of x does log₃(x² − 9) = 2·log₉(3 − x) hold?",
+      "stem": "For how many real values of x does $\\log_{3}(x^2 - 9) = 2\\cdot \\log_{9}(3 - x)$ hold?",
       "options": ["0", "1", "2", "4", "Infinitely many"],
       "answer": 1,
-      "explanation": "2·log₉(y) = log₃(y), so the equation becomes x² − 9 = 3 − x, i.e. x² + x − 12 = 0, giving x = 3 or −4. Domain: both x² − 9 > 0 and 3 − x > 0. x = 3 makes x² − 9 = 0 (not allowed). x = −4 gives 7 and 7, both fine. One solution. TRAP: 2, from forgetting the domain. RULE: after solving a log equation, plug every root back into every log's argument."
+      "explanation": "2·log₉(y) = log₃(y), so the equation becomes $x^2 - 9 = 3 - x$, i.e. $x^2 + x - 12 = 0$, giving x = 3 or −4. Domain: both $x^2 - 9 > 0$ and 3 − x > 0. x = 3 makes $x^2 - 9 = 0$ (not allowed). x = −4 gives 7 and 7, both fine. One solution. TRAP: 2, from forgetting the domain. RULE: after solving a log equation, plug every root back into every log's argument."
     },
     {
       "id": "qadi-p24-05", "section": "QADI", "topic": "arithmetic", "type": "standalone", "source": "pyq-style-2024",
@@ -44,24 +44,24 @@
     },
     {
       "id": "qadi-p24-07", "section": "QADI", "topic": "geometry", "type": "standalone", "source": "pyq-style-2024",
-      "stem": "A field is an isosceles triangle with a 160 ft base and a height of 60 ft. A circular pond is centred at the midpoint of the base and just touches the two equal sides. Half the pond lies outside the field, on land bought from a neighbour at ₹500 per sq ft. Which is CLOSEST to the cost of that land? (Take π = 22/7.)",
+      "stem": "A field is an isosceles triangle with a 160 ft base and a height of 60 ft. A circular pond is centred at the midpoint of the base and just touches the two equal sides. Half the pond lies outside the field, on land bought from a neighbour at ₹500 per sq ft. Which is CLOSEST to the cost of that land? (Take $\\pi  = \\frac{22}{7}$.)",
       "options": ["₹36.2 lakh", "₹28.3 lakh", "₹12.6 lakh", "₹18.1 lakh", "₹22.6 lakh"],
       "answer": 3,
-      "explanation": "Each equal side is √(80² + 60²) = 100 ft. The radius is the distance from the base midpoint to a side: area of a half-triangle = ½ × 80 × 60 = ½ × 100 × r, so r = 48 ft. The outside half-circle is ½ × (22/7) × 48² ≈ 3,621 sq ft; × ₹500 ≈ ₹18.1 lakh. TRAP: ₹36.2 lakh prices the whole pond; ₹28.3 lakh uses r = 60 (the height). RULE: distance from a point to a side = 2 × area ÷ side."
+      "explanation": "Each equal side is $\\sqrt{80^2 + 60^2} = 100$ ft. The radius is the distance from the base midpoint to a side: area of a half-triangle = ½ × 80 × 60 = ½ × 100 × r, so r = 48 ft. The outside half-circle is ½ × $(\\frac{22}{7}) \\times  48^2 \\approx  3{,}621$ sq ft; × ₹500 ≈ ₹18.1 lakh. TRAP: ₹36.2 lakh prices the whole pond; ₹28.3 lakh uses r = 60 (the height). RULE: distance from a point to a side = 2 × area ÷ side."
     },
     {
       "id": "qadi-p24-08", "section": "QADI", "topic": "number-system", "type": "standalone", "source": "pyq-style-2024",
       "stem": "The LCM of a number n and 840 is 2520, and the HCF of n and 300 is 60. What is the smallest possible value of n?",
       "options": ["60", "180", "360", "252", "1260"],
       "answer": 1,
-      "explanation": "840 = 2³·3·5·7 and 2520 = 2³·3²·5·7, so n divides 2520 and must contain 3² (840 has only one 3). 300 = 2²·3·5² and the HCF 60 = 2²·3·5, so n has at least 2², and exactly 5¹. Smallest: 2²·3²·5 = 180. Check: LCM(180, 840) = 2520 and HCF(180, 300) = 60. TRAP: 60 fails the LCM (LCM(60, 840) = 840). RULE: work prime by prime: the LCM sets the maximum power, the HCF the minimum."
+      "explanation": "$840 = 2^3\\cdot 3\\cdot 5\\cdot 7$ and $2520 = 2^3\\cdot 3^2\\cdot 5\\cdot 7$, so n divides 2520 and must contain $3^2$ (840 has only one 3). $300 = 2^2\\cdot 3\\cdot 5^2$ and the HCF $60 = 2^2\\cdot 3\\cdot 5$, so n has at least $2^2$, and exactly $5^1$. Smallest: $2^2\\cdot 3^2\\cdot 5 = 180$. Check: LCM(180, 840) = 2520 and HCF(180, 300) = 60. TRAP: 60 fails the LCM (LCM(60, 840) = 840). RULE: work prime by prime: the LCM sets the maximum power, the HCF the minimum."
     },
     {
       "id": "qadi-p24-09", "section": "QADI", "topic": "algebra", "type": "standalone", "source": "pyq-style-2024",
-      "stem": "The roots of 3x³ − 10x² + 9x − 2 = 0 are the radii of three concentric circles. What is the ratio of their areas, from largest to smallest?",
+      "stem": "The roots of $3x^3 - 10x^2 + 9x - 2 = 0$ are the radii of three concentric circles. What is the ratio of their areas, from largest to smallest?",
       "options": ["6 : 3 : 1", "36 : 9 : 1", "9 : 4 : 1", "4 : 2 : 1", "None of these"],
       "answer": 1,
-      "explanation": "x = 1 is a root (3 − 10 + 9 − 2 = 0). Dividing gives 3x² − 7x + 2 = (3x − 1)(x − 2), so the roots are 2, 1 and 1/3. Areas go as the squares: 4 : 1 : 1/9 = 36 : 9 : 1. TRAP: 6 : 3 : 1 is the ratio of the radii. RULE: for a cubic, test x = 1, −1 and factors of the constant ÷ the leading coefficient first."
+      "explanation": "x = 1 is a root (3 − 10 + 9 − 2 = 0). Dividing gives $3x^2 - 7x + 2 = (3x - 1)(x - 2)$, so the roots are 2, 1 and $\\frac{1}{3}$. Areas go as the squares: $4 : 1 : \\frac{1}{9} = 36 : 9 : 1$. TRAP: 6 : 3 : 1 is the ratio of the radii. RULE: for a cubic, test x = 1, −1 and factors of the constant ÷ the leading coefficient first."
     },
     {
       "id": "qadi-p24-10", "section": "QADI", "topic": "probability", "type": "standalone", "source": "pyq-style-2024",
@@ -86,10 +86,10 @@
     },
     {
       "id": "qadi-p24-13", "section": "QADI", "topic": "arithmetic", "type": "standalone", "source": "pyq-style-2024",
-      "stem": "A merchant splits all her coins into three bags. The first bag holds 1/4 of the coins and the second holds k/7 of them, for some positive integer k. The third bag holds 51 coins. How many coins does she have?",
+      "stem": "A merchant splits all her coins into three bags. The first bag holds $\\frac{1}{4}$ of the coins and the second holds $\\frac{k}{7}$ of them, for some positive integer k. The third bag holds 51 coins. How many coins does she have?",
       "options": ["84", "1428", "168", "357", "Cannot be determined uniquely"],
       "answer": 4,
-      "explanation": "The third bag's share is 1 − 1/4 − k/7 = (21 − 4k)/28, which must be positive, so k is 1 to 5. Total T = 51 × 28/(21 − 4k). k = 1 gives T = 84 (bags 21, 12, 51). k = 5 gives T = 1428 (bags 357, 1020, 51). k = 2, 3, 4 give non-integers. Two valid totals, so no unique answer. TRAP: stopping at the first k that works. RULE: when a parameter is 'some integer', test its whole range before answering."
+      "explanation": "The third bag's share is $1 - \\frac{1}{4} - \\frac{k}{7} = \\frac{21 - 4k}{28}$, which must be positive, so k is 1 to 5. Total $T = 51 \\times  \\frac{28}{21 - 4k}$. k = 1 gives T = 84 (bags 21, 12, 51). k = 5 gives T = 1428 (bags 357, 1020, 51). k = 2, 3, 4 give non-integers. Two valid totals, so no unique answer. TRAP: stopping at the first k that works. RULE: when a parameter is 'some integer', test its whole range before answering."
     },
     {
       "id": "qadi-p24-14", "section": "QADI", "topic": "algebra", "type": "standalone", "source": "pyq-style-2024",

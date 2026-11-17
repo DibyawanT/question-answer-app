@@ -82,14 +82,14 @@
       "stem": "FreshCrust adds two cafés, taking the route to 75 km a day. How much does it save per day by choosing the cheaper option over the other?",
       "options": ["₹150", "₹300", "₹420", "₹0", "₹1,200"],
       "answer": 1,
-      "explanation": "Van: 1,800 + 12 × 75 = ₹2,700. Courier: 40 × 75 = ₹3,000. The van is now cheaper, by ₹300. The break-even point is 1,800/(40 − 12) ≈ 64.3 km, and 75 km is beyond it."
+      "explanation": "Van: 1,800 + 12 × 75 = ₹2,700. Courier: 40 × 75 = ₹3,000. The van is now cheaper, by ₹300. The break-even point is $\\frac{1{,}800}{40 - 12} \\approx  64.3$ km, and 75 km is beyond it."
     },
     {
       "id": "dm-p-12", "section": "DM", "topic": "operations-math", "type": "caselet", "setId": "dm-p-c04", "source": "pyq-style-2026",
       "stem": "The van's fixed charge rises by 20%. What is the MINIMUM whole number of km per day at which the van becomes strictly cheaper than the courier?",
       "options": ["65", "72", "77", "78", "90"],
       "answer": 3,
-      "explanation": "New fixed charge = ₹2,160. The van is cheaper when 2,160 + 12k < 40k, i.e. k > 2,160/28 ≈ 77.1, so 78 km. TRAP: 77 rounds down; at 77 km the van costs 3,084 against the courier's 3,080. RULE: 'strictly cheaper' with whole units means round the break-even point UP."
+      "explanation": "New fixed charge = ₹2,160. The van is cheaper when 2,160 + 12k < 40k, i.e. $k > \\frac{2{,}160}{28} \\approx  77.1$, so 78 km. TRAP: 77 rounds down; at 77 km the van costs 3,084 against the courier's 3,080. RULE: 'strictly cheaper' with whole units means round the break-even point UP."
     },
     {
       "id": "dm-p-13", "section": "DM", "topic": "stakeholder-conflict", "type": "caselet", "setId": "dm-p-c05", "source": "pyq-style-2025",

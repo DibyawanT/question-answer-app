@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import { ROUND, XP } from '../../../shared/scoring.ts'
 import type { Mode, Passage, PracticeData, Question, Summary } from '../../../shared/types.ts'
 import { api, message, post } from '../api.ts'
+import { Tex } from '../Tex.tsx'
 
 export const letter = (k: number) => String.fromCharCode(65 + k)
 export const levelOf = (xp: number) => Math.floor(xp / XP.level) + 1
@@ -37,15 +38,15 @@ export function QuestionView({ q, passage, mark, onPick, disabled }: {
       {passage && (
         <details className="passage" open>
           <summary>{q.section === 'DM' ? 'Caselet' : q.section === 'QADI' ? 'Data' : 'Passage'}</summary>
-          <p>{passage.text}</p>
+          <p><Tex>{passage.text}</Tex></p>
         </details>
       )}
-      <p className="stem">{q.stem}</p>
+      <p className="stem"><Tex>{q.stem}</Tex></p>
       <ul className="options">
         {q.options.map((o, k) => (
           <li key={k}>
             <button disabled={disabled} className={mark(k)} onClick={() => onPick(k)}>
-              <b>{letter(k)}</b> <span>{o}</span>
+              <b>{letter(k)}</b> <span><Tex>{o}</Tex></span>
             </button>
           </li>
         ))}
@@ -97,7 +98,7 @@ export function Practice({ url, mode, title, onExit, onDone }: {
     return (
       <article className="practice">
         <header>{back}<span className="muted">{title}</span></header>
-        <p className="note">{data.note}</p>
+        <p className="note"><Tex>{data.note}</Tex></p>
         <button className="primary" onClick={() => setStarted(true)}>{total} questions</button>
       </article>
     )
@@ -178,7 +179,7 @@ export function Practice({ url, mode, title, onExit, onDone }: {
       {answered && (
         <>
           <p className="explanation">
-            <strong>{picked === q.answer ? 'Correct.' : `Not yet. It's ${letter(q.answer)}.`}</strong> {q.explanation}
+            <strong>{picked === q.answer ? 'Correct.' : `Not yet. It's ${letter(q.answer)}.`}</strong> <Tex>{q.explanation}</Tex>
           </p>
           <button className="primary" onClick={next}>{i + 1 < total ? 'Next' : 'Finish'}</button>
           <button className="link center" onClick={report} disabled={reported}>

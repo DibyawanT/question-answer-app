@@ -105,7 +105,7 @@
     { "id": "cat2-di-03", "section": "QADI", "topic": "data-interpretation", "type": "di", "setId": "cat-di-s01", "source": "cat-style",
       "stem": "Approximately what percentage of all books were sold by shop Z?",
       "options": ["27%", "30%", "23%", "33%"], "answer": 0,
-      "explanation": "Z sold 75 − 20 − 25 = 30 books out of 110: 30/110 ≈ 27.3%. 30% is the trap of reading 30 books as 30% without dividing by the column total." },
+      "explanation": "Z sold 75 − 20 − 25 = 30 books out of 110: $\\frac{30}{110} \\approx  27.3\\%$. 30% is the trap of reading 30 books as 30% without dividing by the column total." },
     { "id": "cat2-di-04", "section": "QADI", "topic": "data-interpretation", "type": "di", "setId": "cat-di-s01", "source": "cat-style",
       "stem": "If W had sold 10 more bags, with everything else unchanged, where would W rank in revenue among the four shops?",
       "options": ["2nd", "1st", "3rd", "4th"], "answer": 0,
