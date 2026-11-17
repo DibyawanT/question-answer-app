@@ -137,10 +137,11 @@ Change these, keep everything else:
 | 2026-11-18 | Mandala: 512-concept tree, pass a concept's study set to turn it green (uncommitted) | `shared/mandala.ts`, `Mandala.tsx`, `Study.tsx`, `db.ts`, `index.ts` |
 | 2026-11-18 | Robust stats (smoothed weakness, 7-day trend, pace) + "Fix my mistakes" quizzes from Stats | `scoring.ts`, `drill.ts`, `db.ts`, `index.ts`, `types.ts`, `Stats.tsx`, `main.tsx` |
 | 2026-11-18 | Weak-spot paper: mixed 25-Q paper from weakest topics + open mistakes, unlocks at 100 answers | `scoring.ts`, `db.ts`, `types.ts`, `Tests.tsx`, `styles.css` |
+| 2026-11-18 | Banks 8–10 (103 Q): GK with 2026 current affairs, para-summary/poem/probability, top-up for strong and middle topics; rewritten notes for the 9 thin topics (a note upload replaces the old note for that topic) | `data/bank-8-gk.json`, `data/bank-9-thin.json`, `data/bank-10-topup.json` |
 | 2026-11-18 | KaTeX maths rendering; 177 formulas in the banks converted to `$…$` (re-upload banks to see them) | `Tex.tsx`, `Practice.tsx`, `Tests.tsx`, `data/*.json`, `README.md` |
 
 ## Skipped on purpose
 
 See `PLAN.md` → "Skipped on purpose" (adaptive difficulty, leaderboards, sound, multi-user). Add new ones there.
 
-Known limits: weak-spot paper scores aren't kept as a history (only the attempts are); add a `papers` table when a score trend is wanted. An in-progress sectional test lives only in memory (reload loses it); `summary()` scans all drills each call (fine for one user); bank questions were written by Claude, so expect a few errors ("Report a problem" stores reports in the backup). KaTeX is in the main bundle (~75 KB gz); lazy-load it if first load gets slow. Graphs/charts (Mafs, Chart.js) skipped until a question needs one.
+Known limits: weak-spot paper scores aren't kept as a history (only the attempts are); add a `papers` table when a score trend is wanted. An in-progress sectional test lives only in memory (reload loses it); `summary()` scans all drills each call (fine for one user); bank questions were written by Claude, so expect a few errors ("Report a problem" stores reports in the backup). GK current affairs in `bank-8-gk.json` are as of mid-November 2026 (from web news); recheck repo rate, Gaganyaan G1 and office-holders before the exam. KaTeX is in the main bundle (~75 KB gz); lazy-load it if first load gets slow. Graphs/charts (Mafs, Chart.js) skipped until a question needs one.

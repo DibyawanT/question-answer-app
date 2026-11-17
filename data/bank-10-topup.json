@@ -1,0 +1,616 @@
+{
+  "passages": [
+    {
+      "id": "dm-t10-c1",
+      "section": "DM",
+      "text": "Kaveri Cycles, a 40-year-old Ludhiana bicycle maker, sells mostly entry-level bicycles (about ₹6,000) through 1,200 dealers in small towns. Its volumes have fallen 8% a year for three years as rural buyers switch to second-hand scooters, though the business is still profitable. Electric cycles are growing about 35% a year in metro cities, but Kaveri has no battery expertise, and its dealers cannot service electric drives. A Chinese supplier offers ready e-cycle kits that Kaveri could assemble and sell under its own brand at about ₹28,000, at an 18% margin against Kaveri's current 9%. The CFO warns that a failed launch could cost ₹40 crore, roughly one year's profit. The founder's son, who has just joined the firm, wants to go 'all-in' on e-cycles and wind down the old range; the founder wants to protect the dealer network that built the company."
+    },
+    {
+      "id": "qadi-t10-di",
+      "section": "QADI",
+      "text": "A company's sales (₹ crore) by region:\n\nRegion | 2024 | 2025 | 2026\nNorth | 120 | 150 | 180\nSouth | 200 | 210 | 189\nEast | 80 | 100 | 130\nWest | 100 | 90 | 101\nTotal | 500 | 550 | 600"
+    },
+    {
+      "id": "qadi-t10-lr",
+      "section": "QADI",
+      "text": "Five friends P, Q, R, S and T sit in a row of five seats numbered 1 to 5 from left to right, one per seat.\n(i) R sits in seat 3.\n(ii) P sits in one of the end seats.\n(iii) T does not sit next to R.\n(iv) Q sits somewhere to the right of S.\n(v) P sits somewhere to the right of Q."
+    },
+    {
+      "id": "valr-t10-rc",
+      "section": "VALR",
+      "text": "Every society celebrates its inventors; few remember the people who keep things working. Yet for most of the history of any technology, the work that matters is not invention but maintenance. A bridge is designed once and repaired for a century. A city's water system was laid by one generation and has been patched by every generation since. Studies of infrastructure in many countries find the same pattern: new projects attract money, ribbons and headlines, while budgets for upkeep are the first to be cut when money is short. The cost of this neglect is rarely visible until it arrives all at once, as a collapsed bridge or a city without water.\n\nPart of the problem is that maintenance succeeds by being invisible. When it is done well, nothing happens, and nothing is hard to celebrate. Another part is how organisations reward people. An engineer who launches a new system has a line on a résumé; the one who keeps an old system running for ten years without failure often has nothing to show for it. Some economists argue that the public's taste for novelty is the root cause. That explanation is too easy. Citizens, asked directly, consistently rank reliable water, power and roads above new projects. The bias lies less in what people value than in what institutions measure and reward.\n\nNone of this means invention is overrated. New technologies have transformed lives. But a society that wants the benefits of its inventions to last must learn to count, fund and honour the slow work of keeping them alive."
+    }
+  ],
+  "questions": [
+    {
+      "id": "dm-t10-01",
+      "section": "DM",
+      "topic": "business-strategy",
+      "type": "caselet",
+      "setId": "dm-t10-c1",
+      "source": "xat-style-2027",
+      "stem": "Which is the most reasonable course of action for Kaveri Cycles?",
+      "options": [
+        "Go all-in on e-cycles and wind down the entry-level range, as the son suggests.",
+        "Reject e-cycles entirely and cut prices on the entry-level range to win back rural buyers.",
+        "Pilot the e-cycle kits in two or three metros through a few dealers trained for service, while keeping the entry-level range running.",
+        "Sell the company to the Chinese supplier while it is still profitable.",
+        "Ask dealers to start selling second-hand scooters alongside bicycles."
+      ],
+      "answer": 2,
+      "explanation": "A limited pilot tests demand, kit quality and service needs without betting a year's profit, and it keeps the profitable core and the dealer network intact. A risks ₹40 crore on an untested product with no service capability. B ignores a market growing 35% a year while the core shrinks. D and E abandon the firm's strengths. RULE: under high uncertainty and a large downside, XAT favours a reversible, staged step."
+    },
+    {
+      "id": "dm-t10-02",
+      "section": "DM",
+      "topic": "business-strategy",
+      "type": "caselet",
+      "setId": "dm-t10-c1",
+      "source": "xat-style-2027",
+      "stem": "Which information would be MOST useful to Kaveri before deciding on the e-cycle launch?",
+      "options": [
+        "Warranty-claim and failure rates of the supplier's kits in markets where they already sell, and how quickly spare parts can be supplied",
+        "The founder's son's educational background",
+        "The number of bicycle makers in Ludhiana",
+        "The average age of Kaveri's dealers",
+        "How many scooters were sold in rural India last year"
+      ],
+      "answer": 0,
+      "explanation": "The biggest unknowns are product quality and serviceability: Kaveri would carry the brand risk of someone else's kit and has no in-house battery expertise. A tests exactly that. B and C are irrelevant. D and E touch side issues (dealer adaptability, the decline of the old market) but don't decide the launch."
+    },
+    {
+      "id": "dm-t10-03",
+      "section": "DM",
+      "topic": "business-strategy",
+      "type": "caselet",
+      "setId": "dm-t10-c1",
+      "source": "xat-style-2027",
+      "stem": "What is the strongest argument AGAINST the son's 'all-in' plan?",
+      "options": [
+        "E-cycles are a passing fashion.",
+        "An 18% margin is lower than the industry average.",
+        "The founder has more experience than his son.",
+        "It stakes about a year's profit on a product Kaveri cannot yet service, while giving up a core business that is shrinking but still profitable.",
+        "Chinese suppliers are always unreliable."
+      ],
+      "answer": 3,
+      "explanation": "D names the real risk: a large, concentrated bet without the capability to support it, plus the loss of a cash-generating business. A contradicts 35% annual growth. C attacks the person, not the plan. B is not stated (and 18% is double Kaveri's margin). E is a sweeping generalisation."
+    },
+    {
+      "id": "dm-t10-04",
+      "section": "DM",
+      "topic": "operations-math",
+      "type": "standalone",
+      "source": "xat-style-2027",
+      "stem": "A shop sells 200 units a day at ₹50 each; each unit costs it ₹30. The owner is told that cutting the price to ₹45 will raise sales to 260 units a day. If that happens, what is the effect on daily profit?",
+      "options": [
+        "Profit rises by ₹100",
+        "Profit falls by ₹100",
+        "Profit is unchanged",
+        "Profit rises by ₹1,300",
+        "Profit falls by ₹300"
+      ],
+      "answer": 1,
+      "explanation": "Now: 200 × (50 − 30) = ₹4,000. After: 260 × (45 − 30) = ₹3,900. Profit falls by ₹100 even though revenue rises (₹10,000 → ₹11,700). TRAP: judging by revenue or volume. RULE: compare units × margin, not units × price."
+    },
+    {
+      "id": "dm-t10-05",
+      "section": "DM",
+      "topic": "operations-math",
+      "type": "standalone",
+      "source": "xat-style-2027",
+      "stem": "A tiffin service has fixed costs of ₹1,20,000 a month. It sells each meal for ₹500, and each meal costs ₹350 in ingredients and delivery. How many meals a month must it sell to break even?",
+      "options": [
+        "240",
+        "343",
+        "1,200",
+        "1,000",
+        "800"
+      ],
+      "answer": 4,
+      "explanation": "Contribution per meal = 500 − 350 = ₹150. Break-even = 1,20,000 / 150 = 800 meals. TRAP: dividing by price (240) or by variable cost (343). RULE: break-even units = fixed cost ÷ (price − variable cost)."
+    },
+    {
+      "id": "qadi-t10-g1",
+      "section": "QADI",
+      "topic": "geometry",
+      "type": "standalone",
+      "source": "cat-style",
+      "stem": "A right-angled triangle has legs of 9 cm and 12 cm. What is the radius of the circle inscribed in it?",
+      "options": [
+        "2.5 cm",
+        "3.5 cm",
+        "3 cm",
+        "4 cm",
+        "6 cm"
+      ],
+      "answer": 2,
+      "explanation": "Hypotenuse = 15. For a right triangle, r = (a + b − c)/2 = (9 + 12 − 15)/2 = 3. Check: r = Area/s = 54/18 = 3. TRAP: 7.5 is the circumradius (half the hypotenuse)."
+    },
+    {
+      "id": "qadi-t10-g2",
+      "section": "QADI",
+      "topic": "geometry",
+      "type": "standalone",
+      "source": "cat-style",
+      "stem": "A chord of length 16 cm is drawn in a circle of radius 10 cm. How far is the chord from the centre?",
+      "options": [
+        "6 cm",
+        "5 cm",
+        "4 cm",
+        "8 cm",
+        "√136 cm"
+      ],
+      "answer": 0,
+      "explanation": "The perpendicular from the centre bisects the chord: half-chord 8, radius 10, so distance = √(10² − 8²) = √36 = 6 cm. RULE: radius, half-chord and distance form a right triangle (here 6-8-10)."
+    },
+    {
+      "id": "qadi-t10-g3",
+      "section": "QADI",
+      "topic": "geometry",
+      "type": "standalone",
+      "source": "cat-style",
+      "stem": "What is the area of a regular hexagon with side 4 cm?",
+      "options": [
+        "16√3 cm²",
+        "48√3 cm²",
+        "32√3 cm²",
+        "24√3 cm²",
+        "12√3 cm²"
+      ],
+      "answer": 3,
+      "explanation": "A regular hexagon is 6 equilateral triangles: 6 × (√3/4) × 4² = 6 × 4√3 = 24√3 cm². TRAP: 4√3 is one triangle; 48√3 doubles the count. RULE: hexagon area = (3√3/2) a²."
+    },
+    {
+      "id": "qadi-t10-n1",
+      "section": "QADI",
+      "topic": "number-system",
+      "type": "standalone",
+      "source": "cat-style",
+      "stem": "What is the remainder when 2^100 is divided by 7?",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "3",
+        "6"
+      ],
+      "answer": 1,
+      "explanation": "2³ = 8 ≡ 1 (mod 7), so powers of 2 cycle 2, 4, 1. 100 = 3 × 33 + 1, so 2^100 ≡ 2^1 = 2. RULE: find the power that gives remainder 1, then reduce the exponent by that cycle length."
+    },
+    {
+      "id": "qadi-t10-n2",
+      "section": "QADI",
+      "topic": "number-system",
+      "type": "standalone",
+      "source": "cat-style",
+      "stem": "How many zeroes does 100! (100 factorial) end with?",
+      "options": [
+        "20",
+        "22",
+        "30",
+        "25",
+        "24"
+      ],
+      "answer": 4,
+      "explanation": "Count factors of 5: ⌊100/5⌋ + ⌊100/25⌋ = 20 + 4 = 24 (2s are plentiful). TRAP: 20 forgets that 25, 50, 75 and 100 each give an extra 5. RULE: trailing zeroes of n! = Σ ⌊n/5^k⌋."
+    },
+    {
+      "id": "qadi-t10-n3",
+      "section": "QADI",
+      "topic": "number-system",
+      "type": "standalone",
+      "source": "cat-style",
+      "stem": "How many positive factors does 720 have?",
+      "options": [
+        "24",
+        "28",
+        "30",
+        "32",
+        "36"
+      ],
+      "answer": 2,
+      "explanation": "720 = 2⁴ × 3² × 5¹. Number of factors = (4+1)(2+1)(1+1) = 5 × 3 × 2 = 30. RULE: for p^a q^b r^c, factors = (a+1)(b+1)(c+1)."
+    },
+    {
+      "id": "qadi-t10-a1",
+      "section": "QADI",
+      "topic": "arithmetic",
+      "type": "standalone",
+      "source": "cat-style",
+      "stem": "The price of sugar rises by 25%. By what percentage must a household cut its consumption to keep its spending on sugar unchanged?",
+      "options": [
+        "20%",
+        "25%",
+        "15%",
+        "22.5%",
+        "33.3%"
+      ],
+      "answer": 0,
+      "explanation": "New price = 5/4 of old, so consumption must become 4/5, a cut of 1/5 = 20%. RULE: if price rises by r%, cut = r/(100 + r) × 100. TRAP: 25% (assuming the same percentage)."
+    },
+    {
+      "id": "qadi-t10-a2",
+      "section": "QADI",
+      "topic": "arithmetic",
+      "type": "standalone",
+      "source": "cat-style",
+      "stem": "A can finish a job in 12 days and B in 18 days. They work together for 4 days, then A leaves. How many more days does B need to finish the job?",
+      "options": [
+        "6",
+        "7",
+        "9",
+        "8",
+        "10"
+      ],
+      "answer": 3,
+      "explanation": "Together per day: 1/12 + 1/18 = 5/36. In 4 days: 20/36 = 5/9. Left: 4/9. B alone: (4/9) × 18 = 8 days. Units method: job = 36 units, A = 3/day, B = 2/day; 4 days × 5 = 20 done, 16 left, 16/2 = 8."
+    },
+    {
+      "id": "qadi-t10-al1",
+      "section": "QADI",
+      "topic": "algebra",
+      "type": "standalone",
+      "source": "cat-style",
+      "stem": "If x + 1/x = 4, what is x³ + 1/x³?",
+      "options": [
+        "64",
+        "52",
+        "60",
+        "76",
+        "48"
+      ],
+      "answer": 1,
+      "explanation": "x³ + 1/x³ = (x + 1/x)³ − 3(x + 1/x) = 64 − 12 = 52. TRAP: 64 forgets the −3(x + 1/x) term. RULE: also x² + 1/x² = (x + 1/x)² − 2 = 14."
+    },
+    {
+      "id": "qadi-t10-al2",
+      "section": "QADI",
+      "topic": "algebra",
+      "type": "standalone",
+      "source": "cat-style",
+      "stem": "If α and β are the roots of x² − 5x + 3 = 0, what is α² + β²?",
+      "options": [
+        "16",
+        "22",
+        "25",
+        "31",
+        "19"
+      ],
+      "answer": 4,
+      "explanation": "α + β = 5, αβ = 3. α² + β² = (α + β)² − 2αβ = 25 − 6 = 19. TRAP: 31 uses +2αβ. RULE: for x² − Sx + P = 0, sum = S, product = P."
+    },
+    {
+      "id": "qadi-t10-di1",
+      "section": "QADI",
+      "topic": "data-interpretation",
+      "type": "di",
+      "setId": "qadi-t10-di",
+      "source": "cat-style",
+      "stem": "Which region had the highest percentage growth in sales from 2024 to 2026?",
+      "options": [
+        "North",
+        "South",
+        "East",
+        "West",
+        "North and East equally"
+      ],
+      "answer": 2,
+      "explanation": "North: 120 → 180 = +50%. South: 200 → 189 = −5.5%. East: 80 → 130 = +62.5%. West: 100 → 101 = +1%. TRAP: North had the biggest absolute rise (+60 vs +50), but East had the biggest percentage rise. RULE: read whether the question asks for absolute or percentage change."
+    },
+    {
+      "id": "qadi-t10-di2",
+      "section": "QADI",
+      "topic": "data-interpretation",
+      "type": "di",
+      "setId": "qadi-t10-di",
+      "source": "cat-style",
+      "stem": "What was South's share of total sales in 2026?",
+      "options": [
+        "31.5%",
+        "30%",
+        "35%",
+        "38.2%",
+        "40%"
+      ],
+      "answer": 0,
+      "explanation": "189 / 600 = 0.315 = 31.5%. In 2024 it was 200/500 = 40%, so South's share fell sharply. TRAP: 40% is the 2024 share."
+    },
+    {
+      "id": "qadi-t10-di3",
+      "section": "QADI",
+      "topic": "data-interpretation",
+      "type": "di",
+      "setId": "qadi-t10-di",
+      "source": "cat-style",
+      "stem": "In how many regions did sales fall in at least one year compared with the year before?",
+      "options": [
+        "0",
+        "1",
+        "3",
+        "2",
+        "4"
+      ],
+      "answer": 3,
+      "explanation": "South fell in 2026 (210 → 189) and West fell in 2025 (100 → 90). North and East rose every year. Answer: 2. TRAP: West ended above its 2024 level, but it still fell in one year."
+    },
+    {
+      "id": "qadi-t10-lr1",
+      "section": "QADI",
+      "topic": "logical-reasoning",
+      "type": "lr-set",
+      "setId": "qadi-t10-lr",
+      "source": "cat-style",
+      "stem": "Who sits in seat 1?",
+      "options": [
+        "P",
+        "T",
+        "S",
+        "Q",
+        "Cannot be determined"
+      ],
+      "answer": 1,
+      "explanation": "R = 3. T is not next to R, so T is in 1 or 5. P is at an end, so P and T take seats 1 and 5, leaving 2 and 4 for Q and S; Q is right of S, so S = 2, Q = 4. P is right of Q, so P = 5 and T = 1. Order: T, S, R, Q, P."
+    },
+    {
+      "id": "qadi-t10-lr2",
+      "section": "QADI",
+      "topic": "logical-reasoning",
+      "type": "lr-set",
+      "setId": "qadi-t10-lr",
+      "source": "cat-style",
+      "stem": "Who sits next to both R and P?",
+      "options": [
+        "S",
+        "T",
+        "Cannot be determined",
+        "No one",
+        "Q"
+      ],
+      "answer": 4,
+      "explanation": "Order is T, S, R, Q, P. Q (seat 4) sits between R (seat 3) and P (seat 5)."
+    },
+    {
+      "id": "qadi-t10-lr3",
+      "section": "QADI",
+      "topic": "logical-reasoning",
+      "type": "lr-set",
+      "setId": "qadi-t10-lr",
+      "source": "cat-style",
+      "stem": "If condition (v) is removed, how many seating arrangements satisfy the remaining conditions?",
+      "options": [
+        "1",
+        "3",
+        "2",
+        "4",
+        "6"
+      ],
+      "answer": 2,
+      "explanation": "Without (v), S = 2 and Q = 4 are still forced, but P and T can take seats 1 and 5 either way: T S R Q P or P S R Q T. Answer: 2. RULE: when asked to drop a condition, re-check which deductions depended on it."
+    },
+    {
+      "id": "valr-t10-rc1",
+      "section": "VALR",
+      "topic": "reading-comprehension",
+      "type": "rc",
+      "setId": "valr-t10-rc",
+      "source": "xat-style-2027",
+      "stem": "Which statement best expresses the main idea of the passage?",
+      "options": [
+        "Maintenance is undervalued mainly because institutions measure and reward novelty, and lasting benefits require counting, funding and honouring upkeep.",
+        "Invention is overrated and societies should stop funding new projects.",
+        "The public's love of novelty is the root cause of crumbling infrastructure.",
+        "Engineers who maintain old systems are more skilled than those who invent new ones.",
+        "Bridges and water systems are the most important technologies in any society."
+      ],
+      "answer": 0,
+      "explanation": "A joins the passage's diagnosis (institutions reward the new) with its conclusion (count, fund, honour upkeep). B is denied in the last paragraph ('None of this means invention is overrated'). C is the view the author calls 'too easy'. D compares skill, which the passage never does. E inflates the examples."
+    },
+    {
+      "id": "valr-t10-rc2",
+      "section": "VALR",
+      "topic": "reading-comprehension",
+      "type": "rc",
+      "setId": "valr-t10-rc",
+      "source": "xat-style-2027",
+      "stem": "Why does the author mention that citizens 'consistently rank reliable water, power and roads above new projects'?",
+      "options": [
+        "To show that citizens are more sensible than economists",
+        "To prove that maintenance budgets are rising",
+        "To argue that new projects should be put to a public vote",
+        "To weaken the claim that public taste for novelty is the main cause of neglected maintenance",
+        "To show that citizens do not care about invention"
+      ],
+      "answer": 3,
+      "explanation": "The survey finding is evidence against the economists' explanation, letting the author move the blame to institutions. A is a side impression, not the purpose. C, B and E are not supported. RULE: for 'why does the author mention X', ask which claim X supports or attacks."
+    },
+    {
+      "id": "valr-t10-rc3",
+      "section": "VALR",
+      "topic": "reading-comprehension",
+      "type": "rc",
+      "setId": "valr-t10-rc",
+      "source": "xat-style-2027",
+      "stem": "Which of these, if introduced by a city, would the author most likely support?",
+      "options": [
+        "Cancelling all new infrastructure projects for ten years",
+        "A public award and promotion track for teams whose systems run longest without failure",
+        "A campaign telling citizens to value reliability more",
+        "Moving the maintenance budget into new projects, which attract more attention",
+        "Replacing old bridges with new ones as soon as they show wear"
+      ],
+      "answer": 1,
+      "explanation": "The author locates the problem in what institutions 'measure and reward' and ends by urging us to 'count, fund and honour' upkeep; B does exactly that. A contradicts 'None of this means invention is overrated'. C targets citizens, who already value reliability. D is the problem described. E favours novelty over upkeep."
+    },
+    {
+      "id": "valr-t10-cr1",
+      "section": "VALR",
+      "topic": "critical-reasoning",
+      "type": "critical-reasoning",
+      "source": "xat-style-2027",
+      "stem": "A city installed speed cameras on its 20 most accident-prone roads. The next year, accidents on those roads fell by 30%. The council concluded that speed cameras cut accidents by about 30%.\n\nWhich of these, if true, most weakens the council's conclusion?",
+      "options": [
+        "Speed cameras are unpopular with many drivers.",
+        "Accidents on those 20 roads had risen for three years before the cameras.",
+        "The cameras cost less than the council had budgeted.",
+        "Some drivers slowed down only near the cameras.",
+        "On comparable city roads without cameras, accidents also fell by about 25% over the same year."
+      ],
+      "answer": 4,
+      "explanation": "If similar roads without cameras saw nearly the same fall, most of the 30% is explained by something else (weather, a citywide trend, roads picked at an unusual peak). So the cameras' own effect is small. A and C are irrelevant. D is consistent with cameras working locally. B, if anything, makes the drop look more like a real change. RULE: for cause–effect claims, look for a comparison group."
+    },
+    {
+      "id": "valr-t10-cr2",
+      "section": "VALR",
+      "topic": "critical-reasoning",
+      "type": "critical-reasoning",
+      "source": "xat-style-2027",
+      "stem": "Users of our study app who switched on daily reminders practised 40% more than users who did not. So turning reminders on by default for everyone will raise practice by about 40%.\n\nThe argument assumes that:",
+      "options": [
+        "most users have smartphones",
+        "users dislike notifications",
+        "the reminders themselves caused the extra practice, rather than more motivated users choosing to switch them on",
+        "practice time is the best measure of learning",
+        "the app has more than one type of reminder"
+      ],
+      "answer": 2,
+      "explanation": "The users chose to switch reminders on, so they may simply be the keener ones. The conclusion holds only if the reminders caused the gap and the same effect would apply to people who didn't choose them. A, B and E are irrelevant. D is about whether practice matters, not whether reminders raise it. RULE: self-selected groups → check the assumed cause."
+    },
+    {
+      "id": "valr-t10-pj1",
+      "section": "VALR",
+      "topic": "para-jumble",
+      "type": "para-jumble",
+      "source": "xat-style-2027",
+      "stem": "Arrange the sentences in a logical order:\nA. Within a decade, the same farmers were among the first in the country to adopt mobile banking.\nB. In the 1990s, most villages in the region had no bank branch within twenty kilometres.\nC. Cash was kept at home, and loans came from moneylenders at crushing rates.\nD. The reason was simple: having never had branches, they had no banking habits to unlearn.",
+      "options": [
+        "BCAD",
+        "BACD",
+        "CBAD",
+        "BCDA",
+        "ABCD"
+      ],
+      "answer": 0,
+      "explanation": "B sets the time and situation, C describes its effect, A gives the surprising turn ('the same farmers'), D explains it ('The reason was simple'). Links: 'the same farmers' needs the earlier villagers; 'The reason' needs a result before it."
+    },
+    {
+      "id": "valr-t10-pj2",
+      "section": "VALR",
+      "topic": "para-jumble",
+      "type": "para-jumble",
+      "source": "xat-style-2027",
+      "stem": "Arrange the sentences in a logical order:\nA. But it was designed for the traffic of 1962, not that of today.\nB. For half a century it carried the city's buses without complaint.\nC. The old river bridge opened in 1962 to great celebration.\nD. Cracks that engineers once called cosmetic are now checked every week.",
+      "options": [
+        "CABD",
+        "CBDA",
+        "BCAD",
+        "CBAD",
+        "CDBA"
+      ],
+      "answer": 3,
+      "explanation": "C introduces the bridge, B describes its long service ('it' needs C), A turns with 'But', D gives the present consequence. TRAP: CABD puts the 'But' before there is anything to contrast with."
+    },
+    {
+      "id": "valr-t10-os1",
+      "section": "VALR",
+      "topic": "odd-sentence",
+      "type": "odd-sentence",
+      "source": "xat-style-2027",
+      "stem": "Four of these sentences form a coherent paragraph. Which one does NOT belong?\n1. Honeybees tell nest-mates where food is through a 'waggle dance'.\n2. The angle of the dance relative to vertical shows the direction of the food relative to the sun.\n3. The length of the waggle run indicates how far away the food is.\n4. Honey found in ancient Egyptian tombs was still edible thousands of years later.\n5. Other foragers follow the dancer and then fly out to the site.",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 3,
+      "explanation": "Sentences 1, 2, 3, 5 explain how the waggle dance communicates a food location. Sentence 4 is about honey's shelf life: same topic area (bees), different subject. RULE: the odd sentence often shares keywords with the rest but not the paragraph's purpose."
+    },
+    {
+      "id": "valr-t10-os2",
+      "section": "VALR",
+      "topic": "odd-sentence",
+      "type": "odd-sentence",
+      "source": "xat-style-2027",
+      "stem": "Four of these sentences form a coherent paragraph. Which one does NOT belong?\n1. Under inflation targeting, a central bank announces a numerical goal for inflation.\n2. It then adjusts its policy rate to steer inflation towards that goal.\n3. Credibility matters: if people believe the target, wages and prices tend to follow it.\n4. Central banks have bought gold heavily in recent years to diversify their reserves.\n5. That is why many central banks publish their forecasts and explain their decisions.",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 3,
+      "explanation": "1, 2, 3, 5 describe how inflation targeting works and why communication matters ('That is why' in 5 follows from credibility in 3). Sentence 4 is about reserve management, a different central-bank activity."
+    },
+    {
+      "id": "valr-t10-v1",
+      "section": "VALR",
+      "topic": "vocab-usage",
+      "type": "vocab-usage",
+      "source": "xat-style-2027",
+      "stem": "In which sentence is the word 'enervate' (or a form of it) used INCORRECTLY?",
+      "options": [
+        "The afternoon heat enervated the hikers.",
+        "The coach's rousing speech enervated the team, who charged onto the field full of energy.",
+        "Years of red tape had enervated the once-dynamic agency.",
+        "She still felt enervated a week after the fever broke.",
+        "The enervating humidity slowed work on the site."
+      ],
+      "answer": 1,
+      "explanation": "'Enervate' means to weaken or drain of energy, the opposite of 'energise'. In B the team is full of energy, so the word is misused. RULE: words that look like their opposites (enervate/energise, nonplussed, restive) are favourite XAT traps."
+    },
+    {
+      "id": "valr-t10-v2",
+      "section": "VALR",
+      "topic": "vocab-usage",
+      "type": "vocab-usage",
+      "source": "xat-style-2027",
+      "stem": "In which sentence is 'disinterested' used in its precise sense of 'impartial'?",
+      "options": [
+        "The students were disinterested in the lecture and kept checking their phones.",
+        "Investors were disinterested in the company's dull results.",
+        "He grew disinterested in cricket after he left school.",
+        "The cat seemed disinterested in its new toy.",
+        "A judge must be disinterested in the outcome of the cases she hears."
+      ],
+      "answer": 4,
+      "explanation": "'Disinterested' = having no personal stake (impartial); 'uninterested' = bored. Only E means a judge with no stake in the outcome. The others mean 'not interested' and should use 'uninterested' in careful usage."
+    },
+    {
+      "id": "valr-t10-f1",
+      "section": "VALR",
+      "topic": "fill-in-blank",
+      "type": "fill-in-blank",
+      "source": "xat-style-2027",
+      "stem": "The committee's report was so ______ that even its supporters struggled to find a clear recommendation in it.",
+      "options": [
+        "laconic",
+        "trenchant",
+        "equivocal",
+        "cogent",
+        "lucid"
+      ],
+      "answer": 2,
+      "explanation": "The clue is 'struggled to find a clear recommendation': the report was vague or noncommittal = equivocal. Trenchant, cogent and lucid all mean sharp or clear (opposite). Laconic means brief, which doesn't explain the lack of clarity."
+    },
+    {
+      "id": "valr-t10-f2",
+      "section": "VALR",
+      "topic": "fill-in-blank",
+      "type": "fill-in-blank",
+      "source": "xat-style-2027",
+      "stem": "Far from being ______, the new policy was the result of months of ______ consultation.",
+      "options": [
+        "hasty … painstaking",
+        "deliberate … careful",
+        "rash … perfunctory",
+        "considered … hurried",
+        "impulsive … cursory"
+      ],
+      "answer": 0,
+      "explanation": "'Far from being X' sets up a contrast: X must be the opposite of months of careful work. Hasty vs painstaking fits. B has no contrast. C and E: perfunctory and cursory consultation is not the opposite of rash. D reverses the logic."
+    }
+  ]
+}

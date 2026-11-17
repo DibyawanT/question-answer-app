@@ -1,0 +1,410 @@
+{
+  "passages": [
+    {
+      "id": "valr-poem9-a",
+      "section": "VALR",
+      "text": "Mending\n\nMy grandmother mended what the city threw away:\na collar frayed to lace, a hem the rain had chewed.\nShe never bought a thing that she could stitch to stay.\nWe laughed, and bought new shirts, and called her habits crude.\n\nNow every shop is full, and every season's cloth\nis cut to fail by spring, and I have learned too late\nthe thread she drew was neither thrift nor fear of loss,\nbut a quarrel with a world that would not wait."
+    },
+    {
+      "id": "valr-poem9-b",
+      "section": "VALR",
+      "text": "The Keeper\n\nNo ship has passed this rock in twenty years;\nthe charts were changed, the harbour moved up-coast.\nStill every dusk he climbs the stair, and clears\nthe salt from off the glass, and lights it for a ghost.\n\nThey ask him why. He shrugs: the dark is long,\nand maps are drawn by those who've never drowned.\nA lamp is kept not for the passing throng\nbut for the one boat no one thought was bound."
+    }
+  ],
+  "questions": [
+    {
+      "id": "valr-t9-ps1",
+      "section": "VALR",
+      "topic": "para-summary",
+      "type": "para-summary",
+      "source": "cat-style",
+      "stem": "New drugs are tested against placebos because patients often improve simply from believing they are being treated. But a drug that beats a placebo in a trial may still do little in ordinary practice, where patients forget doses, take other medicines, and are older and sicker than trial volunteers. A trial tells us whether a drug can work under ideal conditions; whether it does work for typical patients needs separate evidence from real-world use.\n\nWhich option best summarises the paragraph?",
+      "options": [
+        "Placebo-controlled trials are useless for judging new drugs.",
+        "A trial shows that a drug can work under ideal conditions; whether it works for ordinary patients needs separate real-world evidence.",
+        "Patients in ordinary practice should be more careful to take every dose.",
+        "Most new drugs work no better than placebos.",
+        "Older and sicker patients should be kept out of drug trials."
+      ],
+      "answer": 1,
+      "explanation": "The paragraph's claim has two halves: trials answer 'can it work', real-world evidence answers 'does it work'. A is too extreme (trials still tell us something). C and E are advice the passage never gives. D contradicts the drug 'beating a placebo'. RULE: the right summary keeps both halves of a contrast."
+    },
+    {
+      "id": "valr-t9-ps2",
+      "section": "VALR",
+      "topic": "para-summary",
+      "type": "para-summary",
+      "source": "cat-style",
+      "stem": "Studies of thousands of predictions by political experts found that, on long-range questions, their accuracy was barely better than chance, and that fame was, if anything, a mild warning sign. Yet the same studies found a minority who did consistently better. They were not distinguished by credentials or ideology but by habits: they broke problems into parts, drew on several explanations rather than one big theory, and revised their estimates readily when new facts arrived.\n\nWhich option best summarises the paragraph?",
+      "options": [
+        "Experts are no better than chance at forecasting, so their opinions should be ignored.",
+        "Famous experts make the worst forecasts.",
+        "Long-range political questions cannot be predicted by anyone.",
+        "Ideology decides how accurate a political forecast will be.",
+        "Most expert forecasts are poor, but a few forecasters do better because of how they think (breaking problems down, using several explanations, updating often), not because of who they are."
+      ],
+      "answer": 4,
+      "explanation": "E keeps the general finding, the exception, and the reason for the exception. A drops the exception and adds advice. B inflates 'a mild warning sign' into 'the worst'. D and C contradict the paragraph. TRAP: options that are true to the first sentence only."
+    },
+    {
+      "id": "valr-t9-ps3",
+      "section": "VALR",
+      "topic": "para-summary",
+      "type": "para-summary",
+      "source": "cat-style",
+      "stem": "Once a number becomes a target, people begin to work on the number rather than on what it was meant to show: hospitals shorten recorded waiting times by delaying the moment a patient is 'admitted', and schools drill pupils on the test format. The lesson usually drawn is to abandon targets, but that throws away real information. The better course is to use several measures that are hard to game at the same time, to change them from time to time, and to keep human judgement in the loop.\n\nWhich option best summarises the paragraph?",
+      "options": [
+        "Targets should be abandoned because people always game them.",
+        "Hospitals and schools are especially prone to manipulating data.",
+        "Measures that become targets get gamed, but the cure is several changing measures plus judgement, not giving up measurement.",
+        "Human judgement is more reliable than any number.",
+        "Numbers carry real information only when they are kept secret."
+      ],
+      "answer": 2,
+      "explanation": "The author rejects the usual lesson (A) and offers a different one (C). B summarises only the examples. D overstates 'keep human judgement in the loop'. E is a new claim. RULE: when a paragraph says 'the usual lesson is X, but…', the summary must carry the 'but'."
+    },
+    {
+      "id": "valr-t9-ps4",
+      "section": "VALR",
+      "topic": "para-summary",
+      "type": "para-summary",
+      "source": "cat-style",
+      "stem": "A translator who replaces each word with its dictionary equivalent produces a text that is faithful to the words and false to the work. Jokes stop being funny, politeness turns into rudeness, and the rhythm that carried the meaning disappears. Good translation therefore often requires departing from the literal words in order to reproduce their effect on a reader. The translator's loyalty is to what the original does, not merely to what it says.\n\nWhich option best summarises the paragraph?",
+      "options": [
+        "Faithful translation reproduces the original's effect on readers, which often means departing from its literal words.",
+        "Translators should feel free to change the meaning of the original.",
+        "Word-for-word translation is always impossible.",
+        "Humour and politeness cannot be translated.",
+        "Dictionaries are unreliable guides for translators."
+      ],
+      "answer": 0,
+      "explanation": "A states the claim (loyalty to effect) and its consequence (leaving the literal words). C says 'impossible' where the paragraph says 'false to the work'. B reverses it: the effect, and so the meaning, is preserved. D turns the examples into a claim. E is too narrow."
+    },
+    {
+      "id": "valr-t9-ps5",
+      "section": "VALR",
+      "topic": "para-summary",
+      "type": "para-summary",
+      "source": "cat-style",
+      "stem": "Planting a single high-yielding variety across a whole region raises output in normal years and makes harvesting and marketing simpler. But it also means that one new pest or disease can sweep through every field at once, as it did in several famous crop failures. Keeping a mix of varieties lowers the average yield slightly but limits the damage of any single shock. Diversity, in other words, works like insurance: a small, certain cost paid for protection against a large, uncertain loss.\n\nWhich option best summarises the paragraph?",
+      "options": [
+        "Farmers should never plant high-yielding varieties.",
+        "Single-variety planting has caused every famous crop failure.",
+        "Mixed varieties produce more food than a single variety.",
+        "Mixing crop varieties costs a little yield but guards against region-wide losses, much like insurance.",
+        "Pests and diseases are the main threat to modern farming."
+      ],
+      "answer": 3,
+      "explanation": "D keeps the trade-off (small certain cost, protection from a large loss). A and B use absolute words ('never', 'every'). C contradicts 'lowers the average yield'. E is a new claim. RULE: words like 'never', 'all', 'every' usually mark a distractor in summary questions."
+    },
+    {
+      "id": "valr-t9-ps6",
+      "section": "VALR",
+      "topic": "para-summary",
+      "type": "para-summary",
+      "source": "cat-style",
+      "stem": "Remote work lets people concentrate without interruption, and many measured tasks get done faster at home. What it removes is less visible: the overheard conversation, the quick question at a colleague's desk, the chance meeting that spreads know-how nobody thought to write down. Senior staff, who already have networks, lose little; newcomers, who learn mostly by watching others, lose most. The answer is not a return to five days in the office but deliberately planned time together, aimed at the learning that does not happen on its own online.\n\nWhich option best summarises the paragraph?",
+      "options": [
+        "Remote work reduces productivity and should be ended.",
+        "Remote work boosts focused output but cuts the informal learning that newcomers depend on, so firms should plan time together for it.",
+        "Senior staff benefit most from working in the office.",
+        "Know-how that is never written down is of little value.",
+        "Firms should require staff to return to the office five days a week."
+      ],
+      "answer": 1,
+      "explanation": "B carries the benefit, the hidden cost, who bears it, and the proposed fix. A and E contradict the paragraph. C reverses who loses most. D reverses the value placed on unwritten know-how."
+    },
+    {
+      "id": "valr-t9-po1",
+      "section": "VALR",
+      "topic": "poem",
+      "type": "poem",
+      "setId": "valr-poem9-a",
+      "source": "xat-style-2027",
+      "stem": "Which statement best captures the central idea of 'Mending'?",
+      "options": [
+        "The grandmother was poor and could not afford new clothes.",
+        "Modern clothes are better made than clothes of the past.",
+        "The city's rain ruined the family's clothes.",
+        "The speaker regrets never having learned to sew.",
+        "The speaker realises, late, that the grandmother's mending was a stand against a hurried, throwaway world."
+      ],
+      "answer": 4,
+      "explanation": "The turn comes in the second stanza: the thread was 'neither thrift nor fear of loss' but 'a quarrel with a world that would not wait'. A is ruled out by 'neither thrift'. B contradicts 'cut to fail'. D and C are not in the poem or are incidental details. RULE: look for the shift word or stanza ('Now…') and read the poem from it."
+    },
+    {
+      "id": "valr-t9-po2",
+      "section": "VALR",
+      "topic": "poem",
+      "type": "poem",
+      "setId": "valr-poem9-a",
+      "source": "xat-style-2027",
+      "stem": "The phrase 'every season's cloth / is cut to fail by spring' most nearly suggests that:",
+      "options": [
+        "shops hold sales at the end of each season",
+        "tailors work badly in the spring",
+        "clothes are now made to wear out quickly so that people keep buying",
+        "winter cloth is too heavy to wear in spring",
+        "cloth is in short supply"
+      ],
+      "answer": 2,
+      "explanation": "'Cut to fail' means designed to fail: the clothes are made to last only one season. This sets up the contrast with the grandmother, who made things 'stay'. The other options read 'cut' or 'spring' literally and ignore the poem's argument."
+    },
+    {
+      "id": "valr-t9-po3",
+      "section": "VALR",
+      "topic": "poem",
+      "type": "poem",
+      "setId": "valr-poem9-a",
+      "source": "xat-style-2027",
+      "stem": "How does the speaker's attitude towards the grandmother change across the poem?",
+      "options": [
+        "From amusement to belated respect",
+        "From anger to forgiveness",
+        "From admiration to disappointment",
+        "From indifference to fear",
+        "From envy to pity"
+      ],
+      "answer": 0,
+      "explanation": "Stanza 1: 'We laughed… and called her habits crude' (amusement, condescension). Stanza 2: 'I have learned too late' (respect that comes late). There is no anger, envy or fear. TRAP: 'forgiveness' needs a wrong done by the grandmother, and there is none."
+    },
+    {
+      "id": "valr-t9-po4",
+      "section": "VALR",
+      "topic": "poem",
+      "type": "poem",
+      "setId": "valr-poem9-b",
+      "source": "xat-style-2027",
+      "stem": "In 'The Keeper', why does the keeper go on lighting the lamp?",
+      "options": [
+        "He hopes the harbour will move back.",
+        "He is paid to do it and is afraid of losing his job.",
+        "He enjoys the view from the top of the tower.",
+        "Plans and maps can be wrong, and the lamp exists for the rare boat that nobody expects.",
+        "Ships still pass the rock regularly at night."
+      ],
+      "answer": 3,
+      "explanation": "His answer: 'maps are drawn by those who've never drowned' and the lamp is 'for the one boat no one thought was bound'. E contradicts line 1. A, B and C are not in the poem. RULE: when a poem gives a character's reason in their own words, the answer paraphrases those words."
+    },
+    {
+      "id": "valr-t9-po5",
+      "section": "VALR",
+      "topic": "poem",
+      "type": "poem",
+      "setId": "valr-poem9-b",
+      "source": "xat-style-2027",
+      "stem": "'Maps are drawn by those who've never drowned' most nearly implies that:",
+      "options": [
+        "mapmakers are skilled swimmers",
+        "those who plan for safety have not suffered the cost of being wrong, so their confidence may be misplaced",
+        "old maps are more accurate than new ones",
+        "sailors should draw their own maps",
+        "drowning is rare near lighthouses"
+      ],
+      "answer": 1,
+      "explanation": "The line contrasts planners (who changed the charts) with those who pay when plans fail (the drowned). It is a comment on overconfidence, not swimming. A and E read it literally; C and D add claims the poem doesn't make."
+    },
+    {
+      "id": "valr-t9-po6",
+      "section": "VALR",
+      "topic": "poem",
+      "type": "poem",
+      "setId": "valr-poem9-b",
+      "source": "xat-style-2027",
+      "stem": "Which value does 'The Keeper' most clearly celebrate?",
+      "options": [
+        "Efficiency: stopping work that no longer pays off",
+        "The ambition to be seen by many",
+        "Nostalgia for the busy harbour of the past",
+        "Obedience to official charts",
+        "Duty kept up for an unlikely need, even with no one watching"
+      ],
+      "answer": 4,
+      "explanation": "He lights the lamp 'for a ghost' and 'not for the passing throng': duty without an audience, for a rare need. A is the attitude the poem argues against. D is contradicted (he ignores the new charts). B is contradicted by 'not for the passing throng'. C: the poem never looks back fondly."
+    },
+    {
+      "id": "qadi-t9-pr1",
+      "section": "QADI",
+      "topic": "probability",
+      "type": "standalone",
+      "source": "cat-style",
+      "stem": "Two fair dice are thrown. What is the probability that the sum is a prime number?",
+      "options": [
+        "7/18",
+        "1/3",
+        "5/12",
+        "4/9",
+        "1/2"
+      ],
+      "answer": 2,
+      "explanation": "Prime sums: 2 (1 way), 3 (2), 5 (4), 7 (6), 11 (2) = 15 of 36 outcomes = 5/12. TRAP: forgetting 2 is prime, or counting 9 (not prime). RULE: ways to make sums 2 to 12 are 1,2,3,4,5,6,5,4,3,2,1."
+    },
+    {
+      "id": "qadi-t9-pr2",
+      "section": "QADI",
+      "topic": "probability",
+      "type": "standalone",
+      "source": "cat-style",
+      "stem": "A bag has 5 red and 3 blue balls. Two balls are drawn at random without replacement. What is the probability that both are the same colour?",
+      "options": [
+        "13/28",
+        "15/28",
+        "1/2",
+        "17/32",
+        "25/64"
+      ],
+      "answer": 0,
+      "explanation": "Same colour = both red or both blue = [C(5,2) + C(3,2)] / C(8,2) = (10 + 3)/28 = 13/28. TRAP: 25/64 + 9/64 = 34/64 = 17/32 is the answer WITH replacement. RULE: 'without replacement' → combinations."
+    },
+    {
+      "id": "qadi-t9-pr3",
+      "section": "QADI",
+      "topic": "probability",
+      "type": "standalone",
+      "source": "cat-style",
+      "stem": "A hits a target with probability 0.6 and B with probability 0.5, independently. Each fires once. What is the probability that the target is hit at least once?",
+      "options": [
+        "0.3",
+        "0.5",
+        "1.1",
+        "0.8",
+        "0.9"
+      ],
+      "answer": 3,
+      "explanation": "P(at least one hit) = 1 − P(both miss) = 1 − 0.4 × 0.5 = 1 − 0.2 = 0.8. TRAP: adding 0.6 + 0.5 = 1.1, which is not even a probability. RULE: 'at least one' → 1 − P(none)."
+    },
+    {
+      "id": "qadi-t9-pr4",
+      "section": "QADI",
+      "topic": "probability",
+      "type": "standalone",
+      "source": "cat-style",
+      "stem": "A family has two children. Given that at least one of them is a boy, what is the probability that both are boys? (Assume each child is equally likely to be a boy or a girl.)",
+      "options": [
+        "1/2",
+        "1/3",
+        "1/4",
+        "2/3",
+        "3/4"
+      ],
+      "answer": 1,
+      "explanation": "Equally likely outcomes: BB, BG, GB, GG. 'At least one boy' leaves BB, BG, GB; only BB is two boys → 1/3. TRAP: 1/2 is the answer to 'the elder child is a boy'. RULE: conditional probability shrinks the sample space to the given condition."
+    },
+    {
+      "id": "qadi-t9-pr5",
+      "section": "QADI",
+      "topic": "probability",
+      "type": "standalone",
+      "source": "cat-style",
+      "stem": "Four fair coins are tossed. What is the probability of getting exactly two heads?",
+      "options": [
+        "1/2",
+        "1/4",
+        "3/4",
+        "5/16",
+        "3/8"
+      ],
+      "answer": 4,
+      "explanation": "C(4,2) = 6 favourable outcomes out of 2^4 = 16 → 6/16 = 3/8. TRAP: 1/2 assumes 2 heads is half of all outcomes. RULE: exactly k successes in n fair tosses = C(n,k)/2^n."
+    },
+    {
+      "id": "qadi-t9-pr6",
+      "section": "QADI",
+      "topic": "probability",
+      "type": "standalone",
+      "source": "cat-style",
+      "stem": "Box I has 3 white and 2 black balls; Box II has 1 white and 4 black balls. A box is chosen at random and a ball drawn from it is white. What is the probability that it came from Box I?",
+      "options": [
+        "1/2",
+        "3/5",
+        "3/4",
+        "2/3",
+        "4/5"
+      ],
+      "answer": 2,
+      "explanation": "Bayes: P(I and white) = 1/2 × 3/5 = 3/10; P(II and white) = 1/2 × 1/5 = 1/10. P(I | white) = (3/10)/(4/10) = 3/4. TRAP: 3/5 is P(white | Box I), the reverse condition. RULE: given result → divide that path by all paths giving the result."
+    },
+    {
+      "id": "qadi-t9-pr7",
+      "section": "QADI",
+      "topic": "probability",
+      "type": "standalone",
+      "source": "cat-style",
+      "stem": "A number is picked at random from 1 to 100. What is the probability that it is divisible by 4 or by 6?",
+      "options": [
+        "33/100",
+        "41/100",
+        "8/25",
+        "29/100",
+        "1/4"
+      ],
+      "answer": 0,
+      "explanation": "Divisible by 4: 25. By 6: 16. By both, i.e. by LCM 12: 8. Union = 25 + 16 − 8 = 33 → 33/100. TRAP: 41/100 forgets to subtract the overlap; using 24 instead of 12 as 'both' gives the wrong overlap. RULE: P(A or B) = P(A) + P(B) − P(A and B), with 'both' = LCM."
+    },
+    {
+      "id": "qadi-t9-pr8",
+      "section": "QADI",
+      "topic": "probability",
+      "type": "standalone",
+      "source": "cat-style",
+      "stem": "Five people, including A and B, sit in a row of five chairs at random. What is the probability that A and B sit next to each other?",
+      "options": [
+        "1/5",
+        "3/5",
+        "1/2",
+        "2/5",
+        "1/10"
+      ],
+      "answer": 3,
+      "explanation": "Treat A and B as one block: 4! arrangements × 2 (AB or BA) = 48, out of 5! = 120 → 2/5. Quick check: 4 adjacent pairs of chairs out of C(5,2) = 10 pairs → 4/10. RULE: 'together' → glue them into one unit and multiply by their internal orders."
+    },
+    {
+      "id": "qadi-t9-pr9",
+      "section": "QADI",
+      "topic": "probability",
+      "type": "standalone",
+      "source": "cat-style",
+      "stem": "A and B take turns tossing a fair coin, A first. The first to get a head wins. What is the probability that A wins?",
+      "options": [
+        "1/2",
+        "2/3",
+        "3/4",
+        "1/3",
+        "3/5"
+      ],
+      "answer": 1,
+      "explanation": "A wins on toss 1, 3, 5…: 1/2 + (1/2)^3 + (1/2)^5 + … = (1/2)/(1 − 1/4) = 2/3. Shortcut: let p = P(A wins); p = 1/2 + (1/4)p → p = 2/3. TRAP: 1/2 ignores the first-mover advantage."
+    },
+    {
+      "id": "qadi-t9-pr10",
+      "section": "QADI",
+      "topic": "probability",
+      "type": "standalone",
+      "source": "cat-style",
+      "stem": "In a game you throw one fair die. If it shows an even number you win that many rupees; if it shows an odd number you lose ₹2. What is your expected gain per throw?",
+      "options": [
+        "₹0",
+        "₹0.50",
+        "−₹1",
+        "₹2",
+        "₹1"
+      ],
+      "answer": 4,
+      "explanation": "E = (2 + 4 + 6)/6 − 2 × (3/6) = 12/6 − 1 = 2 − 1 = ₹1. TRAP: averaging only the winning outcomes (₹4). RULE: expected value = Σ (value × probability), with losses negative."
+    }
+  ],
+  "notes": [
+    {
+      "topic": "para-summary",
+      "text": "WHAT IT TESTS: picking the option that keeps the paragraph's main claim AND its qualifications. CAT has had about three summary questions a year (Cracku); XAT uses the same skill in its VALR section.\n\nAPPROACH: (1) Before reading options, write one line: topic + claim + any 'but/unless/however'. (2) Check each option for three things: does it keep the main claim, keep the qualification, and add nothing new? (3) Eliminate in this order: options that contradict, options that add claims or advice, options that cover only an example, options with absolute words. (4) Between two close options, pick the one that keeps the contrast or the 'but'.\n\nTRAPS (seen across Cracku, Physics Wallah and WordPandit guides):\n- Example as summary: an option that restates only the hospital or school example.\n- Too narrow or too broad: one half of a two-part claim, or a grand claim the paragraph never makes.\n- Absolute words: 'always', 'never', 'every', 'only', 'useless'.\n- Outside knowledge: an option that is true in real life but not argued in the paragraph.\n- Reversed qualification: the author rejects the usual lesson, and an option states the usual lesson.\n- Prescription: the paragraph describes, but the option advises ('firms should…').\n\nDRILL: summarise one essay a day in a single line. https://aeon.co/essays · https://psyche.co"
+    },
+    {
+      "topic": "poem",
+      "text": "WHAT IT TESTS: reading figurative language and tone in a short unseen poem. XAT is one of the few MBA tests that includes poems in VALR, usually a set of 2 to 3 questions.\n\nAPPROACH: (1) Read twice: first for the literal situation (who, where, what is happening), then for images and the turn. (2) Find the shift, often a new stanza or a word like 'But', 'Still', 'Yet', 'Now', or a change of tense or speaker. Read the whole poem from that point of view. (3) Treat concrete images as carrying ideas: a debt marked with 'one thin line' shows mercy; cloth 'cut to fail' shows planned waste; a lamp lit 'for a ghost' shows duty without an audience. (4) If a character explains themselves, the answer paraphrases their words. (5) For tone change questions, name the attitude in the first stanza and in the last, then match the pair.\n\nTRAPS:\n- Purely literal readings ('tailors work badly in spring').\n- Grand themes the poem does not support.\n- An incidental detail (rain, old age) chosen as the central theme.\n- Ignoring words that rule an option out ('neither thrift nor fear of loss' kills 'she was poor').\n- 'Forgiveness' or 'regret' options with no wrong or loss in the poem.\n\nDRILL: read one short poem a day (https://www.poetryfoundation.org) and write its central idea in one line, then its tone in two words."
+    },
+    {
+      "topic": "probability",
+      "text": "WHAT IT TESTS: basic counting probability, conditional probability and expected value. Cracku expects 2 to 3 probability or counting questions per CAT; XAT includes it in QADI.\n\nCORE RULES:\n- P = favourable ÷ total equally likely outcomes.\n- Two dice: 36 outcomes; ways to make sums 2 to 12: 1,2,3,4,5,6,5,4,3,2,1.\n- n fair coins: 2^n outcomes; exactly k heads = C(n,k)/2^n.\n- 'At least one' = 1 − P(none).\n- P(A or B) = P(A) + P(B) − P(A and B); for 'divisible by a or b', 'both' means divisible by the LCM.\n- Independent events: multiply. Without replacement: use combinations (or multiply changing fractions).\n- Conditional: P(A | B) = P(A and B)/P(B); the condition shrinks the sample space (two children, at least one boy → 1/3 both boys).\n- Bayes: given a result, divide the path you want by all paths that give the result.\n- 'Sit together': glue them into one unit, then multiply by their internal orders.\n- Alternating turns: P(first player wins) = p / (1 − (1−p)^2); for a fair coin, 2/3.\n- Expected value = Σ value × probability, losses negative.\n\nTRAPS: forgetting 2 is prime; adding probabilities of events that can both happen; with vs without replacement; confusing P(white | box) with P(box | white); answers above 1.\n\nPRACTICE: Cracku's free CAT probability PDFs (past CAT questions with video solutions)."
+    }
+  ]
+}

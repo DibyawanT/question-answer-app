@@ -1,0 +1,829 @@
+{
+  "questions": [
+    {
+      "id": "gk-q8-01",
+      "section": "GK",
+      "topic": "business",
+      "type": "standalone",
+      "source": "xat-style-2027",
+      "stem": "Infosys was founded in 1981 by N. R. Narayana Murthy and six co-founders in which city?",
+      "options": [
+        "Pune",
+        "Bengaluru",
+        "Mumbai",
+        "Mysuru",
+        "Hyderabad"
+      ],
+      "answer": 0,
+      "explanation": "Infosys started in Pune in 1981 and moved its headquarters to Bengaluru in 1983. TRAP: Bengaluru is where it is headquartered now, not where it was founded. RULE: 'founded in' and 'headquartered in' are different questions."
+    },
+    {
+      "id": "gk-q8-02",
+      "section": "GK",
+      "topic": "business",
+      "type": "standalone",
+      "source": "xat-style-2027",
+      "stem": "Which Indian company acquired the British carmaker Jaguar Land Rover from Ford in 2008?",
+      "options": [
+        "Mahindra & Mahindra",
+        "Bajaj Auto",
+        "Ashok Leyland",
+        "Tata Motors",
+        "TVS Motor"
+      ],
+      "answer": 3,
+      "explanation": "Tata Motors bought JLR from Ford in 2008 for about USD 2.3 billion. Mahindra's big overseas buys were SsangYong (Korea) and Pininfarina (Italy). RULE: pair each Indian group with its landmark foreign acquisition: Tata Steel–Corus (2007), Tata Motors–JLR (2008), Hindalco–Novelis (2007)."
+    },
+    {
+      "id": "gk-q8-03",
+      "section": "GK",
+      "topic": "business",
+      "type": "standalone",
+      "source": "xat-style-2027",
+      "stem": "Zomato Ltd, the food-delivery company, changed its corporate name in 2025 to:",
+      "options": [
+        "Blinkit Ltd",
+        "Eternal Ltd",
+        "Zomato Platforms Ltd",
+        "Hyperpure Ltd",
+        "District Ltd"
+      ],
+      "answer": 1,
+      "explanation": "Zomato Ltd became Eternal Ltd in 2025; Zomato, Blinkit, District and Hyperpure are now its brands. TRAP: Blinkit and District are businesses under Eternal, not the parent's name. Similar pattern: Paytm's parent is One97 Communications."
+    },
+    {
+      "id": "gk-q8-04",
+      "section": "GK",
+      "topic": "business",
+      "type": "standalone",
+      "source": "xat-style-2027",
+      "stem": "The merger of Housing Development Finance Corporation (HDFC Ltd) with HDFC Bank took effect in:",
+      "options": [
+        "April 2021",
+        "October 2023",
+        "January 2024",
+        "March 2022",
+        "July 2023"
+      ],
+      "answer": 4,
+      "explanation": "The merger took effect on 1 July 2023, creating one of the world's most valuable banks. HDFC Ltd was founded in 1977 by H. T. Parekh. RULE: for mergers, learn announcement year (2022) and effective date (July 2023) separately."
+    },
+    {
+      "id": "gk-q8-05",
+      "section": "GK",
+      "topic": "business",
+      "type": "standalone",
+      "source": "xat-style-2027",
+      "stem": "Match the brand with its parent company: (a) Flipkart (b) PhonePe (c) Paytm (d) Blinkit. Parents: (1) Walmart (2) One97 Communications (3) Eternal Ltd. Which matching is correct?",
+      "options": [
+        "a-2, b-1, c-1, d-3",
+        "a-1, b-2, c-2, d-3",
+        "a-1, b-1, c-2, d-3",
+        "a-1, b-3, c-2, d-1",
+        "a-3, b-1, c-2, d-1"
+      ],
+      "answer": 2,
+      "explanation": "Walmart bought a majority of Flipkart in 2018; PhonePe also sits in the Walmart group (it was spun out of Flipkart). Paytm's parent is One97 Communications; Blinkit belongs to Eternal (formerly Zomato). TRAP: PhonePe and Paytm are rivals, not siblings."
+    },
+    {
+      "id": "gk-q8-06",
+      "section": "GK",
+      "topic": "business",
+      "type": "standalone",
+      "source": "xat-style-2027",
+      "stem": "India's first integrated private steel plant, set up in 1907 at Sakchi (now Jamshedpur), belonged to:",
+      "options": [
+        "Tata Iron and Steel Company (TISCO)",
+        "Steel Authority of India",
+        "JSW Steel",
+        "Indian Iron and Steel Company",
+        "Jindal Steel and Power"
+      ],
+      "answer": 0,
+      "explanation": "TISCO (now Tata Steel) was founded in 1907 following Jamsetji Tata's plan; the plant began producing steel in 1912. SAIL is a public-sector company formed in 1973. RULE: XAT likes 'first' questions about Tata, Birla and early Indian industry."
+    },
+    {
+      "id": "gk-q8-07",
+      "section": "GK",
+      "topic": "business",
+      "type": "standalone",
+      "source": "xat-style-2027",
+      "stem": "The advertising line 'Daag achhe hain' (stains are good) is associated with which brand?",
+      "options": [
+        "Tide",
+        "Ariel",
+        "Rin",
+        "Surf Excel",
+        "Wheel"
+      ],
+      "answer": 3,
+      "explanation": "'Daag achhe hain' is Hindustan Unilever's long-running Surf Excel campaign. Tide and Ariel are Procter & Gamble brands. RULE: when learning taglines, also learn the parent (HUL vs P&G vs ITC); XAT options often mix brands from rival parents."
+    },
+    {
+      "id": "gk-q8-08",
+      "section": "GK",
+      "topic": "international",
+      "type": "standalone",
+      "source": "xat-style-2027",
+      "stem": "Which country holds the G20 presidency in 2026, taking over from South Africa?",
+      "options": [
+        "Brazil",
+        "United States",
+        "India",
+        "Saudi Arabia",
+        "United Kingdom"
+      ],
+      "answer": 1,
+      "explanation": "Order of recent presidencies: India 2023, Brazil 2024, South Africa 2025, United States 2026. TRAP: India hosted the G20 in 2023 and BRICS in 2026; don't swap them."
+    },
+    {
+      "id": "gk-q8-09",
+      "section": "GK",
+      "topic": "international",
+      "type": "standalone",
+      "source": "xat-style-2027",
+      "stem": "The 18th BRICS Summit, held under India's chairship in 2026, took place in which city?",
+      "options": [
+        "Mumbai",
+        "Johannesburg",
+        "Kazan",
+        "Rio de Janeiro",
+        "New Delhi"
+      ],
+      "answer": 4,
+      "explanation": "India chaired BRICS in 2026 and scheduled the summit at Bharat Mandapam, New Delhi (September 2026, per PIB). Kazan (Russia) hosted in 2024 and Rio de Janeiro (Brazil) in 2025. RULE: learn the host for the last three years of BRICS, G20, SCO and COP."
+    },
+    {
+      "id": "gk-q8-10",
+      "section": "GK",
+      "topic": "international",
+      "type": "standalone",
+      "source": "xat-style-2027",
+      "stem": "The New Development Bank, set up by the BRICS countries, has its headquarters in:",
+      "options": [
+        "New Delhi",
+        "Moscow",
+        "Shanghai",
+        "Johannesburg",
+        "Beijing"
+      ],
+      "answer": 2,
+      "explanation": "The NDB is headquartered in Shanghai; its first president was India's K. V. Kamath. TRAP: the AIIB (a different bank) is in Beijing. RULE: NDB = Shanghai, AIIB = Beijing, ADB = Manila."
+    },
+    {
+      "id": "gk-q8-11",
+      "section": "GK",
+      "topic": "international",
+      "type": "standalone",
+      "source": "xat-style-2027",
+      "stem": "Match the report with the organisation that publishes it: (a) World Economic Outlook (b) Global Gender Gap Report (c) Human Development Report (d) World Investment Report. Publishers: (1) IMF (2) World Economic Forum (3) UNDP (4) UNCTAD.",
+      "options": [
+        "a-1, b-2, c-3, d-4",
+        "a-2, b-1, c-3, d-4",
+        "a-1, b-3, c-2, d-4",
+        "a-4, b-2, c-3, d-1",
+        "a-1, b-2, c-4, d-3"
+      ],
+      "answer": 0,
+      "explanation": "IMF: World Economic Outlook. WEF: Global Gender Gap Report (and Global Risks Report). UNDP: Human Development Report and HDI. UNCTAD: World Investment Report. TRAP: the 'World Economic' in WEO tempts you to pick the World Economic Forum."
+    },
+    {
+      "id": "gk-q8-12",
+      "section": "GK",
+      "topic": "international",
+      "type": "standalone",
+      "source": "xat-style-2027",
+      "stem": "Which of these countries is NOT a member of the Quad (Quadrilateral Security Dialogue)?",
+      "options": [
+        "India",
+        "Japan",
+        "Australia",
+        "South Korea",
+        "United States"
+      ],
+      "answer": 3,
+      "explanation": "The Quad has four members: India, the United States, Japan and Australia. South Korea is a US ally but not a Quad member. RULE: for 'NOT a member' questions, list the members first, then eliminate."
+    },
+    {
+      "id": "gk-q8-13",
+      "section": "GK",
+      "topic": "international",
+      "type": "standalone",
+      "source": "xat-style-2027",
+      "stem": "COP30, the UN climate conference held in November 2025, took place in which city?",
+      "options": [
+        "Baku",
+        "Belém",
+        "Dubai",
+        "Bonn",
+        "Sharm el-Sheikh"
+      ],
+      "answer": 1,
+      "explanation": "COP30 was held in Belém, Brazil, at the edge of the Amazon. COP27: Sharm el-Sheikh (2022), COP28: Dubai (2023), COP29: Baku (2024). Bonn hosts the UNFCCC secretariat and the mid-year talks. RULE: learn COPs as a sequence of number, city and year."
+    },
+    {
+      "id": "gk-q8-14",
+      "section": "GK",
+      "topic": "international",
+      "type": "standalone",
+      "source": "xat-style-2027",
+      "stem": "The Shanghai Cooperation Organisation (SCO) has its Secretariat in Beijing. Its Regional Anti-Terrorist Structure (RATS) is located in:",
+      "options": [
+        "Astana",
+        "Dushanbe",
+        "Bishkek",
+        "Moscow",
+        "Tashkent"
+      ],
+      "answer": 4,
+      "explanation": "SCO bodies: Secretariat in Beijing, RATS in Tashkent (Uzbekistan). India became a full member in 2017. TRAP: Astana and Bishkek have hosted SCO summits but not these permanent bodies."
+    },
+    {
+      "id": "gk-q8-15",
+      "section": "GK",
+      "topic": "sports-science",
+      "type": "standalone",
+      "source": "xat-style-2027",
+      "stem": "India won the ICC Men's T20 World Cup 2026, becoming the first team to defend the title. Whom did they beat in the final at Ahmedabad?",
+      "options": [
+        "Australia",
+        "South Africa",
+        "New Zealand",
+        "England",
+        "Pakistan"
+      ],
+      "answer": 2,
+      "explanation": "India beat New Zealand by 96 runs in the final on 8 March 2026 at the Narendra Modi Stadium; it was India's third T20 World Cup (2007, 2024, 2026). TRAP: India beat South Africa in the 2024 final. RULE: learn finals as winner, runner-up and venue together."
+    },
+    {
+      "id": "gk-q8-16",
+      "section": "GK",
+      "topic": "sports-science",
+      "type": "standalone",
+      "source": "xat-style-2027",
+      "stem": "Who won the 2026 FIFA World Cup, held in the USA, Canada and Mexico?",
+      "options": [
+        "Spain",
+        "France",
+        "Argentina",
+        "England",
+        "Brazil"
+      ],
+      "answer": 0,
+      "explanation": "Spain beat Argentina 1–0 after extra time in the final on 19 July 2026 at MetLife Stadium, New Jersey. It was Spain's second title (after 2010), and Spain then held both the men's and women's World Cups. TRAP: Argentina were the defending champions (2022)."
+    },
+    {
+      "id": "gk-q8-17",
+      "section": "GK",
+      "topic": "sports-science",
+      "type": "standalone",
+      "source": "xat-style-2027",
+      "stem": "At the 2026 Asian Games in Aichi-Nagoya, Japan, India finished in which position on the medal table?",
+      "options": [
+        "2nd",
+        "3rd",
+        "5th",
+        "4th",
+        "6th"
+      ],
+      "answer": 3,
+      "explanation": "India finished 4th with 85 medals (21 gold, 27 silver, 37 bronze), its second-best haul after 106 at Hangzhou (2023). China topped the table. TRAP: India was also 4th at Hangzhou, so don't assume a rise or fall."
+    },
+    {
+      "id": "gk-q8-18",
+      "section": "GK",
+      "topic": "sports-science",
+      "type": "standalone",
+      "source": "xat-style-2027",
+      "stem": "The 2026 Commonwealth Games, where India won 39 medals and finished 4th, were held in:",
+      "options": [
+        "Birmingham",
+        "Glasgow",
+        "Victoria",
+        "Gold Coast",
+        "Edinburgh"
+      ],
+      "answer": 1,
+      "explanation": "Glasgow (Scotland) hosted a slimmed-down 2026 Games after Victoria (Australia) withdrew. India won 13 gold, 17 silver and 9 bronze; Australia topped the table. Birmingham hosted in 2022, Gold Coast in 2018. TRAP: Victoria was the original host."
+    },
+    {
+      "id": "gk-q8-19",
+      "section": "GK",
+      "topic": "sports-science",
+      "type": "standalone",
+      "source": "xat-style-2027",
+      "stem": "ISRO's solar observatory Aditya-L1 is placed in a halo orbit around which point?",
+      "options": [
+        "The Moon's south pole",
+        "Lagrange point L1 of the Earth–Moon system",
+        "Lagrange point L2 of the Sun–Earth system",
+        "A geostationary orbit",
+        "Lagrange point L1 of the Sun–Earth system"
+      ],
+      "answer": 4,
+      "explanation": "Aditya-L1 (launched September 2023 on PSLV) sits near Sun–Earth L1, about 1.5 million km from Earth, where it has an unbroken view of the Sun. TRAP: the James Webb telescope is at Sun–Earth L2, facing away from the Sun."
+    },
+    {
+      "id": "gk-q8-20",
+      "section": "GK",
+      "topic": "sports-science",
+      "type": "standalone",
+      "source": "xat-style-2027",
+      "stem": "The first uncrewed test flight of India's Gaganyaan human-spaceflight programme is meant to carry which half-humanoid robot?",
+      "options": [
+        "Vikram",
+        "Pragyan",
+        "Vyommitra",
+        "Shakti",
+        "Astra"
+      ],
+      "answer": 2,
+      "explanation": "Vyommitra is the half-humanoid robot planned for the uncrewed G1 flight. Vikram and Pragyan were Chandrayaan-3's lander and rover. As of November 2026, ISRO had targeted G1 for December 2026; check whether it has flown before the exam."
+    },
+    {
+      "id": "gk-q8-21",
+      "section": "GK",
+      "topic": "sports-science",
+      "type": "standalone",
+      "source": "xat-style-2027",
+      "stem": "Group Captain Shubhanshu Shukla became the first Indian to visit the International Space Station in 2025, on which mission?",
+      "options": [
+        "Axiom Mission 4 (Ax-4)",
+        "Gaganyaan-1",
+        "Soyuz MS-27",
+        "Crew-10",
+        "Artemis II"
+      ],
+      "answer": 0,
+      "explanation": "Shukla flew on Axiom Mission 4, a commercial flight on a SpaceX Crew Dragon, in June 2025. Rakesh Sharma (1984) was the first Indian in space but never visited the ISS, which did not exist yet. TRAP: 'first Indian in space' and 'first Indian on the ISS' are different people."
+    },
+    {
+      "id": "gk-q8-22",
+      "section": "GK",
+      "topic": "sports-science",
+      "type": "standalone",
+      "source": "xat-style-2027",
+      "stem": "ISRO's heaviest operational launch vehicle, which carried Chandrayaan-3, is the LVM3. What was it earlier called?",
+      "options": [
+        "PSLV-XL",
+        "GSLV Mk II",
+        "SSLV",
+        "GSLV Mk III",
+        "ASLV"
+      ],
+      "answer": 3,
+      "explanation": "LVM3 (Launch Vehicle Mark-3) was earlier called GSLV Mk III. PSLV launched Chandrayaan-1, Mangalyaan and Aditya-L1; GSLV Mk II launches lighter GTO satellites; SSLV is the small launcher. RULE: learn mission → rocket pairs."
+    },
+    {
+      "id": "gk-q8-23",
+      "section": "GK",
+      "topic": "polity",
+      "type": "standalone",
+      "source": "xat-style-2027",
+      "stem": "Which Article of the Constitution provides for the Finance Commission?",
+      "options": [
+        "Article 112",
+        "Article 280",
+        "Article 148",
+        "Article 324",
+        "Article 360"
+      ],
+      "answer": 1,
+      "explanation": "Article 280: Finance Commission. 112: Annual Financial Statement (Budget). 148: CAG. 324: Election Commission. 360: Financial Emergency. RULE: learn the 'money Articles' together (112, 148, 265, 280, 360)."
+    },
+    {
+      "id": "gk-q8-24",
+      "section": "GK",
+      "topic": "polity",
+      "type": "standalone",
+      "source": "xat-style-2027",
+      "stem": "The anti-defection law, added by the 52nd Amendment in 1985, is contained in which Schedule of the Constitution?",
+      "options": [
+        "Seventh Schedule",
+        "Eighth Schedule",
+        "Ninth Schedule",
+        "Eleventh Schedule",
+        "Tenth Schedule"
+      ],
+      "answer": 4,
+      "explanation": "Tenth Schedule: anti-defection. Seventh: Union, State and Concurrent lists. Eighth: languages (22). Ninth: laws shielded from judicial review (added 1951). Eleventh: panchayats. RULE: memorise Schedules 7 to 12 in order."
+    },
+    {
+      "id": "gk-q8-25",
+      "section": "GK",
+      "topic": "polity",
+      "type": "standalone",
+      "source": "xat-style-2027",
+      "stem": "The Goods and Services Tax was introduced through which Constitutional Amendment Act?",
+      "options": [
+        "99th Amendment Act, 2014",
+        "100th Amendment Act, 2015",
+        "101st Amendment Act, 2016",
+        "103rd Amendment Act, 2019",
+        "106th Amendment Act, 2023"
+      ],
+      "answer": 2,
+      "explanation": "101st (2016): GST, including the GST Council under Article 279A. 99th: NJAC (struck down). 100th: India–Bangladesh land boundary. 103rd: 10% EWS reservation. 106th: women's reservation in legislatures."
+    },
+    {
+      "id": "gk-q8-26",
+      "section": "GK",
+      "topic": "polity",
+      "type": "standalone",
+      "source": "xat-style-2027",
+      "stem": "The Constitution (106th Amendment) Act, 2023 (Nari Shakti Vandan Adhiniyam) reserves what share of seats for women in the Lok Sabha and State Assemblies?",
+      "options": [
+        "One-third",
+        "One-fourth",
+        "One-half",
+        "One-fifth",
+        "Two-fifths"
+      ],
+      "answer": 0,
+      "explanation": "One-third of seats are reserved for women, to take effect after the next census and delimitation, for 15 years. TRAP: panchayats already had one-third reservation under the 73rd Amendment, and many states have raised theirs to one-half."
+    },
+    {
+      "id": "gk-q8-27",
+      "section": "GK",
+      "topic": "polity",
+      "type": "standalone",
+      "source": "xat-style-2027",
+      "stem": "Fundamental Duties were added to the Constitution as Article 51A by which amendment?",
+      "options": [
+        "61st Amendment, 1989",
+        "44th Amendment, 1978",
+        "24th Amendment, 1971",
+        "42nd Amendment, 1976",
+        "86th Amendment, 2002"
+      ],
+      "answer": 3,
+      "explanation": "The 42nd Amendment (1976) added 10 duties on the Swaran Singh Committee's advice; the 86th (2002) added the 11th, a parent's duty to educate children aged 6–14. TRAP: the 86th added a duty, but did not create Article 51A."
+    },
+    {
+      "id": "gk-q8-28",
+      "section": "GK",
+      "topic": "polity",
+      "type": "standalone",
+      "source": "xat-style-2027",
+      "stem": "Who presides over a joint sitting of both Houses of Parliament?",
+      "options": [
+        "The President",
+        "The Speaker of the Lok Sabha",
+        "The Vice-President",
+        "The Prime Minister",
+        "The Chief Justice of India"
+      ],
+      "answer": 1,
+      "explanation": "Under Article 108 the President summons a joint sitting, but the Speaker of the Lok Sabha presides. In the Speaker's absence the Deputy Speaker presides, then the Rajya Sabha's Deputy Chairman. TRAP: the Vice-President chairs the Rajya Sabha, not joint sittings."
+    },
+    {
+      "id": "gk-q8-29",
+      "section": "GK",
+      "topic": "polity",
+      "type": "standalone",
+      "source": "xat-style-2027",
+      "stem": "Who became the 53rd Chief Justice of India in November 2025?",
+      "options": [
+        "D. Y. Chandrachud",
+        "Sanjiv Khanna",
+        "B. R. Gavai",
+        "Vikram Nath",
+        "Surya Kant"
+      ],
+      "answer": 4,
+      "explanation": "Justice Surya Kant took office on 24 November 2025, succeeding B. R. Gavai (52nd). Before them: Sanjiv Khanna (51st) and D. Y. Chandrachud (50th). RULE: know the current CJI, CEC, RBI Governor and CAG on exam day."
+    },
+    {
+      "id": "gk-q8-30",
+      "section": "GK",
+      "topic": "polity",
+      "type": "standalone",
+      "source": "xat-style-2027",
+      "stem": "What is the minimum age to become a member of the Rajya Sabha?",
+      "options": [
+        "21 years",
+        "25 years",
+        "30 years",
+        "35 years",
+        "18 years"
+      ],
+      "answer": 2,
+      "explanation": "Rajya Sabha and Legislative Council: 30. Lok Sabha and State Assembly: 25. President and Vice-President: 35. TRAP: 25 is for the Lok Sabha."
+    },
+    {
+      "id": "gk-q8-31",
+      "section": "GK",
+      "topic": "awards",
+      "type": "standalone",
+      "source": "xat-style-2027",
+      "stem": "The 2026 Nobel Memorial Prize in Economic Sciences was awarded to:",
+      "options": [
+        "Robert E. Hall and Michael Woodford",
+        "Joel Mokyr, Philippe Aghion and Peter Howitt",
+        "Daron Acemoglu, Simon Johnson and James Robinson",
+        "Claudia Goldin",
+        "Ben Bernanke, Douglas Diamond and Philip Dybvig"
+      ],
+      "answer": 0,
+      "explanation": "2026: Robert E. Hall and Michael Woodford, for work on macroeconomic models for stabilisation policy (Woodford is known for inflation-targeting theory). 2025: Mokyr, Aghion and Howitt. 2024: Acemoglu, Johnson and Robinson. 2023: Goldin. 2022: Bernanke, Diamond and Dybvig. RULE: XAT asks the Economics Nobel almost every year; learn the last five."
+    },
+    {
+      "id": "gk-q8-32",
+      "section": "GK",
+      "topic": "awards",
+      "type": "standalone",
+      "source": "xat-style-2027",
+      "stem": "Who won the 2026 Nobel Peace Prize?",
+      "options": [
+        "Nihon Hidankyo",
+        "Maria Corina Machado",
+        "Narges Mohammadi",
+        "Navi Pillay",
+        "Ales Bialiatski"
+      ],
+      "answer": 3,
+      "explanation": "2026: Navi Pillay, the South African jurist and former UN High Commissioner for Human Rights. 2025: Maria Corina Machado. 2024: Nihon Hidankyo. 2023: Narges Mohammadi. Bialiatski shared 2022."
+    },
+    {
+      "id": "gk-q8-33",
+      "section": "GK",
+      "topic": "awards",
+      "type": "standalone",
+      "source": "xat-style-2027",
+      "stem": "The Canadian poet and classicist who won the 2026 Nobel Prize in Literature is:",
+      "options": [
+        "Margaret Atwood",
+        "Anne Carson",
+        "Alice Munro",
+        "Han Kang",
+        "Laszlo Krasznahorkai"
+      ],
+      "answer": 1,
+      "explanation": "Anne Carson won the 2026 Literature prize. Han Kang won in 2024 and Laszlo Krasznahorkai in 2025; Alice Munro, also Canadian, won in 2013. TRAP: Atwood is often tipped but has not won."
+    },
+    {
+      "id": "gk-q8-34",
+      "section": "GK",
+      "topic": "awards",
+      "type": "standalone",
+      "source": "xat-style-2027",
+      "stem": "M. John Harrison, who at 81 became the oldest winner of the Booker Prize, won the 2026 prize for:",
+      "options": [
+        "Prophet Song",
+        "Heart Lamp",
+        "Orbital",
+        "Taiwan Travelogue",
+        "The End of Everything"
+      ],
+      "answer": 4,
+      "explanation": "2026 Booker: 'The End of Everything' by M. John Harrison. 2024: 'Orbital' (Samantha Harvey); 2023: 'Prophet Song' (Paul Lynch). 'Taiwan Travelogue' won the 2026 International Booker, and 'Heart Lamp' the 2025 International Booker. TRAP: Booker and International Booker are separate prizes."
+    },
+    {
+      "id": "gk-q8-35",
+      "section": "GK",
+      "topic": "awards",
+      "type": "standalone",
+      "source": "xat-style-2027",
+      "stem": "'Taiwan Travelogue' by Yáng Shuāng-zǐ, translated by Lin King, won the 2026 International Booker Prize. It was the first winner translated from which language?",
+      "options": [
+        "Japanese",
+        "Korean",
+        "Mandarin Chinese",
+        "Cantonese",
+        "Taiwanese Hokkien"
+      ],
+      "answer": 2,
+      "explanation": "It was the first International Booker winner translated from Mandarin Chinese; the prize money is split equally between author and translator. In 2025, 'Heart Lamp' was the first winner translated from Kannada. RULE: for the International Booker, learn the original language along with the title."
+    },
+    {
+      "id": "gk-q8-36",
+      "section": "GK",
+      "topic": "awards",
+      "type": "standalone",
+      "source": "xat-style-2027",
+      "stem": "Match the award with its field: (a) Dadasaheb Phalke Award (b) Jnanpith Award (c) Abel Prize (d) Pritzker Prize. Fields: (1) Cinema (2) Literature (3) Mathematics (4) Architecture.",
+      "options": [
+        "a-1, b-2, c-3, d-4",
+        "a-2, b-1, c-3, d-4",
+        "a-1, b-2, c-4, d-3",
+        "a-1, b-3, c-2, d-4",
+        "a-4, b-2, c-3, d-1"
+      ],
+      "answer": 0,
+      "explanation": "Phalke: lifetime contribution to Indian cinema. Jnanpith: Indian literature. Abel: mathematics (like the Fields Medal, but with no age limit). Pritzker: architecture. Other pairs XAT likes: Ramon Magsaysay (Asia's 'Nobel'), Kalinga (popularising science)."
+    },
+    {
+      "id": "gk-q8-37",
+      "section": "GK",
+      "topic": "awards",
+      "type": "standalone",
+      "source": "xat-style-2027",
+      "stem": "Which agricultural scientist, known as the father of India's Green Revolution, was among the five Bharat Ratna awardees announced in 2024?",
+      "options": [
+        "Verghese Kurien",
+        "C. Subramaniam",
+        "Norman Borlaug",
+        "M. S. Swaminathan",
+        "Y. P. Singh"
+      ],
+      "answer": 3,
+      "explanation": "The 2024 Bharat Ratna went to M. S. Swaminathan, P. V. Narasimha Rao, Chaudhary Charan Singh, Karpoori Thakur and L. K. Advani. Kurien led the White (milk) Revolution; Borlaug was the American scientist behind the high-yield wheat. TRAP: 'Green' is Swaminathan, 'White' is Kurien."
+    },
+    {
+      "id": "gk-q8-38",
+      "section": "GK",
+      "topic": "economy",
+      "type": "standalone",
+      "source": "xat-style-2027",
+      "stem": "The Union Budget 2026-27, presented on 1 February 2026, set the fiscal deficit target for FY27 at what share of GDP?",
+      "options": [
+        "3.0%",
+        "4.3%",
+        "4.9%",
+        "5.1%",
+        "5.9%"
+      ],
+      "answer": 1,
+      "explanation": "The FY27 target is 4.3% of GDP, down from a revised 4.4% for FY26 (about 5.6% in FY24 and 4.8% in FY25). The government has shifted its anchor from the deficit to bringing debt-to-GDP down. RULE: learn the deficit as a falling path."
+    },
+    {
+      "id": "gk-q8-39",
+      "section": "GK",
+      "topic": "economy",
+      "type": "standalone",
+      "source": "xat-style-2027",
+      "stem": "The RBI's Monetary Policy Committee, which sets the repo rate, has how many members?",
+      "options": [
+        "4",
+        "5",
+        "9",
+        "7",
+        "6"
+      ],
+      "answer": 4,
+      "explanation": "Six members: three from the RBI (Governor, a Deputy Governor and one officer) and three external members named by the government. The Governor has a casting vote in a tie. The inflation target is 4% CPI with a band of 2% to 6%."
+    },
+    {
+      "id": "gk-q8-40",
+      "section": "GK",
+      "topic": "economy",
+      "type": "standalone",
+      "source": "xat-style-2027",
+      "stem": "Which of these correctly defines the fiscal deficit?",
+      "options": [
+        "Total expenditure minus total receipts including borrowings",
+        "Revenue expenditure minus revenue receipts",
+        "Total expenditure minus total receipts excluding borrowings",
+        "Fiscal deficit minus interest payments",
+        "Imports minus exports of goods and services"
+      ],
+      "answer": 2,
+      "explanation": "Fiscal deficit = total expenditure − (revenue receipts + non-debt capital receipts), i.e. the government's borrowing need. 'Revenue expenditure minus revenue receipts' is the revenue deficit, 'fiscal deficit minus interest' is the primary deficit, and 'imports minus exports' is a trade-balance idea. TRAP: including borrowings in receipts always gives zero."
+    },
+    {
+      "id": "gk-q8-41",
+      "section": "GK",
+      "topic": "economy",
+      "type": "standalone",
+      "source": "xat-style-2027",
+      "stem": "Who became Governor of the Reserve Bank of India in December 2024?",
+      "options": [
+        "Sanjay Malhotra",
+        "Urjit Patel",
+        "Shaktikanta Das",
+        "Michael Patra",
+        "T. Rabi Sankar"
+      ],
+      "answer": 0,
+      "explanation": "Sanjay Malhotra, previously Revenue Secretary, succeeded Shaktikanta Das as the 26th RBI Governor in December 2024. TRAP: Patra and Rabi Sankar were Deputy Governors."
+    },
+    {
+      "id": "gk-q8-42",
+      "section": "GK",
+      "topic": "economy",
+      "type": "standalone",
+      "source": "xat-style-2027",
+      "stem": "Unified Payments Interface (UPI) was launched in 2016 by which organisation?",
+      "options": [
+        "Reserve Bank of India",
+        "State Bank of India",
+        "NITI Aayog",
+        "National Payments Corporation of India",
+        "SEBI"
+      ],
+      "answer": 3,
+      "explanation": "NPCI, an RBI-promoted non-profit owned by banks, launched UPI in 2016; it also runs RuPay, IMPS and FASTag. TRAP: the RBI regulates payment systems but did not build UPI."
+    },
+    {
+      "id": "gk-q8-43",
+      "section": "GK",
+      "topic": "economy",
+      "type": "standalone",
+      "source": "xat-style-2027",
+      "stem": "If the RBI raises the repo rate, which of these is the MOST likely direct effect?",
+      "options": [
+        "Banks' borrowing from the RBI becomes cheaper",
+        "Loan rates for home buyers tend to rise",
+        "The government's fiscal deficit falls at once",
+        "Exports become cheaper for foreign buyers",
+        "The cash reserve ratio automatically falls"
+      ],
+      "answer": 1,
+      "explanation": "The repo rate is what the RBI charges banks for short-term funds. A higher repo raises banks' cost of funds, so lending rates (home and car loans) tend to rise, cooling demand and inflation. CRR is a separate tool. RULE: repo up → loans dearer → demand down → inflation down."
+    },
+    {
+      "id": "gk-q8-44",
+      "section": "GK",
+      "topic": "economy",
+      "type": "standalone",
+      "source": "xat-style-2027",
+      "stem": "The 16th Finance Commission, which recommends how taxes are shared between the Centre and the states for 2026-31, was chaired by:",
+      "options": [
+        "N. K. Singh",
+        "Bimal Jalan",
+        "Y. V. Reddy",
+        "Raghuram Rajan",
+        "Arvind Panagariya"
+      ],
+      "answer": 4,
+      "explanation": "Arvind Panagariya, former NITI Aayog Vice-Chairman, chaired the 16th Finance Commission (award period 2026-31). N. K. Singh chaired the 15th, Y. V. Reddy the 14th. RULE: Finance Commissions sit every five years under Article 280."
+    },
+    {
+      "id": "gk-q8-45",
+      "section": "GK",
+      "topic": "history-culture",
+      "type": "standalone",
+      "source": "xat-style-2027",
+      "stem": "Gandhi gave the 'Do or Die' call for the Quit India Movement in August 1942 at which place?",
+      "options": [
+        "Champaran",
+        "Sabarmati Ashram",
+        "Gowalia Tank Maidan, Bombay",
+        "Dandi",
+        "Lahore"
+      ],
+      "answer": 2,
+      "explanation": "On 8 August 1942 the AICC passed the Quit India resolution at Gowalia Tank Maidan (now August Kranti Maidan), Mumbai. Dandi: Salt March 1930. Champaran: 1917. Lahore: Purna Swaraj resolution 1929."
+    },
+    {
+      "id": "gk-q8-46",
+      "section": "GK",
+      "topic": "history-culture",
+      "type": "standalone",
+      "source": "xat-style-2027",
+      "stem": "The Konark Sun Temple in Odisha was built in the 13th century by:",
+      "options": [
+        "Narasimhadeva I of the Eastern Ganga dynasty",
+        "Rajaraja Chola I",
+        "Krishnadevaraya",
+        "Kharavela",
+        "Raja Bhoja"
+      ],
+      "answer": 0,
+      "explanation": "Narasimhadeva I (Eastern Ganga dynasty) built Konark around 1250 CE as a giant stone chariot for the Sun god. Rajaraja Chola I built the Brihadeeswara temple at Thanjavur. Kharavela was a much earlier Kalinga king (Hathigumpha inscription)."
+    },
+    {
+      "id": "gk-q8-47",
+      "section": "GK",
+      "topic": "history-culture",
+      "type": "standalone",
+      "source": "xat-style-2027",
+      "stem": "The Hornbill Festival, held every December near Kohima, is celebrated in which state?",
+      "options": [
+        "Mizoram",
+        "Manipur",
+        "Arunachal Pradesh",
+        "Nagaland",
+        "Meghalaya"
+      ],
+      "answer": 3,
+      "explanation": "The Hornbill Festival, 'festival of festivals', showcases Nagaland's tribes at Kisama Heritage Village near Kohima, from 1 to 10 December. Others: Sangai (Manipur), Chapchar Kut (Mizoram), Wangala (Meghalaya)."
+    }
+  ],
+  "notes": [
+    {
+      "topic": "business",
+      "text": "WHAT IT TESTS: founders and founding years, parent companies of famous brands, big mergers and acquisitions, taglines, and the year's biggest corporate events. XAT 2026 had business questions among its 20 GK items.\n\nHIGH-YIELD FACTS:\n- Founders: Verghese Kurien (Amul, Operation Flood, 'father of the White Revolution'); H. T. Parekh (HDFC, 1977); N. R. Narayana Murthy (Infosys, Pune, 1981); Jamsetji Tata (Tata group; TISCO 1907 at Sakchi/Jamshedpur).\n- Landmark deals: Tata Steel–Corus 2007, Hindalco–Novelis 2007, Tata Motors–JLR 2008, Walmart–Flipkart 2018, HDFC Ltd–HDFC Bank merger effective 1 July 2023.\n- Parent companies: Paytm → One97 Communications; Zomato/Blinkit/District → Eternal Ltd (renamed 2025); Flipkart and PhonePe → Walmart group; Surf Excel, Rin, Lifebuoy → HUL; Tide, Ariel → P&G.\n- Taglines: Amul girl campaign by daCunha (1966); 'Daag achhe hain' Surf Excel; 'Har ghar kuch kehta hai' Asian Paints.\n\nAPPROACH: (1) Keep a one-page list: brand → parent → founder → year. (2) In the 3 months before XAT, note the year's 5 biggest IPOs, mergers and CEO changes.\n\nTRAPS: 'founded in' vs 'headquartered in' (Infosys: Pune vs Bengaluru); rival brands offered as siblings (PhonePe vs Paytm); deal announced vs deal completed.\n\nSources: XAT 2026 analyses by Physics Wallah, Time4Education and Hitbullseye list business among the GK areas."
+    },
+    {
+      "topic": "international",
+      "text": "WHAT IT TESTS: international organisations (headquarters, members, heads, reports) and who hosted which summit recently.\n\nHEADQUARTERS: WTO, WHO, ILO, WEF → Geneva; IMF, World Bank → Washington DC; OECD, UNESCO → Paris; OPEC, IAEA → Vienna; UN → New York; ADB → Manila; AIIB → Beijing; New Development Bank (BRICS) → Shanghai; SCO Secretariat → Beijing, SCO RATS → Tashkent; ASEAN → Jakarta; SAARC → Kathmandu.\n\nREPORTS: IMF World Economic Outlook; WEF Global Gender Gap and Global Risks; UNDP Human Development Report (HDI); UNCTAD World Investment Report; World Bank's flagship reports.\n\nGROUPINGS: Quad = India, US, Japan, Australia. NATO's newest members: Finland (2023), Sweden (March 2024, the 32nd). BRICS expanded with Egypt, Ethiopia, Iran and the UAE (2024) and Indonesia (January 2025).\n\nRECENT HOSTS: G20: India 2023, Brazil 2024, South Africa 2025, United States 2026. BRICS: Russia (Kazan) 2024, Brazil (Rio) 2025, India (New Delhi) 2026. COP: Dubai 28 (2023), Baku 29 (2024), Belém 30 (2025).\n\nTRAPS: NDB (Shanghai) vs AIIB (Beijing); 'World Economic' Outlook is the IMF's, not the WEF's; India hosted G20 in 2023 but BRICS in 2026."
+    },
+    {
+      "topic": "sports-science",
+      "text": "WHAT IT TESTS: the last 12 months of sports results and India's space and science milestones. XAT 2026 analysts (Hitbullseye) said science and technology carried more weight than before.\n\n2026 SPORTS:\n- ICC Men's T20 World Cup: India beat New Zealand by 96 runs (Ahmedabad, 8 March 2026), the first team to defend the title; India's titles 2007, 2024, 2026.\n- FIFA World Cup (USA, Canada, Mexico): Spain beat Argentina 1–0 after extra time (19 July 2026); Spain's 2nd title.\n- Commonwealth Games, Glasgow (Victoria withdrew): India 4th, 39 medals (13 gold). Australia top.\n- Asian Games, Aichi-Nagoya (19 Sept–4 Oct 2026): India 4th, 85 medals (21 gold); best is still 106 at Hangzhou 2023. China top.\n- 2025: India won the ICC Women's World Cup (beat South Africa); Divya Deshmukh won the FIDE Women's World Cup.\n\nSPACE:\n- Chandrayaan-3 landed 23 August 2023 (National Space Day); lander Vikram, rover Pragyan; rocket LVM3 (formerly GSLV Mk III).\n- Aditya-L1: Sun–Earth L1 halo orbit, launched by PSLV (Sept 2023).\n- Shubhanshu Shukla: first Indian on the ISS, Axiom Mission 4, June 2025. Rakesh Sharma: first Indian in space, 1984.\n- Gaganyaan: uncrewed G1 to carry the robot Vyommitra; ISRO targeted December 2026 (check if it has flown). Crewed flight planned for 2027.\n\nAPPROACH: (1) For each event: winner, runner-up, venue, edition. (2) For ISRO: mission, rocket, orbit or destination. (3) Read a monthly current-affairs digest from October to December.\n\nTRAPS: runner-up vs winner; original host vs actual host (CWG 2026); 'first Indian in space' vs 'first on the ISS'; the edition label vs the year played (Hangzhou '2022' Games held in 2023)."
+    },
+    {
+      "topic": "polity",
+      "text": "WHAT IT TESTS: Articles, Schedules, amendments, ages and offices. Usually 2 to 3 static questions.\n\nARTICLES: 14 equality before law; 15 no discrimination; 17 untouchability abolished; 19 freedoms; 21 life and liberty; 32 constitutional remedies; 51A Fundamental Duties; 108 joint sitting; 110 Money Bill; 112 Budget; 148 CAG; 280 Finance Commission; 324 Election Commission; 352/356/360 national, state and financial emergencies; 370 (abrogated 2019).\n\nSCHEDULES: 7th Union/State/Concurrent lists; 8th 22 languages; 9th laws shielded from review (1951); 10th anti-defection (52nd Amdt, 1985); 11th panchayats; 12th municipalities.\n\nAMENDMENTS: 42nd (1976) 'mini-constitution', Fundamental Duties; 44th (1978) property no longer a fundamental right; 73rd/74th (1992) panchayats and municipalities; 86th (2002) right to education, 11th duty; 101st (2016) GST; 103rd (2019) 10% EWS quota; 106th (2023) one-third seats for women.\n\nAGES: President and Vice-President 35; Rajya Sabha 30; Lok Sabha 25.\n\nOFFICES: the Speaker presides over joint sittings and certifies Money Bills; the Rajya Sabha is never dissolved; the President appoints the CEC. CJI since 24 Nov 2025: Surya Kant (53rd). CEC: Gyanesh Kumar.\n\nTRAPS: the 86th added a duty but did not create Article 51A; Rajya Sabha age 30 vs Lok Sabha 25; the Vice-President chairs the Rajya Sabha, not joint sittings."
+    },
+    {
+      "topic": "awards",
+      "text": "WHAT IT TESTS: Nobel Prizes (Economics above all), Booker and International Booker, Bharat Ratna, and which award belongs to which field. Questions often pair a correct name with the wrong year.\n\nNOBEL ECONOMICS: 2026 Robert E. Hall and Michael Woodford (macro models for stabilisation policy); 2025 Mokyr, Aghion and Howitt (innovation-driven growth); 2024 Acemoglu, Johnson and Robinson (institutions and prosperity); 2023 Claudia Goldin (women's labour market); 2022 Bernanke, Diamond and Dybvig (banks and crises); 2019 Banerjee, Duflo and Kremer.\n\nOTHER NOBELS 2026: Peace, Navi Pillay (South African jurist, ex-UN human-rights chief); Literature, Anne Carson (Canadian poet); Physics, Francis Halzen (neutrinos, IceCube); Chemistry, Henri Kagan and Kenso Soai (asymmetric synthesis).\n\nBOOKER: 2026 M. John Harrison, 'The End of Everything' (oldest winner, 81); 2024 Samantha Harvey, 'Orbital'. INTERNATIONAL BOOKER: 2026 'Taiwan Travelogue', Yáng Shuāng-zǐ, translated by Lin King (first from Mandarin); 2025 'Heart Lamp', Banu Mushtaq, translated by Deepa Bhasthi (first from Kannada).\n\nBHARAT RATNA 2024: M. S. Swaminathan, P. V. Narasimha Rao, Charan Singh, Karpoori Thakur, L. K. Advani.\n\nFIELDS: Phalke cinema; Jnanpith literature; Pritzker architecture; Abel mathematics; MAKA Trophy inter-university sport.\n\nTRAPS: Booker vs International Booker; Green Revolution (Swaminathan) vs White Revolution (Kurien); last year's winner offered as this year's."
+    },
+    {
+      "topic": "economy",
+      "text": "WHAT IT TESTS: regulators, monetary-policy basics, budget numbers and deficit definitions, landmark dates. Expect 2 to 4 questions.\n\nREGULATORS: RBI (1935) banks and money; SEBI securities; IRDAI insurance; PFRDA pensions; NPCI runs UPI (2016), RuPay, IMPS, FASTag. RBI Governor since December 2024: Sanjay Malhotra (26th).\n\nMONETARY POLICY: MPC has 6 members (3 RBI, 3 external), the Governor has a casting vote. Inflation target 4% CPI, band 2–6%. Repo = rate at which the RBI lends to banks; repo up → loans dearer → demand and inflation down. CRR = cash banks must park with the RBI; SLR = liquid assets banks must hold.\n\nBUDGET AND DEFICITS: Fiscal deficit = total expenditure − (revenue receipts + non-debt capital receipts) = borrowing need. Revenue deficit = revenue expenditure − revenue receipts. Primary deficit = fiscal deficit − interest. Budget 2026-27 (1 Feb 2026): fiscal deficit target 4.3% of GDP (FY26 RE 4.4%). 16th Finance Commission (2026-31): Arvind Panagariya; 15th: N. K. Singh.\n\nDATES: RBI 1935; bank nationalisation 1969; liberalisation 1991; Make in India 2014; UPI 2016; GST 1 July 2017 (101st Amendment); GST rate rationalisation 22 Sept 2025 (two main slabs plus a 40% special rate).\n\nAPPROACH: For current numbers (repo, GDP growth, inflation), check the latest RBI policy statement and budget summary in December; news-site figures often conflict.\n\nTRAPS: revenue vs fiscal vs primary deficit; the RBI regulates UPI but NPCI built it; NSO (not RBI) releases GDP data."
+    }
+  ]
+}
