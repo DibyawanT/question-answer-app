@@ -1,0 +1,114 @@
+{
+  "passages": [
+    { "id": "cat-rc-p01", "section": "VALR", "text": "Every year, laboratories around the world run thousands of careful experiments that show nothing. A drug fails to beat a placebo; a promising gene turns out to have no link to the disease it was suspected of causing; a celebrated effect in psychology refuses to appear a second time. Most of these results are never published. They sit in drawers and on hard drives, known to the handful of people who produced them, while journals fill their pages with findings that something, rather than nothing, happened.\n\nThe bias is easy to understand. Editors want papers that will be read and cited, and a surprising positive result is more interesting than a confirmation that two things are unrelated. Researchers, whose careers depend on publication, learn quickly which experiments are worth writing up. No one need behave dishonestly for the published record to become distorted. If twenty teams test an ineffective treatment and one of them, by chance, finds a benefit, the literature may contain a single paper reporting success and no trace of the nineteen failures.\n\nThe cost of this silence is not only wasted effort, though there is plenty of that, as new teams unknowingly repeat experiments that have already failed. The deeper cost is to the reliability of what we think we know. Methods that pool many studies to estimate an effect, often treated as the gold standard of evidence, can only pool what has been published. When the failures are missing, the average is pulled towards the successes, and a weak or imaginary effect can come to look robust.\n\nReformers have proposed remedies. Some journals now accept studies on the basis of their design, before any data are collected, and promise to publish the results whatever they show. Registries require clinical trials to be announced in advance, so that a trial which quietly disappears can at least be noticed. These measures help, but they treat negative results as a problem of bookkeeping. They do less to change the sense, deeply held among scientists themselves, that a null finding is a kind of failure.\n\nThat sense is mistaken. An experiment that is well designed and finds nothing has told us something about the world: that a particular door is closed. Science advances as much by closing doors as by opening them, and a map that marks only the passages someone has walked through, never the dead ends, is a dangerous map to hand to the next explorer." },
+    { "id": "cat-rc-p02", "section": "VALR", "text": "Lists of 'untranslatable words' have become a minor genre of the internet. They offer a Portuguese word for longing for something absent, a Japanese word for sunlight filtering through leaves, a German word for pleasure in another's misfortune, and invite the reader to marvel that English has nothing of the kind. The lists are charming, and they flatter a pleasant idea: that each language holds a private store of feelings its speakers can reach and the rest of us cannot.\n\nThe trouble begins with the word 'untranslatable' itself. Each entry on such a list arrives with its translation attached, usually in a single English sentence. What is meant, then, is not that the idea cannot be expressed in English but that English lacks a single word for it. That is a much smaller claim, and an unremarkable one. Every language packages meaning differently, and English has words that other languages render with a phrase. Where a foreign word proves useful, English simply takes it, which is why 'schadenfreude' now appears in English dictionaries.\n\nA stronger version of the claim holds that words shape what speakers can feel or perceive, so that a person without a word for a certain longing experiences that longing less, or not at all. Research on language and thought has found some effects of this kind, but they are modest: speakers of languages that name more shades of a colour may tell those shades apart slightly faster, without being unable to see the shades their own language leaves unnamed. Nothing in this work suggests that an English speaker is shut out from a particular melancholy because the most famous word for it is Portuguese.\n\nNone of this makes translation easy. The difficulty, however, lies less in individual words than in everything around them: rhythm, register, the associations a phrase carries for people who grew up with it, the jokes and allusions a sentence assumes its reader will catch. A translator of poetry may find an exact equivalent for every word in a line and still lose the line. That is a real loss, and a more interesting one than the absence of a single noun.\n\nThe lists, in the end, get the matter backwards. They present languages as sealed rooms whose treasures can be glimpsed only through the keyhole. The history of translation suggests the opposite: languages are porous, they borrow constantly, and what resists crossing between them is not a word but a world." },
+    { "id": "cat-lr-s02", "section": "QADI", "text": "Five teams, P, Q, R, S and T, played a football tournament in which each team played every other team exactly once. A win earned 3 points, a draw 1 point and a loss 0 points.\n\nFinal points: P 10, Q 7, R 5, S 4, T 1.\n\nT's only point came from its match against P." },
+    { "id": "cat-di-s01", "section": "QADI", "text": "Units sold last month by four shops, W, X, Y and Z (some values are missing):\n\nShop | Pens | Books | Bags | Total\nW | 40 | ? | ? | 80\nX | ? | 35 | ? | 85\nY | ? | ? | 10 | 80\nZ | 20 | ? | ? | 75\nTotal | 140 | 110 | 70 | 320\n\nAlso known:\n1. Y sold 2.5 times as many pens as books.\n2. W sold 10 more books than bags.\n\nPrices: a pen ₹20, a book ₹150, a bag ₹400. Revenue = units × price." }
+  ],
+  "questions": [
+    { "id": "cat2-rc1-01", "section": "VALR", "topic": "reading-comprehension", "type": "rc", "setId": "cat-rc-p01", "source": "cat-style",
+      "stem": "The author's primary purpose in the passage is to:",
+      "options": [
+        "argue that neglecting negative results distorts scientific knowledge, and that null findings should be valued as real contributions.",
+        "criticise journal editors for deliberately suppressing studies that contradict popular theories.",
+        "show that pre-registration and trial registries have solved the problem of unpublished results.",
+        "explain why analyses that pool many studies are less reliable than single well-designed experiments."
+      ], "answer": 0,
+      "explanation": "The passage moves from the problem (null results unpublished), to why it happens, to its cost, to remedies, to the claim that null results are genuine knowledge. The first option covers both the diagnosis and the final argument. B contradicts 'No one need behave dishonestly'. C contradicts 'These measures help, but...'. D distorts paragraph 3: pooled analyses are unreliable only when failures are missing, not inherently." },
+    { "id": "cat2-rc1-02", "section": "VALR", "topic": "reading-comprehension", "type": "rc", "setId": "cat-rc-p01", "source": "cat-style",
+      "stem": "The example of 'twenty teams' in the second paragraph is used mainly to show that:",
+      "options": [
+        "a distorted published record can arise without any individual acting dishonestly.",
+        "most published positive findings are the result of fraud.",
+        "ineffective treatments are tested more often than effective ones.",
+        "research teams should coordinate to avoid repeating one another's experiments."
+      ], "answer": 0,
+      "explanation": "The sentence directly before the example says 'No one need behave dishonestly for the published record to become distorted'; the twenty teams illustrate exactly that, with one chance success and nineteen honest but invisible failures. B is the opposite. C and D are not what the example is doing (repeated effort comes up only in paragraph 3)." },
+    { "id": "cat2-rc1-03", "section": "VALR", "topic": "reading-comprehension", "type": "rc", "setId": "cat-rc-p01", "source": "cat-style",
+      "stem": "Which of the following would the author most likely agree with?",
+      "options": [
+        "A pooled analysis that includes only published studies may overstate the size of an effect.",
+        "Journals that accept studies on the basis of design will, in time, remove scientists' sense that null results are failures.",
+        "Negative results are less informative than positive ones, but are still worth recording.",
+        "Researchers who leave failed experiments unpublished are acting unethically."
+      ], "answer": 0,
+      "explanation": "Paragraph 3: with failures missing, 'the average is pulled towards the successes', so the effect looks bigger or more robust than it is. B contradicts 'They do less to change the sense...'. C contradicts 'as much by closing doors as by opening them'. D goes beyond the passage, which blames incentives, not individual ethics." },
+    { "id": "cat2-rc1-04", "section": "VALR", "topic": "reading-comprehension", "type": "rc", "setId": "cat-rc-p01", "source": "cat-style",
+      "stem": "In the last paragraph, 'a map that marks only the passages someone has walked through' most closely stands for:",
+      "options": [
+        "a published literature that reports successes and omits failed experiments.",
+        "a research programme that refuses to explore new fields.",
+        "a registry of clinical trials announced in advance.",
+        "the career of a scientist who publishes only positive results."
+      ], "answer": 0,
+      "explanation": "Passages walked through are findings that 'opened a door'; the unmarked dead ends are null results. A map with only the former is the publication-biased literature, and the 'next explorer' is the next research team. D shrinks the metaphor to one person; the passage's concern throughout is the shared record." },
+    { "id": "cat2-rc2-01", "section": "VALR", "topic": "reading-comprehension", "type": "rc", "setId": "cat-rc-p02", "source": "cat-style",
+      "stem": "The passage is primarily concerned with:",
+      "options": [
+        "arguing that talk of 'untranslatable' words overstates how sealed off languages are, since the real difficulty of translation lies in context rather than in single words.",
+        "defending lists of untranslatable words as a useful introduction to foreign cultures.",
+        "showing that languages with more words for emotions give their speakers richer emotional lives.",
+        "explaining why poetry cannot be translated."
+      ], "answer": 0,
+      "explanation": "The author takes the lists apart (they come with translations; English borrows), limits the 'language shapes feeling' claim, then relocates the real difficulty to rhythm, register and allusion. The first option covers both moves. C is the view the author rejects. D inflates one example: the author says a line can be lost, not that poetry is untranslatable." },
+    { "id": "cat2-rc2-02", "section": "VALR", "topic": "reading-comprehension", "type": "rc", "setId": "cat-rc-p02", "source": "cat-style",
+      "stem": "According to the passage, research on language and thought suggests that:",
+      "options": [
+        "language can have small effects on perception without stopping speakers from perceiving what their language does not name.",
+        "speakers cannot see shades of colour for which their language has no word.",
+        "language has no measurable effect on thought.",
+        "the words a language has for emotions decide which emotions its speakers can feel."
+      ], "answer": 0,
+      "explanation": "Paragraph 3: effects exist 'but they are modest', for example slightly faster discrimination of named shades, 'without being unable to see' the unnamed ones. B and D are the strong claim the author rejects. C overcorrects: the author grants that some effects were found." },
+    { "id": "cat2-rc2-03", "section": "VALR", "topic": "reading-comprehension", "type": "rc", "setId": "cat-rc-p02", "source": "cat-style",
+      "stem": "The author mentions that 'schadenfreude' appears in English dictionaries in order to:",
+      "options": [
+        "illustrate that English absorbs useful foreign words, which undercuts the idea that such words are locked inside their language.",
+        "show that German has a richer emotional vocabulary than English.",
+        "suggest that English dictionaries accept foreign words too readily.",
+        "give an example of a word that has no English translation."
+      ], "answer": 0,
+      "explanation": "It follows 'Where a foreign word proves useful, English simply takes it'. The point supports the final claim that 'languages are porous'. D is the trap: the word appears on the lists as 'untranslatable', but the author uses it to show the opposite." },
+    { "id": "cat2-rc2-04", "section": "VALR", "topic": "reading-comprehension", "type": "rc", "setId": "cat-rc-p02", "source": "cat-style",
+      "stem": "Which of the following, if true, would most weaken the author's argument?",
+      "options": [
+        "Bilingual speakers consistently report that, in their second language, they cannot feel certain emotions they easily feel in their first, even after the emotion has been explained to them.",
+        "Some lists of untranslatable words contain mistranslations.",
+        "Translators of novels report that idioms and allusions cause them more trouble than single words.",
+        "English has borrowed thousands of words from French over the centuries."
+      ], "answer": 0,
+      "explanation": "The author's key move is rejecting the strong claim that words limit what speakers can feel. A gives evidence for exactly that claim, and survives the 'it was explained' reply the author relies on. B is irrelevant to the argument. C and D support the author (context is the hard part; languages borrow)." },
+    { "id": "cat2-lr-01", "section": "QADI", "topic": "logical-reasoning", "type": "lr-set", "setId": "cat-lr-s02", "source": "cat-style",
+      "stem": "How many matches in the tournament ended in a draw?",
+      "options": ["3", "2", "4", "5"], "answer": 0,
+      "explanation": "There are 5C2 = 10 matches. A decided match gives out 3 points and a draw gives out 2, so with no draws the total would be 30. The actual total is 10 + 7 + 5 + 4 + 1 = 27, so each draw cost one point: 3 draws. This total-points check is the first move in any tournament set." },
+    { "id": "cat2-lr-02", "section": "QADI", "topic": "logical-reasoning", "type": "lr-set", "setId": "cat-lr-s02", "source": "cat-style",
+      "stem": "What was the result of the match between Q and R?",
+      "options": ["Draw", "Q won", "R won", "Cannot be determined"], "answer": 0,
+      "explanation": "P's 10 points from 4 matches can only be 3 wins and 1 draw. T's 1 point is 1 draw and 3 losses, and the draw was against P. So P beat Q, R and S, and T lost to Q, R and S. R: lost to P and beat T (3 points), so it needs 2 more from its matches with Q and S. A win would give 3, so it must be 2 draws: R drew with Q (and with S)." },
+    { "id": "cat2-lr-03", "section": "QADI", "topic": "logical-reasoning", "type": "lr-set", "setId": "cat-lr-s02", "source": "cat-style",
+      "stem": "How many matches did Q win?",
+      "options": ["2", "1", "3", "0"], "answer": 0,
+      "explanation": "Q lost to P, beat T and drew with R (previous question). That is 4 points, so Q needs 3 more from its match with S: Q beat S. Q won 2 matches (T and S). Check S: lost to P and Q, drew with R, beat T = 4 points." },
+    { "id": "cat2-lr-04", "section": "QADI", "topic": "logical-reasoning", "type": "lr-set", "setId": "cat-lr-s02", "source": "cat-style",
+      "stem": "Suppose you were given only the final points table, without the fact about T's only point. Which of these could you still determine?",
+      "options": ["The number of matches P won", "The result of P vs Q", "The result of Q vs S", "The result of S vs T"], "answer": 0,
+      "explanation": "10 points from 4 matches forces 3 wins and 1 draw for P whatever else happens, so P's win count is fixed. Without the clue, P's draw could have been against Q, R or S instead of T, and the table then fits 6 different sets of results; in some of them P drew with Q, Q drew with S, or S drew with T. Points that allow only one win/draw/loss split are the anchors in every tournament set." },
+    { "id": "cat2-di-01", "section": "QADI", "topic": "data-interpretation", "type": "di", "setId": "cat-di-s01", "source": "cat-style",
+      "stem": "How many bags did shop X sell?",
+      "options": ["20", "15", "25", "30"], "answer": 0,
+      "explanation": "Fill in the easy cells first. Y: pens + books = 70 and pens = 2.5 × books, so books = 20 and pens = 50. Pens column: 40 + X + 50 + 20 = 140, so X sold 30 pens. X: 30 + 35 + bags = 85, so 20 bags. (For the rest: W books + bags = 40 with books = bags + 10, so 25 and 15; Z bags = 70 − 15 − 20 − 10 = 25; Z books = 30.)" },
+    { "id": "cat2-di-02", "section": "QADI", "topic": "data-interpretation", "type": "di", "setId": "cat-di-s01", "source": "cat-style",
+      "stem": "Which shop earned the highest revenue?",
+      "options": ["Z", "X", "W", "Y"], "answer": 0,
+      "explanation": "Revenue = pens × 20 + books × 150 + bags × 400. W: 800 + 3,750 + 6,000 = ₹10,550. X: 600 + 5,250 + 8,000 = ₹13,850. Y: 1,000 + 3,000 + 4,000 = ₹8,000. Z: 400 + 4,500 + 10,000 = ₹14,900. Z sold the fewest units but the most bags, and bags dominate revenue: always weight by price before comparing." },
+    { "id": "cat2-di-03", "section": "QADI", "topic": "data-interpretation", "type": "di", "setId": "cat-di-s01", "source": "cat-style",
+      "stem": "Approximately what percentage of all books were sold by shop Z?",
+      "options": ["27%", "30%", "23%", "33%"], "answer": 0,
+      "explanation": "Z sold 75 − 20 − 25 = 30 books out of 110: 30/110 ≈ 27.3%. 30% is the trap of reading 30 books as 30% without dividing by the column total." },
+    { "id": "cat2-di-04", "section": "QADI", "topic": "data-interpretation", "type": "di", "setId": "cat-di-s01", "source": "cat-style",
+      "stem": "If W had sold 10 more bags, with everything else unchanged, where would W rank in revenue among the four shops?",
+      "options": ["2nd", "1st", "3rd", "4th"], "answer": 0,
+      "explanation": "W's revenue would rise by 10 × 400 = ₹4,000, to ₹14,550. That beats X (₹13,850) but not Z (₹14,900), so W would be 2nd. You don't need to recompute every shop, only W's change against the two leaders." }
+  ]
+}
