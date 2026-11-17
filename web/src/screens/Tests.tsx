@@ -1,13 +1,35 @@
 import { useEffect, useRef, useState } from 'react'
-import { minutesFor, XAT } from '../../../shared/scoring.ts'
-import { SECTIONS, type Section, type TestData, type TestResult } from '../../../shared/types.ts'
+import { minutesFor, PAPER, paperName, type PaperKind, WEAK, XAT } from '../../../shared/scoring.ts'
+import { SECTIONS, type Summary, type TestData, type TestResult } from '../../../shared/types.ts'
 import { api, message, post } from '../api.ts'
 import { letter, QuestionView } from './Practice.tsx'
 
-export function Tests({ onStart }: { onStart: (s: Section) => void }) {
+export function Tests({ onStart }: { onStart: (s: PaperKind) => void }) {
+  const [answered, setAnswered] = useState<number | null>(null)
+  useEffect(() => {
+    api<Summary>('/api/summary').then(s => setAnswered(s.answered), () => setAnswered(null))
+  }, [])
+  const ready = answered !== null && answered >= PAPER.unlock
+
   return (
     <section className="page">
-      <h1>Sectional test</h1>
+      <h1>Tests</h1>
+      <div className={ready ? 'paper' : 'paper locked'}>
+        <h2>Weak-spot paper</h2>
+        <p className="muted">
+          {PAPER.size} questions from your {PAPER.topics} weakest topics and open mistakes, timed at real exam pace with real marking.
+        </p>
+        {ready ? (
+          <button className="primary" onClick={() => onStart(WEAK)}>Start a fresh paper</button>
+        ) : (
+          <>
+            <progress max={PAPER.unlock} value={answered ?? 0} />
+            <p className="muted">Unlocks after {PAPER.unlock} answered questions · {answered ?? 0} so far</p>
+          </>
+        )}
+      </div>
+
+      <h2>Sectional test</h2>
       <p className="muted">Real timer and marking: +1 right, −0.25 wrong, −0.10 per skip after 8. GK has no negatives.</p>
       <ul className="list">
         {SECTIONS.map(s => (
@@ -29,7 +51,7 @@ const clock = (ms: number) => {
 }
 
 // ponytail: an in-progress test lives only in memory; a reload loses it. Persist picks if that bites.
-export function TestRun({ section, onExit }: { section: Section; onExit: () => void }) {
+export function TestRun({ section, onExit }: { section: PaperKind; onExit: () => void }) {
   const [data, setData] = useState<TestData | null>(null)
   const [error, setError] = useState('')
   const [i, setI] = useState(0)
@@ -65,7 +87,7 @@ export function TestRun({ section, onExit }: { section: Section; onExit: () => v
   if (error && !data) return <section className="msg"><button className="link" onClick={onExit}>← Back</button><p>{error}</p></section>
   if (!data) return <p className="msg">Loading…</p>
   if (!data.questions.length)
-    return <section className="msg"><button className="link" onClick={onExit}>← Back</button><p>No {XAT[section].name} questions yet.</p></section>
+    return <section className="msg"><button className="link" onClick={onExit}>← Back</button><p>No {paperName(section)} questions yet.</p></section>
   if (result) return <TestReview data={data} picks={picks} result={result} onExit={onExit} />
 
   const q = data.questions[i]
@@ -147,7 +169,7 @@ export function TestRun({ section, onExit }: { section: Section; onExit: () => v
 function TestReview({ data, picks, result, onExit }: { data: TestData; picks: Record<string, number>; result: TestResult; onExit: () => void }) {
   return (
     <section className="page">
-      <p className="muted">{XAT[data.section].name}</p>
+      <p className="muted">{paperName(data.section)}</p>
       <p className="big">{result.score} <span className="muted">/ {result.max}</span></p>
       <p className="muted">{result.right} right · {result.wrong} wrong · {result.skipped} skipped</p>
       <ol className="review">

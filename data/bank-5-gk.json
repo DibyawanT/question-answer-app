@@ -1,0 +1,169 @@
+{
+  "notes": [
+    { "topic": "history-culture", "text": "WHAT IT TESTS: static India GK that XAT repeats every year: battle and treaty chronology, Governor-General policies, north-to-south ordering of historic capitals, which states a river crosses, folk dances, harvest festivals, books and authors, calendar facts.\nAPPROACH: (1) For chronology, anchor on 3 dates you know cold (1526 Panipat I, 1757 Plassey, 1857 revolt) and slot the rest around them. (2) For north-south ordering, place each city in its modern state first. (3) For 'NOT' questions, eliminate the options you are sure of and pick the leftover.\nTRAPS: Leap years: a century year is a leap year only if divisible by 400 (2000 yes, 1900 no). Rivers crossing a state's border vs flowing through it. Similar-sounding festivals across states.\nREVISION: XAT GK is not used for the cut-off percentile, but it counts in final selection; 10 minutes of revision a day is enough." },
+    { "topic": "sports-science", "text": "WHAT IT TESTS: last 12 months of sports results (World Cups, chess, Olympics, Wimbledon) and India's space and science milestones (ISRO missions, launch vehicles, national days).\nAPPROACH: (1) Keep a running list during the year: event, winner, runner-up, venue. (2) For ISRO, note mission, rocket and date together; XAT likes asking which rocket launched what. (3) Read one monthly current-affairs digest from October to December before the exam.\nTRAPS: Runner-up vs winner, edition year vs year played, men's vs women's events with the same name." }
+  ],
+  "questions": [
+    {
+      "id": "gk-p-01", "section": "GK", "topic": "history-culture", "type": "standalone", "source": "pyq-style-2024",
+      "stem": "Arrange these battles in the order they were fought: (a) Battle of Plassey (b) First Battle of Panipat (c) Battle of Buxar (d) Battle of Haldighati (e) Third Battle of Panipat",
+      "options": ["(b)-(d)-(a)-(c)-(e)", "(b)-(d)-(a)-(e)-(c)", "(d)-(b)-(a)-(e)-(c)", "(b)-(a)-(d)-(e)-(c)", "(b)-(d)-(e)-(a)-(c)"],
+      "answer": 1,
+      "explanation": "First Panipat 1526 (Babur vs Ibrahim Lodi), Haldighati 1576 (Akbar's forces vs Maharana Pratap), Plassey 1757, Third Panipat 1761 (Marathas vs Ahmad Shah Abdali), Buxar 1764. TRAP: Buxar (1764) comes after Third Panipat (1761). RULE: anchor on 1526 and 1757, then slot the rest."
+    },
+    {
+      "id": "gk-p-02", "section": "GK", "topic": "history-culture", "type": "standalone", "source": "pyq-style-2024",
+      "stem": "Which Governor-General introduced the Permanent Settlement of land revenue in Bengal in 1793?",
+      "options": ["Lord Wellesley", "Warren Hastings", "Lord Dalhousie", "Lord Cornwallis", "Lord William Bentinck"],
+      "answer": 3,
+      "explanation": "Lord Cornwallis brought in the Permanent Settlement (fixed revenue from zamindars) in 1793. Pairings worth remembering: Wellesley, Subsidiary Alliance; Dalhousie, Doctrine of Lapse; Bentinck, abolition of sati (1829); Warren Hastings, first Governor-General of Bengal."
+    },
+    {
+      "id": "gk-p-03", "section": "GK", "topic": "history-culture", "type": "standalone", "source": "pyq-style-2024",
+      "stem": "Arrange these historic capitals from NORTH to SOUTH: (a) Thanjavur (b) Ujjain (c) Hampi (d) Delhi (e) Devagiri (Daulatabad)",
+      "options": ["(d)-(b)-(e)-(c)-(a)", "(d)-(e)-(b)-(c)-(a)", "(b)-(d)-(e)-(c)-(a)", "(d)-(b)-(c)-(e)-(a)", "(d)-(b)-(e)-(a)-(c)"],
+      "answer": 0,
+      "explanation": "Delhi (about 28.6°N), Ujjain in Madhya Pradesh (23°N), Devagiri near Aurangabad, Maharashtra (20°N), Hampi in Karnataka (15°N), Thanjavur in Tamil Nadu (11°N). RULE: place each city in its modern state, then order the states."
+    },
+    {
+      "id": "gk-p-04", "section": "GK", "topic": "history-culture", "type": "standalone", "source": "pyq-style-2024",
+      "stem": "The Yamuna does NOT flow through which of these?",
+      "options": ["Uttarakhand", "Haryana", "Delhi", "Punjab", "Uttar Pradesh"],
+      "answer": 3,
+      "explanation": "The Yamuna rises at Yamunotri in Uttarakhand, forms part of the Himachal–Uttarakhand and Haryana–UP borders, passes through Delhi, and joins the Ganga at Prayagraj in Uttar Pradesh. It never enters Punjab."
+    },
+    {
+      "id": "gk-p-05", "section": "GK", "topic": "history-culture", "type": "standalone", "source": "pyq-style-2024",
+      "stem": "Which of these years IS a leap year?",
+      "options": ["1700", "1800", "2100", "2200", "2400"],
+      "answer": 4,
+      "explanation": "A year divisible by 4 is a leap year, except century years, which must also be divisible by 400. 2400 ÷ 400 = 6, so it is one; 1700, 1800, 2100 and 2200 are century years not divisible by 400."
+    },
+    {
+      "id": "gk-p-06", "section": "GK", "topic": "history-culture", "type": "standalone", "source": "pyq-style-2025",
+      "stem": "Yakshagana, a traditional theatre form combining dance, music and dialogue, is most closely associated with which state?",
+      "options": ["Kerala", "Karnataka", "Odisha", "Tamil Nadu", "Andhra Pradesh"],
+      "answer": 1,
+      "explanation": "Yakshagana comes from coastal Karnataka. Commonly confused pairs: Kathakali and Theyyam (Kerala), Kuchipudi (Andhra Pradesh), Odissi (Odisha), Bharatanatyam (Tamil Nadu), Lavani (Maharashtra)."
+    },
+    {
+      "id": "gk-p-07", "section": "GK", "topic": "history-culture", "type": "standalone", "source": "pyq-style-2024",
+      "stem": "Nuakhai, a festival celebrating the first harvest of new rice, is mainly celebrated in which state?",
+      "options": ["Odisha", "Assam", "Punjab", "Kerala", "Gujarat"],
+      "answer": 0,
+      "explanation": "Nuakhai ('new food') is the harvest festival of western Odisha. Other harvest festivals: Bihu (Assam), Baisakhi (Punjab), Onam (Kerala), Pongal (Tamil Nadu), Nabanna (Bengal)."
+    },
+    {
+      "id": "gk-p-08", "section": "GK", "topic": "history-culture", "type": "standalone", "source": "pyq-style-2025",
+      "stem": "Who wrote the novel 'The Guide' (1958), later adapted into a well-known Hindi film?",
+      "options": ["Mulk Raj Anand", "Raja Rao", "R. K. Narayan", "Ruskin Bond", "Khushwant Singh"],
+      "answer": 2,
+      "explanation": "R. K. Narayan wrote 'The Guide', which won the Sahitya Akademi Award; it is set in his fictional town of Malgudi. Mulk Raj Anand wrote 'Untouchable', Raja Rao 'Kanthapura', Khushwant Singh 'Train to Pakistan'."
+    },
+    {
+      "id": "gk-p-09", "section": "GK", "topic": "polity", "type": "standalone", "source": "pyq-style-2025",
+      "stem": "Which of these is a permanent body that is never dissolved as a whole?",
+      "options": ["Lok Sabha", "State Legislative Assembly", "Union Council of Ministers", "Rajya Sabha", "Municipal Corporation"],
+      "answer": 3,
+      "explanation": "The Rajya Sabha is permanent: one-third of its members retire every two years. The Lok Sabha and state assemblies can be dissolved before their five-year term ends; the Council of Ministers goes with the government."
+    },
+    {
+      "id": "gk-p-10", "section": "GK", "topic": "polity", "type": "standalone", "source": "pyq-style-2025",
+      "stem": "Who formally appoints the Chief Election Commissioner of India?",
+      "options": ["The Prime Minister", "The Chief Justice of India", "The President", "The Speaker of the Lok Sabha", "The Union Law Minister"],
+      "answer": 2,
+      "explanation": "The President appoints the CEC. Under the 2023 law, the President acts on the recommendation of a selection committee: the Prime Minister, the Leader of the Opposition in the Lok Sabha and a Union Cabinet minister. TRAP: the PM recommends; the President appoints."
+    },
+    {
+      "id": "gk-p-11", "section": "GK", "topic": "polity", "type": "standalone", "source": "pyq-style-2025",
+      "stem": "If a dispute arises over whether a bill is a Money Bill, whose decision is final?",
+      "options": ["The President", "The Speaker of the Lok Sabha", "The Chairman of the Rajya Sabha", "The Supreme Court", "The Finance Minister"],
+      "answer": 1,
+      "explanation": "Under Article 110, the Speaker of the Lok Sabha certifies a Money Bill and that decision is final. A Money Bill can only be introduced in the Lok Sabha; the Rajya Sabha can only suggest changes within 14 days."
+    },
+    {
+      "id": "gk-p-12", "section": "GK", "topic": "awards", "type": "standalone", "source": "pyq-style-2025",
+      "stem": "The Maulana Abul Kalam Azad (MAKA) Trophy is awarded to:",
+      "options": ["The best sports coach of the year", "The top-performing university in inter-university sports", "The best sportsperson of the year", "Companies promoting sports through CSR", "Outstanding mountaineers and adventurers"],
+      "answer": 1,
+      "explanation": "The MAKA Trophy goes to the university with the best overall performance in inter-university competitions. Other national sports awards: Dronacharya (coaches), Arjuna (sportspersons), Major Dhyan Chand Khel Ratna (highest sporting honour), Rashtriya Khel Protsahan Puraskar (organisations), Tenzing Norgay (adventure)."
+    },
+    {
+      "id": "gk-p-13", "section": "GK", "topic": "awards", "type": "standalone", "source": "pyq-style-2024",
+      "stem": "The Pritzker Prize, often called the 'Nobel' of its field, is awarded for:",
+      "options": ["Journalism", "Mathematics", "Architecture", "Music composition", "Environmental activism"],
+      "answer": 2,
+      "explanation": "The Pritzker is architecture's top prize (B. V. Doshi was the first Indian winner, in 2018). Others: Pulitzer (journalism, literature), Fields Medal and Abel Prize (mathematics), Goldman Prize (environment)."
+    },
+    {
+      "id": "gk-p-14", "section": "GK", "topic": "awards", "type": "standalone", "source": "pyq-style-2026",
+      "stem": "'Heart Lamp', which won the International Booker Prize 2025, was originally written in which language?",
+      "options": ["Malayalam", "Bengali", "Urdu", "Kannada", "Hindi"],
+      "answer": 3,
+      "explanation": "Banu Mushtaq's short-story collection 'Heart Lamp', translated by Deepa Bhasthi, was the first Kannada work to win the International Booker. In 2022 Geetanjali Shree's 'Tomb of Sand' (Hindi) was the first Indian-language winner."
+    },
+    {
+      "id": "gk-p-15", "section": "GK", "topic": "awards", "type": "standalone", "source": "pyq-style-2026",
+      "stem": "The 2025 Nobel Memorial Prize in Economic Sciences (Joel Mokyr, Philippe Aghion and Peter Howitt) recognised work on:",
+      "options": ["Women's participation in the labour force", "Innovation-driven economic growth", "Poverty-alleviation experiments", "How institutions shape national prosperity", "Banks and financial crises"],
+      "answer": 1,
+      "explanation": "The 2025 prize was for explaining innovation-driven growth: Mokyr for the conditions behind sustained growth through technology, Aghion and Howitt for growth through 'creative destruction'. Decoys are earlier prizes: Goldin 2023 (women in work), Banerjee–Duflo–Kremer 2019 (poverty experiments), Acemoglu–Johnson–Robinson 2024 (institutions), Bernanke–Diamond–Dybvig 2022 (banks)."
+    },
+    {
+      "id": "gk-p-16", "section": "GK", "topic": "sports-science", "type": "standalone", "source": "pyq-style-2026",
+      "stem": "India won the ICC Women's Cricket World Cup 2025 by defeating which team in the final?",
+      "options": ["Australia", "England", "South Africa", "New Zealand", "Sri Lanka"],
+      "answer": 2,
+      "explanation": "India beat South Africa in the final at Navi Mumbai on 2 November 2025 to win their first Women's World Cup. Deepti Sharma was named Player of the Tournament."
+    },
+    {
+      "id": "gk-p-17", "section": "GK", "topic": "sports-science", "type": "standalone", "source": "pyq-style-2025",
+      "stem": "Who won the FIDE Women's World Cup 2025, becoming a Grandmaster in the process?",
+      "options": ["Koneru Humpy", "Divya Deshmukh", "Harika Dronavalli", "R. Vaishali", "Tan Zhongyi"],
+      "answer": 1,
+      "explanation": "Divya Deshmukh beat Koneru Humpy in the tiebreaks of an all-Indian final in Batumi (July 2025), earning the GM title. TRAP: Humpy was the runner-up. Related: D. Gukesh won the 2024 World Championship against Ding Liren."
+    },
+    {
+      "id": "gk-p-18", "section": "GK", "topic": "sports-science", "type": "standalone", "source": "pyq-style-2024",
+      "stem": "India celebrates National Space Day on 23 August to mark which event?",
+      "options": ["The launch of Aryabhata", "Chandrayaan-3's landing near the Moon's south pole", "Mangalyaan entering Mars orbit", "The launch of Aditya-L1", "ISRO's founding"],
+      "answer": 1,
+      "explanation": "Chandrayaan-3's Vikram lander touched down near the lunar south pole on 23 August 2023, making India the first country to land there. Aditya-L1 was launched on PSLV-C57 (September 2023); Chandrayaan-3 flew on LVM3-M4."
+    },
+    {
+      "id": "gk-p-19", "section": "GK", "topic": "international", "type": "standalone", "source": "pyq-style-2025",
+      "stem": "Which country became the 32nd member of NATO, in March 2024?",
+      "options": ["Finland", "Ukraine", "Sweden", "Austria", "Ireland"],
+      "answer": 2,
+      "explanation": "Sweden joined in March 2024, after Finland (31st) in April 2023; both were prompted by Russia's invasion of Ukraine. Austria and Ireland remain neutral; Ukraine is not a member."
+    },
+    {
+      "id": "gk-p-20", "section": "GK", "topic": "international", "type": "standalone", "source": "pyq-style-2024",
+      "stem": "Which country became a full member of BRICS in January 2025?",
+      "options": ["Indonesia", "Malaysia", "Nigeria", "Thailand", "Turkey"],
+      "answer": 0,
+      "explanation": "Indonesia became a full member in January 2025, after the 2024 expansion (Egypt, Ethiopia, Iran, UAE). Malaysia, Nigeria and Thailand joined the lower tier of 'partner countries' instead."
+    },
+    {
+      "id": "gk-p-21", "section": "GK", "topic": "economy", "type": "standalone", "source": "pyq-style-2026",
+      "stem": "Under the GST rate rationalisation that took effect on 22 September 2025, what special rate applies to luxury and 'sin' goods?",
+      "options": ["28%", "32%", "35%", "40%", "50%"],
+      "answer": 3,
+      "explanation": "The reform moved most goods to two main slabs, 5% and 18%, removed the 12% and 28% slabs, and created a special 40% rate for luxury and sin goods. TRAP: 28% was the old top slab."
+    },
+    {
+      "id": "gk-p-22", "section": "GK", "topic": "economy", "type": "standalone", "source": "pyq-style-2025",
+      "stem": "Which body releases India's official GDP estimates?",
+      "options": ["Reserve Bank of India", "NITI Aayog", "National Statistics Office (NSO)", "Ministry of Finance", "Comptroller and Auditor General"],
+      "answer": 2,
+      "explanation": "The NSO, under the Ministry of Statistics and Programme Implementation, publishes GDP estimates. The RBI forecasts growth and sets the repo rate through its Monetary Policy Committee, which the RBI Governor chairs."
+    },
+    {
+      "id": "gk-p-23", "section": "GK", "topic": "business", "type": "standalone", "source": "pyq-style-2026",
+      "stem": "The long-running 'Amul girl' topical advertising campaign was created in 1966 by:",
+      "options": ["Ogilvy & Mather", "Lintas", "daCunha Communications", "Mudra", "Rediffusion"],
+      "answer": 2,
+      "explanation": "Sylvester daCunha's agency created the Amul girl and still runs the topical hoardings. Ogilvy's Piyush Pandey was behind campaigns such as Fevicol, Cadbury 'Kuch khaas hai' and Asian Paints."
+    }
+  ]
+}

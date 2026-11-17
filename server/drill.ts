@@ -38,6 +38,19 @@ export const xpFor = (history: Attempt[], done: Set<string>) =>
 export const doneDates = (drills: { date: string; ids: string[] }[], answered: Set<string>) =>
   new Set(drills.filter(d => d.ids.every(id => answered.has(`${d.date}|${id}`))).map(d => d.date))
 
+/**
+ * Open mistakes: questions whose latest attempt (any mode, skips included) was not right.
+ * Getting one right later closes it. Oldest miss first.
+ */
+export function openMistakes(attempts: { qid: string; correct: boolean }[]): string[] {
+  const last = new Map<string, boolean>()
+  for (const a of attempts) {
+    last.delete(a.qid) // re-insert so Map order = order of latest attempt
+    last.set(a.qid, a.correct)
+  }
+  return [...last].filter(([, correct]) => !correct).map(([qid]) => qid)
+}
+
 export const REMINDER_HOURS = [13, 21]
 
 /** The reminder slot ("date|hour") to send now, or null. Fires once per slot, any minute of that IST hour. */

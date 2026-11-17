@@ -14,6 +14,7 @@ function questionError(q: any, passages: Set<string>): string | undefined {
   if (!isSection(q.section)) return `bad section ${q.section}`
   for (const k of ['topic', 'stem', 'explanation']) if (!str(q[k])) return `missing ${k}`
   if (q.type !== undefined && !str(q.type)) return 'type must be text'
+  if (q.source !== undefined && !str(q.source)) return 'source must be text'
   if (!Array.isArray(q.options) || q.options.length < 2 || !q.options.every(str)) return 'options must be 2+ non-empty strings'
   if (!Number.isInteger(q.answer) || q.answer < 0 || q.answer >= q.options.length) return 'answer out of range'
   if (q.setId !== undefined && !passages.has(q.setId)) return `unknown setId ${q.setId}`
@@ -45,7 +46,7 @@ export function validateImport(body: unknown, knownPassageIds: Set<string>) {
   const passageIds = new Set([...knownPassageIds, ...passages.map(p => p.id)])
   const questions = keep<Question>(list(b.questions), 'id', q => questionError(q, passageIds), q => ({
     id: q.id, section: q.section, topic: q.topic, type: q.type, setId: q.setId,
-    stem: q.stem, options: q.options, answer: q.answer, explanation: q.explanation,
+    stem: q.stem, options: q.options, answer: q.answer, explanation: q.explanation, source: q.source,
   }))
   const notes = keep<Note>(list(b.notes), 'topic', noteError, n => ({ topic: n.topic, text: n.text }))
   return { passages, questions, notes, rejected }

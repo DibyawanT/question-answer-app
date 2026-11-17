@@ -1,0 +1,112 @@
+{
+  "passages": [
+    { "id": "valr-p-r01", "section": "VALR", "text": "Economists long assumed that more options make consumers better off: a shopper who can choose among fifty jams can always pick the one she would have picked among five, and perhaps find something better. Psychologists saw a problem with this reasoning. In a well-known field experiment, a supermarket stall offering two dozen jams attracted more browsers than one offering six, but the smaller display produced far more purchases. Large choice sets, the researchers argued, raise the cost of deciding: each option must be compared, and the fear of choosing wrongly grows with the number of alternatives given up. Later attempts to repeat the effect, however, gave mixed results. Choice overload appears mainly when options are hard to compare, when the chooser has no clear preference, and when the decision must be made quickly. Experts choosing within their own field rarely suffer from it. The lesson for businesses is therefore not simply to cut their range, but to make large ranges easy to navigate, through sensible categories, defaults and recommendations, so that variety serves customers instead of paralysing them." }
+  ],
+  "questions": [
+    {
+      "id": "valr-p-01", "section": "VALR", "topic": "vocab-usage", "type": "grammar", "source": "pyq-style-2026",
+      "stem": "Read the sentences: 1. Neither of the reports was accurate. 2. Each of the players have a locker. 3. He is senior than me in the firm. 4. She avoided meeting him after the argument. 5. I look forward to hear from you. Which option lists ONLY the grammatically CORRECT sentences?",
+      "options": ["1, 2 and 4", "1 and 4 only", "1, 4 and 5", "2 and 3", "4 only"],
+      "answer": 1,
+      "explanation": "1 is correct: 'neither' takes a singular verb. 2 should be 'has' (each = singular). 3 should be 'senior to' (Latin comparatives like senior, junior, superior, prior take 'to'). 4 is correct: 'avoid' takes a gerund. 5 should be 'look forward to hearing' (here 'to' is a preposition, so a gerund follows)."
+    },
+    {
+      "id": "valr-p-02", "section": "VALR", "topic": "vocab-usage", "type": "grammar", "source": "pyq-style-2026",
+      "stem": "Read the sentences: 1. He returned back home late. 2. She emphasised the point twice. 3. They ordered for coffee. 4. He is good at mathematics. 5. We discussed the issue at length. 6. She married with a doctor. Which option lists ONLY the grammatically INCORRECT sentences?",
+      "options": ["1, 3 and 6", "1, 2 and 3", "3 and 6 only", "1, 3, 5 and 6", "2, 4 and 5"],
+      "answer": 0,
+      "explanation": "1 is redundant ('returned' already means came back). 3: 'order' takes a direct object, so no 'for'. 6: 'married a doctor', with no 'with'. 2, 4 and 5 are correct: emphasise and discuss take no preposition, and 'good at' is right. RULE: watch for verbs that take NO preposition: discuss, emphasise, order, marry, request, describe, attack."
+    },
+    {
+      "id": "valr-p-03", "section": "VALR", "topic": "fill-in-blank", "type": "standalone", "source": "pyq-style-2026",
+      "stem": "Choose the word that BEST fills the blank: 'The committee was ___ the view that the proposal, though sound in principle, was premature.'",
+      "options": ["in", "on", "of", "with", "for"],
+      "answer": 2,
+      "explanation": "The fixed expression is 'of the view that'. Similar fixed phrases: 'in favour of', 'on the grounds that', 'with regard to'. RULE: XAT blanks often test fixed prepositional phrases, so read the whole phrase, not just the word before the blank."
+    },
+    {
+      "id": "valr-p-04", "section": "VALR", "topic": "para-jumble", "type": "standalone", "source": "pyq-style-2026",
+      "stem": "Arrange the sentences in the most logical order: 1. Yet most of us still treat sleep as the first thing to cut when the day gets busy. 2. Researchers now regard it as an active process in which the brain stores memories and clears waste. 3. For centuries, sleep was seen as a passive state, a mere absence of wakefulness. 4. That view has been overturned.",
+      "options": ["3-2-4-1", "3-4-2-1", "2-3-4-1", "3-4-1-2", "1-3-4-2"],
+      "answer": 1,
+      "explanation": "3 introduces the old view; 4 ('That view') refers back to it; 2 gives the new view; 1 ('Yet') contrasts behaviour with that new understanding. CLUES: demonstratives like 'That view' need a sentence before them; 'Yet' needs something to contrast with."
+    },
+    {
+      "id": "valr-p-05", "section": "VALR", "topic": "para-jumble", "type": "standalone", "source": "pyq-style-2026",
+      "stem": "Arrange the sentences in the most logical order: 1. The result was a glut: by 2023 the city had more coffee shops than bakeries. 2. When the first specialty café opened in 2015, it was a novelty. 3. Now several are closing, and the survivors compete on price rather than quality. 4. Its success drew investors, and within five years dozens of imitators had appeared.",
+      "options": ["2-1-4-3", "4-2-1-3", "2-4-3-1", "2-4-1-3", "1-2-4-3"],
+      "answer": 3,
+      "explanation": "Time order: 2 (2015, the first café) → 4 ('Its success', imitators) → 1 ('The result', a glut by 2023) → 3 ('Now', closures). CLUES: 'Its' needs a single café before it; 'The result' needs a cause; 'Now' usually comes last in a story told in time order."
+    },
+    {
+      "id": "valr-p-06", "section": "VALR", "topic": "para-jumble", "type": "standalone", "source": "pyq-style-2025",
+      "stem": "Arrange the sentences in the most logical order: 1. Importers, on the other hand, must pay more rupees for the same goods. 2. When the rupee weakens against the dollar, each dollar earned abroad converts into more rupees. 3. This is why a weaker rupee is good news for exporters. 4. An exporter selling at a fixed dollar price therefore earns more at home without selling anything extra.",
+      "options": ["2-4-3-1", "2-3-4-1", "4-2-3-1", "2-1-4-3", "3-2-4-1"],
+      "answer": 0,
+      "explanation": "2 states the mechanism; 4 ('therefore') applies it to an exporter; 3 ('This is why') draws the conclusion; 1 ('on the other hand') turns to the opposite group. TRAP: 3 cannot open the paragraph, because 'This' needs something before it."
+    },
+    {
+      "id": "valr-p-07", "section": "VALR", "topic": "odd-sentence", "type": "standalone", "source": "pyq-style-2025",
+      "stem": "Which sentence does NOT belong with the others? 1. Mangroves protect coastlines by absorbing the energy of waves and storm surges. 2. Their tangled roots trap sediment, slowly building up land. 3. They also store several times more carbon per hectare than most tropical forests. 4. Coral bleaching happens when warm seas force corals to expel the algae living in them. 5. Yet mangroves are being cleared for shrimp farms and coastal development.",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": 3,
+      "explanation": "Sentences 1, 2, 3 and 5 are about mangroves: their benefits, then the threat to them ('Yet'). Sentence 4 is about coral reefs, a different coastal ecosystem. TRAP: a sentence on a related theme (coastal ecology) is still off-topic if it drops the paragraph's subject."
+    },
+    {
+      "id": "valr-p-08", "section": "VALR", "topic": "critical-reasoning", "type": "standalone", "source": "pyq-style-2026",
+      "stem": "Neighbourhoods in a city with more public libraries have lower school dropout rates. The mayor therefore proposes building libraries in high-dropout neighbourhoods to reduce dropouts. Which of the following, IF TRUE, MOST weakens the proposal?",
+      "options": ["Library membership in the city has risen every year.", "Most of the city's libraries were built in wealthier neighbourhoods, and family income strongly predicts dropout rates.", "Some students in library-rich areas also drop out.", "Building a library costs less than hiring ten teachers.", "Libraries also host adult literacy classes."],
+      "answer": 1,
+      "explanation": "If libraries cluster in wealthy areas and wealth itself lowers dropout rates, the link may be correlation, not causation: libraries might not cause the lower rates at all. The other options are irrelevant, or (C) too weak to touch an average pattern. RULE: to weaken 'X goes with Y, so X causes Y', find a third factor that drives both."
+    },
+    {
+      "id": "valr-p-09", "section": "VALR", "topic": "critical-reasoning", "type": "standalone", "source": "pyq-style-2026",
+      "stem": "Every product our firm launched in the last ten years that succeeded had first been tested with customers. Some products that were tested with customers still failed. Which conclusion can BEST be drawn?",
+      "options": ["Customer testing guarantees success.", "Customer testing is useless, since tested products also failed.", "In our record, customer testing appears necessary but not sufficient for success.", "Products that were not tested always fail in every industry.", "We should stop launching products."],
+      "answer": 2,
+      "explanation": "All successes were tested (testing looks necessary), but some tested products failed (testing is not sufficient). 'Guarantees' contradicts the second fact; 'useless' ignores the first; 'every industry' overreaches beyond the firm's record. RULE: 'all successes had X' gives necessity; 'some with X failed' rules out sufficiency."
+    },
+    {
+      "id": "valr-p-10", "section": "VALR", "topic": "critical-reasoning", "type": "standalone", "source": "pyq-style-2026",
+      "stem": "'Remote work lowers productivity because employees are constantly distracted at home.' Which of the following, IF TRUE, BEST CONTRADICTS this claim?",
+      "options": ["Many employees say they enjoy working from home.", "Office rents have fallen in several cities.", "When the same firm's staff moved to remote work, output per hour rose and error rates did not change.", "Some managers find it hard to supervise remote teams.", "Remote workers spend less time commuting."],
+      "answer": 2,
+      "explanation": "The claim is about productivity. Measured output rising for the same people after the switch directly contradicts it. Enjoyment, rents and commuting are beside the point; managers' difficulty is a different issue and, if anything, leans toward the claim."
+    },
+    {
+      "id": "valr-p-11", "section": "VALR", "topic": "critical-reasoning", "type": "standalone", "source": "pyq-style-2025",
+      "stem": "A company argues that moving to a four-day work week will improve staff wellbeing without hurting output. Which of the following, IF TRUE, MOST STRENGTHENS this argument?",
+      "options": ["Employees in a survey said they would like a four-day week.", "In a six-month trial across 60 similar firms, revenue held steady or rose while sick days and resignations fell.", "Some countries have shorter legal working weeks.", "The company's competitors work five days.", "A four-day week reduces electricity bills."],
+      "answer": 1,
+      "explanation": "A controlled trial in similar firms supports both halves of the claim: output held up (revenue) and wellbeing improved (fewer sick days and resignations). Survey wishes show preference, not effect; the other options do not address output or wellbeing."
+    },
+    {
+      "id": "valr-p-12", "section": "VALR", "topic": "reading-comprehension", "type": "rc", "setId": "valr-p-r01", "source": "pyq-style-2026",
+      "stem": "Which of the following BEST captures the main point of the passage?",
+      "options": ["Businesses should always offer as few choices as possible.", "Choice overload is a myth that later research disproved.", "Large choice sets can discourage decisions under certain conditions, so firms should make variety easier to navigate rather than simply cut it.", "Economists were right that more options always benefit consumers.", "Experts make better decisions than ordinary consumers in every field."],
+      "answer": 2,
+      "explanation": "The passage presents the effect, qualifies it (only under certain conditions) and ends with the advice: make large ranges navigable, 'not simply' cut them. A over-applies the effect; B over-reads the 'mixed results'; D is the view the passage questions; E stretches the point about experts beyond their own field."
+    },
+    {
+      "id": "valr-p-13", "section": "VALR", "topic": "reading-comprehension", "type": "rc", "setId": "valr-p-r01", "source": "pyq-style-2026",
+      "stem": "Based on the passage, which statement is DEFINITELY NOT true?",
+      "options": ["The larger jam display attracted more people to stop and look.", "Choice overload affects all consumers equally, whatever their expertise.", "Repeat studies did not always find the effect.", "Defaults and recommendations can make large ranges easier to use.", "The fear of a wrong choice can grow as the number of options grows."],
+      "answer": 1,
+      "explanation": "The passage says experts choosing within their own field rarely suffer from overload, so 'equally, whatever their expertise' contradicts it. The other four are each stated in the passage."
+    },
+    {
+      "id": "valr-p-14", "section": "VALR", "topic": "reading-comprehension", "type": "rc", "setId": "valr-p-r01", "source": "pyq-style-2026",
+      "stem": "According to the passage, which situation is MOST likely to produce choice overload?",
+      "options": ["A professional chef choosing among 30 knives at a trade fair.", "A first-time buyer choosing among 40 similar-looking health-insurance plans with a deadline tomorrow.", "A shopper who always buys the same brand of tea, picking from 50 teas.", "A customer choosing among three clearly different phone plans.", "A reader using a bookshop's 'staff picks' shelf to pick a novel."],
+      "answer": 1,
+      "explanation": "B meets all three conditions the passage gives: options hard to compare (similar-looking plans), no clear preference (first-time buyer) and time pressure. A is an expert in his field; C has a clear preference; D's options are few and easy to compare; E uses recommendations, which the passage says reduce overload."
+    },
+    {
+      "id": "valr-p-15", "section": "VALR", "topic": "vocab-usage", "type": "standalone", "source": "pyq-style-2025",
+      "stem": "In which sentence is the word 'discreet' used CORRECTLY?",
+      "options": ["The data was split into discreet categories for analysis.", "She was discreet about the merger talks and told no one outside the board.", "The two problems are discreet and must be solved separately.", "Light travels in discreet packets called photons.", "Each discreet step in the process was timed."],
+      "answer": 1,
+      "explanation": "'Discreet' means careful not to reveal things or attract attention. 'Discrete' means separate or distinct, which is the sense needed in every other option. Other confusable pairs XAT uses: complement/compliment, principal/principle, affect/effect, elicit/illicit."
+    }
+  ]
+}

@@ -4,8 +4,8 @@ import { type Context, Hono } from 'hono'
 import { bearerAuth } from 'hono/bearer-auth'
 import type { PracticeData } from '../shared/types.ts'
 import {
-  drillAnswers, drillFor, exportAll, getPrefs, importBank, passagesFor, recordAttempt, reportQuestion,
-  setPrefs, studySet, submitTest, summary, testFor, topics,
+  drillAnswers, drillFor, exportAll, getMandala, getPrefs, importBank, mistakeSet, passagesFor, recordAttempt, reportQuestion,
+  setMandala, setPrefs, studySet, submitTest, summary, testFor, topics,
 } from './db.ts'
 import { golden, today } from './drill.ts'
 import { publicKey, sendAll, startReminders, subscribe } from './push.ts'
@@ -29,8 +29,12 @@ app.post('/api/report', async c => reply(c, reportQuestion(await body(c))))
 
 app.get('/api/topics', c => c.json(topics()))
 app.get('/api/study/:topic', c => c.json<PracticeData>(studySet(c.req.param('topic'))))
+app.get('/api/mistakes', c => c.json<PracticeData>(mistakeSet(c.req.query('section'), c.req.query('topic'))))
 app.get('/api/test/:section', c => reply(c, testFor(c.req.param('section'))))
 app.post('/api/test/submit', async c => reply(c, submitTest(await body(c))))
+
+app.get('/api/mandala', c => c.json(getMandala()))
+app.post('/api/mandala', async c => reply(c, setMandala(await body(c))))
 
 app.get('/api/prefs', c => c.json(getPrefs()))
 app.put('/api/prefs', async c => reply(c, setPrefs(await body(c))))
@@ -49,7 +53,11 @@ app.get('/api/push/key', c => c.json({ key: publicKey }))
 app.post('/api/push/subscribe', async c => reply(c, subscribe(await body(c))))
 app.post('/api/push/test', async c => c.json(await sendAll({ title: 'XAT prep', body: 'Reminders are working.' })))
 
-app.use('/*', serveStatic({ root: './dist' }))
+// no-cache on HTML so every launch picks up the latest build; hashed /assets files can stay cached.
+app.use('/*', serveStatic({
+  root: './dist',
+  onFound: (path, c) => { if (path.endsWith('.html')) c.header('Cache-Control', 'no-cache') },
+}))
 
 startReminders()
 const port = Number(process.env.PORT ?? 3000)

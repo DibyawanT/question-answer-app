@@ -55,7 +55,13 @@ export function QuestionView({ q, passage, mark, onPick, disabled }: {
 }
 
 /** One question at a time with instant feedback. Used by the daily drill and study sets. */
-export function Practice({ url, mode, title, onExit }: { url: string; mode: Mode; title: string; onExit: () => void }) {
+export function Practice({ url, mode, title, onExit, onDone }: {
+  url: string
+  mode: Mode
+  title: string
+  onExit: () => void
+  onDone?: (right: number, total: number) => void // called instead of onExit when the set is finished
+}) {
   const [data, setData] = useState<PracticeData | null>(null)
   const [error, setError] = useState('')
   const [started, setStarted] = useState(false)
@@ -104,7 +110,7 @@ export function Practice({ url, mode, title, onExit }: { url: string; mode: Mode
         <p className="muted">{title}</p>
         <p className="big pop">{results.filter(Boolean).length} / {total}</p>
         {mode === 'drill' && <StreakReveal />}
-        <button className="primary" onClick={onExit}>Done</button>
+        <button className="primary" onClick={() => (onDone ? onDone(results.filter(Boolean).length, total) : onExit())}>Done</button>
       </section>
     )
 

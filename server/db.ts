@@ -1,8 +1,11 @@
 import { randomUUID } from 'node:crypto'
 import { DatabaseSync } from 'node:sqlite'
-import { minutesFor, score, XAT } from '../shared/scoring.ts'
-import { isSection, MODES, type Passage, type Prefs, type Question, type Summary, type TopicRow } from '../shared/types.ts'
-import { addDays, buildDrill, doneDates, golden, streakInfo, today, xpFor, type Attempt } from './drill.ts'
+import { byId, type MandalaDone } from '../shared/mandala.ts'
+import { minutesFor, PAPER, paceFor, score, scorePaper, smoothed, WEAK, XAT } from '../shared/scoring.ts'
+import {
+  isSection, MODES, SECTIONS, type Passage, type PracticeData, type Prefs, type Question, type Section, type Summary, type TopicRow,
+} from '../shared/types.ts'
+import { addDays, buildDrill, doneDates, golden, openMistakes, streakInfo, today, xpFor, type Attempt } from './drill.ts'
 import { validateImport } from './importer.ts'
 
 export const db = new DatabaseSync(process.env.DB_PATH ?? 'app.db')
@@ -153,11 +156,13 @@ export function summary(): Summary {
   )
   const done = doneDates(drills, answered)
   const answeredToday = [...answered].filter(k => k.startsWith(`${date}|`)).length
+  const h = history()
   return {
     date,
     ...streakInfo(done, date),
     week: [6, 5, 4, 3, 2, 1, 0].map(n => done.has(addDays(date, -n))),
-    xp: xpFor(history(), done),
+    xp: xpFor(h, done),
+    answered: h.length,
     golden: golden(date),
     doneToday: done.has(date),
     answeredToday,
@@ -165,25 +170,54 @@ export function summary(): Summary {
   }
 }
 
-export const topics = (): TopicRow[] =>
-  db
+/** Open mistake ids (see openMistakes), oldest miss first, limited to questions still in the bank. */
+const mistakeIds = () =>
+  openMistakes(
+    db.prepare('SELECT qid, correct FROM attempts ORDER BY id').all().map(r => ({ qid: String(r.qid), correct: Number(r.correct) === 1 })),
+  ).filter(id => hasQuestion.get(id))
+
+export function topics(): TopicRow[] {
+  const open = new Map<string, number>()
+  const topicOf = new Map(db.prepare('SELECT id, section, topic FROM questions').all().map(r => [String(r.id), `${r.section}|${r.topic}`]))
+  for (const id of mistakeIds()) {
+    const k = topicOf.get(id)!
+    open.set(k, (open.get(k) ?? 0) + 1)
+  }
+  const since = addDays(today(), -6)
+  return db
     .prepare(
       `SELECT q.section, q.topic, COUNT(DISTINCT q.id) AS questions, COUNT(a.id) AS answered,
          COALESCE(SUM(a.correct), 0) AS right, COALESCE(AVG(a.ms), 0) AS avgMs,
+         COALESCE(SUM(a.date >= ?), 0) AS recentAnswered, COALESCE(SUM(a.correct * (a.date >= ?)), 0) AS recentRight,
          EXISTS (SELECT 1 FROM notes n WHERE n.topic = q.topic) AS note
        FROM questions q LEFT JOIN attempts a ON a.qid = q.id AND a.picked IS NOT NULL
        GROUP BY q.section, q.topic ORDER BY q.section, q.topic`,
     )
-    .all()
+    .all(since, since)
     .map(r => ({
       section: r.section as TopicRow['section'],
       topic: String(r.topic),
       questions: Number(r.questions),
       answered: Number(r.answered),
       right: Number(r.right),
+      recentAnswered: Number(r.recentAnswered),
+      recentRight: Number(r.recentRight),
       avgMs: Math.round(Number(r.avgMs)),
       note: Number(r.note) === 1,
+      open: open.get(`${r.section}|${r.topic}`) ?? 0,
     }))
+}
+
+const MISTAKE_SET = 20
+
+/** Up to 20 open mistakes (one sitting), optionally for one section or topic, oldest miss first. Right answers close them. */
+export function mistakeSet(section?: string, topic?: string): PracticeData {
+  const questions = mistakeIds()
+    .map(id => question(id)!)
+    .filter(q => (!section || q.section === section) && (!topic || q.topic === topic))
+    .slice(0, MISTAKE_SET)
+  return { questions, passages: passagesFor(questions), answers: {}, golden: golden(today()) }
+}
 
 /** A short study set for one topic: its note plus 5 questions, unseen and due-for-revision first. */
 export function studySet(topic: string) {
@@ -197,6 +231,7 @@ export function studySet(topic: string) {
 
 /** A fresh sectional test at the real question count, unseen questions first. */
 export function testFor(section: string) {
+  if (section === WEAK) return weakPaper()
   if (!isSection(section)) return { error: 'unknown section' }
   const questions = buildDrill(
     allQuestions().filter(q => q.section === section),
@@ -205,18 +240,56 @@ export function testFor(section: string) {
   return { section, minutes: minutesFor(section), questions, passages: passagesFor(questions) }
 }
 
+/**
+ * Weak-spot paper: up to PAPER.mistakes open mistakes (weak topics first), topped up from your
+ * PAPER.topics weakest topics, then anything else. Ordered by section like the real paper, timed at real pace.
+ */
+export function weakPaper() {
+  const h = history()
+  if (h.length < PAPER.unlock) return { error: `Unlocks after ${PAPER.unlock} answered questions. You have ${h.length}.` }
+  const weak = new Set(
+    topics()
+      .filter(t => t.answered)
+      .sort((a, b) => smoothed(a.right, a.answered) - smoothed(b.right, b.answered))
+      .slice(0, PAPER.topics)
+      .map(t => t.topic),
+  )
+  const mistakes = mistakeIds()
+    .map(id => question(id)!)
+    .sort((a, b) => Number(!weak.has(a.topic)) - Number(!weak.has(b.topic)))
+    .slice(0, PAPER.mistakes)
+  const taken = new Set(mistakes.map(q => q.id))
+  const pick = (pool: Question[], size: number) =>
+    buildDrill(pool.filter(q => !taken.has(q.id)), { seed: randomUUID(), date: today(), history: h, size, revision: 0 })
+  const all = allQuestions()
+  const questions = [...mistakes]
+  for (const pool of [all.filter(q => weak.has(q.topic)), all]) {
+    if (questions.length >= PAPER.size) break
+    const more = pick(pool, PAPER.size - questions.length)
+    if (questions.length + more.length > PAPER.size) continue // buildDrill returns one whole set even if it doesn't fit
+    for (const q of more) taken.add(q.id)
+    questions.push(...more)
+  }
+  // Stable sort keeps each caselet set together and in order.
+  questions.sort((a, b) => SECTIONS.indexOf(a.section) - SECTIONS.indexOf(b.section))
+  const minutes = Math.ceil(questions.reduce((s, q) => s + paceFor(q.section), 0) / 60)
+  return { section: WEAK, minutes, questions, passages: passagesFor(questions) }
+}
+
 export function submitTest(b: any) {
-  if (!isSection(b?.section) || !Array.isArray(b.answers)) return { error: 'expected a section and a list of answers' }
-  const results: (boolean | null)[] = []
+  const kind = b?.section
+  if (!(isSection(kind) || kind === WEAK) || !Array.isArray(b.answers)) return { error: 'expected a section and a list of answers' }
+  const results: { section: Section; result: boolean | null }[] = []
   const rejected: string[] = []
   tx(() => {
     for (const a of b.answers) {
       const r = recordAttempt({ ...a, mode: 'test' })
       if ('error' in r) rejected.push(`${a?.qid}: ${r.error}`)
-      else results.push(a.picked === null ? null : r.correct)
+      else results.push({ section: question(a.qid)!.section, result: a.picked === null ? null : r.correct })
     }
   })
-  return { ...score(results, b.section), rejected }
+  const marks = kind === WEAK ? scorePaper(results) : score(results.map(r => r.result), kind)
+  return { ...marks, rejected }
 }
 
 /** Everything in one JSON file. Its passages/questions/notes can be uploaded again as a bank. */
@@ -231,6 +304,7 @@ export function exportAll() {
     attempts: all('attempts'),
     reports: all('reports'),
     drills: all('drills'),
+    mandala: getMandala(),
   }
 }
 
@@ -239,3 +313,17 @@ export const kvGet = (key: string) => {
   return r ? String(r.value) : undefined
 }
 export const kvSet = (key: string, value: string) => db.prepare('INSERT OR REPLACE INTO kv (key, value) VALUES (?, ?)').run(key, value)
+
+/** Green mandala concepts: concept id → when and how it was passed. */
+export const getMandala = (): MandalaDone => JSON.parse(kvGet('mandala') ?? '{}')
+
+export function setMandala(b: any): { error: string } | MandalaDone {
+  const n = typeof b?.id === 'string' ? byId.get(b.id) : undefined
+  if (!n || n.children.length) return { error: 'unknown concept' }
+  if (typeof b.done !== 'boolean') return { error: 'done must be true or false' }
+  const all = getMandala()
+  if (b.done) all[n.id] = { at: today(), score: typeof b.score === 'string' ? b.score.slice(0, 20) : 'self-study' }
+  else delete all[n.id]
+  kvSet('mandala', JSON.stringify(all))
+  return all
+}

@@ -14,6 +14,7 @@ export type Question = {
   options: string[]
   answer: number // index into options
   explanation: string
+  source?: string // e.g. "claude", "pyq-style-2025"
 }
 
 export type Note = { topic: string; text: string }
@@ -31,7 +32,8 @@ export type PracticeData = {
   golden?: boolean // double XP today
 }
 
-export type TestData = { section: Section; minutes: number; questions: Question[]; passages: Passage[] }
+/** section: a real section, or 'WEAK' for the weak-spot paper (see PAPER in scoring.ts). */
+export type TestData = { section: Section | 'WEAK'; minutes: number; questions: Question[]; passages: Passage[] }
 export type TestResult = { score: number; max: number; right: number; wrong: number; skipped: number }
 
 /** week: the last 7 days, oldest first, ending today; true = drill finished. */
@@ -46,17 +48,24 @@ export type Summary = {
   doneToday: boolean
   answeredToday: number
   totalToday: number
+  answered: number // all-time answered (not skipped), any mode
 }
 
-/** Per-topic totals. answered excludes skipped test questions; avgMs is per answered question. */
+/**
+ * Per-topic totals. answered excludes skipped test questions; avgMs is per answered question.
+ * recent* = the last 7 days. open = open mistakes (latest attempt wrong or skipped).
+ */
 export type TopicRow = {
   section: Section
   topic: string
   questions: number
   answered: number
   right: number
+  recentAnswered: number
+  recentRight: number
   avgMs: number
   note: boolean
+  open: number
 }
 
 /** "section:DM" or "topic:ethics" → weight 0 (never) to 3 (lots). Missing = 1. */

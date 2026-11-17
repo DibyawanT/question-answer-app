@@ -1,0 +1,109 @@
+{
+  "questions": [
+    {
+      "id": "qadi-p24-01", "section": "QADI", "topic": "arithmetic", "type": "standalone", "source": "pyq-style-2024",
+      "stem": "A college offers two streams: Science (Physics + Maths) and Arts (Economics + History). It launches a third stream, MathEcon (Maths + Economics), and lets existing students switch. First, 15 Arts students switch to MathEcon, after which Science has twice as many students as Arts. Then 30 Science students switch to MathEcon, after which Arts and Science have equal numbers. How many of the original students now take Economics?",
+      "options": ["45", "60", "30", "90", "75"],
+      "answer": 4,
+      "explanation": "Let the original numbers be S and A. After the first switch: S = 2(A − 15). After the second: A − 15 = S − 30, so S = A + 15. Then A + 15 = 2A − 30 gives A = 45 and S = 60. Economics is taken by the remaining Arts students (30) and all MathEcon students (15 + 30 = 45): 75. TRAP: 45 counts only MathEcon. RULE: write one equation per 'after this' event, then re-read who takes the subject asked about."
+    },
+    {
+      "id": "qadi-p24-02", "section": "QADI", "topic": "algebra", "type": "standalone", "source": "pyq-style-2024",
+      "stem": "A school's student numbers in Classes I to VIII, in that order, form an arithmetic progression. The total for Classes I–IV is three times the total for Classes V–VIII. If Classes I–III together have 351 students, how many students are in Class V?",
+      "options": ["81", "63", "45", "72", "None of these"],
+      "answer": 1,
+      "explanation": "With first term a and difference d: I–IV = 4a + 6d, V–VIII = 4a + 22d. 4a + 6d = 3(4a + 22d) gives d = −2a/15. I–III = 3a + 3d = 351, so a + d = 117, i.e. 13a/15 = 117, a = 135 and d = −18. Class V = a + 4d = 135 − 72 = 63. RULE: for an AP, express every group sum through a and d; a negative d is normal when early terms are bigger."
+    },
+    {
+      "id": "qadi-p24-03", "section": "QADI", "topic": "arithmetic", "type": "standalone", "source": "pyq-style-2024",
+      "stem": "A train is scheduled to leave at 8:00 AM for a city 960 km away. It leaves 2½ hours late. By running 16 km/h faster than its planned average speed, it arrives only 30 minutes late. Had it instead run 40 km/h faster than planned, when would it have arrived?",
+      "options": ["8:00 PM", "6:30 PM", "7:00 PM", "5:30 PM", "9:00 PM"],
+      "answer": 1,
+      "explanation": "The faster speed saved 2 hours: 960/v − 960/(v + 16) = 2, so v(v + 16) = 7680 and v = 80 km/h (planned time 12 h, planned arrival 8:00 PM). At 120 km/h the trip takes 8 h. Leaving at 10:30 AM, it arrives at 6:30 PM. TRAP: 8:00 PM is the original schedule. RULE: time saved = D/v − D/(v + x); try factor pairs of the product to find v."
+    },
+    {
+      "id": "qadi-p24-04", "section": "QADI", "topic": "algebra", "type": "standalone", "source": "pyq-style-2024",
+      "stem": "For how many real values of x does log₃(x² − 9) = 2·log₉(3 − x) hold?",
+      "options": ["0", "1", "2", "4", "Infinitely many"],
+      "answer": 1,
+      "explanation": "2·log₉(y) = log₃(y), so the equation becomes x² − 9 = 3 − x, i.e. x² + x − 12 = 0, giving x = 3 or −4. Domain: both x² − 9 > 0 and 3 − x > 0. x = 3 makes x² − 9 = 0 (not allowed). x = −4 gives 7 and 7, both fine. One solution. TRAP: 2, from forgetting the domain. RULE: after solving a log equation, plug every root back into every log's argument."
+    },
+    {
+      "id": "qadi-p24-05", "section": "QADI", "topic": "arithmetic", "type": "standalone", "source": "pyq-style-2024",
+      "stem": "A cinema costs ₹8,000 per day to run plus ₹4,000 per show. Its hall has 150 seats. On Saturday it ran four shows: three at ₹300 a ticket and a late show at ₹200 a ticket. Overall occupancy across the four shows was 75%. What is the MAXIMUM possible profit for the day?",
+      "options": ["₹99,750", "₹1,35,000", "₹1,11,000", "₹1,03,000", "₹87,000"],
+      "answer": 2,
+      "explanation": "Tickets sold = 75% of 600 seats = 450. To maximise revenue, sell every expensive seat first: the three ₹300 shows hold exactly 450, giving ₹1,35,000 and leaving the late show empty. Costs = 8,000 + 4 × 4,000 = ₹24,000. Profit = ₹1,11,000. TRAP: ₹99,750 assumes 75% in every show. RULE: 'maximum possible' means put the fixed total where it earns the most."
+    },
+    {
+      "id": "qadi-p24-06", "section": "QADI", "topic": "algebra", "type": "standalone", "source": "pyq-style-2024",
+      "stem": "A dosa stall sells 400 plates a day at ₹80 a plate. Each ₹5 rise in price loses 20 plates of sales; each ₹5 cut gains 20 plates. Each plate costs ₹50 to make, the price must never be below cost, at most 500 plates can be made in a day, and the price must be a multiple of ₹5. What is the MAXIMUM daily profit?",
+      "options": ["₹12,000", "₹16,800", "₹14,400", "₹16,900", "None of these"],
+      "answer": 3,
+      "explanation": "With k steps of ₹5 (k may be negative): price 80 + 5k, plates 400 − 20k, profit (30 + 5k)(400 − 20k) = 100(6 + k)(20 − k). The two factors sum to 26, so the product is largest when they are equal: k = 7 gives 13 × 13 = 169, i.e. ₹16,900 at ₹115 for 260 plates. Both limits hold (price above cost; plates under 500). TRAP: ₹16,800 is k = 6 or 8. RULE: for (a + k)(b − k), the maximum is where the two factors are equal."
+    },
+    {
+      "id": "qadi-p24-07", "section": "QADI", "topic": "geometry", "type": "standalone", "source": "pyq-style-2024",
+      "stem": "A field is an isosceles triangle with a 160 ft base and a height of 60 ft. A circular pond is centred at the midpoint of the base and just touches the two equal sides. Half the pond lies outside the field, on land bought from a neighbour at ₹500 per sq ft. Which is CLOSEST to the cost of that land? (Take π = 22/7.)",
+      "options": ["₹36.2 lakh", "₹28.3 lakh", "₹12.6 lakh", "₹18.1 lakh", "₹22.6 lakh"],
+      "answer": 3,
+      "explanation": "Each equal side is √(80² + 60²) = 100 ft. The radius is the distance from the base midpoint to a side: area of a half-triangle = ½ × 80 × 60 = ½ × 100 × r, so r = 48 ft. The outside half-circle is ½ × (22/7) × 48² ≈ 3,621 sq ft; × ₹500 ≈ ₹18.1 lakh. TRAP: ₹36.2 lakh prices the whole pond; ₹28.3 lakh uses r = 60 (the height). RULE: distance from a point to a side = 2 × area ÷ side."
+    },
+    {
+      "id": "qadi-p24-08", "section": "QADI", "topic": "number-system", "type": "standalone", "source": "pyq-style-2024",
+      "stem": "The LCM of a number n and 840 is 2520, and the HCF of n and 300 is 60. What is the smallest possible value of n?",
+      "options": ["60", "180", "360", "252", "1260"],
+      "answer": 1,
+      "explanation": "840 = 2³·3·5·7 and 2520 = 2³·3²·5·7, so n divides 2520 and must contain 3² (840 has only one 3). 300 = 2²·3·5² and the HCF 60 = 2²·3·5, so n has at least 2², and exactly 5¹. Smallest: 2²·3²·5 = 180. Check: LCM(180, 840) = 2520 and HCF(180, 300) = 60. TRAP: 60 fails the LCM (LCM(60, 840) = 840). RULE: work prime by prime: the LCM sets the maximum power, the HCF the minimum."
+    },
+    {
+      "id": "qadi-p24-09", "section": "QADI", "topic": "algebra", "type": "standalone", "source": "pyq-style-2024",
+      "stem": "The roots of 3x³ − 10x² + 9x − 2 = 0 are the radii of three concentric circles. What is the ratio of their areas, from largest to smallest?",
+      "options": ["6 : 3 : 1", "36 : 9 : 1", "9 : 4 : 1", "4 : 2 : 1", "None of these"],
+      "answer": 1,
+      "explanation": "x = 1 is a root (3 − 10 + 9 − 2 = 0). Dividing gives 3x² − 7x + 2 = (3x − 1)(x − 2), so the roots are 2, 1 and 1/3. Areas go as the squares: 4 : 1 : 1/9 = 36 : 9 : 1. TRAP: 6 : 3 : 1 is the ratio of the radii. RULE: for a cubic, test x = 1, −1 and factors of the constant ÷ the leading coefficient first."
+    },
+    {
+      "id": "qadi-p24-10", "section": "QADI", "topic": "probability", "type": "standalone", "source": "pyq-style-2024",
+      "stem": "A café menu has 10 vegetarian and 6 non-vegetarian items; some contain gluten. Group X picks 2 different veg and 2 different non-veg items from the full menu. Group Y picks 2 different veg items and 1 non-veg item, only from gluten-free items. Group X has 9 times as many possible combinations as Group Y. How many menu items contain gluten?",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": 4,
+      "explanation": "Group X: C(10,2) × C(6,2) = 45 × 15 = 675, so Group Y has 75 = C(v,2) × n, where v ≤ 10 and n ≤ 6 are the gluten-free veg and non-veg counts. Trying n = 1 to 6, only n = 5 works, with C(v,2) = 15, so v = 6. Gluten items = (10 − 6) + (6 − 5) = 5. RULE: when a count equals a product of combinations, factor it and match against the small set of possible C(v,2) values (1, 3, 6, 10, 15, 21…)."
+    },
+    {
+      "id": "qadi-p24-11", "section": "QADI", "topic": "algebra", "type": "standalone", "source": "pyq-style-2024",
+      "stem": "The lines 2x + 8y + p = 0 and qx + ry − 6 = 0 are the same line, where p, q and r are real numbers. Which statement DEFINITELY CONTRADICTS this?",
+      "options": ["p and q have opposite signs", "The largest of p, q and r is r", "The smallest of p, q and r is q", "r = 4q", "pq = −12"],
+      "answer": 2,
+      "explanation": "Same line means the coefficients are proportional: q = 2λ, r = 8λ, −6 = pλ, so p = −6/λ. If λ > 0: p < 0 < q < r, so p is the smallest. If λ < 0: r < q < 0 < p, so r is the smallest. q is never the smallest. The others always hold or can hold: pq = −12 and r = 4q always; r is largest when λ > 0. RULE: coinciding lines → write each coefficient as λ × the other's, then test both signs of λ."
+    },
+    {
+      "id": "qadi-p24-12", "section": "QADI", "topic": "number-system", "type": "standalone", "source": "pyq-style-2024",
+      "stem": "A four-digit number has the form abba (first and last digit a, with a > 0; middle two digits b). Which condition is both NECESSARY and SUFFICIENT for the number to be divisible by a?",
+      "options": ["b is divisible by a", "2b is divisible by a", "5b is divisible by a", "b = 0", "10b is divisible by a"],
+      "answer": 4,
+      "explanation": "abba = 1001a + 110b, so it is divisible by a exactly when 110b is. 110 = 10 × 11, and 11 shares no factor with any digit 1–9, so this is the same as 10b being divisible by a. Counter-examples for the others: 2112 is divisible by 2 although b = 1 (so 'b divisible by a' and '5b' are not necessary); 5115 is divisible by 5 although 2b = 2 is not. 'b = 0' is sufficient but not necessary. RULE: expand by place value, drop the multiple of a, then remove factors coprime to every possible a."
+    },
+    {
+      "id": "qadi-p24-13", "section": "QADI", "topic": "arithmetic", "type": "standalone", "source": "pyq-style-2024",
+      "stem": "A merchant splits all her coins into three bags. The first bag holds 1/4 of the coins and the second holds k/7 of them, for some positive integer k. The third bag holds 51 coins. How many coins does she have?",
+      "options": ["84", "1428", "168", "357", "Cannot be determined uniquely"],
+      "answer": 4,
+      "explanation": "The third bag's share is 1 − 1/4 − k/7 = (21 − 4k)/28, which must be positive, so k is 1 to 5. Total T = 51 × 28/(21 − 4k). k = 1 gives T = 84 (bags 21, 12, 51). k = 5 gives T = 1428 (bags 357, 1020, 51). k = 2, 3, 4 give non-integers. Two valid totals, so no unique answer. TRAP: stopping at the first k that works. RULE: when a parameter is 'some integer', test its whole range before answering."
+    },
+    {
+      "id": "qadi-p24-14", "section": "QADI", "topic": "algebra", "type": "standalone", "source": "pyq-style-2024",
+      "stem": "Ravi has ₹125. Buying 3 kg of tomatoes and 5 kg of onions would leave him ₹19; buying 4 kg of tomatoes and 3 kg of potatoes would leave him ₹22. Prices per kg are whole rupees, and potatoes are the costliest of the three per kg. If he spends on onions only, buying as many whole kg as he can, how much money is left?",
+      "options": ["₹5", "₹13", "₹6", "₹19", "₹0"],
+      "answer": 2,
+      "explanation": "3t + 5o = 106 and 4t + 3p = 103. The first needs t to leave remainder 2 when divided by 5, the second needs remainder 1 when divided by 3, so t = 7 or 22. t = 7: o = 17, p = 25. t = 22: o = 8, p = 5 (potato cheapest, ruled out). So onions cost ₹17: 7 kg cost ₹119, leaving ₹6. TRAP: ₹5 comes from the ruled-out case (15 kg at ₹8). RULE: for integer equations, use remainders to list candidates, then let the extra condition pick one."
+    },
+    {
+      "id": "qadi-p24-15", "section": "QADI", "topic": "arithmetic", "type": "standalone", "source": "pyq-style-2024",
+      "stem": "A shop offers four coupons, one per bill: A: ₹200 off a bill of ₹1000 or more. B: 20% off a bill of ₹400 or more, capped at ₹250. C: ₹75 off a bill of ₹500 or more. D: 10% off a bill of ₹300 or more, capped at ₹120. A family buys three items at ₹800 each and one at ₹300. They may split the items into separate bills in any way (no item split across bills) and reuse a coupon on different bills. What is the MAXIMUM total discount?",
+      "options": ["₹510", "₹250", "₹600", "₹540", "₹480"],
+      "answer": 3,
+      "explanation": "B gives 20% until the cap bites at a ₹1250 bill, so bills of about ₹1250 or less are best. Each ₹800 item alone earns ₹160 with B. The ₹300 item alone earns only ₹30 (D), but added to one ₹800 item it makes ₹1100, worth ₹220 with B. Best: 800 | 800 | 800 + 300 = 160 + 160 + 220 = ₹540. TRAP: ₹510 bills everything separately; ₹250 is one bill capped. RULE: with a capped percentage coupon, keep each bill just under the cap point and attach small items to reach the minimum."
+    }
+  ]
+}

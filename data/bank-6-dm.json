@@ -1,0 +1,116 @@
+{
+  "passages": [
+    { "id": "dm-p-c01", "section": "DM", "text": "Raghav Roadways, a 40-year-old logistics company in Nagpur, has always been run by the Bajaj family and a few long-serving managers. Facing price pressure from app-based freight platforms, the board hired six data analysts from top engineering and management schools at salaries well above the company's norm. Tanvi, one of them, reports to Mr. Deshpande, the operations head, who has run the fleet for 25 years and reports directly to the managing director, Ankit Bajaj." },
+    { "id": "dm-p-c02", "section": "DM", "text": "Farhan joined Kavach Insurance two years ago through campus placement and works in motor claims under Ritu, who reports to Sanjay, the vertical head. Ritu rated Farhan 'Outstanding' last year; the company promotes people rated 'Outstanding' two years in a row by their immediate manager. Farhan now wants to move to the new health-analytics team, which he finds far more interesting. Internal moves need the current manager's consent. Ritu praises his curiosity but says his skills are critical in motor claims, promises him bigger assignments, and declines the request." },
+    { "id": "dm-p-c03", "section": "DM", "text": "Sutra Textiles is hiring area sales managers for its expansion into Rajasthan. Its HR head, Meenakshi, lets line managers run interviews but requires them to follow written eligibility rules so that hiring stays consistent. One rule, introduced this year after two failed hires, requires four years of field sales experience. Line manager Gurpreet discovers mid-interview that candidate Lata has three years and seven months of experience; an HR assistant had shortlisted her by mistake. Gurpreet completes the interview and rates her the strongest candidate so far." },
+    { "id": "dm-p-c04", "section": "DM", "text": "FreshCrust, a bakery in Pune, delivers to cafés every morning. It can either lease a van with a driver, at a fixed ₹1,800 per day plus ₹12 per km for fuel, or use a courier service charging ₹40 per km with no fixed cost. Its current daily delivery route is 60 km." },
+    { "id": "dm-p-c05", "section": "DM", "text": "The Pimpalgaon municipal council plans a new water-treatment plant that will end a decade of contaminated tap water for 40,000 residents. The only site the state engineers approve is a 6-acre plot used for 30 years as a weekly market by about 200 vegetable vendors, most of whom have no other place to sell. The state grant funding the plant lapses if construction does not start within eight months. Council chairperson Sunita Pawar must decide how to proceed." }
+  ],
+  "questions": [
+    {
+      "id": "dm-p-01", "section": "DM", "topic": "hr-people", "type": "caselet", "setId": "dm-p-c01", "source": "pyq-style-2026",
+      "stem": "In a review meeting, Tanvi points out that a new route plan from Mr. Deshpande assumes fuel prices from two years ago. He replies, 'You people learn trucking from spreadsheets; sit and watch for a year before you lecture us,' and ignores her for the rest of the meeting. The other analysts tell her it was not a big deal. Which action is BEST for Tanvi?",
+      "options": ["Write to the managing director demanding action against Mr. Deshpande.", "Meet Mr. Deshpande privately, acknowledge his experience, and show him the fuel-price gap with data.", "Stay silent in meetings for a year, as he suggested.", "Get the other analysts to raise the issue on her behalf.", "Post an anonymous comment about 'old-school bosses' on the company's internal forum."],
+      "answer": 1,
+      "explanation": "A private, respectful conversation that brings data addresses both the behaviour and the business issue at the lowest level, and gives the senior a chance to engage without losing face. Escalating straight to the MD over one remark is disproportionate; silence lets the error and the behaviour stand; asking others to speak for her, or posting anonymously, avoids owning the issue. XAT pattern: try the direct, proportionate step first."
+    },
+    {
+      "id": "dm-p-02", "section": "DM", "topic": "hr-people", "type": "caselet", "setId": "dm-p-c01", "source": "pyq-style-2026",
+      "stem": "Months later, all six analysts find that their proposals are routinely dropped from meeting agendas across departments. Which action by the analysts is MOST likely to improve how their work is received?",
+      "options": ["Go quietly back to their assigned tasks and wait for attitudes to change.", "Threaten to resign together unless their proposals are discussed.", "Start a joint pilot with one willing manager on one route, and share the measured savings with Mr. Deshpande and the MD.", "Form a WhatsApp group to vent about the seniors.", "Challenge seniors publicly in meetings whenever they are dismissive."],
+      "answer": 2,
+      "explanation": "A small pilot with a willing insider builds credibility through results and involves the seniors rather than going around them. Waiting changes nothing; a group threat or public confrontation hardens positions; venting brings comfort but no change. RULE: in culture clashes, the best option builds trust and shows value, not power."
+    },
+    {
+      "id": "dm-p-03", "section": "DM", "topic": "hr-people", "type": "caselet", "setId": "dm-p-c01", "source": "pyq-style-2026",
+      "stem": "Within a year, four of the six analysts resign, citing condescending seniors in their exit interviews. Ankit Bajaj wants long-lasting change in how senior managers work with new hires. Which step is BEST?",
+      "options": ["Move the analysts to a separate office so they rarely meet senior managers.", "Fire Mr. Deshpande as an example to others.", "Add 'developing new talent' to senior managers' goals and pair each senior with an analyst on a joint target, with Ankit reviewing progress.", "Stop hiring analysts and outsource analytics to a consulting firm.", "Send a circular warning that disrespect will be punished."],
+      "answer": 2,
+      "explanation": "Changing goals and creating shared targets changes incentives and daily behaviour, with leadership following up. Isolation and outsourcing avoid the problem; firing one person is punitive and does not change the system; a warning circular sets a rule without building new habits. RULE: for organisation-wide behaviour, prefer options that change incentives and structure over one-off punishment."
+    },
+    {
+      "id": "dm-p-04", "section": "DM", "topic": "hr-people", "type": "caselet", "setId": "dm-p-c02", "source": "pyq-style-2026",
+      "stem": "Farhan is considering taking his request directly to Sanjay, who can approve moves independently but usually backs Ritu. Which fact, IF TRUE, BEST justifies approaching Sanjay?",
+      "options": ["Sanjay and Farhan support the same football club.", "Company policy lets employees take an internal-move request to the skip-level manager after the immediate manager declines it.", "A colleague once got a move by going around her manager.", "Farhan feels he cannot stay in motor claims one more month.", "The health-analytics team is short of people."],
+      "answer": 1,
+      "explanation": "A policy that explicitly provides for skip-level escalation makes the approach legitimate rather than a breach of trust with Ritu. Personal rapport, a colleague's workaround and Farhan's feelings do not make it appropriate; the other team's staff shortage is their problem, not a reason for Farhan to bypass process. RULE: 'IF TRUE, BEST justifies' rewards the option that makes the action fair and sanctioned."
+    },
+    {
+      "id": "dm-p-05", "section": "DM", "topic": "hr-people", "type": "caselet", "setId": "dm-p-c02", "source": "pyq-style-2026",
+      "stem": "Farhan met Sanjay, who refused and told him to 'find another job if claims bores you'. Since then Farhan feels Ritu has been cold: she gave a key project to a colleague. Yet his annual rating from Ritu is again 'Outstanding'. Which step will BEST repair his relationship with Ritu?",
+      "options": ["Keep a low profile and let time heal things.", "Ask Sanjay to speak to Ritu for him.", "Ask Ritu for an open conversation, explain why he went to Sanjay, and listen to how she saw it.", "Work longer hours so the results speak for him.", "Apologise in an email to Ritu and copy Sanjay."],
+      "answer": 2,
+      "explanation": "The rating suggests Ritu still values him; the coldness may be a misunderstanding. A direct, two-way conversation clears it up and shows maturity. Waiting or working harder leaves the issue unspoken; a go-between makes it worse; copying Sanjay on an apology turns a private repair into a public show."
+    },
+    {
+      "id": "dm-p-06", "section": "DM", "topic": "hr-people", "type": "caselet", "setId": "dm-p-c02", "source": "pyq-style-2026",
+      "stem": "A year later Farhan interviews at a rival firm for a role leading a team of 12. The hiring manager calls Ritu, an old friend, who says Farhan is very capable but 'pushes back on his bosses too often'. Which information would BEST help the hiring manager decide?",
+      "options": ["The rival firm openly encourages employees to challenge decisions.", "Ritu has given a negative reference before for someone who went on to excel at the rival firm.", "Several people from Kavach have joined the rival firm recently.", "Ritu is known to dislike losing team members.", "Farhan was polite throughout the interview process."],
+      "answer": 0,
+      "explanation": "Whether 'pushing back' is a weakness depends on the culture the person will work in. If the firm values constructive challenge, the comment is close to a recommendation. Ritu's past references and possessiveness hint at bias but do not settle fit; attrition trends and politeness in interviews are irrelevant to the trait in question. RULE: judge a reference against what the new role actually needs."
+    },
+    {
+      "id": "dm-p-07", "section": "DM", "topic": "ethics", "type": "caselet", "setId": "dm-p-c03", "source": "pyq-style-2026",
+      "stem": "Gurpreet wants to recommend Lata despite the four-year rule. Which fact, IF TRUE, would BEST support his recommendation?",
+      "options": ["Lata interned with Sutra Textiles in college.", "Lata has a competing offer from another company.", "The written rules let HR waive a criterion by up to six months for exceptional candidates, with the reason recorded.", "Gurpreet himself was hired years ago without meeting all criteria.", "Sales roles in Rajasthan are hard to fill."],
+      "answer": 2,
+      "explanation": "A documented waiver clause means recommending her follows the rules rather than bending them; she is five months short, within six. A competing offer, hiring difficulty and past exceptions are pressures or precedents, not legitimate grounds; an internship does not change her field experience."
+    },
+    {
+      "id": "dm-p-08", "section": "DM", "topic": "ethics", "type": "caselet", "setId": "dm-p-c03", "source": "pyq-style-2026",
+      "stem": "Gurpreet recommends Lata. Meenakshi, the HR head, wants to reject her. Which reason BEST supports rejection?",
+      "options": ["Meenakshi has overruled line managers before.", "Lata may join a rival anyway.", "Several candidates with between three and four years of experience were already turned away under the same rule; hiring Lata would be unfair to them.", "Gurpreet's team is small.", "Lata declined a Sutra internship offer years ago."],
+      "answer": 2,
+      "explanation": "Consistency and fairness to other applicants are exactly what the rule exists to protect; making an exception now would treat equally placed candidates differently. Past overrides, team size and an old internship refusal are irrelevant; 'she may leave anyway' is speculation."
+    },
+    {
+      "id": "dm-p-09", "section": "DM", "topic": "ethics", "type": "caselet", "setId": "dm-p-c03", "source": "pyq-style-2026",
+      "stem": "Lata is rejected. Gurpreet still believes she is the best fit. What is the MOST appropriate next step for him?",
+      "options": ["Ask the HR assistant to quietly re-enter her experience as four years.", "Accept the decision and suggest Lata reapply in five months, when she meets the rule.", "Complain to the CEO that HR is blocking talent.", "Hire Lata on contract in his team until she qualifies, without telling HR.", "Tell Lata the HR head is being unreasonable."],
+      "answer": 1,
+      "explanation": "Respecting the decision while keeping a legitimate path open is fair to Lata and to the process. Changing records is falsification; hiring her through a side door circumvents the rule; going to the CEO or criticising HR to a candidate is disproportionate and unprofessional."
+    },
+    {
+      "id": "dm-p-10", "section": "DM", "topic": "operations-math", "type": "caselet", "setId": "dm-p-c04", "source": "pyq-style-2026",
+      "stem": "For the current 60 km route, which option is cheaper per day, and by how much?",
+      "options": ["Van, by ₹120", "Courier, by ₹120", "Courier, by ₹720", "Van, by ₹600", "Both cost the same"],
+      "answer": 1,
+      "explanation": "Van: 1,800 + 12 × 60 = ₹2,520. Courier: 40 × 60 = ₹2,400. Courier is cheaper by ₹120. RULE: fixed-plus-variable versus pure variable: the fixed-cost option wins only above the break-even distance."
+    },
+    {
+      "id": "dm-p-11", "section": "DM", "topic": "operations-math", "type": "caselet", "setId": "dm-p-c04", "source": "pyq-style-2026",
+      "stem": "FreshCrust adds two cafés, taking the route to 75 km a day. How much does it save per day by choosing the cheaper option over the other?",
+      "options": ["₹150", "₹300", "₹420", "₹0", "₹1,200"],
+      "answer": 1,
+      "explanation": "Van: 1,800 + 12 × 75 = ₹2,700. Courier: 40 × 75 = ₹3,000. The van is now cheaper, by ₹300. The break-even point is 1,800/(40 − 12) ≈ 64.3 km, and 75 km is beyond it."
+    },
+    {
+      "id": "dm-p-12", "section": "DM", "topic": "operations-math", "type": "caselet", "setId": "dm-p-c04", "source": "pyq-style-2026",
+      "stem": "The van's fixed charge rises by 20%. What is the MINIMUM whole number of km per day at which the van becomes strictly cheaper than the courier?",
+      "options": ["65", "72", "77", "78", "90"],
+      "answer": 3,
+      "explanation": "New fixed charge = ₹2,160. The van is cheaper when 2,160 + 12k < 40k, i.e. k > 2,160/28 ≈ 77.1, so 78 km. TRAP: 77 rounds down; at 77 km the van costs 3,084 against the courier's 3,080. RULE: 'strictly cheaper' with whole units means round the break-even point UP."
+    },
+    {
+      "id": "dm-p-13", "section": "DM", "topic": "stakeholder-conflict", "type": "caselet", "setId": "dm-p-c05", "source": "pyq-style-2025",
+      "stem": "What should Sunita do FIRST?",
+      "options": ["Order the market cleared next week so construction can start early.", "Drop the plant, since displacing vendors is unacceptable.", "Meet the vendors' representatives, explain the health need and the deadline, and work out a relocation site and timeline with them.", "Ask the state engineers to keep looking for another site, however long it takes.", "Let the vendors stay and build the plant around the market."],
+      "answer": 2,
+      "explanation": "Both interests are serious: safe water for 40,000 people and the livelihoods of 200 vendors. Engaging the vendors early, honestly and with a concrete plan protects both and makes an on-time start likely. Clearing them abruptly ignores their livelihoods; dropping the plant or searching indefinitely sacrifices public health and the grant; building around the market is not feasible on the only approved site."
+    },
+    {
+      "id": "dm-p-14", "section": "DM", "topic": "stakeholder-conflict", "type": "caselet", "setId": "dm-p-c05", "source": "pyq-style-2025",
+      "stem": "The vendors agree to move if the new market is ready before the old one closes. Two sites are available: a council plot 3 km away on a bus route, or a private plot next door whose owner wants double the rent for five years. Which consideration should weigh MOST in choosing?",
+      "options": ["Which plot the local MLA prefers.", "Whether vendors' regular customers can easily reach the new site, so incomes do not collapse.", "Which plot looks better in a press photo.", "Which option the council's lowest-cost contractor prefers.", "Which plot is closer to Sunita's ward."],
+      "answer": 1,
+      "explanation": "The aim of relocation is to protect livelihoods, which depend on customer access; that is the criterion that defines success. Political preference, optics, contractor convenience and Sunita's ward are irrelevant or self-serving."
+    },
+    {
+      "id": "dm-p-15", "section": "DM", "topic": "stakeholder-conflict", "type": "caselet", "setId": "dm-p-c05", "source": "pyq-style-2025",
+      "stem": "A group of 15 vendors refuses every offer and threatens to block construction. The other vendors have moved. What is the MOST appropriate response?",
+      "options": ["Call the police on day one to remove them.", "Delay the plant until every vendor agrees.", "Hear their specific objections, offer any reasonable extra help (such as moving costs or priority stalls), set a clear final date, and then enforce it lawfully.", "Pay them a large secret sum to drop the protest.", "Announce publicly that they are against clean water."],
+      "answer": 2,
+      "explanation": "Listening and offering reasonable help is fair; a clear deadline then protects the 40,000 residents and the grant; lawful enforcement is the last step, not the first. Immediate force is disproportionate; waiting for unanimity gives a small group a veto; secret payments are unethical; public shaming inflames conflict."
+    }
+  ]
+}

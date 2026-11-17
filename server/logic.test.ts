@@ -1,21 +1,26 @@
-import { readFileSync } from 'node:fs'
+import { readdirSync, readFileSync } from 'node:fs'
 import { describe, expect, it } from 'vitest'
-import { minutesFor, score, XP } from '../shared/scoring.ts'
+import { minutesFor, score, scorePaper, smoothed, XP } from '../shared/scoring.ts'
 import type { Question } from '../shared/types.ts'
-import { addDays, type Attempt, buildDrill, doneDates, golden, reminderDue, streakInfo, today, xpFor } from './drill.ts'
+import { addDays, type Attempt, buildDrill, doneDates, golden, openMistakes, reminderDue, streakInfo, today, xpFor } from './drill.ts'
 import { validateImport } from './importer.ts'
 
 const read = (f: string) => JSON.parse(readFileSync(new URL(`../data/${f}`, import.meta.url), 'utf8'))
 const seed = read('seed-dm.json')
 
 describe('validateImport', () => {
-  it('accepts the shipped banks in full', () => {
-    for (const f of ['seed-dm.json', 'seed-mixed.json', 'bank-1-dm.json', 'bank-1-valr.json', 'bank-1-notes.json']) {
+  it('accepts every shipped bank in full, with no id shared across files', () => {
+    const owner = new Map<string, string>()
+    for (const f of readdirSync(new URL('../data/', import.meta.url)).filter(f => f.endsWith('.json'))) {
       const bank = read(f)
       const v = validateImport(bank, new Set())
       expect(v.rejected, f).toEqual([])
       expect(v.questions.length, f).toBe(bank.questions?.length ?? 0)
       expect(v.notes.length, f).toBe(bank.notes?.length ?? 0)
+      for (const id of [...v.questions, ...v.passages].map(x => x.id)) {
+        expect(owner.get(id), `${id} in ${f}`).toBeUndefined()
+        owner.set(id, f)
+      }
     }
   })
 
@@ -190,6 +195,21 @@ describe('doneDates', () => {
   })
 })
 
+describe('openMistakes', () => {
+  it('keeps questions whose latest attempt was wrong, oldest miss first; a right answer closes one', () => {
+    const a = (qid: string, correct: boolean) => ({ qid, correct })
+    expect(openMistakes([a('x', false), a('y', false), a('z', true), a('x', true), a('z', false), a('y', false)])).toEqual(['z', 'y'])
+  })
+})
+
+describe('smoothed', () => {
+  it('ranks 0 of 1 (raw 0%) as less weak than 2 of 10 (raw 20%)', () => {
+    expect(smoothed(0, 1)).toBeGreaterThan(smoothed(2, 10))
+    expect(smoothed(0, 0)).toBe(0.5)
+    expect(smoothed(0, 1)).toBeGreaterThan(smoothed(0, 10))
+  })
+})
+
 describe('reminderDue', () => {
   const at = (ist: string) => new Date(`${ist}+05:30`)
   const none = () => false
@@ -218,7 +238,29 @@ describe('score', () => {
   it('has no negatives in GK', () => {
     expect(score(r(5, 5, 10), 'GK').score).toBe(5)
   })
+  it('marks a mixed weak-spot paper: free skips scale with Part 1 length, GK unpenalised', () => {
+    const items = [
+      ...r(10, 4, 6).map(result => ({ section: 'DM' as const, result })),
+      ...r(2, 2, 1).map(result => ({ section: 'GK' as const, result })),
+    ]
+    // Part 1: 20 questions → 2 free skips; 10 − 4×0.25 − 4×0.10 = 8.6. GK: 2. Total 10.6.
+    expect(scorePaper(items)).toEqual({ score: 10.6, max: 25, right: 12, wrong: 6, skipped: 7 })
+  })
   it('splits Part 1 time by question count', () => {
     expect([minutesFor('VALR'), minutesFor('DM'), minutesFor('QADI'), minutesFor('GK')]).toEqual([59, 48, 63, 10])
+  })
+})
+
+describe('mandala', () => {
+  it('has 8 children at every level down to 512 concepts, and green rolls up', async () => {
+    const { ROOT, byId, doneCount, passMark } = await import('../shared/mandala.ts')
+    const walk = (n: typeof ROOT): number => (n.children.length ? (expect(n.children, n.code).toHaveLength(8), n.children.reduce((a, c) => a + walk(c), 0)) : 1)
+    expect(walk(ROOT)).toBe(512)
+    expect(ROOT.leaves).toBe(512)
+    const topic = byId.get('4-1')!
+    const done = Object.fromEntries(topic.children.map(c => [c.id, { at: '2026-11-18', score: '5/5' }]))
+    expect(doneCount(topic, done)).toBe(topic.leaves)
+    expect(doneCount(byId.get('4')!, done)).toBe(8)
+    expect([passMark(5), passMark(4), passMark(3)]).toEqual([4, 4, 3])
   })
 })

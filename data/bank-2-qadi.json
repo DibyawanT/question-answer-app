@@ -1,0 +1,109 @@
+{
+  "questions": [
+    {
+      "id": "qadi-p26-01", "section": "QADI", "topic": "geometry", "type": "standalone", "source": "pyq-style-2026",
+      "stem": "A light show uses four concentric circular tracks whose radii are in arithmetic progression. The smallest radius is 35 m and the largest is 140 m. Lamps are placed 2 m apart along every track, all the way round. How many lamps are needed in total? (Take π = 22/7.)",
+      "options": ["2200", "550", "1100", "880", "1320"],
+      "answer": 2,
+      "explanation": "Four terms from 35 to 140 means a common difference of 35: radii 35, 70, 105, 140. Circumferences (2πr) are 220, 440, 660, 880, total 2200 m. One lamp every 2 m on a closed loop gives 2200/2 = 1100. TRAP: 2200 forgets the spacing; 550 uses πr instead of 2πr. RULE: on a closed loop, items = length ÷ gap (no +1)."
+    },
+    {
+      "id": "qadi-p26-02", "section": "QADI", "topic": "arithmetic", "type": "standalone", "source": "pyq-style-2026",
+      "stem": "A batch of 150 students can choose from three electives: Marketing, Finance and HR. Each student takes none, one or two electives. Marketing has 70 students, Finance 60 and HR 50. What is the MAXIMUM possible number of students who take no elective?",
+      "options": ["60", "30", "0", "90", "70"],
+      "answer": 0,
+      "explanation": "There are 70 + 60 + 50 = 180 seats. To leave the most students out, fill the seats with as few students as possible: everyone who enrols takes two electives, so 180/2 = 90 students. Check it is possible: Marketing+Finance a, Marketing+HR b, Finance+HR c with a+b = 70, a+c = 60, b+c = 50 gives a = 40, b = 30, c = 20. So 150 − 90 = 60 take none. TRAP: 90 is the number enrolled, not left out. RULE: to maximise 'none', make every enrolled person take the most items allowed, then check no single set is too big to pair."
+    },
+    {
+      "id": "qadi-p26-03", "section": "QADI", "topic": "geometry", "type": "standalone", "source": "pyq-style-2026",
+      "stem": "A drone hovers 41 m above flat ground. A surveyor whose eye level is 5 m above the ground sees it at an angle of elevation of 60°. She walks straight back, away from the point below the drone, until the angle of elevation is 30°. How far did she walk?",
+      "options": ["36√3 m", "12√3 m", "24√3 m", "82/√3 m", "24 m"],
+      "answer": 2,
+      "explanation": "Measure height from eye level: 41 − 5 = 36 m. Distance at 60° is 36/√3 = 12√3; at 30° it is 36√3. She walked 36√3 − 12√3 = 24√3 m. TRAP: 82/√3 uses the full 41 m height. RULE: in heights and distances, subtract eye level first; walking from 60° back to 30° always covers h(√3 − 1/√3) = 2h/√3."
+    },
+    {
+      "id": "qadi-p26-04", "section": "QADI", "topic": "arithmetic", "type": "standalone", "source": "pyq-style-2026",
+      "stem": "Two trains run on parallel tracks between towns P and Q. At full speed, the train from P to Q takes 6 hours and the train from Q to P takes 4 hours. One day both leave at the same time. Two hours after starting, the P-to-Q train drops to half its speed because of track work. How many hours after starting do the trains meet?",
+      "options": ["2.4", "2.5", "2.75", "3", "2 hours 20 minutes"],
+      "answer": 1,
+      "explanation": "Let the distance be 12 units (LCM of 6 and 4): speeds 2 and 3 units/h. Without the slowdown they would meet at 12/5 = 2.4 h, which is after the 2-hour mark, so the slowdown matters. In 2 h they cover 4 + 6 = 10 units; 2 remain. Now the speeds are 1 and 3, so 2/4 = 0.5 h more. Total 2.5 h. TRAP: 2.4 ignores the slowdown. RULE: pick a distance equal to the LCM of the times, and check whether the event happens before the meeting."
+    },
+    {
+      "id": "qadi-p26-05", "section": "QADI", "topic": "number-system", "type": "standalone", "source": "pyq-style-2026",
+      "stem": "The six-digit number 61x4y8 is divisible by 72, where x and y are single digits. Consider two additional statements: I. x > y.  II. x + y is even. Which statement(s) are MINIMALLY needed to find x and y UNIQUELY?",
+      "options": ["I alone", "II alone", "Either I or II alone", "Both I and II together", "Not possible even with both"],
+      "answer": 3,
+      "explanation": "72 = 8 × 9. Divisible by 8: the last three digits 4y8 must be divisible by 8, so y is 0, 4 or 8. Divisible by 9: 19 + x + y is a multiple of 9, so x + y is 8 or 17. Pairs: (8,0), (4,4), (0,8), (9,8). I keeps (8,0) and (9,8): two pairs. II keeps (8,0), (4,4), (0,8): three pairs. Together only (8,0). TRAP: stopping after one statement narrows the list. RULE: list every candidate first, then test each statement against the full list."
+    },
+    {
+      "id": "qadi-p26-06", "section": "QADI", "topic": "arithmetic", "type": "standalone", "source": "pyq-style-2026",
+      "stem": "Asha and Bilal start cycling at the same time from diametrically opposite points of a circular track, in opposite directions, each at a constant speed. They first meet when Asha has covered 120 m. They meet again after Bilal has covered 360 m from the first meeting point. Bilal rides at 18 km/h. How long does Asha take to complete one lap?",
+      "options": ["2 minutes", "1 minute 30 seconds", "4 minutes", "3 minutes", "2 minutes 30 seconds"],
+      "answer": 3,
+      "explanation": "To the first meeting they cover half a lap together; between meetings they cover a full lap, so each rider covers twice as much as before. Asha: 120 then 240. Bilal: 360 between meetings, so 180 before the first. Half lap = 120 + 180 = 300, lap = 600 m. Bilal at 5 m/s takes 36 s for 180 m, so Asha's speed is 120/36 = 10/3 m/s, and a lap takes 600 ÷ 10/3 = 180 s = 3 minutes. RULE: opposite directions from opposite points: first meeting = half lap combined, each later meeting = one full lap combined."
+    },
+    {
+      "id": "qadi-p26-07", "section": "QADI", "topic": "number-system", "type": "standalone", "source": "pyq-style-2026",
+      "stem": "Start with 64. At each step, multiply the current number by either 6 or 15. Which of these can appear as the result after some number of steps?",
+      "options": ["2880", "4800", "5760", "11520", "8640"],
+      "answer": 2,
+      "explanation": "64 = 2⁶. Each step adds one 3; ×6 also adds a 2, ×15 also adds a 5. So for any result 2^a·3^b·5^c: b = (a − 6) + c. 5760 = 2⁷·3²·5: (7 − 6) + 1 = 2 ✓. 2880 = 2⁶·3²·5: 0 + 1 ≠ 2. 4800 = 2⁶·3·5²: 0 + 2 ≠ 1. 11520 = 2⁸·3²·5: 2 + 1 ≠ 2. 8640 = 2⁶·3³·5: 0 + 1 ≠ 3. RULE: turn 'repeatedly multiply' questions into exponent counts in the prime factorisation."
+    },
+    {
+      "id": "qadi-p26-08", "section": "QADI", "topic": "probability", "type": "standalone", "source": "pyq-style-2026",
+      "stem": "Applicants to a course are of three types: well-prepared (20%), partly prepared (30%) and unprepared (50%). Their chances of passing the entrance test are 0.6, 0.3 and 0.1 respectively. A student who passed is picked at random. What is the probability that this student was partly prepared?",
+      "options": ["3/10", "9/100", "9/26", "6/13", "5/26"],
+      "answer": 2,
+      "explanation": "Share of applicants who pass from each type: 0.2×0.6 = 0.12, 0.3×0.3 = 0.09, 0.5×0.1 = 0.05; total 0.26. Partly prepared among passers = 0.09/0.26 = 9/26. TRAP: 3/10 is the prior share; 9/100 forgets to divide by the total pass rate. RULE (Bayes): given the outcome happened, divide that branch by the sum of all branches that lead to it."
+    },
+    {
+      "id": "qadi-p26-09", "section": "QADI", "topic": "algebra", "type": "standalone", "source": "pyq-style-2026",
+      "stem": "A test has 30 questions: +3 for a correct answer, −1 for a wrong answer, 0 for an unattempted question. While grading one script, the examiner swapped the last two rules by mistake, giving 0 for wrong answers and −1 for unattempted ones, and got 73. What is the correct score?",
+      "options": ["73", "76", "70", "72", "75"],
+      "answer": 3,
+      "explanation": "With c correct, w wrong, u unattempted: c + w + u = 30 and the wrong score is 3c − u = 73. c = 25 gives u = 2, w = 3 (valid). c = 24 needs u = −1; c = 26 needs u = 5 but then c + u = 31 > 30. So c = 25, w = 3, u = 2 and the correct score is 75 − 3 = 72. RULE: when equations look underdetermined, use 'counts are non-negative integers' to bound the unknown and test the few cases."
+    },
+    {
+      "id": "qadi-p26-10", "section": "QADI", "topic": "number-system", "type": "standalone", "source": "pyq-style-2026",
+      "stem": "How many solutions (x, y, z) in positive integers does x + y² + z³ = 40 have?",
+      "options": ["12", "13", "15", "16", "14"],
+      "answer": 4,
+      "explanation": "Fix z, then y; x is whatever is left and must be at least 1, so y² + z³ ≤ 39. z = 1: y² ≤ 38, y = 1 to 6 (6 ways). z = 2: y² ≤ 31, y = 1 to 5 (5 ways). z = 3: y² ≤ 12, y = 1 to 3 (3 ways). z = 4: 64 is too big. Total 14. RULE: in mixed-power counting, loop over the highest power first; it has the fewest values."
+    },
+    {
+      "id": "qadi-p26-11", "section": "QADI", "topic": "geometry", "type": "standalone", "source": "pyq-style-2026",
+      "stem": "A plot is a right triangle with perpendicular sides of 120 m and 80 m. A rectangular garden inside it has two sides along the perpendicular sides and one corner on the hypotenuse. The garden's area is 3/8 of the plot's area. Fencing costs ₹2000 per metre. What is the MINIMUM cost of fencing the garden's perimeter?",
+      "options": ["₹4,40,000", "₹3,60,000", "₹4,00,000", "₹2,80,000", "₹3,20,000"],
+      "answer": 1,
+      "explanation": "Plot area = 4800, so the garden is 1800. If its side along the 120 m leg is a, similar triangles give the other side as 80(1 − a/120). Then a·80(1 − a/120) = 1800 → a² − 120a + 2700 = 0 → a = 90 or 30. The two gardens are 90 × 20 (perimeter 220 m) and 30 × 60 (perimeter 180 m). Minimum cost = 180 × 2000 = ₹3,60,000. TRAP: ₹4,40,000 picks the other root. RULE: a quadratic gives two valid shapes; the question's MIN or MAX tells you which one."
+    },
+    {
+      "id": "qadi-p26-12", "section": "QADI", "topic": "geometry", "type": "standalone", "source": "pyq-style-2026",
+      "stem": "Two gates of a park are joined by two paths. Path 1 from Gate A goes 100 m east, then 60 m south, then 20 m west to Gate B. Path 2 is a semicircle whose diameter is the straight line between the gates. A walker at a steady 4 km/h goes from A to B by Path 1 and returns by Path 2. Which is CLOSEST to the total time? (Take π = 22/7.)",
+      "options": ["4 minutes 30 seconds", "5 minutes 30 seconds", "6 minutes", "4 minutes", "5 minutes"],
+      "answer": 4,
+      "explanation": "Net displacement: 80 m east and 60 m south, so the gates are 100 m apart (3-4-5 triangle). Path 1 = 180 m. Path 2 = π × 50 ≈ 157.1 m. Total ≈ 337.1 m. At 4 km/h = 66.7 m/min that takes about 5.06 minutes, so 5 minutes. TRAP: using 100 m (the diameter) for the return. RULE: semicircle length = π × radius, not π × diameter."
+    },
+    {
+      "id": "qadi-p26-13", "section": "QADI", "topic": "algebra", "type": "standalone", "source": "pyq-style-2026",
+      "stem": "A building has three tanks: a cube of side m metres, a cube of side n metres, and a cuboid measuring m × n × 1 metres. The first tank starts full; the other two start empty. After both empty tanks are filled from the first, 1,71,000 litres remain in it. If m and n are positive integers, what is m? (1 m³ = 1000 litres.)",
+      "options": ["5", "6", "7", "9", "None of these"],
+      "answer": 1,
+      "explanation": "In cubic metres: m³ − n³ − mn = 171, with n < m. Try m = 6: 216 − n³ − 6n = 171 → n³ + 6n = 45 → n = 3 (27 + 18). m = 5 gives at most 125, too small. For a given m, the leftover is smallest when n = m − 1, where it equals 2m² − 2m + 1; that is above 171 once m ≥ 10, so only m = 6 to 9 need testing. m = 7, 8, 9 need n³ + mn = 172, 341, 558, and none has an integer root. So m = 6. RULE: convert units first, then bound m by m³ > the target and test the few cases."
+    },
+    {
+      "id": "qadi-p26-14", "section": "QADI", "topic": "arithmetic", "type": "standalone", "source": "pyq-style-2026",
+      "stem": "A trader buys 12 kg of apples on day 1, 18 kg of oranges on day 2 and 30 kg of grapes on day 3. Each fruit costs a whole number of rupees per kg, and he spends the same amount on each of these days. On day 4 he buys a whole number of kg of bananas at ₹35/kg, spending ₹30 less than on each earlier day, and sells them all at ₹50/kg. What is his MINIMUM possible profit on day 4?",
+      "options": ["₹150", "₹300", "₹450", "₹525", "₹600"],
+      "answer": 2,
+      "explanation": "The daily spend S must be a multiple of LCM(12, 18, 30) = 180, and S − 30 must be a multiple of 35. 180k − 30 ≡ 0 (mod 35) → 5k ≡ 30 → k ≡ 6 (mod 7). Smallest S = 1080, so he spends 1050 on 30 kg and sells for 1500: profit ₹450. TRAP: ₹150 assumes S = 180, but 150 is not a multiple of 35. RULE: 'same spend on different quantities at integer prices' means the spend is a multiple of the LCM."
+    },
+    {
+      "id": "qadi-p26-15", "section": "QADI", "topic": "probability", "type": "standalone", "source": "pyq-style-2026",
+      "stem": "A 5-digit PIN uses the digits 1, 2, 3, 5 and 6, each exactly once. The sum of the first two digits is a multiple of 4, the sum of the last three digits is a multiple of 3, and the last digit is even. Which of the following MUST be true?",
+      "options": ["5 is the first digit", "6 is the last digit", "1 is the third or fourth digit", "2 is the fourth digit", "3 is the second digit"],
+      "answer": 2,
+      "explanation": "All digits sum to 17. If the last three sum to a multiple of 3, the first two sum to 2 more than a multiple of 3, and also a multiple of 4: that means 8, from {2,6} or {3,5}. If the first two are {2,6}, the last three are {1,3,5}, which has no even digit, so that fails. So the first two are {3,5} and the last three are {1,2,6} with 2 or 6 last; 1 must sit third or fourth. The other options are possible but not forced. RULE: use the total sum to turn a condition on one part into a condition on the rest."
+    }
+  ]
+}
