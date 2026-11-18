@@ -1,0 +1,242 @@
+[
+  {
+    "topicId": "6-1",
+    "title": "Triangles & circles",
+    "simplified": {
+      "coreIntuition": "Most triangle and circle questions hide a right triangle or a pair of similar triangles. Find it and the rest is arithmetic.",
+      "keyPoints": [
+        "The third side lies strictly between the difference and the sum of the other two sides.",
+        "Similar triangles: lengths scale by $k$, areas by $k^2$.",
+        "Centroid splits each median $2:1$ from the vertex. In a right triangle the circumcentre is the midpoint of the hypotenuse, so $R=\\frac{c}{2}$ and $r=\\frac{a+b-c}{2}$.",
+        "Angle at the centre is twice the angle at the circumference on the same arc; the angle in a semicircle is $90^\\circ$; radius meets tangent at $90^\\circ$.",
+        "Area $=rs=\\frac{abc}{4R}=\\sqrt{s(s-a)(s-b)(s-c)}$ where $s$ is half the perimeter; equilateral: $R=\\frac{a}{\\sqrt{3}}=2r$."
+      ],
+      "analogy": "Similar triangles are a photo and its enlargement: every length grows by the same zoom factor, but the paper needed grows by the square of it."
+    },
+    "flashcards": [
+      { "front": "Two sides of a triangle are 3 and 5. How many integer values can the third side take?", "back": "5 values (3, 4, 5, 6, 7). The third side must be more than $5-3=2$ and less than $5+3=8$." },
+      { "front": "Two similar triangles have corresponding sides in the ratio $2:3$. What is the ratio of their areas?", "back": "$4:9$. Areas of similar figures go as the square of the side ratio." },
+      { "front": "A right triangle has legs 20 and 21. What is the hypotenuse?", "back": "29, since $400+441=841=29^2$. Learn the triplets 3-4-5, 5-12-13, 8-15-17, 7-24-25, 20-21-29 and their multiples." },
+      { "front": "A right triangle has legs 6 and 8. Find its circumradius and inradius.", "back": "$R=5$, $r=2$. Hypotenuse is 10 and is the diameter, so $R=5$; $r=\\frac{6+8-10}{2}=2$ (check: area 24 divided by semi-perimeter 12)." },
+      { "front": "An arc subtends $70^\\circ$ at the centre of a circle. What angle does it subtend at a point on the remaining part of the circle?", "back": "$35^\\circ$. The angle at the circumference is half the angle at the centre." },
+      { "front": "A point is 13 cm from the centre of a circle of radius 5 cm. How long is the tangent from the point to the circle?", "back": "12 cm. Radius is perpendicular to the tangent, so tangent $=\\sqrt{13^2-5^2}=12$." },
+      { "front": "A square is drawn inside a circle of radius 5 with all four corners on the circle. What is the area of the square?", "back": "50. The square's diagonal is the diameter 10, and area $=\\frac{d^2}{2}=\\frac{100}{2}$." },
+      { "front": "Find the area of a triangle with sides 13, 14 and 15.", "back": "84. $s=21$, area $=\\sqrt{21\\cdot 8\\cdot 7\\cdot 6}=\\sqrt{7056}=84$ (Heron's formula)." }
+    ],
+    "socratic": [
+      { "question": "Draw a circle with diameter AB and pick any point C on the circle. What angle does the semicircle arc AB make at the centre O?", "hint": "Where does the centre O lie relative to A and B?", "reveal": "$180^\\circ$, because A, O and B lie on one straight line." },
+      { "question": "Use the rule 'angle at circumference = half the angle at centre'. What is angle ACB?", "hint": "Halve your answer to the first question.", "reveal": "$90^\\circ$. Every triangle drawn on a diameter is right-angled at the third point." },
+      { "question": "A right triangle has legs 9 and 12. Where is its circumcentre and what is the circumradius?", "hint": "Read the previous step backwards: which side must be the diameter?", "reveal": "The hypotenuse 15 is the diameter, so the circumcentre is its midpoint and $R=7.5$. In any right triangle, circumradius = half the hypotenuse." }
+    ]
+  },
+  {
+    "topicId": "6-2",
+    "title": "Polygons",
+    "simplified": {
+      "coreIntuition": "Every polygon is a bundle of triangles: an $n$-sided polygon splits into $n-2$ triangles from one corner, which gives both the angle sum and most area tricks.",
+      "keyPoints": [
+        "Interior angles add to $(n-2)\\times 180^\\circ$; exterior angles always add to $360^\\circ$, so a regular polygon has exterior angle $\\frac{360^\\circ}{n}$.",
+        "Number of diagonals $=\\frac{n(n-3)}{2}$.",
+        "Parallelogram: $d_1^2+d_2^2=2(a^2+b^2)$. Rhombus: area $=\\frac{1}{2}d_1d_2$ and diagonals cross at right angles, so side $=\\sqrt{(\\frac{d_1}{2})^2+(\\frac{d_2}{2})^2}$.",
+        "Trapezium area $=\\frac{1}{2}(a+b)h$; regular hexagon area $=\\frac{3\\sqrt{3}}{2}a^2$ (six equilateral triangles).",
+        "Cyclic quadrilateral: opposite angles add to $180^\\circ$; area $=\\sqrt{(s-a)(s-b)(s-c)(s-d)}$."
+      ],
+      "analogy": "Exterior angles are the turns you make walking round a park's boundary: however many corners there are, you finish facing where you started, so the turns add up to one full circle."
+    },
+    "flashcards": [
+      { "front": "Each interior angle of a regular polygon is $150^\\circ$. How many sides does it have?", "back": "12. Exterior angle $=180^\\circ-150^\\circ=30^\\circ$, and $\\frac{360}{30}=12$." },
+      { "front": "A parallelogram has sides 7 and 9 and one diagonal 8. Find the other diagonal.", "back": "14. $d_1^2+d_2^2=2(49+81)=260$, so $d_2^2=260-64=196$." },
+      { "front": "A rhombus has diagonals 12 and 16. Find its side and area.", "back": "Side 10, area 96. Half-diagonals 6 and 8 form a right triangle with the side; area $=\\frac{1}{2}\\times 12\\times 16$." },
+      { "front": "A trapezium has parallel sides 10 and 6 and height 4. What is its area?", "back": "32. Area $=\\frac{1}{2}(10+6)\\times 4$. The line joining the midpoints of the slanted sides is their average, 8." },
+      { "front": "A regular hexagon has side 4. Find its area and its longest diagonal.", "back": "Area $24\\sqrt{3}$, longest diagonal 8. It is six equilateral triangles of side 4: $6\\times\\frac{\\sqrt{3}}{4}\\times 16$; the long diagonal is $2a$." },
+      { "front": "How many diagonals does a decagon (10 sides) have?", "back": "35. $\\frac{10\\times 7}{2}=35$: each corner joins $n-3$ others, and each diagonal is counted twice." },
+      { "front": "A quadrilateral has a diagonal of length 10. The perpendiculars to it from the other two corners are 3 and 5. What is the area?", "back": "40. The diagonal splits it into two triangles: $\\frac{1}{2}\\times 10\\times(3+5)$." },
+      { "front": "In cyclic quadrilateral ABCD, angle A is $75^\\circ$. What is angle C?", "back": "$105^\\circ$. Opposite angles of a cyclic quadrilateral add to $180^\\circ$." }
+    ],
+    "socratic": [
+      { "question": "Walk once around a regular pentagon. At each corner you turn by the exterior angle. After all five corners, how much have you turned in total?", "hint": "Which way are you facing when you get back to the start?", "reveal": "One full turn, $360^\\circ$." },
+      { "question": "So what is each exterior angle of a regular pentagon, and what is each interior angle?", "hint": "Share the full turn equally among the corners. Interior and exterior angles sit on a straight line.", "reveal": "Exterior $72^\\circ$, so interior $=180^\\circ-72^\\circ=108^\\circ$." },
+      { "question": "A regular polygon has each interior angle $156^\\circ$. How many sides does it have, without using $(n-2)\\times 180^\\circ$?", "hint": "Find one exterior angle first.", "reveal": "Exterior angle $=24^\\circ$, so $n=\\frac{360}{24}=15$. Going through the exterior angle is the fastest way from an angle to the number of sides." }
+    ]
+  },
+  {
+    "topicId": "6-3",
+    "title": "Mensuration",
+    "simplified": {
+      "coreIntuition": "Every solid is either base area times height (prism, cylinder) or one third of that (pyramid, cone). Melting and recasting only keeps the volume fixed.",
+      "keyPoints": [
+        "Cuboid diagonal $=\\sqrt{l^2+b^2+h^2}$; cube diagonal $=a\\sqrt{3}$.",
+        "Cone: $V=\\frac{1}{3}\\pi r^2h$, slant $l=\\sqrt{r^2+h^2}$, curved area $\\pi rl$. Frustum: $V=\\frac{1}{3}\\pi h(R^2+Rr+r^2)$, curved area $\\pi(R+r)l$ with $l=\\sqrt{h^2+(R-r)^2}$.",
+        "Sphere: $V=\\frac{4}{3}\\pi r^3$, area $4\\pi r^2$; solid hemisphere total area $3\\pi r^2$.",
+        "Scale every length by $k$: areas grow by $k^2$, volumes by $k^3$.",
+        "Melting keeps volume, not surface area; $1\\ m^3=1000$ litres and 1 litre $=1000\\ cm^3$."
+      ],
+      "analogy": "An ice-cream cone holds exactly one third of a cup with the same mouth and height: three full cones fill one cup."
+    },
+    "flashcards": [
+      { "front": "A box is 3 by 4 by 12. How long is the longest rod that fits inside?", "back": "13. Space diagonal $=\\sqrt{9+16+144}=\\sqrt{169}$." },
+      { "front": "A cylinder has radius 7 and height 10. Find its volume (use $\\pi=\\frac{22}{7}$).", "back": "1540. $\\pi r^2h=\\frac{22}{7}\\times 49\\times 10$." },
+      { "front": "A bucket (frustum) has end radii 4 and 1 and height 3. Find its volume.", "back": "$21\\pi$. $\\frac{1}{3}\\pi\\times 3\\times(16+4+1)$. Check: it is a cone of height 4 minus a cone of height 1, $\\frac{64\\pi}{3}-\\frac{\\pi}{3}$." },
+      { "front": "Find the total surface area of a solid hemisphere of radius 7 (use $\\pi=\\frac{22}{7}$).", "back": "462. Curved $2\\pi r^2$ plus flat circle $\\pi r^2$ gives $3\\pi r^2=3\\times\\frac{22}{7}\\times 49$." },
+      { "front": "A pyramid has a square base of side 6 and height 5. What is its volume?", "back": "60. $\\frac{1}{3}\\times\\text{base area}\\times h=\\frac{1}{3}\\times 36\\times 5$. A prism with the same base and height holds 3 times as much." },
+      { "front": "A cube of edge 5 is cut into 125 unit cubes. By how much does the total surface area increase?", "back": "600. Before: $6\\times 25=150$. After: $125\\times 6=750$. Cutting adds new faces; volume stays 125." },
+      { "front": "A tank measures 2 m by 1.5 m by 1 m. How many litres does it hold?", "back": "3000 litres. Volume is $3\\ m^3$ and $1\\ m^3=1000$ litres." },
+      { "front": "A metal ball of radius 6 cm is melted into balls of radius 2 cm. How many balls are made?", "back": "27. Volume ratio $=(\\frac{6}{2})^3=27$; the $\\frac{4}{3}\\pi$ cancels." }
+    ],
+    "socratic": [
+      { "question": "The radius of a sphere doubles. By what factor does its volume grow?", "hint": "In the volume formula, how many times is $r$ multiplied by itself?", "reveal": "$2^3=8$ times." },
+      { "question": "So how many marbles of radius 1 cm can be made by melting one ball of radius 2 cm?", "hint": "What stays the same when metal is melted and recast?", "reveal": "8, because the total volume is unchanged." },
+      { "question": "A cylinder of radius 6 and height 8 is recast into cones of radius 3 and height 4. How many cones? Try it with ratios, not $\\pi$.", "hint": "Compare $r^2h$ for each shape, and remember the cone has an extra $\\frac{1}{3}$.", "reveal": "24. The cylinder's $r^2h=288$ is 8 times the cone's 36, and the $\\frac{1}{3}$ triples that. In recasting, $\\pi$ always cancels, so compare ratios." }
+    ]
+  },
+  {
+    "topicId": "6-4",
+    "title": "Coordinate geometry",
+    "simplified": {
+      "coreIntuition": "Coordinates turn geometry into arithmetic: lengths come from Pythagoras on the grid, and directions come from slope.",
+      "keyPoints": [
+        "Distance $=\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$; the point dividing in ratio $m:n$ is $(\\frac{mx_2+nx_1}{m+n},\\frac{my_2+ny_1}{m+n})$.",
+        "Slope $m=\\frac{y_2-y_1}{x_2-x_1}$; for $ax+by+c=0$ the slope is $-\\frac{a}{b}$. Parallel lines: equal slopes. Perpendicular: $m_1m_2=-1$.",
+        "Distance from $(x_1,y_1)$ to $ax+by+c=0$ is $\\frac{|ax_1+by_1+c|}{\\sqrt{a^2+b^2}}$.",
+        "Circle $x^2+y^2+2gx+2fy+c=0$ has centre $(-g,-f)$ and radius $\\sqrt{g^2+f^2-c}$.",
+        "Triangle area $=\\frac{1}{2}|x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)|$; area 0 means the points are collinear."
+      ],
+      "analogy": "Slope is the gradient sign on a hill road: rise over run. Two roads at right angles have gradients that multiply to $-1$."
+    },
+    "flashcards": [
+      { "front": "Find the point dividing the segment from $(2,3)$ to $(8,9)$ in the ratio $1:2$.", "back": "$(4,5)$. $x=\\frac{1\\cdot 8+2\\cdot 2}{3}=4$, $y=\\frac{1\\cdot 9+2\\cdot 3}{3}=5$. It sits one third of the way along." },
+      { "front": "Find the equation of the line through $(1,2)$ and $(3,8)$.", "back": "$y=3x-1$. Slope $=\\frac{8-2}{3-1}=3$, then $y-2=3(x-1)$." },
+      { "front": "What is the slope of a line perpendicular to $2x+3y=6$?", "back": "$\\frac{3}{2}$. The given slope is $-\\frac{2}{3}$; flip it and change the sign." },
+      { "front": "Find the area of the triangle with vertices $(1,1)$, $(4,1)$ and $(4,5)$.", "back": "6. It is right-angled at $(4,1)$ with legs 3 and 4, so $\\frac{1}{2}\\times 3\\times 4$." },
+      { "front": "How far is the point $(2,3)$ from the line $3x+4y-8=0$?", "back": "2. $\\frac{|6+12-8|}{\\sqrt{9+16}}=\\frac{10}{5}$." },
+      { "front": "Find the centre and radius of $x^2+y^2-6x+8y=0$.", "back": "Centre $(3,-4)$, radius 5. Complete squares: $(x-3)^2+(y+4)^2=25$." },
+      { "front": "The line $3x+4y=12$ meets the axes at A and B. Find the intercepts and the area of triangle OAB.", "back": "x-intercept 4, y-intercept 3, area 6. Put $y=0$ then $x=0$; area $=\\frac{1}{2}\\times 4\\times 3$." },
+      { "front": "Reflect $(3,5)$ in the line $y=x$, then reflect the result in the x-axis. Where does it end up?", "back": "$(5,-3)$. Reflecting in $y=x$ swaps the coordinates to $(5,3)$; reflecting in the x-axis flips the sign of $y$." }
+    ],
+    "socratic": [
+      { "question": "A segment goes from $(0,0)$ to $(2,1)$. What is its slope? Now turn it $90^\\circ$ anticlockwise about the origin: where does $(2,1)$ land?", "hint": "Sketch it: '2 right, 1 up' turns into '2 up, 1 left'.", "reveal": "Slope $\\frac{1}{2}$; the point lands at $(-1,2)$." },
+      { "question": "What is the slope of the turned segment from $(0,0)$ to $(-1,2)$? Multiply it by the original slope.", "hint": "Rise over run, and watch the sign of the run.", "reveal": "Slope $-2$; the product is $\\frac{1}{2}\\times(-2)=-1$." },
+      { "question": "Without drawing, find the slope of a line perpendicular to $3x-4y=7$.", "hint": "Find this line's slope first, then use what the product of perpendicular slopes always equals.", "reveal": "The line's slope is $\\frac{3}{4}$, so the perpendicular slope is $-\\frac{4}{3}$. Perpendicular means flip the fraction and change the sign." }
+    ]
+  },
+  {
+    "topicId": "6-5",
+    "title": "Trigonometry",
+    "simplified": {
+      "coreIntuition": "Trig ratios are just side ratios of a right triangle with a fixed angle. Every heights-and-distances question is: find the right triangle, then pick the ratio that links the known side to the unknown one.",
+      "keyPoints": [
+        "$\\sin^2\\theta+\\cos^2\\theta=1$, $\\sec^2\\theta-\\tan^2\\theta=1$, $\\csc^2\\theta-\\cot^2\\theta=1$.",
+        "$\\sin 30^\\circ=\\frac{1}{2}$, $\\sin 45^\\circ=\\frac{1}{\\sqrt{2}}$, $\\sin 60^\\circ=\\frac{\\sqrt{3}}{2}$; $\\tan 30^\\circ=\\frac{1}{\\sqrt{3}}$, $\\tan 60^\\circ=\\sqrt{3}$.",
+        "$\\tan(\\text{angle})=\\frac{\\text{height}}{\\text{distance}}$; the angle of depression from the top equals the angle of elevation from the ground.",
+        "$a\\sin\\theta+b\\cos\\theta$ always lies between $-\\sqrt{a^2+b^2}$ and $\\sqrt{a^2+b^2}$.",
+        "Cosine rule $c^2=a^2+b^2-2ab\\cos C$; sine rule $\\frac{a}{\\sin A}=\\frac{b}{\\sin B}=2R$; area $=\\frac{1}{2}ab\\sin C$."
+      ],
+      "analogy": "A ladder against a wall: the steeper the angle, the higher it reaches for the same distance at the foot, and $\\tan$ tells you exactly how much higher."
+    },
+    "flashcards": [
+      { "front": "If $\\sec\\theta+\\tan\\theta=4$, what is $\\sec\\theta-\\tan\\theta$?", "back": "$\\frac{1}{4}$. $(\\sec\\theta+\\tan\\theta)(\\sec\\theta-\\tan\\theta)=\\sec^2\\theta-\\tan^2\\theta=1$." },
+      { "front": "Evaluate $\\sin 30^\\circ+\\cos 60^\\circ+\\tan 45^\\circ$.", "back": "2. $\\frac{1}{2}+\\frac{1}{2}+1$." },
+      { "front": "From a point 30 m from the foot of a tower, the top is seen at an elevation of $30^\\circ$. How tall is the tower?", "back": "$10\\sqrt{3}\\approx 17.3$ m. Height $=30\\tan 30^\\circ=\\frac{30}{\\sqrt{3}}$." },
+      { "front": "From the top of a 60 m lighthouse, a boat is seen at a depression of $30^\\circ$. How far is the boat from the base?", "back": "$60\\sqrt{3}\\approx 104$ m. Depression from the top = elevation from the boat, so $\\tan 30^\\circ=\\frac{60}{d}$." },
+      { "front": "What is the maximum value of $3\\sin\\theta+4\\cos\\theta$?", "back": "5. Maximum of $a\\sin\\theta+b\\cos\\theta$ is $\\sqrt{a^2+b^2}=\\sqrt{9+16}$; minimum is $-5$." },
+      { "front": "A triangle has sides 5 and 8 with a $60^\\circ$ angle between them. Find the third side.", "back": "7. $c^2=25+64-2\\cdot 5\\cdot 8\\cdot\\frac{1}{2}=49$ (cosine rule)." },
+      { "front": "Two sides of a triangle are 6 and 10, and the angle between them is $30^\\circ$. Find the area.", "back": "15. Area $=\\frac{1}{2}\\times 6\\times 10\\times\\sin 30^\\circ$." },
+      { "front": "What are the sign and value of $\\cos 120^\\circ$?", "back": "$-\\frac{1}{2}$. $120^\\circ$ is in the second quadrant, where only $\\sin$ is positive; $\\cos 120^\\circ=-\\cos 60^\\circ$. (Quadrants I to IV: All, Sin, Tan, Cos positive.)" }
+    ],
+    "socratic": [
+      { "question": "A tower has height $h$. How far from its foot must you stand to see the top at $60^\\circ$? Answer in terms of $h$.", "hint": "$\\tan 60^\\circ=\\frac{\\text{height}}{\\text{distance}}$.", "reveal": "Distance $=\\frac{h}{\\sqrt{3}}$." },
+      { "question": "Where do you stand to see it at $30^\\circ$, and how much farther back is that than the $60^\\circ$ point?", "hint": "$\\tan 30^\\circ=\\frac{1}{\\sqrt{3}}$. Compare the two distances as multiples.", "reveal": "At $h\\sqrt{3}$, which is 3 times $\\frac{h}{\\sqrt{3}}$, so the gap is $\\frac{2h}{\\sqrt{3}}$: twice the $60^\\circ$ distance." },
+      { "question": "A man walks 40 m straight toward a tower and the elevation of its top changes from $30^\\circ$ to $60^\\circ$. How far is he from the tower now, and how tall is it?", "hint": "Compare the distance walked with the final distance, using the last step.", "reveal": "The walk is twice the final distance, so he is 20 m away and $h=20\\sqrt{3}\\approx 34.6$ m. In any $30^\\circ$ to $60^\\circ$ walk, the walk equals twice the final distance." }
+    ]
+  },
+  {
+    "topicId": "6-6",
+    "title": "Permutations & combinations",
+    "simplified": {
+      "coreIntuition": "Count by filling slots one at a time and multiplying the choices, then divide out whatever the question treats as the same (order, rotation, identical items).",
+      "keyPoints": [
+        "AND multiplies, OR adds. ${}^nP_r=\\frac{n!}{(n-r)!}$ when order matters; ${}^nC_r=\\frac{n!}{r!(n-r)!}$ when it does not.",
+        "Circular arrangements: $(n-1)!$; if clockwise and anticlockwise look the same (necklace, garland): $\\frac{(n-1)!}{2}$.",
+        "Words with repeated letters: $\\frac{n!}{p!\\,q!\\cdots}$.",
+        "$n$ identical items to $r$ people: ${}^{n+r-1}C_{r-1}$ if zero is allowed, ${}^{n-1}C_{r-1}$ if each gets at least one.",
+        "Derangements (nobody in the right place): $D_n=n!(1-\\frac{1}{1!}+\\frac{1}{2!}-\\frac{1}{3!}+\\cdots)$, so $D_2=1$, $D_3=2$, $D_4=9$, $D_5=44$."
+      ],
+      "analogy": "Combinations versus permutations is picking a team versus picking a captain and vice-captain: the same three people make one team but several leadership orders."
+    },
+    "flashcards": [
+      { "front": "How many 3-digit numbers have all different digits?", "back": "648. First digit 9 ways (not 0), second 9 (0 now allowed), third 8: $9\\times 9\\times 8$." },
+      { "front": "In how many ways can gold, silver and bronze be given to 5 runners?", "back": "60. Order matters: ${}^5P_3=5\\times 4\\times 3$." },
+      { "front": "How many 3-person committees can be formed from 8 people?", "back": "56. Order does not matter: ${}^8C_3=\\frac{8\\times 7\\times 6}{6}$. Note ${}^nC_r={}^nC_{n-r}$." },
+      { "front": "In how many ways can 6 people sit at a round table? And 6 different beads on a necklace?", "back": "120 and 60. Fix one person: $5!=120$. A necklace can be flipped, so $\\frac{5!}{2}=60$." },
+      { "front": "How many different arrangements of the letters of BANANA are there?", "back": "60. $\\frac{6!}{3!\\,2!}$: divide out the three A's and two N's." },
+      { "front": "10 identical chocolates go to 3 children, each getting at least one. How many ways?", "back": "36. ${}^{9}C_{2}$ (place 2 dividers in the 9 gaps). If zero is allowed it is ${}^{12}C_2=66$." },
+      { "front": "4 letters go into 4 addressed envelopes. In how many ways does no letter reach the right envelope?", "back": "9. $D_4=24(1-1+\\frac{1}{2}-\\frac{1}{6}+\\frac{1}{24})=9$. Exactly one right: $4\\times D_3=8$." },
+      { "front": "All arrangements of the letters of CODE are listed in dictionary order. What is the rank of CODE?", "back": "5. Letters in order: C, D, E, O. C first: no smaller letter, 0. O next: D and E are smaller and unused, $2\\times 2!=4$. Then D and E add 0. Rank $=4+1=5$." }
+    ],
+    "socratic": [
+      { "question": "In how many ways can A, B, C and D sit in a row of 4 chairs?", "hint": "Fill the chairs one at a time and multiply.", "reveal": "$4!=24$." },
+      { "question": "Now seat them at a round table where only who sits next to whom matters. For the circle A, B, C, D going clockwise, how many of the 24 rows describe this same circle?", "hint": "You can start reading the circle from any of the seats.", "reveal": "4 rows (ABCD, BCDA, CDAB, DABC), so each circle was counted 4 times." },
+      { "question": "So how many round-table seatings are there for 4 people, and for 7?", "hint": "Divide out the repeats you just found.", "reveal": "$\\frac{24}{4}=6=3!$, and for 7 people $6!=720$. Count the easy way first, then divide by how many times each answer was repeated." }
+    ]
+  },
+  {
+    "topicId": "6-7",
+    "title": "Probability",
+    "simplified": {
+      "coreIntuition": "Probability is counting with a fraction bar: list the equally likely outcomes, count the ones you want, and when a condition is given, shrink the list first.",
+      "keyPoints": [
+        "$P=\\frac{\\text{favourable}}{\\text{total}}$; $P(\\text{not }A)=1-P(A)$. For 'at least one', use $1-P(\\text{none})$.",
+        "Addition rule: $P(A\\cup B)=P(A)+P(B)-P(A\\cap B)$.",
+        "Multiplication rule: $P(A\\cap B)=P(A)\\cdot P(B|A)$; events are independent only if $P(A\\cap B)=P(A)P(B)$.",
+        "Conditional: $P(A|B)=\\frac{P(A\\cap B)}{P(B)}$, which means count only inside B.",
+        "Odds in favour $a:b$ means $P=\\frac{a}{a+b}$; expected value $=\\sum$ value $\\times$ probability."
+      ],
+      "analogy": "Conditional probability is being told the lottery winner lives in Mumbai: you stop looking at the whole country and count only the Mumbai tickets."
+    },
+    "flashcards": [
+      { "front": "A number is picked at random from 1 to 20. What is the probability it is prime?", "back": "$\\frac{2}{5}$. Primes: 2, 3, 5, 7, 11, 13, 17, 19, which is 8 out of 20." },
+      { "front": "A number is picked from 1 to 30. What is the probability it is divisible by 3 or 5?", "back": "$\\frac{7}{15}$. $10+6-2=14$ numbers: subtract the multiples of 15, counted twice." },
+      { "front": "A bag has 3 red and 2 blue balls. Two are drawn without replacement. What is P(both red)?", "back": "$\\frac{3}{10}$. $\\frac{3}{5}\\times\\frac{2}{4}$: the second draw has one fewer red and one fewer ball." },
+      { "front": "Two coins are tossed and you are told at least one is a head. What is P(both heads)?", "back": "$\\frac{1}{3}$. The condition leaves HH, HT, TH; only one of these three is HH. (Not $\\frac{1}{2}$.)" },
+      { "front": "A hits a target with probability $\\frac{1}{2}$ and B with $\\frac{1}{3}$, independently. Both shoot once. What is P(target is hit)?", "back": "$\\frac{2}{3}$. $1-P(\\text{both miss})=1-\\frac{1}{2}\\times\\frac{2}{3}$." },
+      { "front": "Two dice are thrown. What is P(sum is 9)?", "back": "$\\frac{1}{9}$. (3,6), (4,5), (5,4), (6,3): 4 out of 36. Sum 7 is the most likely, at $\\frac{6}{36}$." },
+      { "front": "One card is drawn from a pack of 52. What is P(king or heart)?", "back": "$\\frac{4}{13}$. $\\frac{4+13-1}{52}=\\frac{16}{52}$: the king of hearts is counted once." },
+      { "front": "A game costs 2 rupees. You roll a die and win 10 rupees on a six, nothing otherwise. What is your expected profit per game?", "back": "Minus one third of a rupee. Expected winnings $=\\frac{10}{6}$, minus the 2 rupee cost $=-\\frac{1}{3}$. Odds in favour of a six are $1:5$." }
+    ],
+    "socratic": [
+      { "question": "A coin is tossed 3 times. How many of the 8 outcomes have no heads at all?", "hint": "What does 'no heads' force each toss to be?", "reveal": "Only 1 outcome, TTT." },
+      { "question": "So what is P(at least one head) in 3 tosses, without listing the other outcomes?", "hint": "'At least one' and 'none' together cover every outcome.", "reveal": "$1-\\frac{1}{8}=\\frac{7}{8}$." },
+      { "question": "A die is rolled 4 times. Is P(at least one six) equal to $\\frac{4}{6}$? If not, what is it?", "hint": "Find the chance of no six in one roll, then in four rolls in a row.", "reveal": "$1-(\\frac{5}{6})^4=\\frac{671}{1296}\\approx 0.52$, not $\\frac{4}{6}$. Adding the chances double-counts, so for 'at least one' always use 1 minus 'none'." }
+    ]
+  },
+  {
+    "topicId": "6-8",
+    "title": "Sets & Venn diagrams",
+    "simplified": {
+      "coreIntuition": "Draw the regions and fill them from the inside out: all three first, then pairs only, then singles. Never just add totals, because people in overlaps get counted more than once.",
+      "keyPoints": [
+        "$n(A\\cup B)=n(A)+n(B)-n(A\\cap B)$; neither $=$ total $-$ union.",
+        "$n(A\\cup B\\cup C)=\\Sigma n(A)-\\Sigma n(A\\cap B)+n(A\\cap B\\cap C)$.",
+        "Exactly two $=\\Sigma n(A\\cap B)-3\\,n(A\\cap B\\cap C)$; exactly one $=\\Sigma n(A)-2\\Sigma n(A\\cap B)+3\\,n(A\\cap B\\cap C)$.",
+        "Two sets out of a total $N$: the overlap is at least $n(A)+n(B)-N$ and at most the smaller set.",
+        "Three sets: the all-three region is at least $n(A)+n(B)+n(C)-2N$ (if positive) and at most the smallest pairwise overlap."
+      ],
+      "analogy": "Counting guests at a joint wedding: the bride's list and the groom's list share common friends, so you add both lists and subtract the shared names once."
+    },
+    "flashcards": [
+      { "front": "A set has 4 elements. How many subsets does it have, and how many proper subsets?", "back": "16 and 15. Each element is either in or out: $2^4=16$; drop the set itself for proper subsets." },
+      { "front": "$n(A)=20$, $n(B)=15$ and $n(A\\cup B)=28$. Find $n(A\\cap B)$.", "back": "7. $20+15-28$: the overlap is whatever was counted twice." },
+      { "front": "In a class of 50, 30 like tea, 25 like coffee and 10 like both. How many like neither?", "back": "5. Union $=30+25-10=45$; neither $=50-45$." },
+      { "front": "$n(A)=n(B)=n(C)=10$, each pairwise intersection is 4 and 2 are in all three. Find $n(A\\cup B\\cup C)$.", "back": "20. $30-12+2$ by inclusion-exclusion." },
+      { "front": "Of 100 people, 70 read paper A, 75 read B and 80 read C. What is the minimum number who read all three?", "back": "25. Non-readers are $30+25+20=75$; at most 75 people miss a paper, so at least 25 read all three ($225-2\\times 100$)." },
+      { "front": "In a three-set Venn, the pairwise intersections are 5, 6 and 7, and 3 people are in all three. How many are in exactly two sets?", "back": "9. Remove the centre from each pair: $2+3+4$, or $18-3\\times 3$." },
+      { "front": "Of 60 students, 25 play cricket, 20 football, 15 hockey; 8 play cricket and football, 6 football and hockey, 5 cricket and hockey, 3 all three. How many play none?", "back": "16. Union $=60-19+3=44$; none $=60-44$." },
+      { "front": "Everyone in a group of 40 speaks Hindi or English. 30 speak Hindi and 25 speak English. How many speak only English?", "back": "10. Both $=30+25-40=15$; only English $=25-15$." }
+    ],
+    "socratic": [
+      { "question": "Of 100 people, 70 like tea and 60 like coffee. If you keep tea-lovers and coffee-lovers as separate as possible, how many must still like both?", "hint": "70 plus 60 is more than the people in the room.", "reveal": "At least $70+60-100=30$." },
+      { "question": "Look at it from the other side: 30 dislike tea and 40 dislike coffee. At most how many people dislike at least one of the two?", "hint": "The two groups of dislikers could be completely different people.", "reveal": "At most 70, so at least 30 like both, the same answer." },
+      { "question": "Of 100 people, 70 like tea, 75 coffee and 80 milk. Use the 'dislike' view to find the minimum who like all three.", "hint": "Add up the dislikers of each drink and keep them as separate people.", "reveal": "Dislikers total $30+25+20=75$, so at least 25 like all three. To minimise an overlap, make the 'missing' groups not overlap." }
+    ]
+  }
+]

@@ -70,3 +70,12 @@ export type TopicRow = {
 
 /** "section:DM" or "topic:ethics" → weight 0 (never) to 3 (lots). Missing = 1. */
 export type Prefs = Record<string, number>
+
+/** One mandala topic's study session (shared/study/s<N>.json). topicId = mandala node id, e.g. "4-1". Text may hold $…$ maths. */
+export type StudyTopic = {
+  topicId: string
+  title: string
+  simplified: { coreIntuition: string; keyPoints: string[]; analogy: string }
+  flashcards: { front: string; back: string }[]
+  socratic: { question: string; hint: string; reveal: string }[]
+}

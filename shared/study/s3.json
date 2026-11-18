@@ -1,0 +1,242 @@
+[
+  {
+    "topicId": "3-1",
+    "title": "Para jumbles",
+    "simplified": {
+      "coreIntuition": "Every sentence in a paragraph carries hooks (pronouns, connectors, time words) that point to the sentence before it. Follow the hooks and the order builds itself.",
+      "keyPoints": [
+        "Recent XAT papers have about 2 para jumbles, and they come with options, so you rarely need the full order from scratch.",
+        "Find the opener first: it stands alone, with no 'this', 'however' or 'such' pointing back.",
+        "Lock mandatory pairs: a pronoun or connector sentence must sit right after the sentence it refers to.",
+        "Use the options: once you have the opener and one pair, usually only one option survives.",
+        "Read your final order once, start to end; if any jump feels abrupt, recheck that link."
+      ],
+      "analogy": "Like train coaches: each coach has a coupling that only fits the one in front. Match the couplings and the train lines up."
+    },
+    "flashcards": [
+      { "front": "Which can open a paragraph: (A) 'This led to riots.' or (B) 'In 1905, Bengal was partitioned.'? Why?", "back": "B. It introduces the topic and needs no earlier sentence; A's 'This' points back to something already said." },
+      { "front": "What features make a sentence a likely closing line?", "back": "It sums up, gives a final result or verdict, or uses words like 'thus' or 'in short'. It does not open a new idea." },
+      { "front": "'They refused to pay the tax.' What must come just before this sentence?", "back": "A sentence naming who 'they' are, e.g. 'The farmers of Champaran were angry.' A pronoun needs its noun earlier." },
+      { "front": "'However, the plan failed.' What does 'However' tell you about the sentence before it?", "back": "The previous sentence was positive or hopeful about the plan; 'however' marks a contrast with it." },
+      { "front": "Sentences mention 1947, 'two decades later' and 'by the 1990s'. How do you order them?", "back": "Follow time: 1947 first, then 'two decades later' (about 1967), then 'by the 1990s'. Relative time words need their anchor date first." },
+      { "front": "'For instance, Kerala reached near-full literacy.' Where does this usually go?", "back": "Right after a general claim it illustrates, such as 'Some Indian states invested heavily in education.' General first, example after." },
+      { "front": "What is a mandatory pair? Example?", "back": "Two sentences that must sit together. 'Some economists back the tax.' + 'Others call it unfair.' always come as a pair, in that order." },
+      { "front": "You know the opener is C and that D must follow B. How do you use the options?", "back": "Strike every option that doesn't start with C or that separates B and D. Usually one survives; read it once to confirm." }
+    ],
+    "socratic": [
+      { "question": "Four jumbled sentences: A) 'This, however, changed when the printing press arrived.' B) 'For centuries, books were copied by hand and owned only by the rich.' C) 'Suddenly, a book could be made in days instead of months.' D) 'As a result, literacy spread rapidly across Europe.' Which one could be read first with nothing before it?", "hint": "Look for the sentence with no word that points back to something already said.", "reveal": "B. It sets the scene by itself; A, C and D each lean on an earlier idea ('This', 'Suddenly', 'As a result')." },
+      { "question": "Now look at A's 'This' and C's 'Suddenly'. What must each of them follow?", "hint": "What situation could 'This' be summing up? And what event could cause a 'sudden' change?", "reveal": "'This' refers to hand-copied books, so A follows B. The sudden speed comes from the printing press, so C follows A." },
+      { "question": "You have B-A-C. Where does D go, and what did you actually use to solve the whole jumble?", "hint": "'As a result' needs a cause. Then think about which words did the work in every step.", "reveal": "D comes last: B-A-C-D. You never needed the meaning of the whole passage; the pointing words ('This', 'Suddenly', 'As a result') chained the sentences for you." }
+    ]
+  },
+  {
+    "topicId": "3-2",
+    "title": "Odd sentence out",
+    "simplified": {
+      "coreIntuition": "Four sentences make one coherent paragraph; one only looks like it belongs. Build the paragraph first, and the leftover is your answer.",
+      "keyPoints": [
+        "The odd sentence is usually on the same topic but does a different job: a different scope, angle or tone.",
+        "Shared keywords prove nothing; distractors repeat the topic word on purpose.",
+        "Find pairs linked by pronouns and connectors; a sentence that links to nothing is the suspect.",
+        "Arrange the other four into a paragraph, then try to slot the fifth anywhere. If it fits nowhere without forcing, it is odd.",
+        "Don't mark a sentence odd just because it has a hard word; judge what it says, not how it sounds."
+      ],
+      "analogy": "Like a team photo where one person wears the right jersey but is from another team: the colour matches, the team doesn't."
+    },
+    "flashcards": [
+      { "front": "Four sentences are about tiger conservation; one is about tiger symbolism in art. What kind of misfit is it?", "back": "A theme mismatch: same animal, different subject. The paragraph is about saving tigers, not depicting them." },
+      { "front": "Four sentences explain inflation neutrally; one says 'Only a fool would ignore this crisis!' Odd?", "back": "Yes, by tone. The others are calm and informative; the fifth is emotional and judgemental." },
+      { "front": "Four sentences discuss traffic in Bengaluru; one gives global car-sales data. What's the issue?", "back": "Scope shift: same broad topic, but it jumps from one city to the whole world. Scope shifts are the most common XAT/CAT misfit." },
+      { "front": "How do pronouns help in odd-one-out questions?", "back": "Link each 'it/they/this' to its noun to form pairs. A sentence that neither points to nor is pointed to by any other is the prime suspect." },
+      { "front": "A sentence repeats the main keyword ('monsoon') three times. Does that make it fit?", "back": "No. Keyword overlap is the classic partial-fit trap. Check whether it continues the same argument, not just the same word." },
+      { "front": "Four sentences trace a company's growth from 1990 to 2010; one is about its plans for 2040. Odd?", "back": "Likely yes: it breaks the sequence. If it can't be placed in the timeline without jumping out of the paragraph's purpose, it is the misfit." },
+      { "front": "What is the 'core group' method?", "back": "Find the 3-4 sentences that clearly make one argument and order them. Then judge the remaining sentence only against that group." },
+      { "front": "You picked an odd sentence. What is the final check?", "back": "Read the other four in order: they should flow as one paragraph. Then try your answer at the start, middle and end; if it fits anywhere, rethink." }
+    ],
+    "socratic": [
+      { "question": "Five sentences: 1) Mangroves protect coastlines from storm surges. 2) Their tangled roots trap silt and slow the waves. 3) The Sundarbans is the largest mangrove forest in the world. 4) Losing mangroves leaves coastal villages exposed to cyclones. 5) Replanting them is cheaper than building sea walls. What topic do all five share?", "hint": "Name the common noun, then ask whether that alone separates any sentence.", "reveal": "All five are about mangroves, so the topic alone can't find the odd one. You need a finer test." },
+      { "question": "Now ask what job each sentence does. What is sentences 1, 2, 4 and 5 each saying about mangroves?", "hint": "Is each one about what mangroves do for people, or just a fact about them?", "reveal": "1, 2, 4 and 5 all build one argument: mangroves defend coasts (how they work, what happens without them, why replant them). Sentence 3 is a fact about size." },
+      { "question": "So why is sentence 3 odd, even though it is true and on topic?", "hint": "Try placing it inside the 1-2-4-5 paragraph. Does it push the argument forward?", "reveal": "It shifts scope from 'mangroves as coastal defence' to geography trivia. The odd sentence is usually on topic but not doing the paragraph's job; judge the role, not the subject." }
+    ]
+  },
+  {
+    "topicId": "3-3",
+    "title": "Para completion",
+    "simplified": {
+      "coreIntuition": "The missing sentence must carry the paragraph's own thought one step further, not start a new one. Find the paragraph's direction and pick the option that keeps going that way.",
+      "keyPoints": [
+        "Recent XAT papers have about 1 para completion; it rewards reading the whole paragraph, not just its last line.",
+        "A last line either continues the discussion or concludes it; it never contradicts what the paragraph argued.",
+        "Reject options that bring in a new topic, example or claim the paragraph never set up.",
+        "Match tone and scope: a calm, academic paragraph won't end with an exclamation or a sweeping 'all' claim.",
+        "For a middle gap, the sentence must connect to both the line before and the line after."
+      ],
+      "analogy": "Like the last step of a staircase: it must be the same height as the others and lead where the stairs were already going."
+    },
+    "flashcards": [
+      { "front": "What should you identify before reading any option in para completion?", "back": "The paragraph's main point and its direction: is it building a case, contrasting two views, or describing a problem?" },
+      { "front": "A paragraph argues that remote work saves commute time and raises output. Can the last line be 'Thus, offices remain the best place to work'?", "back": "No. A conclusion must follow from the paragraph; this one contradicts it." },
+      { "front": "The blank is in the middle of a paragraph. What extra test applies?", "back": "The sentence must link to the line before and lead into the line after. Check both joins, not just one." },
+      { "front": "The paragraph is a sober analysis of crop yields. An option says 'What a disaster for our farmers!' Keep or drop?", "back": "Drop. It breaks tone continuity: the paragraph is measured and analytical, the option is emotional." },
+      { "front": "A paragraph on solar costs ends with a blank. One option discusses nuclear safety. Why is it wrong?", "back": "It adds new information the paragraph never prepared for. The ending must stay within what was discussed." },
+      { "front": "An option repeats three key words from the paragraph. Is it likely correct?", "back": "Not necessarily. Keyword-heavy options are a trap; check that the meaning, not just the vocabulary, continues the thought." },
+      { "front": "A paragraph ends: 'Yet rural clinics still lack doctors.' What usually comes next?", "back": "A logical next step: the consequence of that gap or a reason for it, consistent with what the paragraph already set up." },
+      { "front": "Two options both seem to fit. How do you choose?", "back": "Prefer the one that is narrower, directly supported by the text and less extreme. Drop the one that needs an extra assumption." }
+    ],
+    "socratic": [
+      { "question": "Paragraph: 'Cities once grew around rivers because water meant trade and food. Today they grow around airports and fibre-optic cables. The resource has changed; ____.' What pattern do the first two sentences share?", "hint": "Compare what cities grew around in each period, and why.", "reveal": "Both describe cities growing around whatever carries trade at the time: rivers then, airports and cables now." },
+      { "question": "Options: (a) 'the logic has not.' (b) 'rivers are now heavily polluted.' (c) 'airports are expensive to build.' Which options introduce something the paragraph never set up?", "hint": "Is pollution or construction cost part of the paragraph's idea?", "reveal": "(b) and (c) bring in new topics, pollution and cost. They are about the same nouns but not the same thought." },
+      { "question": "Why does (a) complete the paragraph, and what rule does that show?", "hint": "Look at the half-sentence before the blank: 'The resource has changed; ...' What would balance it?", "reveal": "(a) states the thread running through the paragraph: the resource changes, the principle stays. The right completion extends the paragraph's own idea; it never starts a new one." }
+    ]
+  },
+  {
+    "topicId": "3-4",
+    "title": "Critical reasoning",
+    "simplified": {
+      "coreIntuition": "Every argument has a gap between what it proves and what it claims. Assumption, strengthen, weaken and flaw questions all point at that same gap.",
+      "keyPoints": [
+        "CR is the biggest verbal block in XAT after RC: about 6-7 questions in recent papers (by coaching analyses).",
+        "First split the argument: conclusion (often after 'so', 'therefore', 'hence') vs premises (after 'because', 'since').",
+        "Assumption: negate the option; if the argument collapses, it was a needed assumption.",
+        "Strengthen and weaken target the gap, often by ruling in or ruling out another cause.",
+        "Inference answers must be true from the text alone; reject extreme words and outside knowledge."
+      ],
+      "analogy": "Like a bridge between two cliffs: the premises are one cliff, the conclusion the other. Assumptions are the hidden pillars; weakening knocks one out."
+    },
+    "flashcards": [
+      { "front": "'Ravi topped the mock, so he will clear XAT.' Which part is the conclusion?", "back": "'He will clear XAT'. The premise is 'Ravi topped the mock'; 'so' signals the conclusion." },
+      { "front": "'Sales rose after the ad, so the ad caused the rise.' What is the assumption?", "back": "That nothing else (a festival, a price cut, a competitor exit) caused the rise. Negate it and the conclusion falls." },
+      { "front": "Same argument. Which strengthens it: (a) no prices or competitors changed that month, or (b) the ad won an award?", "back": "(a). It rules out other causes, closing the gap. An award says nothing about whether sales rose because of the ad." },
+      { "front": "'Students who use the app score higher, so the app improves scores.' Give a weakener.", "back": "Students who choose the app were already stronger before using it. That offers another explanation for the higher scores." },
+      { "front": "Text: 'All interns in Pune got offers; Meera interned in Pune.' Valid inference?", "back": "Meera got an offer. It must be true from the text alone; 'Meera will join' would go beyond it." },
+      { "front": "'Ice-cream sales and drownings rise together, so ice cream causes drowning.' Name the flaw.", "back": "Confusing correlation with causation. A third factor, hot weather, drives both." },
+      { "front": "A city added lanes, yet traffic got worse. What does a paradox answer do?", "back": "It explains how both facts are true, e.g. wider roads attracted many more cars. It doesn't deny either fact." },
+      { "front": "'Ban phones in class to raise marks.' Which question best evaluates this?", "back": "'Do students with phones in class actually score lower?' One answer strengthens the plan and the other weakens it; that is what an evaluate question needs." }
+    ],
+    "socratic": [
+      { "question": "Argument: 'Umbrella sales in Mumbai rose 40% this July after our new ad campaign. So the campaign worked.' What is the stated fact and what is the claim?", "hint": "Separate what happened from what the speaker concludes about why it happened.", "reveal": "Fact: sales rose 40% in July after the ads. Claim: the ads caused the rise." },
+      { "question": "What else happens in Mumbai every July that could push umbrella sales up?", "hint": "Think about the weather, not marketing.", "reveal": "The monsoon. Heavy rain alone could explain the jump, with or without any ad." },
+      { "question": "If a question asked you to weaken, strengthen, or find the assumption here, where would each answer aim?", "hint": "All three deal with one thing the speaker took for granted. What is it?", "reveal": "All aim at the same gap: 'nothing but the ad caused the rise'. Weaken offers another cause, strengthen rules others out, and the assumption states that no other cause exists. Find the gap first and most CR types become one skill." }
+    ]
+  },
+  {
+    "topicId": "3-5",
+    "title": "Vocabulary in context",
+    "simplified": {
+      "coreIntuition": "A word's meaning in a sentence comes from the sentence around it, not from the first dictionary meaning you remember. Read the surroundings, guess, then confirm with roots.",
+      "keyPoints": [
+        "Use signal words: 'despite', 'but', 'although' mean contrast; 'and', 'also', 'thus' mean the meaning continues.",
+        "Roots and prefixes crack unknown words: 'bene' (good), 'mal' (bad), 'chron' (time), 'in-/un-' (not).",
+        "Learn confusing pairs as pairs: affect/effect, principal/principle, complement/compliment.",
+        "Idioms and phrasal verbs mean more than their parts: 'put up with' means tolerate.",
+        "Learn words in sentences and review them on gaps (the app's 2- and 7-day revision works the same way)."
+      ],
+      "analogy": "Like guessing a stranger's job from where they stand: a person in a white coat in a hospital ward is probably a doctor. The sentence is the ward."
+    },
+    "flashcards": [
+      { "front": "'Chron' means time. What do chronic, chronology and anachronism mean?", "back": "Chronic: lasting a long time. Chronology: order of events in time. Anachronism: something placed in the wrong time period." },
+      { "front": "Using prefixes and suffixes, what do 'malnourished' and 'benefactor' mean?", "back": "'Mal-' = badly, so malnourished = badly fed. 'Bene-' = good, '-factor' = doer, so benefactor = one who does good, a helper or donor." },
+      { "front": "'The new rule will ___ every student.' Affect or effect?", "back": "Affect (verb: to influence). Effect is usually a noun (the result); as a verb it means 'to bring about', as in 'effect a change'." },
+      { "front": "'The plot was thin, but the prose was rich.' What does 'thin' mean here?", "back": "Weak or lacking substance. Context (contrast with 'rich' prose) overrides the everyday meaning 'not thick'." },
+      { "front": "Give a synonym and an antonym for 'ephemeral'.", "back": "Synonym: transient (short-lived). Antonym: permanent or enduring." },
+      { "front": "'The debate about his shirt was a red herring.' What does 'red herring' mean?", "back": "A misleading distraction that pulls attention from the real issue." },
+      { "front": "What is the difference between 'put off' and 'put up with'?", "back": "'Put off' means postpone (put off the meeting). 'Put up with' means tolerate (put up with the noise)." },
+      { "front": "What is the best way to use a daily word list?", "back": "Learn about 10 words a day, each in your own example sentence, and revisit them after a few days and again after a week. Words you only read once fade quickly." }
+    ],
+    "socratic": [
+      { "question": "Sentence: 'Despite his laconic reply, the message was clear: he would not resign.' Which word tells you how the two halves relate?", "hint": "Look at the very first word.", "reveal": "'Despite'. It signals a contrast: something about the reply might have made the message unclear, yet it was clear." },
+      { "question": "What feature of a reply could normally make its message unclear?", "hint": "Think about how long or short an answer can be.", "reveal": "Being very short. A one-word or two-word answer often leaves things unsaid." },
+      { "question": "So what does 'laconic' most likely mean, and what did you use to work it out?", "hint": "You never looked it up. What gave the meaning away?", "reveal": "Laconic means using very few words. The signal word and the surrounding sentence gave you the meaning; in context questions, read the sentence for clues before reaching for memory." }
+    ]
+  },
+  {
+    "topicId": "3-6",
+    "title": "Grammar",
+    "simplified": {
+      "coreIntuition": "Most XAT grammar errors hide in the distance between words that must agree: subject and verb, pronoun and noun, modifier and the thing it modifies. Strip the sentence to its core and the error shows.",
+      "keyPoints": [
+        "Recent XAT papers have about 2 grammar or error questions; the usual targets are agreement, tense, modifiers and parallelism.",
+        "Cross out phrases between subject and verb: 'The list of items is on the desk', not 'are'.",
+        "An opening '-ing' phrase must describe the subject that comes right after the comma.",
+        "Items in a list or comparison take the same form: 'reading, writing and swimming'.",
+        "Watch Indian-English traps: 'revert back', 'discuss about', 'senior than', 'since 2020' with a present tense."
+      ],
+      "analogy": "Like checking wiring: ignore the tangle of extra wires and trace each plug to its socket. Subject plugs into verb, pronoun into noun."
+    },
+    "flashcards": [
+      { "front": "'Neither the manager nor the clerks ___ present.' Was or were?", "back": "Were. With 'neither...nor' and 'either...or', the verb agrees with the nearer subject, 'clerks'." },
+      { "front": "'I am working here since 2022.' Correct it.", "back": "'I have been working here since 2022.' An action that started in the past and continues takes the present perfect (continuous) with 'since'." },
+      { "front": "'Having finished the report, the TV was switched on by Ravi.' What is wrong?", "back": "A dangling modifier: the TV did not finish the report. Fix: 'Having finished the report, Ravi switched on the TV.'" },
+      { "front": "'She likes reading, writing and to swim.' Fix it.", "back": "'She likes reading, writing and swimming.' Items in a list must take the same grammatical form." },
+      { "front": "'Between you and I, the plan is weak.' Correct?", "back": "No. 'Between' is a preposition and takes the object form: 'between you and me'." },
+      { "front": "'He is senior than me.' Correct it.", "back": "'He is senior to me.' Senior, junior, superior, inferior and prefer take 'to', not 'than'." },
+      { "front": "A or an: '___ MBA', '___ European tour', '___ hour'?", "back": "An MBA, a European tour, an hour. The article follows the first sound, not the first letter." },
+      { "front": "'Please revert back to me with the details.' What is the error?", "back": "Redundancy: 'revert' already means go back. In formal English, write 'Please reply with the details'; 'revert' for 'reply' is Indian business usage." }
+    ],
+    "socratic": [
+      { "question": "'The quality of the mangoes from these orchards ___ improved.' Which noun sits right next to the blank?", "hint": "Read the word just before the blank.", "reveal": "'Orchards', a plural noun. That makes 'have' feel right, which is exactly the trap." },
+      { "question": "Remove 'of the mangoes from these orchards'. What is left, and what is actually improving?", "hint": "Ask: what has improved, the orchards or the quality?", "reveal": "'The quality ___ improved.' The quality improved, and 'quality' is singular, so the answer is 'has'." },
+      { "question": "What general method did you just use, and where else could it catch errors?", "hint": "Think about what lay between the subject and the verb.", "reveal": "Cross out the phrases between the subject and its verb, then match the true subject. The same distance trap hides pronoun and modifier errors, so always reconnect the two words that must agree." }
+    ]
+  },
+  {
+    "topicId": "3-7",
+    "title": "Poems & quotes",
+    "simplified": {
+      "coreIntuition": "A poem says one thing on the surface and means something larger underneath. The right option names the deeper idea that the whole poem supports, not the surface scene or one striking line.",
+      "keyPoints": [
+        "XAT is known for poem questions: recent papers (2025, 2026) had one poem with about 2 questions.",
+        "Read the poem twice: first for the literal scene, then for what that scene stands for.",
+        "Tone words matter: wistful, ironic, defiant, resigned. Look at word choice and punctuation for clues.",
+        "Eliminate options that stay literal, that hang on one line, or that bring in ideas the poem never touches.",
+        "Working from the options is often faster than writing your own full reading."
+      ],
+      "analogy": "Like a wedding photo: on the surface it's people standing in a row; what it's really about is a family joining together."
+    },
+    "flashcards": [
+      { "front": "'Hope is the thing with feathers' (Emily Dickinson). Literal or figurative?", "back": "Figurative. Hope is not a bird; the line compares hope to a small bird that lives in us and keeps singing." },
+      { "front": "'All the world's a stage' (Shakespeare). Metaphor or simile, and what does it suggest?", "back": "A metaphor (no 'like' or 'as'). It suggests life is a play in which people act out roles and then exit." },
+      { "front": "How do you find the theme of a short poem quickly?", "back": "Ask what the speaker's situation is and how it changes from start to end. The theme is the idea the whole poem supports, not one image." },
+      { "front": "What clues reveal a poet's tone?", "back": "Word choice (soft or harsh words), punctuation (exclamations, questions), and the speaker's attitude to the subject: admiring, mocking, sad or calm." },
+      { "front": "Paraphrase: 'The unexamined life is not worth living' (Socrates).", "back": "A life lived without questioning your own beliefs and choices lacks real value." },
+      { "front": "In Frost's 'Two roads diverged in a yellow wood', what do the roads symbolise?", "back": "Choices in life. The poem uses a walk in a forest to talk about decisions and how they shape who we become." },
+      { "front": "Shelley's Ozymandias: a ruined statue reads 'Look on my works, ye Mighty, and despair!' Why is this ironic?", "back": "The king boasts of lasting greatness, but nothing remains around the broken statue except empty sand. The boast now proves the opposite." },
+      { "front": "An option reads a poem about a lost friend as 'a poem about travel', based on one line about a train. Keep it?", "back": "Drop it. It seizes one image and ignores the poem's overall theme; eliminate options that don't fit the whole poem." }
+    ],
+    "socratic": [
+      { "question": "'Two roads diverged in a yellow wood, / And sorry I could not travel both' (Robert Frost). What literally happens in these lines?", "hint": "Describe only what a camera would see.", "reveal": "A traveller in an autumn forest reaches a fork in the path and regrets that he can take only one way." },
+      { "question": "Why would a poet write a whole poem about choosing a forest path? What else in a life forces you to pick one way and give up another?", "hint": "Think about careers, cities, relationships.", "reveal": "Life choices. The fork stands for any decision where taking one option means losing the other." },
+      { "question": "An option says 'The poem is about the difficulty of navigating forests.' Another says 'The poem reflects on choices that cannot be undone.' Which is right, and what rule does that show?", "hint": "Which option stays at the camera level, and which explains why the poem was written?", "reveal": "The second. Poem answers name the deeper idea the literal scene stands for; options that stay at the surface (forests, trains, weather) are usually traps." }
+    ]
+  },
+  {
+    "topicId": "3-8",
+    "title": "Word usage",
+    "simplified": {
+      "coreIntuition": "XAT word usage questions test whether you know how a word really behaves: its less common meanings, the words it pairs with and the setting it suits. Test each use against the word's actual meanings, not your gut.",
+      "keyPoints": [
+        "Many words have two or more meanings; XAT often uses the less common one ('sanction' can mean approve or penalise).",
+        "In blank fill-ins, the signal word ('although', 'because', 'but') tells you whether the blank agrees or contrasts.",
+        "In double blanks, solve the easier blank first, then check that both words fit together.",
+        "Collocations are fixed: 'make a mistake', 'heavy rain', 'strong tea', not 'do a mistake'.",
+        "To spot misuse, replace the word with a synonym; if no meaning fits, that sentence is wrong."
+      ],
+      "analogy": "Like a key that opens several doors: you must know every door it fits, and notice the one door where someone forced it in."
+    },
+    "flashcards": [
+      { "front": "'The board sanctioned the loan.' vs 'The UN imposed sanctions.' What does 'sanction' mean in each?", "back": "First: approved. Second: penalties. The same word can carry opposite meanings, so read the context." },
+      { "front": "'Although the plan looked ___ on paper, it failed in practice.' Promising or flawed?", "back": "Promising. 'Although' signals a contrast with 'failed', so the blank must be positive." },
+      { "front": "'His speech was ___, but his actions were ___.' How do you approach a double blank?", "back": "Note the 'but': the blanks must contrast (e.g. inspiring / disappointing). Eliminate options using one blank, then check that the pair works together." },
+      { "front": "What is wrong with 'She did a mistake in the exam'?", "back": "Collocation error: English says 'make a mistake'. Likewise 'take a decision' or 'make a decision', but never 'do a decision'." },
+      { "front": "Which is wrong? (a) 'The judge gave a fair verdict.' (b) 'The village fair was crowded.' (c) 'She fairs well in exams.'", "back": "(c). It should be 'fares' (from 'fare', to get on). 'Fair' is an adjective (just) or a noun (a market or festival)." },
+      { "front": "Pen : Writer :: Scalpel : ?", "back": "Surgeon. The bridge is 'a tool used by'; state the link as a sentence before checking options." },
+      { "front": "'The referee must stay disinterested.' Does that mean bored?", "back": "No. 'Disinterested' means impartial, with nothing to gain. 'Uninterested' means bored. Swapping them is a classic misuse trap." },
+      { "front": "In a formal report, what's wrong with 'The results were awesome and we're gonna expand'?", "back": "Wrong register: slang and contractions. Formal version: 'The results were excellent, and we will expand.'" }
+    ],
+    "socratic": [
+      { "question": "Four sentences use 'check': (a) 'Check the facts before you post.' (b) 'Keep your temper in check.' (c) 'He paid by check.' (d) 'She checked a good rank in the exam.' What different meanings of 'check' do you notice?", "hint": "Try a different everyday word in place of 'check' in each sentence.", "reveal": "(a) verify, (b) under control, (c) a cheque (US spelling), (d) no meaning fits: you get or secure a rank, you don't 'check' one." },
+      { "question": "How did swapping in a synonym help you judge each sentence?", "hint": "What happened when no synonym fitted?", "reveal": "Where a synonym fitted (verify, control, cheque) the use was valid. In (d) no meaning of 'check' made sense with 'a good rank'." },
+      { "question": "So what method finds the misused word in an XAT word-usage question?", "hint": "Think about what you test, sentence by sentence.", "reveal": "List the word's possible meanings, then test each sentence by substituting one. The sentence where no real meaning fits is the misuse, so knowing secondary meanings is what scores here." }
+    ]
+  }
+]

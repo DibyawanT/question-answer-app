@@ -7,6 +7,7 @@ import { Practice } from './screens/Practice.tsx'
 import { Settings } from './screens/Settings.tsx'
 import { Stats } from './screens/Stats.tsx'
 import { Study } from './screens/Study.tsx'
+import { StudySession } from './screens/StudySession.tsx'
 import { TestRun, Tests } from './screens/Tests.tsx'
 import './styles.css'
 
@@ -61,6 +62,7 @@ function App() {
               />,
             )
           }
+          onSession={t => setFocus(<StudySession topic={t} onExit={close} />)}
         />
       )}
       {tab === 'Stats' && (

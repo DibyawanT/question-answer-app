@@ -1,0 +1,242 @@
+[
+  {
+    "topicId": "8-1",
+    "title": "Current affairs",
+    "simplified": {
+      "coreIntuition": "A news item sticks when you hang it on something you already know: who, what, where, and which static fact it links to. Learn news as hooks on fixed pegs, then revise on a schedule instead of reading more.",
+      "keyPoints": [
+        "XAT GK is 20 questions in 10 minutes, about 12 current affairs and 8 static (xatonline.in).",
+        "Focus on roughly the last 12-18 months: summits, awards, appointments, schemes, space and sports.",
+        "For each item write one line: who, what, where, when, plus one linked static fact (for example BRICS summit 2026 -> New Development Bank HQ Shanghai).",
+        "Revise the same one-line notes after 1 day, 1 week and 1 month; 15 minutes a day beats a 3-hour weekend binge.",
+        "GK does not count toward the XAT percentile, but XLRI considers it for its own programmes, so it still matters."
+      ],
+      "analogy": "Current affairs are like coats and static GK is the coat rack: a coat thrown on the floor gets lost, a coat on a peg is easy to find."
+    },
+    "flashcards": [
+      { "front": "Who became the 53rd Chief Justice of India in November 2025?", "back": "Justice Surya Kant, sworn in on 24 November 2025; his term runs into early 2027 (as of Nov 2026)." },
+      { "front": "Which country holds the G20 presidency in 2026, and from whom did it take over?", "back": "The United States, taking over from South Africa (as of Nov 2026)." },
+      { "front": "Which half-humanoid robot is meant to fly on Gaganyaan's first uncrewed mission (G1), and has G1 flown?", "back": "Vyommitra. G1 had not flown yet; ISRO was aiming for an uncrewed launch by end-2026 (as of Nov 2026)." },
+      { "front": "Where was COP30 held, and what does COP stand for?", "back": "Belem, Brazil, in November 2025. COP is the Conference of the Parties to the UN Framework Convention on Climate Change (UNFCCC, 1992)." },
+      { "front": "What was Operation Sindoor?", "back": "India's May 2025 strikes on terror camps in Pakistan and Pakistan-occupied Kashmir, after the Pahalgam terror attack of 22 April 2025." },
+      { "front": "What does PM-KISAN give, and to whom?", "back": "Rs 6,000 a year to eligible farmer families, paid in three instalments of Rs 2,000 by direct benefit transfer (launched 2019)." },
+      { "front": "Where and when was the 18th BRICS Summit held, and who chairs BRICS next?", "back": "New Delhi, 12-13 September 2026, under India's chairship; it adopted the New Delhi Declaration. China chairs BRICS in 2027." },
+      { "front": "Which veteran actor died in November 2025 and was given the Padma Vibhushan posthumously in 2026?", "back": "Dharmendra. For obituaries, learn the person's field plus one award: that is what questions ask." }
+    ],
+    "socratic": [
+      { "question": "The 18th BRICS Summit was held in New Delhi in September 2026. Think of three different questions an examiner could set from this one news item.", "hint": "Not every question has to be about the summit itself. What permanent things belong to BRICS?", "reveal": "Besides host city and date, they can ask about the next chair (China, 2027), the members, or the New Development Bank's HQ (Shanghai)." },
+      { "question": "Two of those three questions use facts that were true long before 2026. Why does that matter for how you study the news?", "hint": "Which part of the answer would still be right next year?", "reveal": "Many current-affairs questions are really static questions with a news trigger, so the news item is only a doorway." },
+      { "question": "So what should one note on a news item contain, if you want it to answer the most questions?", "hint": "Think of the coat and the coat rack.", "reveal": "Who, what, where, when, plus the static fact it hooks onto. Linking each item to a fixed peg makes it both easier to remember and useful for more questions." }
+    ]
+  },
+  {
+    "topicId": "8-2",
+    "title": "Business & economy",
+    "simplified": {
+      "coreIntuition": "Business GK is mostly cause and effect plus a few names and numbers. If you know what a lever does (repo rate, fiscal deficit), you can answer questions you never saw before.",
+      "keyPoints": [
+        "Budget 2026-27 (1 Feb 2026, Nirmala Sitharaman): fiscal deficit target 4.3% of GDP, down from 4.4% in 2025-26.",
+        "RBI raised the repo rate by 25 basis points to 5.50% on 7 Oct 2026 and moved its stance to calibrated tightening (as of Nov 2026); RBI Governor is Sanjay Malhotra.",
+        "Repo up -> banks borrow dearer -> loan rates (home loan EMIs) tend to rise -> demand and inflation cool.",
+        "Name changes and deals are favourites: Zomato Ltd became Eternal Ltd in 2025; HDFC Ltd merged into HDFC Bank in July 2023; Tata Motors bought Jaguar Land Rover in 2008.",
+        "Match reports to publishers: World Economic Outlook (IMF), Global Gender Gap Report (WEF), Human Development Report (UNDP), World Investment Report (UNCTAD)."
+      ],
+      "analogy": "The repo rate is like the price of water at the town tank: when the tank charges more, every shop that sells drinks raises its prices too."
+    },
+    "flashcards": [
+      { "front": "What fiscal deficit target did the Union Budget 2026-27 set?", "back": "4.3% of GDP for 2026-27, down from 4.4% in 2025-26. The Budget was presented on 1 February 2026." },
+      { "front": "What is the RBI repo rate, and what did the October 2026 policy do?", "back": "5.50% after a 25 basis point hike on 7 October 2026; stance changed from neutral to calibrated tightening (as of Nov 2026). The MPC has 6 members." },
+      { "front": "When did the merger of HDFC Ltd with HDFC Bank take effect?", "back": "July 2023, folding India's biggest housing-finance company into HDFC Bank." },
+      { "front": "What is a unicorn in startup language?", "back": "A privately held startup valued at USD 1 billion or more. A decacorn is valued at USD 10 billion or more." },
+      { "front": "Who is the Governor of the Reserve Bank of India?", "back": "Sanjay Malhotra, the 26th Governor, in office since December 2024 (as of Nov 2026)." },
+      { "front": "Which bodies publish the World Economic Outlook, the Global Gender Gap Report and the Human Development Report?", "back": "IMF, World Economic Forum and UNDP, in that order." },
+      { "front": "Which brand uses the line 'Daag achhe hain'?", "back": "Surf Excel, a Hindustan Unilever detergent brand." },
+      { "front": "Define fiscal deficit.", "back": "Total expenditure minus total receipts excluding borrowings; in short, how much the government must borrow in the year." }
+    ],
+    "socratic": [
+      { "question": "In October 2026 the RBI raised the repo rate to 5.50%. What is the repo rate the price of?", "hint": "Who borrows from whom at this rate?", "reveal": "It is the rate at which banks borrow short-term money from the RBI." },
+      { "question": "If banks now pay more for money, what do they do to the interest they charge you on a home loan?", "hint": "A shop whose supplier raises prices rarely absorbs the cost.", "reveal": "Loan rates tend to rise, so EMIs go up and people borrow and spend a bit less." },
+      { "question": "An exam option says 'a repo hike makes home loans cheaper'. Without memorising that line, how do you know it is wrong?", "hint": "Follow the chain you just built.", "reveal": "Because you know the mechanism: repo up, bank costs up, loan rates up. Learning the chain lets you solve any rate question, not just the ones you memorised." }
+    ]
+  },
+  {
+    "topicId": "8-3",
+    "title": "Static GK",
+    "simplified": {
+      "coreIntuition": "Static GK never goes stale, and about 8 of the 20 GK questions come from it. Study it in themed clusters so one fact pulls the next one up with it.",
+      "keyPoints": [
+        "About 8 of 20 GK questions are static (xatonline.in): polity, history, geography, international bodies, culture.",
+        "Polity favourites: Article 280 (Finance Commission), Tenth Schedule (anti-defection, 52nd Amendment 1985), 101st Amendment (GST, 2016), 42nd Amendment (Fundamental Duties, 1976).",
+        "Learn bodies as HQ pairs: New Development Bank -> Shanghai; SCO's anti-terror unit RATS -> Tashkent; WTO -> Geneva; IMF and World Bank -> Washington DC.",
+        "Cluster borders together: Radcliffe Line (India-Pakistan), McMahon Line (India-China), Durand Line (Pakistan-Afghanistan).",
+        "Make one-page theme sheets (Amendments, HQs, Borders, Firsts) and revise them weekly."
+      ],
+      "analogy": "Static GK is like learning the map of your city: once learned it stays useful, while news is like today's traffic report."
+    },
+    "flashcards": [
+      { "front": "Where did Gandhi give the 'Do or Die' call that launched the Quit India Movement in August 1942?", "back": "Gowalia Tank Maidan in Bombay, now called August Kranti Maidan." },
+      { "front": "When did the Berlin Wall fall, and when did Germany reunify?", "back": "The Wall fell on 9 November 1989; Germany reunified on 3 October 1990." },
+      { "front": "Name the borders drawn by the Radcliffe, McMahon and Durand Lines.", "back": "Radcliffe: India-Pakistan (and Bangladesh). McMahon: India-China in the east. Durand: Pakistan-Afghanistan." },
+      { "front": "Who presides over a joint sitting of both Houses of Parliament?", "back": "The Speaker of the Lok Sabha (joint sittings are under Article 108)." },
+      { "front": "Which Schedule holds the anti-defection law, and which amendment added it?", "back": "The Tenth Schedule, added by the 52nd Amendment in 1985." },
+      { "front": "Where are the New Development Bank and the SCO's Regional Anti-Terrorist Structure (RATS) headquartered?", "back": "New Development Bank: Shanghai. SCO RATS: Tashkent (the SCO Secretariat is in Beijing)." },
+      { "front": "Who built the Konark Sun Temple in Odisha?", "back": "King Narasimhadeva I of the Eastern Ganga dynasty, in the 13th century; it is a UNESCO World Heritage Site." },
+      { "front": "Who was the first Indian in space, and who was the first Indian to visit the International Space Station?", "back": "Rakesh Sharma (1984, Soviet Soyuz T-11); Group Captain Shubhanshu Shukla (2025, Axiom Mission 4)." }
+    ],
+    "socratic": [
+      { "question": "Of the 20 GK questions, roughly how many are static, and will a static fact you learn today still be right on exam day?", "hint": "Check the split in the key points, then think about whether an Article number can change by January.", "reveal": "About 8 are static, and those facts will not change before the exam." },
+      { "question": "A current-affairs fact can go stale (a new governor, a new winner). What does that mean for the value of an hour spent on each kind?", "hint": "Compare what you keep after the hour in each case.", "reveal": "An hour of static GK keeps its full value; an hour of news may partly expire before the exam." },
+      { "question": "So how should you build your static GK, given that you cannot learn every fact?", "hint": "Think about how one fact can remind you of the next.", "reveal": "Study it in small themed clusters (amendments, HQs, borders, firsts) on one-page sheets, so each fact cues its neighbours and the whole set stays retrievable." }
+    ]
+  },
+  {
+    "topicId": "8-4",
+    "title": "Awards & sports",
+    "simplified": {
+      "coreIntuition": "Awards and sports are the most guessable GK because XAT GK has no negative marking. Know the big recent winners, and never leave a GK question blank.",
+      "keyPoints": [
+        "Nobel 2026 (as of Nov 2026): Peace - Navi Pillay; Literature - Anne Carson; Economics - Robert Hall and Michael Woodford.",
+        "Booker 2026: M. John Harrison for The End of Everything, at 81 the oldest winner. International Booker 2026: Taiwan Travelogue by Yang Shuang-zi, translated by Lin King.",
+        "Sport 2026: India beat New Zealand by 96 runs in Ahmedabad (8 Mar) to defend the T20 World Cup; Spain beat Argentina 1-0 after extra time to win the FIFA World Cup (19 Jul).",
+        "Padma Awards 2026: 131 awards, 5 Padma Vibhushan (including Dharmendra, posthumously, and V. S. Achuthanandan).",
+        "GK has no negative marking, so in the last seconds of the 10 minutes, mark something for every unanswered question."
+      ],
+      "analogy": "Awards GK is like a quiz show with no penalty for wrong answers: the only losing move is to stay silent."
+    },
+    "flashcards": [
+      { "front": "Who won the 2026 Nobel Peace Prize and the 2026 Nobel in Economics?", "back": "Peace: Navi Pillay, South African jurist and former UN human rights chief. Economics: Robert Hall and Michael Woodford." },
+      { "front": "How many Padma Awards were given in 2026, and how many were Padma Vibhushan?", "back": "131 awards, 5 of them Padma Vibhushan, including Dharmendra (posthumous) and V. S. Achuthanandan. The last Bharat Ratnas were five, announced in 2024." },
+      { "front": "Who won the 2026 Booker Prize, and for which book?", "back": "M. John Harrison for The End of Everything; at 81 he is the oldest winner and the first science fiction writer to win." },
+      { "front": "What is the Dadasaheb Phalke Award, and who first received it?", "back": "India's highest film honour, given by the Government of India for lifetime contribution to cinema; Devika Rani was the first recipient (1969)." },
+      { "front": "Who won the 2026 FIFA World Cup, and against whom?", "back": "Spain, beating Argentina 1-0 after extra time on 19 July 2026 at MetLife Stadium; Spain's second title after 2010." },
+      { "front": "In tennis, what does 'deuce' mean?", "back": "The score is 40-40; a player must then win two points in a row to win the game." },
+      { "front": "Who heads ISRO?", "back": "Dr V. Narayanan, ISRO Chairman and Secretary, Department of Space, since January 2025 (as of Nov 2026)." },
+      { "front": "Who wrote The Discovery of India, and where?", "back": "Jawaharlal Nehru, while imprisoned in Ahmednagar Fort in 1942-1946; it was published in 1946." }
+    ],
+    "socratic": [
+      { "question": "In Part 1 a wrong answer costs 0.25 marks. What does a wrong answer cost in the GK section?", "hint": "Look at what the official pattern says about GK marking.", "reveal": "Nothing. GK has no negative marking, so a wrong answer scores 0, same as a blank." },
+      { "question": "Suppose you can rule out two of five options on an awards question but are unsure of the rest. Compare the result of guessing with leaving it blank.", "hint": "What is the worst thing that can happen if you guess?", "reveal": "Guessing can only gain (a one-in-three chance of +1); a blank is a guaranteed 0." },
+      { "question": "So what is the right rule for the last 30 seconds of the 10-minute GK section?", "hint": "Apply the comparison you just made to every unanswered question.", "reveal": "Never leave a GK question blank: mark your best guess on all of them, because with no penalty every guess is free expected marks." }
+    ]
+  },
+  {
+    "topicId": "8-5",
+    "title": "Sectional mocks",
+    "simplified": {
+      "coreIntuition": "A sectional mock is a diagnosis, not a score. Its value comes from the log you keep afterwards: which question types you get right fast, and which ones you should skip.",
+      "keyPoints": [
+        "Part 1 has 75 questions in 170 minutes, about 2.3 minutes each: roughly 26 Verbal (~59 min), 21 Decision Making (~48 min), 28 Quant and DI (~63 min) at real pace.",
+        "Do timed sets at that pace, then spend at least as long reviewing as you spent solving.",
+        "Log every set: attempted, right, wrong, time, and the reason for each miss (concept, silly slip, time, pure guess).",
+        "Use XAT previous-year papers: Decision Making and verbal styles are unusual, and only real papers show the true level.",
+        "Once a week, sort the log by miss reason and pick two fixes for the coming week."
+      ],
+      "analogy": "A sectional mock is a blood test: the number on the report matters less than what the doctor learns about what to change."
+    },
+    "flashcards": [
+      { "front": "How should you practise Decision Making sets?", "back": "Timed caselets; for each option check whose interest it serves, whether it is ethical and whether it is practical, then study why the right answer beats the runner-up." },
+      { "front": "What does XAT Verbal & Logical Ability test, and how do you practise it?", "back": "About 26 questions of reading comprehension, critical reasoning, para-jumbles and sometimes poems; do at least one timed RC daily." },
+      { "front": "Why do Quant & DI sets need a 'solve or skip' call early?", "back": "It is the largest Part 1 block (about 28 questions) and some questions are long; deciding in the first 30 seconds saves minutes for easier ones." },
+      { "front": "What is the real-exam pace for each Part 1 section?", "back": "About 2.3 minutes per question (170 min / 75): roughly 59 min Verbal, 48 min DM, 63 min Quant and DI. Part 1 is one shared clock, so these are budgets, not hard limits." },
+      { "front": "What goes into an accuracy log?", "back": "Per set: attempted, right, wrong, time taken, and a reason for each miss (concept, silly slip, time pressure, guess)." },
+      { "front": "When are topic-wise tests most useful?", "back": "Right after revising a weak topic: 10-15 questions on just that topic, first untimed for method, then timed for speed." },
+      { "front": "Why solve XAT previous-year papers?", "back": "XAT's Decision Making and verbal questions have a style coaching mocks only imitate; real papers show the true difficulty and traps." },
+      { "front": "What happens in the weekly review?", "back": "Sort the week's log by miss reason, find the biggest leak, and choose two specific fixes for next week." }
+    ],
+    "socratic": [
+      { "question": "You took two DM sectionals and scored 9 and 11. What can you actually learn from those two numbers alone?", "hint": "Do the numbers tell you why you lost marks?", "reveal": "Very little: a score shows the result but not the cause." },
+      { "question": "Now imagine your log shows that 6 of your 8 wrong answers were ethics-versus-profit caselets. What does that tell you?", "hint": "Is this a random problem or a pattern?", "reveal": "It is a pattern: one question type is leaking most of your marks, so you know exactly what to work on." },
+      { "question": "So where does a sectional mock's value really come from?", "hint": "Think about which of the two pieces of information you could act on.", "reveal": "From the review and the accuracy log, not the score. The log shows which question types to fix and which to skip, which turns practice into improvement." }
+    ]
+  },
+  {
+    "topicId": "8-6",
+    "title": "Full mocks",
+    "simplified": {
+      "coreIntuition": "Your score rises from analysing mocks, not from taking more of them. One mock reviewed deeply is worth more than three taken and forgotten.",
+      "keyPoints": [
+        "XAT 2027 is on 3 January 2027, 2-5 pm: take full mocks at 2 pm in one sitting, including the 10-minute GK part.",
+        "About 6 weeks are left: around two full mocks a week until mid-December, then one every 3-4 days, with the last one 3-4 days before the exam.",
+        "After each mock spend about twice its length on analysis: score log, error log and a question-selection review.",
+        "Re-attempt your skipped questions untimed the same day: if you solve them easily, the problem was selection, not knowledge.",
+        "Between mocks fix only two weak topics, small enough to finish before the next mock."
+      ],
+      "analogy": "A full mock is a match and the analysis is the video review: teams improve from watching the replay, not from playing more matches back to back."
+    },
+    "flashcards": [
+      { "front": "How should you schedule full mocks before 3 January 2027?", "back": "About two a week until mid-December, then one every 3-4 days, with the last one 3-4 days before the exam so you go in rested." },
+      { "front": "What should a score log track?", "back": "Net score, attempts, accuracy and time per section, plus percentile; judge the trend over three mocks, not one." },
+      { "front": "What goes into an error log?", "back": "Each wrong answer: the question, why you got it wrong, and a one-line rule to avoid it; reread the log before every mock." },
+      { "front": "What is a question-selection review?", "back": "After a mock, list easy questions you skipped and hard ones you sank time into; fixing selection is often the cheapest marks." },
+      { "front": "Why re-attempt skipped questions after a mock?", "back": "Solving them untimed shows whether you skipped from lack of knowledge or from poor selection and panic." },
+      { "front": "How should you compare yourself with mock toppers?", "back": "Compare attempts, accuracy and time per section with the top scorers in that mock, and copy their time allocation, not just their total." },
+      { "front": "Why fix only two weak topics between mocks?", "back": "Two is small enough to finish properly; a long list gets half-done and nothing actually improves." },
+      { "front": "What is a stamina check?", "back": "Sitting the full 3 hours at 2 pm without breaks and checking whether accuracy drops in the last 45 minutes; if it does, take more full-length sittings." }
+    ],
+    "socratic": [
+      { "question": "Student A takes 12 mocks and only checks the score. Student B takes 6 and spends 3 hours analysing each. Who has seen more questions?", "hint": "Count, don't judge yet.", "reveal": "Student A has seen roughly twice as many questions." },
+      { "question": "On exam day, which mistakes will each student repeat?", "hint": "Who actually knows why they lost marks?", "reveal": "Student A will likely repeat the same selection errors and traps; Student B has found and fixed many of them." },
+      { "question": "So what is the real job of a full mock?", "hint": "Is it to measure you or to change you?", "reveal": "To expose errors you then fix. Analysis, not the number of mocks, is what raises the score, so budget about twice the mock's length for review." }
+    ]
+  },
+  {
+    "topicId": "8-7",
+    "title": "Negative marking",
+    "simplified": {
+      "coreIntuition": "With 5 options and minus 0.25 per wrong answer, a blind guess is worth exactly zero on average. So every option you can eliminate turns a guess into expected profit.",
+      "keyPoints": [
+        "Part 1: +1 right, -0.25 wrong. GK: no negative marking.",
+        "Skipped Part 1 questions beyond the free limit cost 0.10 each. XLRI's Nov 2026 update raises the free limit for XAT 2027 from 8 to 12 (this app still scores with 8).",
+        "Blind guess with 5 options: $\\frac{1}{5}(1) + \\frac{4}{5}(-0.25) = 0$. Eliminate two and it becomes $\\frac{1}{3} - \\frac{2}{3}(0.25) = \\frac{1}{6}$.",
+        "Net score $= A(1.25a - 0.25)$ for $A$ attempts at accuracy $a$, so accuracy matters as much as attempts.",
+        "Coaching estimates for a 99th percentile put attempts at about 46-52 of 75 with a net of about 37-42; set your own target from your mocks."
+      ],
+      "analogy": "Guessing is like a fair coin bet that costs nothing to place: blind, it breaks even; each option you cross out is like loading the coin in your favour."
+    },
+    "flashcards": [
+      { "front": "What does a wrong answer cost in Part 1, and in GK?", "back": "Part 1: minus 0.25 marks. GK: nothing, a wrong answer scores 0." },
+      { "front": "What does a skipped Part 1 question cost, and how many can you skip free?", "back": "0.10 for each skip beyond the free limit. XLRI raised the limit from 8 to 12 for XAT 2027 (the app's scorer still uses 8)." },
+      { "front": "What is the expected value of a blind guess on a 5-option XAT question?", "back": "$\\frac{1}{5} \\times 1 - \\frac{4}{5} \\times 0.25 = 0$: on average it neither gains nor loses." },
+      { "front": "What is a guess worth after you eliminate two of five options?", "back": "$\\frac{1}{3} - \\frac{2}{3} \\times 0.25 = \\frac{1}{6} \\approx 0.17$ marks on average, so take it." },
+      { "front": "When should you skip rather than guess?", "back": "When you cannot eliminate any option and are still within your free skips (both give 0 on average, so save the time), or when solving would clearly take over 3 minutes." },
+      { "front": "What attempt target do coaches suggest for a 99th percentile?", "back": "About 46-52 attempts of 75 with a net of 37-42 (a coaching estimate, not official); set your own target from mock data." },
+      { "front": "Which is better: 50 attempts at 80% accuracy or 60 attempts at 65%?", "back": "Net $= A(1.25a - 0.25)$: 50 at 80% gives 37.5, 60 at 65% gives 33.75, so the accurate approach wins." },
+      { "front": "What should you do with blanks in the last minute of Part 1?", "back": "For blanks beyond the free limit, mark a guess: a blind guess averages 0, which beats the certain minus 0.10 of a penalised skip." }
+    ],
+    "socratic": [
+      { "question": "A question has 5 options and you have no idea. If you guess, how often are you right, and what happens the rest of the time?", "hint": "Write the chance of each outcome and the marks it brings.", "reveal": "Right 1 time in 5 for +1; wrong 4 times in 5 for -0.25 each." },
+      { "question": "Combine those into the average marks per blind guess. What do you get?", "hint": "Multiply each outcome by its chance and add.", "reveal": "$\\frac{1}{5} - \\frac{4}{5} \\times 0.25 = 0$, so a blind guess is exactly break-even." },
+      { "question": "Now suppose you can cross out even one option, or you have already used all your free skips (a skip costs 0.10). Is guessing still break-even?", "hint": "Redo the sum with 4 options left, then compare 0 with -0.10.", "reveal": "No, it tips in your favour: one elimination gives $\\frac{1}{4} - \\frac{3}{4} \\times 0.25 = 0.0625$, and past the free limit even a blind guess (0) beats a skip (-0.10). Guess whenever you can eliminate one option or are past the free skips." }
+    ]
+  },
+  {
+    "topicId": "8-8",
+    "title": "Time management",
+    "simplified": {
+      "coreIntuition": "You do not need to solve every question, so time management is really question selection. A question you are stuck on is stealing time from two easier ones.",
+      "keyPoints": [
+        "Part 1 is 75 questions on one shared 170-minute clock (about 2.3 minutes each); GK has its own 10 minutes.",
+        "Two passes: first answer everything quick and clear, mark the rest; then return to the marked ones.",
+        "Two-minute rule: if there is no clear path after about 2 minutes, mark it and move on.",
+        "Keep the last ~10 minutes of Part 1 as a buffer for marked questions and final guesses beyond the free skips.",
+        "The exam is 2-5 pm on 3 Jan 2027: sit mocks at 2 pm, sleep 7-8 hours, and check the centre route a day early."
+      ],
+      "analogy": "An exam is like picking fruit in a timed orchard: you fill the basket fastest from the low branches, not by climbing for the one high mango."
+    },
+    "flashcards": [
+      { "front": "How should you pick a section order in Part 1?", "back": "Part 1 is one 170-minute block, so you choose; many start with their strongest section to bank marks and calm nerves. Test two or three orders in mocks and keep the best." },
+      { "front": "What is the two-pass approach?", "back": "Pass 1: answer every question you can do quickly and confidently, marking the rest. Pass 2: return to the marked ones with the time left." },
+      { "front": "What is the two-minute rule?", "back": "If a question shows no clear path after about 2 minutes (average pace is about 2.3), mark it and move on; come back only if time remains." },
+      { "front": "Why skip hard questions early rather than late?", "back": "Spending 20-30 seconds to judge and skip saves the 4-5 minutes a hard question can swallow, and the first 12 skips cost nothing in XAT 2027." },
+      { "front": "What is the review buffer for?", "back": "The last ~10 minutes of Part 1: revisit marked questions, then fill blanks beyond the free skips with guesses." },
+      { "front": "What should your exam-day routine include?", "back": "Visit the centre route a day before, carry the admit card and photo ID, eat a light lunch, and reach well before the 2 pm start." },
+      { "front": "Why take mocks from 2 to 5 pm in the last weeks?", "back": "XAT runs 2-5 pm, so practising at that time trains your focus for the real slot; keep 7-8 hours of sleep and learn nothing new the day before." },
+      { "front": "How do you stay calm when a question looks impossible?", "back": "Remember a hard question is hard for everyone and the percentile is relative; take a slow breath (about 4 seconds in, 6 out), mark it and move on." }
+    ],
+    "socratic": [
+      { "question": "Part 1 gives 170 minutes for 75 questions. How long is that per question, and what happens if you spend 8 minutes on one?", "hint": "Divide, then compare 8 with your answer.", "reveal": "About 2.3 minutes each; 8 minutes on one question uses the time of about three average questions." },
+      { "question": "All questions carry the same +1. If you get stuck, is the stuck question worth more than two easier ones later in the paper?", "hint": "Compare the marks, not how much effort you have already sunk in.", "reveal": "No: it is worth 1 mark, while the two easier ones are worth 2, and the minutes already spent are gone either way." },
+      { "question": "So what is good time management in XAT really about?", "hint": "Think about the orchard with low and high branches.", "reveal": "Choosing which questions to do. Use two passes and the two-minute rule so easy marks are never lost to one stubborn question." }
+    ]
+  }
+]

@@ -1,0 +1,530 @@
+[
+  {
+    "topicId": "2-1",
+    "title": "Philosophy & abstract",
+    "simplified": {
+      "coreIntuition": "An abstract passage is an argument wearing heavy words. Strip each sentence down to who claims what, and against whom, and it becomes a simple debate.",
+      "keyPoints": [
+        "Prep-site analyses of past papers find philosophy and ethics in most recent XAT papers: expect morality, free will, happiness and human values.",
+        "Turn every abstract sentence into a plain example in your head (\"authenticity\" = living by choices you own, not by others' rules).",
+        "Track whose view is whose: many passages state a view (\"many hold that…\") and then give the author's reply.",
+        "You need no prior philosophy: answers come only from the passage, and outside knowledge can mislead you.",
+        "If a sentence is still unclear after one reread, move on; the next sentence or example usually explains it."
+      ],
+      "analogy": "Like a relative describing a family fight in long words: ignore the vocabulary and find who is upset with whom, and why."
+    },
+    "flashcards": [
+      {
+        "front": "An existentialist passage says \"existence precedes essence\". What does that mean in plain words?",
+        "back": "Humans are not born with a fixed purpose; we make ourselves through our choices and so are responsible for them (Sartre's idea)."
+      },
+      {
+        "front": "A passage judges an act only by its results. Which ethical camp is that, and what is the rival camp?",
+        "back": "Consequentialism (e.g. utilitarianism: the greatest good for the greatest number). The rival is deontology (Kant): some acts are right or wrong as a matter of duty, whatever the results."
+      },
+      {
+        "front": "What question does epistemology ask, and how do rationalists and empiricists answer it differently?",
+        "back": "It asks how we know what we know. Rationalists (Descartes) stress reason; empiricists (Locke, Hume) stress sense experience."
+      },
+      {
+        "front": "An art-theory passage contrasts \"art as imitation\" with \"art as expression\". What is the difference?",
+        "back": "Imitation (mimesis, from Plato and Aristotle) says art copies reality; expression says art conveys the artist's feelings. Questions often ask which view the author favours."
+      },
+      {
+        "front": "Which core ideas keep recurring in Indian and Buddhist philosophy passages?",
+        "back": "Karma (action and its results), dharma (duty or right conduct), acting without attachment to results (the Gita's nishkama karma), and in Buddhism, impermanence and the absence of a fixed self."
+      },
+      {
+        "front": "What is compatibilism, and why does spotting it matter in a free-will passage?",
+        "back": "The view that free will and determinism can both be true: an act is free if it comes from your own desires without force, even if those desires had causes. It shows the debate is not just two sides."
+      },
+      {
+        "front": "Later Wittgenstein said \"meaning is use\". What does that claim?",
+        "back": "A word's meaning is not a fixed thing it points to but the way it is used in a shared practice, which he called a language game."
+      },
+      {
+        "front": "A 40-word sentence packed with abstract nouns stops you cold. What are your first two moves?",
+        "back": "Find the main subject and verb (who does what), then swap the abstract nouns for a concrete example. If still stuck, read on: the next sentence usually restates it."
+      }
+    ],
+    "socratic": [
+      {
+        "question": "A passage opens: \"Many hold that happiness is the satisfaction of desire.\" Is this necessarily the author's own view?",
+        "hint": "Look at who is speaking: \"many hold\". Why would an author open with someone else's idea?",
+        "reveal": "No. \"Many hold\" gives the view to other people; it is often set up so the author can question it."
+      },
+      {
+        "question": "The next paragraph begins: \"Yet desires multiply as fast as they are met.\" What does \"Yet\" tell you about the author's stance on the opening view?",
+        "hint": "What job does \"yet\" do between two ideas?",
+        "reveal": "\"Yet\" signals contrast: the author is pushing back, suggesting that satisfying desires can never fully deliver happiness."
+      },
+      {
+        "question": "A question asks for the main idea. Should the answer restate the opening sentence, or something else? What general rule does this suggest?",
+        "hint": "Where does the author's own voice appear: in the view described, or in the reply to it?",
+        "reveal": "The main idea is the author's reply, not the opening view. In abstract passages, first find the view being attacked; the author's thesis is the answer to it."
+      }
+    ]
+  },
+  {
+    "topicId": "2-2",
+    "title": "Economics & business",
+    "simplified": {
+      "coreIntuition": "Economics passages are cause-and-effect chains. Sketch the chain (A raises B, which cuts C) and most questions become checking one link.",
+      "keyPoints": [
+        "Jot an arrow chain while reading: \"rates up → borrowing down → spending down → inflation down\".",
+        "Watch for trade-offs: most economic arguments say a policy gains X at the cost of Y.",
+        "Separate data (what happened) from interpretation (why the author thinks it happened); questions target the gap.",
+        "Two things moving together is not proof that one causes the other; options that turn a link into a firm cause are often traps.",
+        "Use only the passage's version of economics, even if you learned it differently."
+      ],
+      "analogy": "Like a row of dominoes: you don't need to know economics, only which domino the author says knocks over which."
+    },
+    "flashcards": [
+      {
+        "front": "A passage says a price rise barely cut sales of salt. What does that tell you about demand for salt?",
+        "back": "Demand is price-inelastic: people keep buying because it is a necessity with few substitutes."
+      },
+      {
+        "front": "Why does a central bank like the RBI raise its repo rate to fight inflation?",
+        "back": "A higher repo rate makes loans costlier, which cools borrowing and spending and so eases the demand pressure pushing prices up."
+      },
+      {
+        "front": "Explain comparative advantage in one line.",
+        "back": "Countries gain from trade by specialising in what they produce at a lower opportunity cost, even if another country is better at producing everything (Ricardo)."
+      },
+      {
+        "front": "People feel losing Rs 100 more sharply than gaining Rs 100. What is this called, and whose theory is it from?",
+        "back": "Loss aversion, part of prospect theory by Daniel Kahneman and Amos Tversky. It challenges the idea of a fully rational economic agent."
+      },
+      {
+        "front": "In Porter's terms, how does a cost-leadership strategy differ from differentiation?",
+        "back": "Cost leadership wins by being the cheapest producer; differentiation wins by offering something unique that customers will pay more for."
+      },
+      {
+        "front": "A passage argues that income growth alone does not end poverty. Which thinker's \"capability approach\" might it draw on?",
+        "back": "Amartya Sen's: development means expanding what people can actually do and be (health, education, freedom), not only raising income."
+      },
+      {
+        "front": "In Clayton Christensen's \"disruptive innovation\", where does the disruptor usually start?",
+        "back": "At the low end or in an ignored market, with a cheaper, simpler product that big firms dismiss, before moving up to win mainstream customers."
+      },
+      {
+        "front": "A passage argues for a new subsidy. Which two things should you check to judge the argument?",
+        "back": "Whether the evidence shows it achieves its aim, and its costs or side effects (fiscal burden, distortions, who really benefits). Strengthen and weaken options usually hit one of these."
+      }
+    ],
+    "socratic": [
+      {
+        "question": "A passage notes that states with more smartphone users have higher income per person, and concludes that smartphones drive growth. What has the evidence actually shown?",
+        "hint": "Does the data show one thing causing another, or two things appearing together?",
+        "reveal": "Only that the two go together (a correlation). It does not show which causes which."
+      },
+      {
+        "question": "Can you think of another explanation for the same data?",
+        "hint": "Try reversing the arrow, or look for a third factor that could raise both.",
+        "reveal": "Richer states can afford more smartphones (reverse cause), or better infrastructure could raise both (a third factor)."
+      },
+      {
+        "question": "A question asks which option most weakens the conclusion. What kind of option should you hunt for?",
+        "hint": "Your two alternative explanations are the clue.",
+        "reveal": "One that offers another cause or reverses the direction. When an economics argument jumps from \"goes together\" to \"causes\", that jump is the weak point."
+      }
+    ]
+  },
+  {
+    "topicId": "2-3",
+    "title": "Science & technology",
+    "simplified": {
+      "coreIntuition": "Science passages test whether you can follow a claim and its evidence, not whether you know science. Jargon is either explained in the passage or not needed for the answer.",
+      "keyPoints": [
+        "Find the skeleton: question → hypothesis → evidence → conclusion or open debate.",
+        "Note hedges (\"suggests\", \"may\", \"preliminary\"); an option that states the finding as certain is usually wrong.",
+        "Give jargon a placeholder (\"X\") and keep reading; track what X does, not what it is.",
+        "Separate what was observed from what scientists infer from it.",
+        "Watch for a \"new finding vs old view\" setup; questions ask what the new evidence challenges."
+      ],
+      "analogy": "Like watching a cricket match with commentary in a language you don't speak: the scoreboard still tells you who is batting, who is winning and why."
+    },
+    "flashcards": [
+      {
+        "front": "A passage says giraffes got long necks by stretching them during their lives. Why would an evolution passage call this wrong?",
+        "back": "That is Lamarck's idea of inheriting acquired traits. Darwin's natural selection says giraffes born with longer necks survived and bred more, so the trait spread."
+      },
+      {
+        "front": "What does neuroplasticity claim, and which older view does it overturn?",
+        "back": "The brain keeps rewiring its connections with experience throughout life. It overturns the older belief that the adult brain is fixed."
+      },
+      {
+        "front": "How does the greenhouse effect warm the Earth, in one line?",
+        "back": "Gases such as carbon dioxide and methane let sunlight in but absorb the heat the Earth radiates back, trapping it in the atmosphere."
+      },
+      {
+        "front": "What is algorithmic bias, and where does it usually come from?",
+        "back": "When an AI system's outputs unfairly disadvantage some groups, usually because it learned from past data that already contained that bias."
+      },
+      {
+        "front": "A quantum passage says we cannot pin down an electron's exact position and momentum together. Which principle is this, and is it just about clumsy instruments?",
+        "back": "Heisenberg's uncertainty principle. No: it is a basic limit of nature, not a flaw in measuring tools."
+      },
+      {
+        "front": "How does herd immunity protect people who are not immune?",
+        "back": "When enough people are immune, chains of infection break, so the disease spreads poorly and non-immune people are less likely to be exposed."
+      },
+      {
+        "front": "Why do studies use a control group and random assignment?",
+        "back": "The control group shows what happens without the treatment; random assignment makes the groups alike, so a difference in results can be credited to the treatment."
+      },
+      {
+        "front": "An undefined term like \"apoptosis\" appears three times. What do you do?",
+        "back": "Call it \"X\" and learn what X does from context (e.g. \"X removes damaged cells\"). Questions rarely need more than that."
+      }
+    ],
+    "socratic": [
+      {
+        "question": "Passage: \"Early studies suggest that moderate coffee intake may lower the risk of some liver diseases.\" Which words soften this claim?",
+        "hint": "Look for words that stop the sentence from being a firm fact.",
+        "reveal": "\"Early\", \"suggest\", \"may\" and \"some\". The claim is tentative and limited."
+      },
+      {
+        "question": "Option A: \"Coffee prevents liver disease.\" Option B: \"Coffee may be linked to lower risk of certain liver diseases.\" Which matches the passage's strength?",
+        "hint": "Compare both the certainty and the scope of each option with the original.",
+        "reveal": "B. A turns \"may lower the risk of some\" into \"prevents\" all liver disease: too strong and too broad."
+      },
+      {
+        "question": "A used words from the passage and still failed. What general rule about science-passage answers follows?",
+        "hint": "Think about what A changed, rather than what it copied.",
+        "reveal": "The right answer matches the passage's degree of certainty and scope. Science passages hedge, so options that upgrade \"suggests\" into \"proves\" are traps."
+      }
+    ]
+  },
+  {
+    "topicId": "2-4",
+    "title": "Main idea",
+    "simplified": {
+      "coreIntuition": "The main idea is the one point every paragraph serves. An option that covers only one paragraph, or reaches past the passage, is not it.",
+      "keyPoints": [
+        "After reading, say the passage in one line: the topic plus the author's point about it.",
+        "Topic is the subject; scope is the specific angle. The correct answer matches the scope.",
+        "Purpose questions turn on the verb (argue, explain, criticise, compare, describe); match it to what the author does.",
+        "Reject options that are true but cover one paragraph (too narrow) or the whole field (too broad).",
+        "The thesis is often in the first or last paragraph, but some passages build to it late, so check."
+      ],
+      "analogy": "Like a film trailer: a good one sums up the whole film, not one action scene and not the whole genre."
+    },
+    "flashcards": [
+      {
+        "front": "How do you test whether an option states the central theme?",
+        "back": "Check that every paragraph supports it. If any paragraph would be irrelevant to it, the option is too narrow or off target."
+      },
+      {
+        "front": "A passage presents a theory and then lists its flaws. Which purpose verb fits: describe, criticise or support?",
+        "back": "Criticise (or critically evaluate). The verb must match what the author does, not only the topic."
+      },
+      {
+        "front": "What makes a title option \"best\" rather than merely related?",
+        "back": "It captures both the topic and the author's angle, at the passage's breadth. Catchy titles that cover only part are traps."
+      },
+      {
+        "front": "Name four common RC passage structures.",
+        "back": "Claim then evidence; problem then solution; old view then new view; compare and contrast (cause and effect is another). Naming the structure speeds up purpose questions."
+      },
+      {
+        "front": "A question asks what the third paragraph \"does\". What should your answer describe?",
+        "back": "Its job in the argument, e.g. gives an example, raises an objection or answers one, not just what it talks about."
+      },
+      {
+        "front": "Two summary options both look right. How do you split them?",
+        "back": "Pick the one that keeps the author's conclusion and the key turn (the \"but\") of the passage; drop the one that just lists details."
+      },
+      {
+        "front": "Topic: urban migration. Scope: how migration changes family roles. Why is \"Causes of urban migration\" wrong as the main idea?",
+        "back": "Right topic, wrong scope: the passage is about effects on families, not causes."
+      },
+      {
+        "front": "For a passage on Mughal miniature painting, an option says \"The history of Indian art\". What is the error, and what would the opposite error look like?",
+        "back": "Too broad: it claims more than the passage covers. The opposite, too narrow, would be something like \"The colours used in one miniature\"."
+      }
+    ],
+    "socratic": [
+      {
+        "question": "A 4-paragraph passage: P1 says remote work is growing; P2 lists productivity gains; P3 lists loneliness and weaker mentoring; P4 says firms must design hybrid models to keep the gains and limit the costs. Which paragraph sounds most like the author's conclusion?",
+        "hint": "Which paragraph pulls the others together?",
+        "reveal": "P4. It weighs P2 against P3 and says what should follow."
+      },
+      {
+        "question": "Option X: \"Remote work boosts productivity.\" Is it true according to the passage? Is it the main idea?",
+        "hint": "Count how many paragraphs X covers.",
+        "reveal": "True (P2 says so) but not the main idea: it ignores the costs in P3 and the conclusion in P4."
+      },
+      {
+        "question": "What should the right option contain, and what does this teach about options that are true?",
+        "hint": "The answer must hold P2, P3 and P4 together.",
+        "reveal": "Something like \"Remote work brings gains and costs, so firms should adopt hybrid designs.\" Being true is not enough: the main idea must cover the whole passage at the author's angle."
+      }
+    ]
+  },
+  {
+    "topicId": "2-5",
+    "title": "Inference",
+    "simplified": {
+      "coreIntuition": "An RC inference is a small, safe step from the text, not a creative leap. If you need an extra assumption to get there, it has gone too far.",
+      "keyPoints": [
+        "The correct inference is usually modest and well supported; dramatic options are traps.",
+        "Ask \"Must this be true if the passage is true?\", not \"Could this be true?\"",
+        "Point to the line that supports your answer: no line, no answer.",
+        "Be wary of extreme words (always, never, only, all) unless the passage uses them.",
+        "Real-world truth does not count: an option can be factually correct and still unsupported by the passage."
+      ],
+      "analogy": "Like seeing wet roads and dripping umbrellas: you can infer it rained recently, not that it rained all night or that a cyclone hit."
+    },
+    "flashcards": [
+      {
+        "front": "The author calls a reform \"at best, a modest success\". What is implied?",
+        "back": "That it fell short of hopes or partly failed; \"at best\" puts a ceiling on the praise."
+      },
+      {
+        "front": "What single test separates a valid inference from a plausible guess?",
+        "back": "A valid inference must be true if every statement in the passage is true. A plausible guess only could be true."
+      },
+      {
+        "front": "Passage: \"All the startups studied raised funding before launch.\" Option: \"Startups that raise funding before launch succeed.\" Must it be true?",
+        "back": "No. The passage states the funding but never links it to success. It could be true, but it is not supported."
+      },
+      {
+        "front": "How do you answer \"the author would most likely agree with\" questions?",
+        "back": "Pin down the author's stance and how strong it is, then pick the option consistent with it. Reject options stronger than the author, or views the author only reports."
+      },
+      {
+        "front": "A question gives a new situation and asks which one fits the passage's principle. What is your method?",
+        "back": "State the principle in general words (e.g. \"rules obeyed only out of fear don't last\"), then pick the option with the same structure, ignoring the surface topic."
+      },
+      {
+        "front": "Passage: \"Unless groundwater use is cut, farming here will become unviable. Use is not being cut.\" What follows?",
+        "back": "Farming here will become unviable. \"Unless A, B\" plus \"not A\" gives B."
+      },
+      {
+        "front": "An author gives three examples of empires that fell after overexpanding. What can you safely infer?",
+        "back": "That the author thinks overexpansion tends to weaken empires. Not that every expanding empire falls, nor that overexpansion is the only cause."
+      },
+      {
+        "front": "An option states a true fact you know from the news, but the passage never mentions it. Can it be the answer?",
+        "back": "No. RC answers must be supported by the passage; outside facts, even true ones, are a classic trap."
+      }
+    ],
+    "socratic": [
+      {
+        "question": "Passage: \"Several village cooperatives that adopted solar pumps reported lower diesel bills in their first year.\" Which is safer: (A) \"Solar pumps will end diesel use in villages\" or (B) \"Some cooperatives spent less on diesel after adopting solar pumps\"?",
+        "hint": "Which one needs no extra assumption?",
+        "reveal": "B. It follows directly from what was reported. A predicts the future and generalises to all villages."
+      },
+      {
+        "question": "Option C: \"Solar pumps caused the drop in these cooperatives' diesel bills.\" What does C assume that B does not?",
+        "hint": "Does \"after\" mean the same as \"because of\"?",
+        "reveal": "C assumes the pumps caused the drop, ruling out other reasons such as cheaper diesel that year. It is one step beyond the text."
+      },
+      {
+        "question": "Rank A, B and C by how much each claims beyond the text. What does the ranking tell you about choosing inference answers?",
+        "hint": "Order them from the biggest leap to the smallest.",
+        "reveal": "A claims most, then C, then B. The best inference claims the least beyond the text: in RC, boring and defensible beats bold and interesting."
+      }
+    ]
+  },
+  {
+    "topicId": "2-6",
+    "title": "Tone & author's view",
+    "simplified": {
+      "coreIntuition": "Tone is the author's attitude, and it lives in word choice. Find the loaded adjectives and adverbs, and the tone answers itself.",
+      "keyPoints": [
+        "First decide direction (positive, negative, neutral), then strength (mild or strong).",
+        "Academic authors are rarely extreme: \"measured criticism\" beats \"scathing contempt\" unless the words are truly harsh.",
+        "Separate the author's voice from reported views (\"critics argue\", \"it is often said\").",
+        "In two-part options (\"appreciative but cautious\") both parts must be right.",
+        "Praise mixed with reservations points to ambivalent or balanced, not neutral."
+      ],
+      "analogy": "Like a friend saying \"Nice job\": the same words can be praise or sarcasm, and the context tells you which."
+    },
+    "flashcards": [
+      {
+        "front": "What separates a critical tone from a derisive one?",
+        "back": "Critical points out faults with reasons; derisive mocks and belittles. RC authors are often critical, rarely derisive."
+      },
+      {
+        "front": "Which kinds of words signal an appreciative tone?",
+        "back": "Approving words like \"remarkable\", \"insightful\", \"rightly\", \"a lasting contribution\". Appreciative means approving, not gushing."
+      },
+      {
+        "front": "\"The ministry, in its infinite wisdom, has banned the very app it built.\" What is the tone, and what gives it away?",
+        "back": "Sarcastic or ironic. \"In its infinite wisdom\" is praise that the facts contradict, so it actually mocks."
+      },
+      {
+        "front": "When should you choose \"neutral\" or \"objective\" as the tone?",
+        "back": "When the author reports facts or several views with no judging words and no verdict. Any clear judgement rules neutral out."
+      },
+      {
+        "front": "How is \"ambivalent\" different from \"neutral\"?",
+        "back": "Ambivalent means mixed feelings: the author holds both positive and negative views. Neutral means no personal view is shown at all."
+      },
+      {
+        "front": "A passage says \"Economists widely believe X\" and later \"This consensus overlooks Y\". What is the author's view of X?",
+        "back": "Sceptical or critical. \"Widely believe\" reports others' view; \"overlooks\" is the author's own judgement."
+      },
+      {
+        "front": "Give the meaning of: didactic, laudatory, cynical, pragmatic.",
+        "back": "Didactic: teaching or moralising. Laudatory: praising. Cynical: distrusting people's motives. Pragmatic: focused on practical results."
+      },
+      {
+        "front": "Before you mark a tone answer, what should you be able to point to?",
+        "back": "Two or three specific words or phrases in the passage that carry the attitude. If you can't, recheck the direction and strength."
+      }
+    ],
+    "socratic": [
+      {
+        "question": "\"The policy, though well intentioned, rests on shaky data and may do more harm than good.\" Is the overall tone positive, negative or neutral?",
+        "hint": "Weigh the \"though\" clause against the main clause.",
+        "reveal": "Negative overall. \"Well intentioned\" is a small concession; \"shaky data\" and \"more harm than good\" carry the verdict."
+      },
+      {
+        "question": "Options: (a) contemptuous (b) cautiously critical (c) neutral (d) enthusiastic. Which two can you cut at once, and why?",
+        "hint": "Use the direction you just found.",
+        "reveal": "(c) and (d): the author is clearly negative, so neither neutral nor enthusiastic fits."
+      },
+      {
+        "question": "Now choose between contemptuous and cautiously critical. What decides it?",
+        "hint": "Look at \"may\" and \"though well intentioned\". Does the author sneer?",
+        "reveal": "Cautiously critical: the hedge and the concession show restraint. Once direction is settled, tone questions turn on intensity, and extreme options usually overshoot."
+      }
+    ]
+  },
+  {
+    "topicId": "2-7",
+    "title": "Arguments within RC",
+    "simplified": {
+      "coreIntuition": "Every argument is a conclusion, its evidence, and an unstated bridge between them. Most argument questions are really about that bridge.",
+      "keyPoints": [
+        "Conclusion signals: therefore, thus, hence, so, clearly, it follows that.",
+        "Evidence signals: because, since, given that, as shown by.",
+        "Strengthen and weaken answers act on the gap between evidence and conclusion, and they may bring in new information.",
+        "For assumptions, use the negation test: if negating the option breaks the argument, it is a necessary assumption.",
+        "For a paradox, pick the option that lets both surprising facts be true at once."
+      ],
+      "analogy": "Like a bridge over a river: evidence is one bank, the conclusion the other, and the assumption is the bridge. Weaken questions hunt for the crack."
+    },
+    "flashcards": [
+      {
+        "front": "How do you find the conclusion when there are no signal words?",
+        "back": "Ask which sentence the others support. Put \"therefore\" in front of each candidate; the one that reads naturally after the rest is the conclusion."
+      },
+      {
+        "front": "How is evidence different from background in an argument?",
+        "back": "Evidence directly supports the conclusion; background only sets the scene. Only evidence matters when you strengthen or weaken."
+      },
+      {
+        "front": "Does a strengthen answer have to prove the conclusion?",
+        "back": "No. It only has to make the conclusion more likely, often by closing the gap or ruling out another explanation."
+      },
+      {
+        "front": "\"Sales rose after the ad campaign, so the campaign worked.\" What type of fact would weaken this?",
+        "back": "An alternative cause, e.g. the main competitor shut down that month, so sales would have risen anyway."
+      },
+      {
+        "front": "How does the negation test for assumptions work?",
+        "back": "Negate the option. If the argument falls apart, it is a necessary assumption; if the argument survives, it is not."
+      },
+      {
+        "front": "How do you spot the option with \"similar reasoning\"?",
+        "back": "Reduce the argument to its skeleton (e.g. \"A worked in X, so A will work in Y\") and match the skeleton, ignoring the topic."
+      },
+      {
+        "front": "Fact 1: a city built more roads. Fact 2: traffic got worse. What kind of option resolves this?",
+        "back": "One that lets both be true, e.g. the new roads drew in more drivers (induced demand)."
+      },
+      {
+        "front": "\"Which information would best help evaluate the argument?\" What makes a piece of information useful here?",
+        "back": "Each possible answer to it would change the argument: one answer strengthens, the other weakens. If no answer matters, it is irrelevant."
+      }
+    ],
+    "socratic": [
+      {
+        "question": "\"Students who join coaching score higher in XAT. So coaching improves XAT scores.\" What does this argument take for granted?",
+        "hint": "What else could explain why coaching students score higher?",
+        "reveal": "It assumes the coaching students were not already stronger or more motivated before they joined."
+      },
+      {
+        "question": "Negate it: \"Coaching students were already stronger before joining.\" What happens to the conclusion?",
+        "hint": "Could the higher scores now be explained without coaching?",
+        "reveal": "The conclusion collapses: prior ability, not coaching, could explain the higher scores."
+      },
+      {
+        "question": "In a weaken question with five options, which one should you hunt for, and why does this work on almost any argument?",
+        "hint": "Connect what you did in the last two steps.",
+        "reveal": "The one that attacks the hidden assumption (e.g. \"coaching students already had higher mock scores before joining\"). Weaken, strengthen and assumption questions all target the same unstated bridge between evidence and conclusion."
+      }
+    ]
+  },
+  {
+    "topicId": "2-8",
+    "title": "Reading habit",
+    "simplified": {
+      "coreIntuition": "RC skill grows from daily reading plus reflection, not tricks. Read hard prose every day, sum it up in a line, and study why you got RC answers wrong.",
+      "keyPoints": [
+        "Average adult silent reading of non-fiction is about 238 words per minute; most adults fall around 175–300 (Brysbaert 2019, 190 studies).",
+        "Speed-reading claims are overstated: research (Rayner et al. 2016) finds speed and comprehension trade off; practice and vocabulary are the real levers.",
+        "Summarising main ideas and checking your own understanding are among the reading strategies with solid research support (US National Reading Panel).",
+        "Read an unfamiliar subject each week (philosophy, art, science), since XAT passages often come from such areas.",
+        "Reviewing wrong answers by trap type (extreme, out of scope, distorted) teaches more than doing new sets blindly."
+      ],
+      "analogy": "Like fitness: one marathon session before the exam does little, but 20 minutes daily plus noticing what hurt builds real stamina."
+    },
+    "flashcards": [
+      {
+        "front": "When you read the day's editorial, which three things should you note to turn it into RC practice?",
+        "back": "The author's main claim, the main evidence, and the tone. Editorials in papers like The Hindu or The Indian Express are argued opinion, close to XAT style."
+      },
+      {
+        "front": "Why read long-form essays (e.g. Aeon) and not only news?",
+        "back": "XAT passages are often abstract, opinion-driven essays on ideas, culture and ethics. Essays train that kind of reading; news reports mostly do not."
+      },
+      {
+        "front": "What must a one-line summary of an article contain?",
+        "back": "The topic plus the author's point about it, in your own words, in about 20 words. If you can't write it, you missed the main idea."
+      },
+      {
+        "front": "At roughly 240 words per minute, how long should a 600-word passage take you?",
+        "back": "About $600 \\div 240 = 2.5$ minutes. Time a few passages to learn your own rate."
+      },
+      {
+        "front": "Apps promise 1,000+ words per minute with full understanding. What does the research say?",
+        "back": "A 2016 review by Rayner and colleagues found such claims overstated: reading faster generally costs comprehension. Regular practice and a bigger vocabulary are the reliable route."
+      },
+      {
+        "front": "Why jot 3–5 words per paragraph while reading an RC passage?",
+        "back": "It makes you grasp each paragraph's role and gives you a map to find answers fast, instead of rereading the whole passage."
+      },
+      {
+        "front": "Why deliberately read about a topic you find dull or alien each week?",
+        "back": "XAT often draws passages from areas like philosophy, art or science; regular exposure builds background vocabulary and stops panic on exam day."
+      },
+      {
+        "front": "When reviewing a wrong RC answer, which two questions should you answer?",
+        "back": "Which line supports the right option, and why your option tempted you (extreme, out of scope, distorted, or true but irrelevant)."
+      }
+    ],
+    "socratic": [
+      {
+        "question": "You read a 600-word passage in 3 minutes, then spend 6 minutes on its 3 questions, rereading the passage for each. Where did most of your time go?",
+        "hint": "Compare the reading time with the answering time.",
+        "reveal": "On answering, mostly rereading, not on the first read."
+      },
+      {
+        "question": "Why did you need to reread? Think about what you could recall after the first read.",
+        "hint": "Could you state the main idea and each paragraph's role without looking back?",
+        "reveal": "The first read left no clear map of the main idea and paragraph roles, so each question sent you searching again."
+      },
+      {
+        "question": "So which helps more: a faster first read, or a better-understood one? What does speed-reading research suggest?",
+        "hint": "Recall what happens to comprehension when people push their reading speed up.",
+        "reveal": "A better-understood one. Since speed and comprehension trade off, a slightly slower first read that maps each paragraph usually saves more total time than rushing and rereading."
+      }
+    ]
+  }
+]

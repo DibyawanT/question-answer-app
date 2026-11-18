@@ -1,0 +1,242 @@
+[
+  {
+    "topicId": "1-1",
+    "title": "Ethical dilemmas",
+    "simplified": {
+      "coreIntuition": "XAT rewards the option a fair, calm manager could defend in public: honest, legal, and doing the least harm to the most people, even when it costs money or loyalty.",
+      "keyPoints": [
+        "Ethics beats profit and beats loyalty: an option that hides wrongdoing to protect the company or a friend is almost always wrong.",
+        "Count who is affected; prefer the option that helps the most people or harms the fewest.",
+        "Fix it inside first when you can: raise the issue with the person, then their boss or the ethics channel, before going outside.",
+        "Kindness is allowed only within the rules: a one-time, documented exception beats breaking the rule quietly.",
+        "If your pick feels emotionally satisfying (revenge, rescue, heroics), check it again: XAT punishes emotional answers."
+      ],
+      "analogy": "Like a cricket umpire who must give his own team's batsman out: the right call is obvious, it just feels costly."
+    },
+    "flashcards": [
+      { "front": "Your close colleague fudged a ₹4,000 travel bill. Do you stay quiet out of loyalty or report it?", "back": "Honesty wins, but start small: tell the colleague to correct the claim; escalate only if they refuse. Silence makes you part of it." },
+      { "front": "When should an employee go outside the company (media, regulator) about wrongdoing?", "back": "Only after internal channels have failed or are compromised, and when the harm is serious, such as a safety or public risk. Going to the media first is usually the over-reaction option." },
+      { "front": "You are on a vendor selection panel and one bidder is your cousin's firm. What is the right step?", "back": "Disclose the link and step out of that decision. Staying on and \"being fair\" is still a conflict of interest." },
+      { "front": "A faster process saves money but treats one group of workers unfairly. How does XAT usually weigh this?", "back": "Fairness first, then look for the option that keeps most of the efficiency without the unfairness. Pure efficiency at someone's unfair cost is rarely the answer." },
+      { "front": "A worker breaks the late-coming rule because her child is in hospital. Punish or forgive?", "back": "Neither extreme: apply the rule's spirit with a documented, one-time exception or adjusted leave. Compassion inside a transparent process beats both rigid punishment and quietly ignoring the rule." },
+      { "front": "Hiding a product defect keeps this quarter's sales up. Why is that a weak option?", "back": "It trades long-term trust, legal risk and brand for short-term numbers. XAT prefers options that protect the long-term good even at a short-term cost." },
+      { "front": "In India, which companies must spend on CSR, and how much?", "back": "Under Section 135 of the Companies Act, 2013, companies with net worth of ₹500 crore+, turnover of ₹1,000 crore+ or net profit of ₹5 crore+ must spend 2% of average net profit of the last three years." },
+      { "front": "Every option hurts someone. How do you choose?", "back": "Pick the least-harm option: the harm is smaller, can be undone, and falls on fewer people, and those people are told and helped." }
+    ],
+    "socratic": [
+      { "question": "A plant manager learns the factory slightly exceeds a pollution limit. Options: (a) hide it, (b) shut the plant at once, (c) report it, fix it and inform affected villagers. What does option (a) protect, and who pays for it?", "hint": "Think about who gains today and who is harmed quietly.", "reveal": "Hiding protects this month's output and the manager's record; the villagers and, later, the company pay the cost." },
+      { "question": "Option (b) is perfectly honest. Why might it still not be the best answer?", "hint": "How big is the breach compared with the cost of the reaction?", "reveal": "Shutting at once punishes workers and customers for a slight, fixable breach; it is honest but out of proportion." },
+      { "question": "So what do the strongest ethical answers have in common?", "hint": "Combine what was wrong with (a) and with (b).", "reveal": "They are honest and proportionate: tell the truth, fix the actual harm, and avoid both cover-ups and over-reactions." }
+    ]
+  },
+  {
+    "topicId": "1-2",
+    "title": "Business situations",
+    "simplified": {
+      "coreIntuition": "When there is no moral issue, think like a sensible owner who wants the business to last: fix the real problem, avoid big bets on thin facts, and protect the brand.",
+      "keyPoints": [
+        "Find the actual problem first; many options solve a different problem from the one in the case.",
+        "Prefer sustainable fixes over quick wins that damage quality, customers or reputation.",
+        "Use the numbers given: a quick cost-benefit or break-even check often kills an option that sounds good.",
+        "If the business is in trouble, short-term survival can matter more than an ambitious long-term plan.",
+        "Avoid all-or-nothing moves: piloting, testing or phasing is usually safer than a full launch or full exit."
+      ],
+      "analogy": "Running a business is like driving on a ghat road: steady and alert gets you there; sudden swerves cause crashes."
+    },
+    "flashcards": [
+      { "front": "A rival cuts prices by 20%. Why is matching at once often the wrong answer?", "back": "It can start a price war and hurt margins. First check whether customers actually leave, then compete on value or offer targeted discounts where needed." },
+      { "front": "A new market looks attractive but the firm has no local knowledge. Which entry option is usually safest?", "back": "A small pilot or a local partner, so you learn before committing heavily. Full-scale entry on thin data is a high-risk option." },
+      { "front": "Costs must fall 10%. Which cuts does XAT usually frown on?", "back": "Cuts that lower safety or product quality customers rely on. Prefer cutting waste, renegotiating with suppliers or improving processes." },
+      { "front": "Vendor A is 8% cheaper; Vendor B has never missed a delivery. When should you pick B?", "back": "When late or bad supplies would cost more than the 8% saved, for example by stopping production or losing key customers. Compare total cost, not just the price." },
+      { "front": "Customers report a possibly unsafe batch. What comes first?", "back": "Protect people: stop sales or recall the affected batch, tell customers clearly, then find the cause. Denial or waiting for proof makes it worse." },
+      { "front": "Launch on time with known minor bugs, or delay three months?", "back": "It depends on harm: minor cosmetic bugs with a quick fix can ship; anything touching safety, data or core function should wait. Weigh the cost of delay against the damage of a bad launch." },
+      { "front": "In a partnership negotiation, what separates a good option from a bad one?", "back": "Good options protect the long relationship and find gains for both sides. One-sided pressure tactics or threats win once and lose the partner." },
+      { "front": "A celebrity ambassador is caught in a scandal. What is the measured response?", "back": "Pause the campaign, check the facts, then decide on the association in line with brand values. Dropping them in panic or defending them blindly are both extremes." }
+    ],
+    "socratic": [
+      { "question": "A café's sales fell 30% after a big chain opened nearby. One owner says: \"Cut all prices by 30%.\" What does that option assume customers care about most?", "hint": "Why would a price cut bring people back?", "reveal": "It assumes customers left only because of price, which the case may never say." },
+      { "question": "Survey data in the case says customers left because the chain has Wi-Fi and seating. Does the price cut still make sense?", "hint": "Does the solution match the cause?", "reveal": "No. The café would lose margin and still lack what customers want." },
+      { "question": "What general test does this give you for any business option?", "hint": "Link the option back to the cause stated in the case.", "reveal": "The best option fixes the stated cause of the problem using the case facts; options that treat a different cause are wrong, however bold they sound." }
+    ]
+  },
+  {
+    "topicId": "1-3",
+    "title": "HR & people conflicts",
+    "simplified": {
+      "coreIntuition": "Good HR answers are fair process plus human respect: hear both sides, follow the policy, and act in proportion to what actually happened.",
+      "keyPoints": [
+        "Investigate before acting; firing or punishing without hearing the person is almost always wrong.",
+        "Same rules for everyone: no favours for star performers or friends.",
+        "Talk privately first, document it, then escalate step by step (warning, then formal action).",
+        "Harassment complaints are never \"settled informally\" by a manager; they go to the proper committee.",
+        "Protect dignity in hard decisions: layoffs need honesty, notice and support, not surprise emails."
+      ],
+      "analogy": "Like a good school principal: listens to both students, checks the facts, applies the same rules to topper and backbencher."
+    },
+    "flashcards": [
+      { "front": "Two finalists: the CEO's nephew and a slightly better outsider. What does a fair hiring option look like?", "back": "Select on merit using the stated criteria, with the CEO kept out of the decision. Choosing the nephew is nepotism even if he is \"good enough\"." },
+      { "front": "A firm must cut 10% of staff. What marks a fair layoff option?", "back": "Clear, objective criteria, honest early communication, notice and severance, and help finding new jobs. Secret lists and sudden exits are wrong." },
+      { "front": "A manager rates everyone \"average\" to avoid arguments. What is wrong with that?", "back": "It hides real differences, demotivates top performers and gives weak performers no feedback. Appraisals should rest on evidence and honest conversation." },
+      { "front": "A passed-over employee says the promotion was unfair. What is the best first step?", "back": "Meet them, explain the criteria and evidence used, and tell them what would earn the next promotion. Reversing the decision or ignoring them are both extremes." },
+      { "front": "Two team leads keep fighting in meetings. What should their manager do first?", "back": "Meet each privately, then together, to find the real cause, such as unclear roles or competing targets, and fix that. Transferring one or punishing both skips the cause." },
+      { "front": "An employee reports sexual harassment by a senior. Where must it go in India?", "back": "To the Internal Committee required by the POSH Act, 2013, for workplaces with 10 or more employees. Protect the complainant from retaliation; never ask them to \"compromise\"." },
+      { "front": "Sales staff hit targets by pushing products customers don't need. What should change?", "back": "The incentive design: reward customer retention and quality as well as volume. Punishing staff alone ignores that the scheme caused the behaviour." },
+      { "front": "A manager hears a rumour that a subordinate is job-hunting. What is the trust-building move?", "back": "Have an open, non-threatening conversation about their goals and concerns. Spying, sidelining or confronting on a rumour destroys trust." }
+    ],
+    "socratic": [
+      { "question": "A top salesperson is found to have shouted at a junior twice. Options include \"ignore it, he brings revenue\" and \"fire him today\". What does each option say about who the rules apply to?", "hint": "Would you treat an average performer the same way?", "reveal": "Ignoring it says stars are above the rules; firing on the spot skips any process. Both treat this person differently from the norm." },
+      { "question": "What should happen before any decision is taken?", "hint": "What does fairness need from both sides?", "reveal": "Hear both the junior and the salesperson and check the facts, because process comes before penalty." },
+      { "question": "If the facts are confirmed, what penalty fits a first, non-violent offence?", "hint": "Match the size of the response to the size of the wrong.", "reveal": "A documented warning with clear consequences for repeats. The best HR answer is fair process, the same rules for everyone and a proportionate penalty." }
+    ]
+  },
+  {
+    "topicId": "1-4",
+    "title": "Stakeholder analysis",
+    "simplified": {
+      "coreIntuition": "Before judging options, list everyone the decision touches; the best answer usually serves the most of them and ignores none of the important ones.",
+      "keyPoints": [
+        "First ask: from whose point of view are the options judged? A CEO, an HR head and a regulator want different things.",
+        "Name all groups: shareholders, employees, customers, suppliers, community, government. Options that ignore a key one are weak.",
+        "Primary stakeholders are directly affected; secondary ones are indirectly affected but still count.",
+        "Power-interest grid: manage closely (high power, high interest), keep satisfied (high, low), keep informed (low, high), monitor (low, low).",
+        "Prefer win-win or balanced options over ones where one group gains at another's heavy loss."
+      ],
+      "analogy": "Planning a family wedding: parents, the couple, relatives and neighbours all have a stake; a plan that ignores any one of them causes trouble."
+    },
+    "flashcards": [
+      { "front": "A company plans to close a factory. Name at least five stakeholders in under 10 seconds.", "back": "Workers, shareholders, local community, suppliers, customers and the government or local authorities. Listing them first stops you missing the group an option ignores." },
+      { "front": "In a factory closure, who is primary and who is secondary?", "back": "Primary: workers, owners and customers, who are directly affected. Secondary: local shopkeepers and the media, who are indirectly affected. Both deserve attention." },
+      { "front": "A local regulator has high power but little interest in your project. How do you handle them?", "back": "Keep them satisfied: meet their requirements and keep them updated without over-engaging. Neglect them and their interest can suddenly turn high." },
+      { "front": "Shareholders want higher dividends; the town wants the polluting plant cleaned up. What does XAT usually prefer?", "back": "An option that fixes the harm to society, even if dividends fall, because long-term value depends on the right to operate. Profit at society's cost is rarely the answer." },
+      { "front": "Automation will save money but displace 200 workers. What employee-friendly option still lets the change happen?", "back": "Phase it in with retraining and redeployment, plus fair severance where jobs truly end. This keeps both efficiency and trust." },
+      { "front": "A cheaper ingredient is safe but tastes worse. Whose interest decides?", "back": "The customer's, since they pay and can leave. Changing quality quietly risks trust; test it, or be open about the change." },
+      { "front": "A new regulation raises costs. Which response is right: lobby to block it, quietly ignore it, or comply and give feedback?", "back": "Comply, and give feedback through proper channels if needed. Ignoring the law is illegal, and lobbying to block it is not the immediate answer." },
+      { "front": "What makes an option a genuine win-win rather than a slogan?", "back": "Each key stakeholder gets something real and no group bears a big hidden loss. For example, a profit-sharing scheme that lifts output and pay together." }
+    ],
+    "socratic": [
+      { "question": "A mall developer wants to build on a lake-side plot. Options: (a) build fast to please investors, (b) cancel the project, (c) redesign to protect the lake, consult residents and still build. Who does option (a) satisfy?", "hint": "Count the groups that clearly gain.", "reveal": "Mainly investors, and maybe future shoppers; residents and the environment lose." },
+      { "question": "Option (b) protects residents and the lake. Who loses now?", "hint": "Count again from the other side.", "reveal": "Investors, future workers and shoppers all lose; the problem is reversed, not solved." },
+      { "question": "Why is (c) the strongest, and what rule does that give you?", "hint": "Compare how many groups each option leaves badly hurt.", "reveal": "(c) leaves no key group badly hurt. In stakeholder questions, the best option serves the most stakeholders while seriously harming none, rather than picking one winner." }
+    ]
+  },
+  {
+    "topicId": "1-5",
+    "title": "Data-based allocation",
+    "simplified": {
+      "coreIntuition": "These are maths puzzles dressed as business cases: find the binding limit (money, hours, people), rank choices by value per unit of that limit, then check every other rule.",
+      "keyPoints": [
+        "Write every constraint as a list before calculating; most traps are a rule you forgot.",
+        "Rank by value per unit of the scarce resource, for example profit per machine-hour, not total profit.",
+        "With few options, test the combinations: picking the best ratio first can leave budget unused.",
+        "Estimate the size of the answer first; it often lets you pick without full calculation.",
+        "If no option meets all constraints, recheck; an option that breaks one rule is wrong however profitable."
+      ],
+      "analogy": "Packing a cabin bag with a 7 kg limit: you pick items by usefulness per kilo, not by which single item is most useful."
+    },
+    "flashcards": [
+      { "front": "Product A earns ₹40 and needs 2 machine-hours; B earns ₹30 and needs 1. Machine time is the only limit. Which do you make first?", "back": "B: it earns ₹30 per hour against A's $\\frac{40}{2}=20$ rupees per hour. Rank by profit per unit of the scarce resource." },
+      { "front": "Budget ₹6 lakh. P costs 6, returns 9; Q costs 2, returns 4; R costs 4, returns 7 (all in lakh). Best choice?", "back": "Q + R: cost 6, return 11, which beats P alone (9). The biggest single return is not the best use of a fixed budget." },
+      { "front": "Tasks: X takes 2 days, Y takes 3 days and must follow X, Z takes 4 days and can run alongside. Shortest finish?", "back": "5 days: X then Y takes $2+3=5$, and Z (4) runs in parallel. The longest chain of dependent tasks sets the finish time." },
+      { "front": "Choose 2 of 4 candidates by score, but at least one must be from Sales. Top two are both from Finance. Who is picked?", "back": "The top Finance candidate and the best Sales candidate. Apply the hard rule first, then rank within it." },
+      { "front": "Three suppliers quote per-unit costs of ₹50, ₹46 and ₹44, with delivery fees of ₹0, ₹200 and ₹600. For 100 units, which is cheapest?", "back": "₹46 + ₹200 = ₹4,800 beats ₹5,000 and ₹5,000. Always compare total cost, including fixed charges." },
+      { "front": "Price ₹100 sells 500 units; price ₹120 sells 400. Unit cost is ₹60. Which price earns more profit?", "back": "₹120. Profit is $400\\times60=24{,}000$ rupees against $500\\times40=20{,}000$ rupees. Maximise total profit, not units or revenue." },
+      { "front": "A table lists 6 employees with skills and shifts, plus 4 rules. What is the fastest way to work through it?", "back": "Apply the strictest rule first to cut the list, then the next. Eliminate rows rather than build answers, and mark a tick or cross per rule." },
+      { "front": "An option gives the highest profit but uses 105 machine-hours when 100 are available. Is it a candidate?", "back": "No. It is infeasible, so it is out. Check every constraint (budget, hours, staff, rules) before comparing profit." }
+    ],
+    "socratic": [
+      { "question": "You have ₹6 lakh. Projects: P costs ₹6L and returns ₹9L; Q costs ₹2L and returns ₹4L; R costs ₹4L and returns ₹7L. Which single project returns the most?", "hint": "Just read the biggest return.", "reveal": "P, with ₹9L. That is the obvious pick, and the trap." },
+      { "question": "List every combination that fits ₹6L. What does each return?", "hint": "Q and R together cost exactly ₹6L.", "reveal": "P alone gives ₹9L; Q + R gives ₹11L. The combination wins." },
+      { "question": "Work out return per rupee for each project. What does this tell you about how to rank options under a budget?", "hint": "Divide return by cost: $\\frac{4}{2}$, $\\frac{7}{4}$, $\\frac{9}{6}$.", "reveal": "Q (2.0) and R (1.75) beat P (1.5). Under a limit, rank by value per unit of the limited resource, then check that the combination fits." }
+    ]
+  },
+  {
+    "topicId": "1-6",
+    "title": "Rule-based cases",
+    "simplified": {
+      "coreIntuition": "You are a careful clerk, not a judge: apply the written rules exactly, in order, and when the rules or data run out, pass the case to the authority they name.",
+      "keyPoints": [
+        "Read every criterion word by word: \"at least 60%\" includes 60; \"more than 60%\" does not.",
+        "Check main rules first, then exceptions: a candidate who fails a main rule may still qualify through a named waiver.",
+        "\"Refer to X\" is right only when the rules say so, such as a waiver case; don't refer just because a case feels hard.",
+        "If a required fact is missing, the answer is \"data inadequate\". Never assume the missing fact.",
+        "Use only what is stated: personal sympathy or real-world knowledge does not override the case rules."
+      ],
+      "analogy": "Like a railway ticket checker: the rules decide who sits where; when something is unclear, he calls the TTE in charge, not his own feelings."
+    },
+    "flashcards": [
+      { "front": "A rule says \"age not more than 30 as on 1 Jan 2027\". A candidate turns 30 on 1 Jan 2027. Eligible?", "back": "Yes: on that date she is exactly 30, which is \"not more than 30\". Exact wording and reference dates decide edge cases." },
+      { "front": "Rule: graduate with 60%, but candidates with 5+ years' experience may have 55%. Ravi has 57% and 6 years. Eligible?", "back": "Yes, through the experience waiver. Always check whether a stated exception rescues a candidate who fails the main rule." },
+      { "front": "What is the fastest order to apply 5 eligibility rules to a candidate?", "back": "Check the rules that most often fail first. One clear fail settles \"not eligible\" (unless a waiver applies), so you don't need to check the rest." },
+      { "front": "Rule A says all managers get a laptop; Rule B says contract staff get none. A contract manager asks. What now?", "back": "When written rules truly clash and none says which wins, the right option is usually to refer to the authority the case names. Don't pick a side on your own." },
+      { "front": "The rules need a 2-year bond, but the case never says whether the candidate agreed to it. Answer?", "back": "Data inadequate. A required fact is missing, so don't assume \"probably yes\"." },
+      { "front": "When is \"refer to the General Manager\" the correct option?", "back": "When the case's rules say that a certain situation, such as meeting a waiver condition, must go to the GM. Not when you simply find the case difficult." },
+      { "front": "Six candidates and four rules: how do you avoid losing track?", "back": "Make a small grid of candidates against rules and mark a tick, a cross or ? in each cell. Read the result for each candidate across the row." },
+      { "front": "Name two common edge-case traps in eligibility sets.", "back": "Inclusive versus exclusive limits (\"at least\" vs \"more than\") and the date on which age or experience is counted. Also \"and\" vs \"or\" between conditions." }
+    ],
+    "socratic": [
+      { "question": "A scholarship requires 75% marks and family income under ₹6 lakh. Meena has 80% marks; the case does not mention her family income. What is tempting to assume?", "hint": "Think about what a sympathetic reader fills in.", "reveal": "That she is probably poor enough, because she seems deserving, but nothing in the case says so." },
+      { "question": "Could she be \"eligible\" or \"not eligible\" on the facts given?", "hint": "Can you prove either from the text alone?", "reveal": "Neither can be proven. One required condition is unknown." },
+      { "question": "What does that tell you about missing facts in rule-based sets?", "hint": "Look for the option that admits the gap.", "reveal": "When a required fact is missing, the answer is \"data inadequate\". Your job is to apply stated rules to stated facts, never to fill gaps with assumptions." }
+    ]
+  },
+  {
+    "topicId": "1-7",
+    "title": "Best course of action",
+    "simplified": {
+      "coreIntuition": "The best action fits the problem's size and urgency: stop the immediate harm, then fix the root cause, starting with the mildest step that will work.",
+      "keyPoints": [
+        "Two clocks: what must happen now (safety, stopping losses) and what fixes things for good (process, policy).",
+        "Match the response to the problem: a first, minor lapse needs a conversation, not a sacking.",
+        "Escalate step by step: talk, then warn, then go to the boss, then take formal action. Skipping steps is over-reaction.",
+        "When unsure, prefer reversible steps (pause, inquiry, pilot) over irreversible ones (firing, closing, going public).",
+        "For most/least appropriate or ranking questions, find the two extremes first, then check which option order matches."
+      ],
+      "analogy": "Like treating a fever: give paracetamol now for relief, but also find out whether it is an infection; skipping either is bad medicine."
+    },
+    "flashcards": [
+      { "front": "A machine is injuring workers and output targets are due. What is the immediate action and what is the long-term one?", "back": "Immediate: stop the machine to protect people. Long-term: find why it failed and fix the process. Safety comes before targets." },
+      { "front": "A reliable employee misses one deadline. Which response is proportionate?", "back": "A private conversation to understand why and agree a fix. A written warning or demotion is out of proportion for a first lapse." },
+      { "front": "Put in order for a repeated minor lapse: formal inquiry, private talk, written warning.", "back": "Private talk, then written warning, then formal inquiry. Serious issues (safety, fraud, harassment) justify going straight to the formal step." },
+      { "front": "You suspect, but can't prove, that a manager leaks data. Which action is better: suspend pending a quiet inquiry, or fire and announce it?", "back": "Suspend or restrict access pending inquiry, because it is reversible. Firing publicly on suspicion can't be undone if you're wrong." },
+      { "front": "Complaints about late deliveries keep rising. The team offers apologies and discounts. What is missing?", "back": "The root cause: why deliveries are late, such as routing, staffing or a supplier. Apologies treat the symptom, so the problem returns." },
+      { "front": "A rumour of layoffs is spreading and morale is falling. What should management do first?", "back": "Communicate: tell staff the facts quickly and honestly, including what is not yet decided. Silence lets the rumour grow." },
+      { "front": "How does choosing the LEAST appropriate action differ from choosing the most appropriate?", "back": "Look for the option that is unethical, illegal or harmful, or that makes things worse. A merely weak option is not \"least\" if another option does real damage." },
+      { "front": "Options rank four actions, for example 2-1-4-3. What is the quickest way to the answer?", "back": "Fix the clear best and the clear worst, then keep only the options that put them first and last. Usually one or two orders survive; check the middle only between those." }
+    ],
+    "socratic": [
+      { "question": "A hotel guest finds a cockroach in her food and is shouting in the lobby. List what has to happen in the next ten minutes.", "hint": "Think of the guest and other diners right now.", "reveal": "Calm and apologise to the guest privately, replace or refund the meal, and check that other plates are safe." },
+      { "question": "Suppose the staff do all of that perfectly. Is the problem solved?", "hint": "Will it happen again next week?", "reveal": "No. The kitchen hygiene failure that let a cockroach in is still there." },
+      { "question": "So what makes a \"best course of action\" complete?", "hint": "Combine the answers to the first two questions.", "reveal": "It handles the immediate harm and also fixes the root cause. An option that does only one is partial, and XAT often uses partial options as traps." }
+    ]
+  },
+  {
+    "topicId": "1-8",
+    "title": "Option elimination",
+    "simplified": {
+      "coreIntuition": "XAT options often look alike, so it is easier to cross out the wrong ones than to spot the right one: remove the extreme, unethical, off-topic and assumption-based options, then compare the last two against the exact question.",
+      "keyPoints": [
+        "Cut first: illegal or unethical options, then over-reactions and extremes (too harsh or too soft).",
+        "Cut options that answer a different question or a different person's problem from the one asked.",
+        "Cut options that need facts not in the case; treat the given information as complete.",
+        "\"Do nothing\" is usually wrong, but \"gather facts first\" can be right when information is missing and harm isn't urgent.",
+        "Between the last two, reread the question: whose view, what time frame (\"immediately\" vs \"long run\"), most or least. If still unsure, skip, since a wrong answer costs 0.25."
+      ],
+      "analogy": "Like a police line-up: you rarely know the culprit at once, but you can quickly rule out people with an alibi."
+    },
+    "flashcards": [
+      { "front": "What words signal an extreme option?", "back": "\"Immediately fire\", \"shut down\", \"always\", \"never\", \"go to the media\" and \"ignore completely\". Extremes rarely fit XAT's balanced manager." },
+      { "front": "An option solves the problem fast but bends the law slightly. Keep or cut?", "back": "Cut. Illegal or unethical options are out however effective they are. This is the first filter." },
+      { "front": "The question asks what the HR head should do, but an option describes a decision only the board can take. Keep or cut?", "back": "Cut: it is outside that person's role or the question's scope. Answer for the decision-maker and the issue actually named." },
+      { "front": "An option says \"since the supplier is probably cheating, switch suppliers\". What is the red flag?", "back": "\"Probably\": it rests on an assumption the case doesn't support. Options that need outside guesses are weak." },
+      { "front": "An option fixes the customer issue but ignores the staff conflict that caused it. Why is it a trap?", "back": "It is only partly right. It handles one part of the problem and leaves the cause, while a better option covers both." },
+      { "front": "When can a \"wait and watch\" option be correct?", "back": "When facts are incomplete, the harm isn't urgent and acting now could be unfair, such as gathering evidence before disciplining someone. Doing nothing about a known, ongoing harm is wrong." },
+      { "front": "A junior misses one meeting. Option: \"issue a show-cause notice and copy the CEO\". What is the flaw?", "back": "It is an over-reaction: far too big for the offence. The proportionate step is a quiet word." },
+      { "front": "Two options remain and both seem good. What do you check?", "back": "Which one better fits the exact question (whose view, which time frame, most or least) and which needs fewer assumptions. If they are still tied, skip rather than guess." }
+    ],
+    "socratic": [
+      { "question": "A team member has been rude to a client once. Options: (a) fire him, (b) ignore it, (c) speak to him, apologise to the client and set expectations, (d) speak to him and apologise to the client. Which two can you cut in seconds, and why?", "hint": "Look at the ends of the spectrum.", "reveal": "(a) is too harsh and (b) too soft: both are extremes." },
+      { "question": "(c) and (d) look almost the same. What exactly is the difference?", "hint": "Put them side by side, word by word.", "reveal": "(c) adds setting expectations for the future; (d) only fixes the past incident." },
+      { "question": "What does this teach you about choosing between the last two?", "hint": "Ask which one still leaves a part of the problem open.", "reveal": "When two options both look right, the better one fully solves the problem, now and later, while the other is only partly correct. Find the one difference and test it against the question." }
+    ]
+  }
+]

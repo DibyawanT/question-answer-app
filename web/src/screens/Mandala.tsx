@@ -10,7 +10,7 @@ let lastSel = ''
 const slots = [0, 1, 2, 3, -1, 4, 5, 6, 7] // 3x3 grid cell → child index; -1 is the centre
 
 /** One topic in the centre, its 8 parts around it. Concepts open a panel to study + quiz; passing turns them green. */
-export function Mandala({ topics, onConcept }: { topics: TopicRow[]; onConcept: (c: MNode) => void }) {
+export function Mandala({ topics, onConcept, onSession }: { topics: TopicRow[]; onConcept: (c: MNode) => void; onSession: (topic: MNode) => void }) {
   const [at, setAt] = useState(lastAt)
   const [sel, setSel] = useState(lastSel)
   const [done, setDone] = useState<MandalaDone>({})
@@ -75,6 +75,10 @@ export function Mandala({ topics, onConcept }: { topics: TopicRow[]; onConcept: 
         })}
       </div>
 
+      {node.parent?.parent === ROOT && (
+        <button className="ss-secondary" onClick={() => onSession(node)}>Study session: {node.name}</button>
+      )}
+
       {error && <p className="error" role="alert">{error}</p>}
 
       {concept && (
@@ -100,6 +104,8 @@ export function Mandala({ topics, onConcept }: { topics: TopicRow[]; onConcept: 
               {!done[concept.id] && <button className="primary" onClick={() => mark(concept, true)}>Mark as done</button>}
             </>
           )}
+          <p className="muted small ss-pair">Study session: breakdown, flashcards, guided questions. No score.</p>
+          <button className="ss-secondary" onClick={() => onSession(concept.parent!)}>Study session</button>
         </div>
       )}
     </div>

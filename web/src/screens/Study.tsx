@@ -7,7 +7,7 @@ import { Mandala } from './Mandala.tsx'
 
 export const pct = (t: { right: number; answered: number }) => (t.answered ? `${Math.round((100 * t.right) / t.answered)}%` : '–')
 
-export function Study({ onStart, onConcept }: { onStart: (topic: string) => void; onConcept: (c: MNode) => void }) {
+export function Study({ onStart, onConcept, onSession }: { onStart: (topic: string) => void; onConcept: (c: MNode) => void; onSession: (topic: MNode) => void }) {
   const [topics, setTopics] = useState<TopicRow[] | null>(null)
   const [error, setError] = useState('')
 
@@ -21,7 +21,7 @@ export function Study({ onStart, onConcept }: { onStart: (topic: string) => void
   return (
     <section className="page">
       <h1>Study</h1>
-      <Mandala topics={topics} onConcept={onConcept} />
+      <Mandala topics={topics} onConcept={onConcept} onSession={onSession} />
       <h2>All topics</h2>
       <p className="muted">A short note, then 5 questions on the topic.</p>
       {!topics.length && <p className="muted">No questions yet. Upload a question file in Settings.</p>}
