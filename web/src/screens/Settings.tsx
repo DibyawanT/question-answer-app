@@ -34,39 +34,64 @@ function AccessKey() {
   )
 }
 
-function Upload() {
-  const [result, setResult] = useState<ImportResult | null>(null)
-  const [error, setError] = useState('')
-  const [busy, setBusy] = useState(false)
+type FileResult = { name: string; result?: ImportResult; error?: string }
 
-  async function upload(file: File) {
+function Upload() {
+  const [results, setResults] = useState<FileResult[]>([])
+  const [total, setTotal] = useState(0)
+  const [busy, setBusy] = useState(false)
+  const [over, setOver] = useState(false)
+
+  async function upload(list: FileList | null) {
+    // Copy before any await: clearing the input empties the live FileList.
+    const files = [...(list ?? [])].sort((a, b) => a.name.localeCompare(b.name, undefined, { numeric: true }))
+    if (busy || !files.length) return
     setBusy(true)
-    setError('')
-    setResult(null)
-    try {
-      setResult(await post<ImportResult>('/api/import', await file.text()))
-    } catch (e) {
-      setError(message(e))
+    setResults([])
+    setTotal(files.length)
+    // One at a time, in name order, so passages from an earlier file exist before later files point at them.
+    for (const f of files) {
+      let r: FileResult
+      if (!/\.json$/i.test(f.name)) r = { name: f.name, error: 'not a .json file' }
+      else {
+        try { r = { name: f.name, result: await post<ImportResult>('/api/import', await f.text()) } }
+        catch (e) { r = { name: f.name, error: message(e) } }
+      }
+      setResults(rs => [...rs, r])
     }
     setBusy(false)
   }
 
+  const sum = (k: 'added' | 'updated' | 'notes') => results.reduce((n, r) => n + (r.result?.[k] ?? 0), 0)
+
   return (
     <div className="block">
       <h2>Add questions</h2>
-      <p className="muted">A JSON file with passages, questions and notes. Questions with an existing id are updated.</p>
-      <input type="file" accept=".json,application/json" disabled={busy} aria-label="Question file"
-        onChange={e => e.target.files?.[0] && upload(e.target.files[0])} />
-      {error && <p className="error" role="alert">{error}</p>}
-      {result && (
-        <div className="result">
-          <p>{result.added} added · {result.updated} updated · {result.passages} passages · {result.notes} notes</p>
-          {result.rejected.length > 0 && (
-            <>
-              <p className="error">{result.rejected.length} rejected:</p>
-              <ul className="muted">{result.rejected.map((r, k) => <li key={k}>{r.id}: {r.reason}</li>)}</ul>
-            </>
-          )}
+      <p className="muted">JSON files with passages, questions and notes. Questions with an existing id are updated.</p>
+      <label className={'drop' + (over ? ' over' : '')}
+        onDragOver={e => (e.preventDefault(), setOver(true))}
+        onDragLeave={() => setOver(false)}
+        onDrop={e => (e.preventDefault(), setOver(false), upload(e.dataTransfer.files))}>
+        <input type="file" accept=".json,application/json" multiple disabled={busy} aria-label="Question files"
+          onChange={e => (upload(e.target.files), (e.target.value = ''))} />
+        {busy ? `Uploading ${Math.min(results.length + 1, total)} of ${total}…` : 'Drop bank files here, or tap to choose'}
+      </label>
+      {results.length > 0 && (
+        <div className="result" aria-live="polite">
+          {!busy && total > 1 && <p>{sum('added')} added · {sum('updated')} updated · {sum('notes')} notes, from {total} files</p>}
+          <ul className="files">
+            {results.map(f => (
+              <li key={f.name}>
+                <b>{f.name}</b>{' '}
+                {f.error
+                  ? <span className="error">{f.error}</span>
+                  : <span className="muted">{f.result!.added} added · {f.result!.updated} updated · {f.result!.passages} passages · {f.result!.notes} notes</span>}
+                {f.result && f.result.rejected.length > 0 && (
+                  <ul className="error">{f.result.rejected.map((r, k) => <li key={k}>{r.id}: {r.reason}</li>)}</ul>
+                )}
+              </li>
+            ))}
+          </ul>
         </div>
       )}
     </div>

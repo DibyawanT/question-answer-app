@@ -138,6 +138,7 @@ Change these, keep everything else:
 | 2026-11-18 | Robust stats (smoothed weakness, 7-day trend, pace) + "Fix my mistakes" quizzes from Stats | `scoring.ts`, `drill.ts`, `db.ts`, `index.ts`, `types.ts`, `Stats.tsx`, `main.tsx` |
 | 2026-11-18 | Weak-spot paper: mixed 25-Q paper from weakest topics + open mistakes, unlocks at 100 answers | `scoring.ts`, `db.ts`, `types.ts`, `Tests.tsx`, `styles.css` |
 | 2026-11-18 | Banks 8–10 (103 Q): GK with 2026 current affairs, para-summary/poem/probability, top-up for strong and middle topics; rewritten notes for the 9 thin topics (a note upload replaces the old note for that topic) | `data/bank-8-gk.json`, `data/bank-9-thin.json`, `data/bank-10-topup.json` |
+| 2026-11-19 | Bulk upload: Settings drop zone takes many bank files at once (drag or tap), uploads them one by one in name order, shows a result per file | `Settings.tsx`, `styles.css` |
 | 2026-11-18 | KaTeX maths rendering; 177 formulas in the banks converted to `$…$` (re-upload banks to see them) | `Tex.tsx`, `Practice.tsx`, `Tests.tsx`, `data/*.json`, `README.md` |
 
 ## Skipped on purpose
