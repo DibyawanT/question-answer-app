@@ -66,8 +66,37 @@ export function importBank(body: unknown) {
     }
     for (const n of v.notes) putNote.run(n.topic, n.text)
   })
+  mergeCopies()
   return { added, updated, passages: v.passages.length, notes: v.notes.length, rejected: v.rejected }
 }
+
+/** The same question once shipped under two ids (copy → kept). Copies are gone from data/; these clean up old uploads. */
+export const COPIES: [string, string][] = [
+  ['valr-seed-006', 'valr-041'], ['valr-t10-os1', 'valr-041'], ['valr-seed-007', 'valr-047'], ['valr-t10-f1', 'valr-047'],
+  ['valr-seed-008', 'valr-060'], ['qadi-seed-005', 'qadi-t10-a2'], ['qadi-seed-007', 'qadi-t10-g1'],
+  ['qadi-seed-008', 'qadi-t10-n1'], ['qadi-seed-009', 'qadi-t9-pr1'],
+]
+
+/**
+ * Folds each loaded copy into its kept question: attempts, reports and drill slots move over, so history
+ * still counts it as seen, then the copy is deleted. Skips a pair until the kept one is uploaded too.
+ * Runs on boot and after every upload; a no-op once done.
+ */
+export function mergeCopies() {
+  tx(() => {
+    for (const [copy, keep] of COPIES) {
+      if (!hasQuestion.get(copy) || !hasQuestion.get(keep)) continue
+      db.prepare('UPDATE attempts SET qid = ? WHERE qid = ?').run(keep, copy)
+      db.prepare('UPDATE reports SET qid = ? WHERE qid = ?').run(keep, copy)
+      for (const d of db.prepare('SELECT date, ids FROM drills WHERE ids LIKE ?').all(`%"${copy}"%`)) {
+        const ids = [...new Set((json(d.ids) as string[]).map(id => (id === copy ? keep : id)))]
+        db.prepare('UPDATE drills SET ids = ? WHERE date = ?').run(JSON.stringify(ids), d.date as string)
+      }
+      db.prepare('DELETE FROM questions WHERE id = ?').run(copy)
+    }
+  })
+}
+mergeCopies()
 
 const question = (id: string): Question | undefined => {
   const row = getQuestion.get(id)
@@ -84,12 +113,12 @@ export function passagesFor(questions: Question[]): Passage[] {
   })
 }
 
-/** Every answered (not skipped) attempt, oldest first. */
-export const history = (): Attempt[] =>
+/** Every answered attempt, oldest first. withSkips adds test skips marked `skipped` (for buildDrill's ordering only). */
+export const history = (withSkips = false): Attempt[] =>
   db
-    .prepare('SELECT qid, correct, date FROM attempts WHERE picked IS NOT NULL ORDER BY id')
+    .prepare(`SELECT qid, correct, date, picked IS NULL AS skipped FROM attempts ${withSkips ? '' : 'WHERE picked IS NOT NULL'} ORDER BY id`)
     .all()
-    .map(r => ({ qid: String(r.qid), correct: Number(r.correct) === 1, date: String(r.date) }))
+    .map(r => ({ qid: String(r.qid), correct: Number(r.correct) === 1, date: String(r.date), ...(r.skipped ? { skipped: true } : {}) }))
 
 export const getPrefs = (): Prefs =>
   Object.fromEntries(db.prepare('SELECT key, weight FROM prefs').all().map(r => [String(r.key), Number(r.weight)]))
@@ -111,7 +140,7 @@ export function setPrefs(b: unknown) {
 export function drillFor(date: string): Question[] {
   const row = getDrill.get(date)
   if (row) return (json(row.ids) as string[]).flatMap(id => question(id) ?? [])
-  const questions = buildDrill(allQuestions(), { seed: date, date, history: history(), prefs: getPrefs() })
+  const questions = buildDrill(allQuestions(), { seed: date, date, history: history(true), prefs: getPrefs() })
   if (questions.length) putDrill.run(date, JSON.stringify(questions.map(q => q.id)))
   return questions
 }
@@ -223,7 +252,7 @@ export function mistakeSet(section?: string, topic?: string): PracticeData {
 export function studySet(topic: string) {
   const questions = buildDrill(
     allQuestions().filter(q => q.topic === topic),
-    { seed: randomUUID(), date: today(), history: history(), size: 5, revision: 2 },
+    { seed: randomUUID(), date: today(), history: history(true), size: 5, revision: 2 },
   )
   const note = db.prepare('SELECT text FROM notes WHERE topic = ?').get(topic)
   return { questions, passages: passagesFor(questions), answers: {}, note: note ? String(note.text) : undefined, golden: golden(today()) }
@@ -235,7 +264,7 @@ export function testFor(section: string) {
   if (!isSection(section)) return { error: 'unknown section' }
   const questions = buildDrill(
     allQuestions().filter(q => q.section === section),
-    { seed: randomUUID(), date: today(), history: history(), size: XAT[section].count, revision: 0 },
+    { seed: randomUUID(), date: today(), history: history(true), size: XAT[section].count, revision: 0 },
   )
   return { section, minutes: minutesFor(section), questions, passages: passagesFor(questions) }
 }
@@ -260,7 +289,7 @@ export function weakPaper() {
     .slice(0, PAPER.mistakes)
   const taken = new Set(mistakes.map(q => q.id))
   const pick = (pool: Question[], size: number) =>
-    buildDrill(pool.filter(q => !taken.has(q.id)), { seed: randomUUID(), date: today(), history: h, size, revision: 0 })
+    buildDrill(pool.filter(q => !taken.has(q.id)), { seed: randomUUID(), date: today(), history: history(true), size, revision: 0 })
   const all = allQuestions()
   const questions = [...mistakes]
   for (const pool of [all.filter(q => weak.has(q.topic)), all]) {

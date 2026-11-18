@@ -24,6 +24,20 @@ describe('validateImport', () => {
     }
   })
 
+  it('ships no question twice under different ids (same stem; generic odd-sentence prompts excepted)', () => {
+    const norm = (s: string) => s.toLowerCase().replace(/\$|\\[a-z]+|[^a-z0-9]/g, '')
+    const owner = new Map<string, string>()
+    const copies: string[] = []
+    for (const f of readdirSync(new URL('../data/', import.meta.url)).filter(f => f.endsWith('.json')))
+      for (const q of (read(f).questions ?? []) as Question[]) {
+        if (q.topic === 'odd-sentence') continue
+        const k = norm(q.stem)
+        if (owner.has(k)) copies.push(`${owner.get(k)} = ${q.id}`)
+        owner.set(k, q.id)
+      }
+    expect(copies).toEqual([])
+  })
+
   it('rejects bad items with a reason and keeps the good ones', () => {
     const good = seed.questions[7]
     const v = validateImport(
@@ -72,6 +86,37 @@ describe('buildDrill', () => {
     expect(drill()).toEqual(drill())
     const ids = (d: string) => buildDrill(bank, { seed: d, date: d }).map(q => q.id).join()
     expect(new Set(['2026-11-15', '2026-11-16', '2026-11-17'].map(ids)).size).toBeGreaterThan(1)
+  })
+
+  it('once a topic runs out of unseen questions, serves the least recently seen, not the set just finished', () => {
+    const topic = Array.from({ length: 13 }, (_, i) => ({ ...bank[0], id: `r${i}`, setId: undefined, topic: 'r' }))
+    const seen = (ids: string[], date: string) => ids.map(qid => ({ qid, correct: true, date }))
+    const old = seen(['r0', 'r1', 'r2', 'r3', 'r4'], '2026-11-01')
+    const justNow = ['r5', 'r6', 'r7', 'r8', 'r9']
+    for (let s = 0; s < 50; s++) {
+      const out = buildDrill(topic, { seed: `${s}`, date: day, size: 5, revision: 2, history: [...old, ...seen(justNow, day)] }).map(q => q.id)
+      expect(out.slice(0, 3).sort()).toEqual(['r10', 'r11', 'r12']) // unseen still lead
+      expect(out.filter(id => justNow.includes(id))).toEqual([])
+    }
+  })
+
+  it('a due question brings the rest of its caselet, in bank order', () => {
+    const q = (id: string, setId?: string) => ({ ...bank[0], id, setId, section: 'DM' as const, topic: 'c' })
+    const pool = [q('c1', 'S'), q('c2', 'S'), q('c3', 'S'), ...Array.from({ length: 20 }, (_, i) => q(`o${i}`))]
+    const out = buildDrill(pool, { seed: 'z', date: day, history: [{ qid: 'c2', correct: false, date: '2026-11-10' }] }).map(x => x.id)
+    expect(out.slice(0, 3)).toEqual(['c1', 'c2', 'c3'])
+    expect(out.filter(id => id.startsWith('c'))).toHaveLength(3)
+  })
+
+  it('a question skipped in a test counts as seen, not as new', () => {
+    const pool = Array.from({ length: 30 }, (_, i) => ({ ...bank[0], id: `t${i}`, setId: undefined, topic: 't' }))
+    const t1 = buildDrill(pool, { seed: 'a', date: day, size: 10, revision: 0 }).map(x => x.id)
+    const history = t1.map((qid, i) => ({ qid, correct: false, date: day, ...(i >= 5 ? { skipped: true } : {}) }))
+    const t2 = buildDrill(pool, { seed: 'b', date: day, size: 10, revision: 0, history }).map(x => x.id)
+    expect(t2.filter(id => t1.includes(id))).toEqual([])
+    // A skip is not a miss: it never becomes due for revision.
+    const later = buildDrill(pool, { seed: 'c', date: '2026-11-25', size: 30, revision: 30, history: history.slice(5) })
+    expect(later.slice(0, 5).map(x => x.id).some(id => t1.includes(id))).toBe(false)
   })
 
   it('starts with a DM caselet and keeps each set together in order', () => {
@@ -262,5 +307,35 @@ describe('mandala', () => {
     expect(doneCount(topic, done)).toBe(topic.leaves)
     expect(doneCount(byId.get('4')!, done)).toBe(8)
     expect([passMark(5), passMark(4), passMark(3)]).toEqual([4, 4, 3])
+  })
+})
+
+describe('mergeCopies', () => {
+  it('lists only copies gone from data/ and kept questions still shipped', async () => {
+    process.env.DB_PATH = ':memory:'
+    const { COPIES } = await import('./db.ts')
+    const shipped = new Set(
+      readdirSync(new URL('../data/', import.meta.url)).filter(f => f.endsWith('.json')).flatMap(f => (read(f).questions ?? []).map((q: Question) => q.id)),
+    )
+    for (const [copy, keep] of COPIES) expect([shipped.has(copy), shipped.has(keep)], copy).toEqual([false, true])
+  })
+
+  it('moves attempts and drill slots to the kept question, then deletes the copy', async () => {
+    process.env.DB_PATH = ':memory:'
+    const { db, importBank, history, drillFor, COPIES } = await import('./db.ts')
+    const [copy, keep] = COPIES[0]
+    const base = read('seed-mixed.json').questions[0]
+    const r = importBank({ questions: [{ ...base, id: copy, setId: undefined }, { ...base, id: keep, setId: undefined, stem: 'kept' }] })
+    expect(r.added).toBe(2) // merge ran right after this upload
+    expect(db.prepare('SELECT id FROM questions WHERE id IN (?, ?)').all(copy, keep).map(x => x.id)).toEqual([keep])
+
+    // Copy loaded from an older upload, with history: put it back by hand and merge again.
+    db.prepare('INSERT INTO questions (id, section, topic, data) VALUES (?, ?, ?, ?)').run(copy, base.section, base.topic, JSON.stringify({ ...base, id: copy }))
+    db.prepare("INSERT INTO attempts (qid, picked, correct, ms, date, mode) VALUES (?, 0, 1, 1, '2026-11-01', 'drill')").run(copy)
+    db.prepare('INSERT INTO drills (date, ids) VALUES (?, ?)').run('2026-11-01', JSON.stringify([copy, keep]))
+    const { mergeCopies } = await import('./db.ts')
+    mergeCopies()
+    expect(history().map(a => a.qid)).toEqual([keep])
+    expect(drillFor('2026-11-01').map(q => q.id)).toEqual([keep])
   })
 })

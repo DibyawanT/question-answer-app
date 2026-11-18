@@ -74,8 +74,8 @@ function seeded(seed: string) {
   }
 }
 
-/** Past answers in the order given; skipped questions are left out. */
-export type Attempt = { qid: string; correct: boolean; date: string }
+/** Past answers in the order given. skipped: shown in a test but not answered; counts as seen for ordering only. */
+export type Attempt = { qid: string; correct: boolean; date: string; skipped?: boolean }
 
 export const prefWeight = (p: Prefs, q: Question) => p[`topic:${q.topic}`] ?? p[`section:${q.section}`] ?? 1
 
@@ -83,7 +83,7 @@ type Options = { seed: string; date: string; history?: Attempt[]; prefs?: Prefs;
 
 /**
  * Picks a set of questions (daily drill, sectional test, study set):
- * 1. up to `revision` missed questions that are due again (see GAPS),
+ * 1. up to `revision` missed questions that are due again (see GAPS), each with the rest of its set,
  * 2. one Decision Making caselet set,
  * 3. the rest: unseen before seen, then weighted by your preference × how weak you are in the topic.
  * Questions sharing a setId stay together in bank order. Weight 0 removes a section or topic.
@@ -99,7 +99,10 @@ export function buildDrill(questions: Question[], o: Options): Question[] {
   const last = new Map<string, Attempt>()
   const rights = new Map<string, number>() // right answers in a row since the last miss; only for questions ever missed
   const topics = new Map<string, { right: number; total: number }>()
+  const shown = new Map<string, string>() // last date each question was shown, skips included
   for (const a of history) {
+    shown.set(a.qid, a.date)
+    if (a.skipped) continue
     last.set(a.qid, a)
     if (!a.correct) rights.set(a.qid, 0)
     else if (rights.has(a.qid)) rights.set(a.qid, rights.get(a.qid)! + 1)
@@ -119,30 +122,39 @@ export function buildDrill(questions: Question[], o: Options): Question[] {
     })
     .sort((a, b) => last.get(a.id)!.date.localeCompare(last.get(b.id)!.date))
     .slice(0, revision)
-  const dueIds = new Set(due.map(q => q.id))
 
   const groups = new Map<string, Question[]>()
   for (const q of pool) {
-    if (dueIds.has(q.id)) continue
     const key = q.setId ?? q.id
     groups.set(key, [...(groups.get(key) ?? []), q])
   }
+  // A due question brings its whole set, so a caselet is never split around the revision block.
+  const dueGroups = [...new Set(due.map(q => q.setId ?? q.id))].map(k => groups.get(k)!)
 
   const weakness = (topic: string) => {
     const s = topics.get(topic)
     return s ? 1 - s.right / s.total : 0.5
   }
   // Weighted shuffle (Efraimidis–Spirakis): rand^(1/w), bigger w drifts to the front. Unseen get +1 so they lead.
-  const rank = (g: Question[]) =>
-    (g.some(q => last.has(q.id)) ? 0 : 1) + rand() ** (1 / (prefWeight(prefs, g[0]) * (0.5 + weakness(g[0].topic))))
+  // Seen: days since last seen (capped at 30) leads, so what you just answered goes last; the shuffle breaks ties.
+  const daysSince = (g: Question[]) => {
+    const seen = g.flatMap(q => shown.get(q.id) ?? []).sort().at(-1)
+    return seen === undefined ? undefined : Math.min(30, (Date.parse(o.date) - Date.parse(seen)) / 86_400_000)
+  }
+  const rank = (g: Question[]) => {
+    const r = rand() ** (1 / (prefWeight(prefs, g[0]) * (0.5 + weakness(g[0].topic))))
+    const d = daysSince(g)
+    return d === undefined ? 1 + r : (d + r) / 32
+  }
   const ordered = [...groups.values()]
+    .filter(g => !dueGroups.includes(g))
     .map(g => ({ g, k: rank(g) }))
     .sort((a, b) => b.k - a.k)
     .map(x => x.g)
-  const caselet = ordered.find(g => g[0].section === 'DM' && g[0].setId)
+  const caselet = [...dueGroups, ...ordered].find(g => g[0].section === 'DM' && g[0].setId)
 
   const out: Question[] = []
-  for (const g of [...(caselet ? [caselet] : []), ...due.map(q => [q]), ...ordered.filter(g => g !== caselet)])
+  for (const g of [...(caselet ? [caselet] : []), ...dueGroups, ...ordered].filter((g, i) => i === 0 || g !== caselet))
     if (out.length + g.length <= size || out.length === 0) out.push(...g)
   return out
 }

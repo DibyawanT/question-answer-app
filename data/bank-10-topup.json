@@ -167,7 +167,7 @@
       "topic": "number-system",
       "type": "standalone",
       "source": "cat-style",
-      "stem": "What is the remainder when 2^100 is divided by 7?",
+      "stem": "What is the remainder when $2^{100}$ is divided by 7?",
       "options": [
         "1",
         "2",
@@ -511,23 +511,6 @@
       "explanation": "C introduces the bridge, B describes its long service ('it' needs C), A turns with 'But', D gives the present consequence. TRAP: CABD puts the 'But' before there is anything to contrast with."
     },
     {
-      "id": "valr-t10-os1",
-      "section": "VALR",
-      "topic": "odd-sentence",
-      "type": "odd-sentence",
-      "source": "xat-style-2027",
-      "stem": "Four of these sentences form a coherent paragraph. Which one does NOT belong?\n1. Honeybees tell nest-mates where food is through a 'waggle dance'.\n2. The angle of the dance relative to vertical shows the direction of the food relative to the sun.\n3. The length of the waggle run indicates how far away the food is.\n4. Honey found in ancient Egyptian tombs was still edible thousands of years later.\n5. Other foragers follow the dancer and then fly out to the site.",
-      "options": [
-        "1",
-        "2",
-        "3",
-        "4",
-        "5"
-      ],
-      "answer": 3,
-      "explanation": "Sentences 1, 2, 3, 5 explain how the waggle dance communicates a food location. Sentence 4 is about honey's shelf life: same topic area (bees), different subject. RULE: the odd sentence often shares keywords with the rest but not the paragraph's purpose."
-    },
-    {
       "id": "valr-t10-os2",
       "section": "VALR",
       "topic": "odd-sentence",
@@ -577,23 +560,6 @@
       ],
       "answer": 4,
       "explanation": "'Disinterested' = having no personal stake (impartial); 'uninterested' = bored. Only E means a judge with no stake in the outcome. The others mean 'not interested' and should use 'uninterested' in careful usage."
-    },
-    {
-      "id": "valr-t10-f1",
-      "section": "VALR",
-      "topic": "fill-in-blank",
-      "type": "fill-in-blank",
-      "source": "xat-style-2027",
-      "stem": "The committee's report was so ______ that even its supporters struggled to find a clear recommendation in it.",
-      "options": [
-        "laconic",
-        "trenchant",
-        "equivocal",
-        "cogent",
-        "lucid"
-      ],
-      "answer": 2,
-      "explanation": "The clue is 'struggled to find a clear recommendation': the report was vague or noncommittal = equivocal. Trenchant, cogent and lucid all mean sharp or clear (opposite). Laconic means brief, which doesn't explain the lack of clarity."
     },
     {
       "id": "valr-t10-f2",

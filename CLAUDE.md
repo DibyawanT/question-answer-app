@@ -59,7 +59,8 @@ Local DB is `app.db` in the repo root (gitignored). Override with `DB_PATH`.
 
 ## How the important things work
 
-- **Daily drill** (`drillFor`, `buildDrill`): 20 questions, seeded by the date so it is identical all day; ids saved in `drills` so a bank upload mid-day doesn't change it. Order: one DM caselet set, then up to 5 due revision questions, then unseen-before-seen weighted by preference × weakness. Questions sharing a `setId` stay together.
+- **Daily drill** (`drillFor`, `buildDrill`): 20 questions, seeded by the date so it is identical all day; ids saved in `drills` so a bank upload mid-day doesn't change it. Order: one DM caselet set, then up to 5 due revision questions (each with the rest of its set), then unseen-before-seen weighted by preference × weakness; seen questions go least-recently-seen first (days since, capped at 30), so a set you just finished doesn't come straight back. A test skip counts as seen for this ordering but not as a miss (`history(true)` passes skips marked `skipped`). Same picker for study sets and tests.
+- **No duplicate questions**: a test fails if two shipped questions share a stem (odd-sentence prompts excepted). If a copy already reached the live DB, add `[copy, kept]` to `COPIES` in `db.ts`; `mergeCopies` moves its attempts/reports/drill slots to the kept one and deletes it, on boot and after each upload. Questions sharing a `setId` stay together.
 - **Rounds of 5** (`ROUND`): Practice shows a reward screen between rounds; leaving mid-drill is safe, answers are saved per question and resumed.
 - **Spaced repetition** (`GAPS = [2, 7]`): a miss returns after 2 days, then 7 days after a right answer; two rights in a row retire it.
 - **Streak + freezes** (`streakInfo`): replayed from history every time; every 7th day earns a freeze (max 2), a missed day spends one.
@@ -139,6 +140,7 @@ Change these, keep everything else:
 | 2026-11-18 | Weak-spot paper: mixed 25-Q paper from weakest topics + open mistakes, unlocks at 100 answers | `scoring.ts`, `db.ts`, `types.ts`, `Tests.tsx`, `styles.css` |
 | 2026-11-18 | Banks 8–10 (103 Q): GK with 2026 current affairs, para-summary/poem/probability, top-up for strong and middle topics; rewritten notes for the 9 thin topics (a note upload replaces the old note for that topic) | `data/bank-8-gk.json`, `data/bank-9-thin.json`, `data/bank-10-topup.json` |
 | 2026-11-19 | Bulk upload: Settings drop zone takes many bank files at once (drag or tap), uploads them one by one in name order, shows a result per file | `Settings.tsx`, `styles.css` |
+| 2026-11-19 | Fix back-to-back repeats: seen questions picked least-recently-seen first; 9 duplicate questions removed from banks and merged out of the live DB on boot/upload (`COPIES`, `mergeCopies`); a due question brings its whole caselet; test skips count as seen (`history(true)`, `skipped`) | `drill.ts`, `db.ts`, `logic.test.ts`, `data/seed-mixed.json`, `data/bank-10-topup.json` |
 | 2026-11-18 | KaTeX maths rendering; 177 formulas in the banks converted to `$…$` (re-upload banks to see them) | `Tex.tsx`, `Practice.tsx`, `Tests.tsx`, `data/*.json`, `README.md` |
 
 ## Skipped on purpose
