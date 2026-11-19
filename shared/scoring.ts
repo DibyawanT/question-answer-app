@@ -8,7 +8,7 @@ export const XAT: Record<Section, { name: string; count: number }> = {
   QADI: { name: 'Quant & Data Interpretation', count: 28 },
   GK: { name: 'General Knowledge', count: 20 },
 }
-export const MARKING = { right: 1, wrong: -0.25, freeSkips: 8, skip: -0.1, part1Minutes: 170, part1Questions: 75, gkMinutes: 10 }
+export const MARKING = { right: 1, wrong: -0.25, freeSkips: 12, skip: -0.1, part1Minutes: 170, part1Questions: 75, gkMinutes: 10 }
 
 /** Real exam pace for a section, in seconds per question. */
 export const paceFor = (s: Section) => Math.round((minutesFor(s) * 60) / XAT[s].count)
@@ -46,7 +46,7 @@ export const WEAK = 'WEAK'
 export type PaperKind = Section | typeof WEAK
 export const paperName = (k: PaperKind) => (k === WEAK ? 'Weak-spot paper' : XAT[k].name)
 
-/** Free skips scale with Part 1 length: 8 per 75 questions. */
+/** Free skips scale with Part 1 length: 12 per 75 questions (XAT 2027). */
 export const freeSkipsFor = (part1Questions: number) => Math.round((part1Questions * MARKING.freeSkips) / MARKING.part1Questions)
 
 /** Marks a mixed paper: GK has no negatives; Part 1 questions share the scaled free-skip allowance. */

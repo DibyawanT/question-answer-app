@@ -96,6 +96,6 @@ Then **Actions → Test and deploy → Run workflow**. Both jobs go green and th
 
 ## Notes
 
-- Marking (+1, −0.25 wrong, −0.10 per skip beyond 8, no negatives in GK) and section sizes come from coaching sites, not the official bulletin. They live in `shared/scoring.ts`.
+- Marking (+1, −0.25 wrong, −0.10 per Part 1 skip beyond 12, no negatives in GK) and section sizes match xatonline.in for XAT 2027 (12 free skips confirmed there, Nov 2026). They live in `shared/scoring.ts`.
 - `sslip.io` gives a free HTTPS hostname for an IP. If Let's Encrypt ever refuses it, buy a cheap domain, point it at the static IP and change `DOMAIN`.
 - The bank questions were written by Claude: expect a few errors. Use "Report a problem"; reports are in the backup file.

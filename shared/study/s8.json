@@ -186,7 +186,7 @@
       "coreIntuition": "With 5 options and minus 0.25 per wrong answer, a blind guess is worth exactly zero on average. So every option you can eliminate turns a guess into expected profit.",
       "keyPoints": [
         "Part 1: +1 right, -0.25 wrong. GK: no negative marking.",
-        "Skipped Part 1 questions beyond the free limit cost 0.10 each. XLRI's Nov 2026 update raises the free limit for XAT 2027 from 8 to 12 (this app still scores with 8).",
+        "Skipped Part 1 questions beyond the free limit cost 0.10 each. XLRI's Nov 2026 update raised the free limit for XAT 2027 from 8 to 12.",
         "Blind guess with 5 options: $\\frac{1}{5}(1) + \\frac{4}{5}(-0.25) = 0$. Eliminate two and it becomes $\\frac{1}{3} - \\frac{2}{3}(0.25) = \\frac{1}{6}$.",
         "Net score $= A(1.25a - 0.25)$ for $A$ attempts at accuracy $a$, so accuracy matters as much as attempts.",
         "Coaching estimates for a 99th percentile put attempts at about 46-52 of 75 with a net of about 37-42; set your own target from your mocks."
@@ -195,7 +195,7 @@
     },
     "flashcards": [
       { "front": "What does a wrong answer cost in Part 1, and in GK?", "back": "Part 1: minus 0.25 marks. GK: nothing, a wrong answer scores 0." },
-      { "front": "What does a skipped Part 1 question cost, and how many can you skip free?", "back": "0.10 for each skip beyond the free limit. XLRI raised the limit from 8 to 12 for XAT 2027 (the app's scorer still uses 8)." },
+      { "front": "What does a skipped Part 1 question cost, and how many can you skip free?", "back": "0.10 for each skip beyond the free limit. XLRI raised the limit from 8 to 12 for XAT 2027." },
       { "front": "What is the expected value of a blind guess on a 5-option XAT question?", "back": "$\\frac{1}{5} \\times 1 - \\frac{4}{5} \\times 0.25 = 0$: on average it neither gains nor loses." },
       { "front": "What is a guess worth after you eliminate two of five options?", "back": "$\\frac{1}{3} - \\frac{2}{3} \\times 0.25 = \\frac{1}{6} \\approx 0.17$ marks on average, so take it." },
       { "front": "When should you skip rather than guess?", "back": "When you cannot eliminate any option and are still within your free skips (both give 0 on average, so save the time), or when solving would clearly take over 3 minutes." },

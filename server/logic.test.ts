@@ -276,9 +276,9 @@ describe('score', () => {
     ...Array<boolean>(wrong).fill(false),
     ...Array<null>(skipped).fill(null),
   ]
-  it('applies −0.25 per wrong and −0.10 per skip beyond 8', () => {
-    expect(score(r(10, 4, 12), 'VALR')).toEqual({ score: 8.6, max: 26, right: 10, wrong: 4, skipped: 12 })
-    expect(score(r(10, 4, 8), 'DM').score).toBe(9)
+  it('applies −0.25 per wrong and −0.10 per skip beyond 12', () => {
+    expect(score(r(10, 4, 16), 'VALR')).toEqual({ score: 8.6, max: 30, right: 10, wrong: 4, skipped: 16 })
+    expect(score(r(10, 4, 12), 'DM').score).toBe(9)
   })
   it('has no negatives in GK', () => {
     expect(score(r(5, 5, 10), 'GK').score).toBe(5)
@@ -288,8 +288,8 @@ describe('score', () => {
       ...r(10, 4, 6).map(result => ({ section: 'DM' as const, result })),
       ...r(2, 2, 1).map(result => ({ section: 'GK' as const, result })),
     ]
-    // Part 1: 20 questions → 2 free skips; 10 − 4×0.25 − 4×0.10 = 8.6. GK: 2. Total 10.6.
-    expect(scorePaper(items)).toEqual({ score: 10.6, max: 25, right: 12, wrong: 6, skipped: 7 })
+    // Part 1: 20 questions → 3 free skips (20×12/75 = 3.2); 10 − 4×0.25 − 3×0.10 = 8.7. GK: 2. Total 10.7.
+    expect(scorePaper(items)).toEqual({ score: 10.7, max: 25, right: 12, wrong: 6, skipped: 7 })
   })
   it('splits Part 1 time by question count', () => {
     expect([minutesFor('VALR'), minutesFor('DM'), minutesFor('QADI'), minutesFor('GK')]).toEqual([59, 48, 63, 10])
